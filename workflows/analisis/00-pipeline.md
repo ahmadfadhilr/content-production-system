@@ -1,7 +1,8 @@
 # Pipeline Analisis — Draf
 
 > **Status:** belum berjalan. Dokumen ini disiapkan supaya tidak ditulis ulang saat video pilot
-> pertama terbit. Jangan dipakai sebelum ada minimal satu video dengan data 7 hari.
+> pertama terbit. Nilai per tahap baru bisa diisi setelah ada minimal satu video dengan data 7
+> hari. Sebelum itu, pertanyaannya berbeda — lihat Aturan 5.
 
 **Tujuan:** setiap minggu, menilai seluruh pipeline produksi dan memilih **satu** perbaikan.
 
@@ -67,8 +68,8 @@ paragraf baru di bawahnya. Berkas panduan yang terus bertambah akan berhenti dib
 
 ### 5. Catat (5 menit)
 
-Simpan di `content/analisis/YYYY-MM-DD.md` dengan bentuk di bawah. Satu berkas per minggu, bukan
-satu berkas panjang yang terus diedit.
+Simpan di `content/analisis/pipeline/YYYY-MM-DD.md` dengan bentuk di bawah. Satu berkas per
+minggu, bukan satu berkas panjang yang terus diedit.
 
 ```markdown
 # Analisis Pipeline — YYYY-MM-DD
@@ -110,5 +111,5 @@ satu berkas panjang yang terus diedit.
 
 ## Gerbang Keluaran
 
-✅ Satu berkas `content/analisis/YYYY-MM-DD.md` ada, berisi satu hambatan dan satu perubahan yang
-sudah benar-benar diterapkan ke berkas workflow — bukan rencana perubahan.
+✅ Satu berkas `content/analisis/pipeline/YYYY-MM-DD.md` ada, berisi satu hambatan dan satu
+perubahan yang sudah benar-benar diterapkan ke berkas workflow — bukan rencana perubahan.

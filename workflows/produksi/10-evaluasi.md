@@ -122,7 +122,7 @@ Pelajaran bukan hanya untuk dibaca — harus masuk ke proses yang benar.
 | Jenis pelajaran | Catat di mana |
 |---|---|
 | Post-mortem per video | `content/briefs/[nama-video]/post-mortem.md` |
-| Perbaikan proses produksi | File `workflows/` yang relevan |
+| Perbaikan proses produksi | File di `workflows/produksi/` yang relevan |
 | Insight konten/topik | `workflows/produksi/content-bank.md` (tambah catatan di ide terkait) |
 | Insight pengemasan | `workflows/produksi/02-pengemasan.md` |
 | Pemahaman audiens | Catatan di `Personal Brand Plan.docx` |
@@ -146,8 +146,8 @@ Pelajaran bukan hanya untuk dibaca — harus masuk ke proses yang benar.
 ## Gerbang Keluaran
 
 ✅ Post-mortem selesai (menggunakan `templates/post-mortem.md`). Pelajaran sudah dimasukkan ke
-file `workflows/` yang relevan. Keputusan iterasi berikutnya (topik, format, atau perubahan
-teknis) sudah dicatat.
+file di `workflows/produksi/` yang relevan. Keputusan iterasi berikutnya (topik, format, atau
+perubahan teknis) sudah dicatat.
 
 ---
 

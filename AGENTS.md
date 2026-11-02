@@ -136,7 +136,7 @@ content-production-system/
 │   ├── briefs/                     # Brief yang sudah diisi + post-mortem per video
 │   ├── scripts/                    # Naskah/outline per video
 │   ├── assets/                     # Aset visual per video
-│   ├── analisis/                   # Catatan review pipeline mingguan
+│   ├── analisis/                   # Analisis topik + review pipeline (subfolder pipeline/)
 │   └── exports/                    # File jadi (video, thumbnail, klip)
 │
 └── brand_assets/                   # Logo, palet warna, font file
@@ -206,7 +206,7 @@ gerbangnya belum lulus.
 > Bagian ini ringkasan. Untuk peta yang lebih mudah dipakai sehari-hari — urutan, penanggung
 > jawab, keluaran per tahap, aturan lintas tahap, ritme mingguan, dan keputusan desain yang sudah
 > diambil — buka `workflows/produksi/00-pipeline.md`. Kalau ada selisih antara dua dokumen ini,
-> yang di `00-pipeline.md` yang dipakai, lalu perbaiki bagian ini.
+> pakai versi di `00-pipeline.md`, lalu perbaiki bagian ini.
 
 ```
 ┌──────────┐   ┌───────────┐   ┌───────┐   ┌──────────┐   ┌─────────┐
@@ -612,34 +612,21 @@ relevan. Keputusan iterasi berikutnya (topik, format, atau teknis) dicatat.
 Evaluasi di atas menilai **satu video**. Pipeline analisis menilai **mesinnya**: seluruh sepuluh
 tahap, setiap minggu, lalu memilih satu perbaikan.
 
-Berkasnya ada di `workflows/analisis/00-pipeline.md`, catatannya di `content/analisis/`. Belum
-berjalan — baru dipakai setelah video pilot pertama punya data 7 hari. Jangan dicampur dengan blok
-produksi: produksi mengejar terbit, analisis mengejar perubahan sistem.
+Berkasnya ada di `workflows/analisis/00-pipeline.md`, catatannya di
+`content/analisis/pipeline/`. Belum berjalan — baru dipakai setelah video pilot pertama punya data
+7 hari. Jangan dicampur dengan blok produksi: produksi mengejar terbit, analisis mengejar
+perubahan sistem.
 
 ---
 
-## Jadwal Produksi Mingguan (Rekomendasi)
+## Jadwal Produksi Mingguan
 
-Untuk satu video per minggu selama pilot. Sesuaikan dengan jadwal pekerjaan utama.
+Jadwalnya ada di `workflows/produksi/00-pipeline.md`, bagian "Ritme Mingguan". Tidak diulang di
+sini supaya tidak ada dua versi yang bisa berbeda.
 
-| Hari | Blok kerja | Tahap |
-|---|---|---|
-| Sabtu pagi | Ideasi + Pengemasan (90 menit) | Tahap 1–2 |
-| Sabtu siang | Riset — berhenti di 90 menit | Tahap 3 |
-| Sabtu sore | Penulisan naskah | Tahap 4 |
-| Minggu pagi | Rekaman (satu video selama pilot, batch setelah format terbukti) | Tahap 5 |
-| Minggu sore | Riset visual | Tahap 6 |
-| Senin–Selasa | Editing + potong tiga klip 9:16 | Tahap 7 dan 9 |
-| Rabu | Penerbitan | Tahap 8 |
-| Rabu sampai dua minggu berikutnya | Sebar klip sisanya | Tahap 9 |
-| Rabu+7 hari | Evaluasi | Tahap 10 |
-
-Ideasi, pengemasan, dan riset tidak muat dalam satu pagi. Kalau dipaksa, verifikasi akan dilewati
-atau jadwalnya geser setiap minggu. Kalau riset lewat 90 menit, ganti klaimnya — jangan tambah
-waktunya.
-
-Kalau produksi mulai mengganggu pekerjaan utama, turunkan ke satu video per dua minggu dan
-perpanjang pilot.
+Dua hal yang menentukan jadwal itu: riset berhenti di 90 menit, dan rekaman batch baru dipakai
+setelah format terbukti. Kalau produksi mulai mengganggu pekerjaan utama, turunkan ke satu video
+per dua minggu dan perpanjang pilot.
 
 ---
 
@@ -676,12 +663,12 @@ perpanjang pilot.
 Pola-pola ini diekstrak dari lima kreator yang dipelajari. Bukan untuk ditiru mentah — ambil
 yang cocok dengan positioning dan sumber daya yang ada.
 
-> **Ada dua set kreator, dan jangan ditukar.** `Personal Brand Plan.docx` menganalisis delapan
-> kreator bisnis Indonesia. Set itu dipakai untuk menentukan **positioning**: siapa audiensnya, apa
-> yang mereka cari, dan di mana celahnya. Daftar di bawah dipakai untuk **taktik produksi**: cara
-> membuka video, menyusun judul, dan mengedit. Meminjam taktik set kedua tanpa memeriksa
-> kecocokannya dengan positioning set pertama adalah cara paling cepat menghasilkan channel yang
-> rapi tetapi tidak punya alasan untuk ada.
+> **Ada dua set kreator, dan jangan ditukar.** `Personal Brand Plan.docx` menganalisis kreator
+> bisnis Indonesia (Raymond Chin, Fellexandro Ruby, Denny Santoso, dan lainnya). Set itu dipakai
+> untuk menentukan **positioning**: siapa audiensnya, apa yang mereka cari, dan di mana celahnya.
+> Daftar di bawah dipakai untuk **taktik produksi**: cara membuka video, menyusun judul, dan
+> mengedit. Meminjam taktik set kedua tanpa memeriksa kecocokannya dengan positioning set pertama
+> adalah cara paling cepat menghasilkan channel yang rapi tetapi tidak punya alasan untuk ada.
 
 ### Kreator Rujukan
 

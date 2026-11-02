@@ -491,4 +491,4 @@ Riset yang berjalan berhari-hari adalah cara menunda terbit tanpa terlihat menun
 
 - [`workflows/produksi/prinsip-editorial.md`](./prinsip-editorial.md) — prinsip #4 dan #7.
 - Rubrik terbit, bagian ⭐ **Bukti**.
-- [`AGENTS.md`](../AGENTS.md) — Tahap 3 dan Batas Penggunaan AI.
+- [`AGENTS.md`](../../AGENTS.md) — Tahap 3 dan Batas Penggunaan AI.

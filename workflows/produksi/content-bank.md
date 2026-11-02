@@ -11,19 +11,19 @@ Status "Ide" berarti belum dipindai. Jangan produksi ide berstatus "Ide" tanpa m
 
 Tambahkan status dan catatan saat ide bergerak di pipeline.
 
-**Kolom yang wajib diisi sebelum status berubah dari "Ide":** bukti yang tersedia (tipe A/B/C dan
-kode rujukannya). Sistem ini gampang memilih topik berdasarkan topiknya, lalu mencari bukti
-belakangan. Urutan yang benar dibalik: tanpa bukti yang bisa dibuka, ide tetap "Ide".
+**Syarat sebelum status berubah dari "Ide":** kolom Catatan sudah memuat bukti yang tersedia — tipe
+A, B, atau C, beserta kode rujukannya. Sistem ini gampang memilih topik berdasarkan topiknya, lalu
+mencari bukti belakangan. Urutan yang benar dibalik: tanpa bukti yang bisa dibuka, ide tetap "Ide".
 
 **Ide yang saling tumpang tindih — pilih satu, arsipkan sisanya:**
 
 | Kelompok | Nomor | Tema |
 |---|---|---|
-| Omzet vs margin | 1, 2, 5 | Tiga sudut dari satu keputusan yang sama |
-| ARPU | 2, 12 | Nomor 12 mengulang nomor 2 |
-| Kualitas vs jumlah leads | 13, 14 | Nomor 14 mengulang nomor 13 |
-| Retention | 20, 25 | Satu tema, dua rumusan |
+| Omzet vs margin | 1, 2, 5 | Nomor 1 sudah gugur; 2 dan 5 masih dua sudut dari satu keputusan |
+| Kualitas vs jumlah leads | 13, 14 | Nomor 14 adalah sebagian diagnosis nomor 13 |
 
+Tumpang tindih yang tersisa harus diperiksa saat idenya naik status, bukan sekarang. Daftar di atas
+hanya yang sudah terbukti dari isi tabelnya.
 
 ---
 

@@ -73,6 +73,7 @@ perpanjang pilot.
 
 | Waktu | Blok | Tahap |
 |---|---|---|
+| Sabtu pagi, sebelum blok produksi | Analisis pipeline minggu lalu (30–45 menit) | lihat [`../analisis/00-pipeline.md`](../analisis/00-pipeline.md) |
 | Sabtu pagi | Ideasi dan pengemasan (90 menit) | 1–2 |
 | Sabtu siang | Riset (berhenti di 90 menit) | 3 |
 | Sabtu sore | Naskah | 4 |
@@ -81,7 +82,6 @@ perpanjang pilot.
 | Senin–Selasa | Editing + potong tiga klip | 7, 9 |
 | Rabu | Penerbitan | 8 |
 | Rabu + 7 hari | Evaluasi | 10 |
-| Sabtu berikutnya | Analisis pipeline | lihat [`../analisis/00-pipeline.md`](../analisis/00-pipeline.md) |
 
 Riset tidak muat satu pagi bersama ideasi dan pengemasan. Kalau dipaksa, verifikasi akan dilewati
 atau jadwalnya geser setiap minggu. Kalau riset lewat 90 menit, ganti klaimnya — jangan tambah
