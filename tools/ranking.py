@@ -1,75 +1,108 @@
 #!/usr/bin/env python3
 """
-Baca database/ide.tsv, urutkan, cetak ranking.
+Baca database/database.db, urutkan, cetak.
+
+Urutan: konsep prioritas lebih dulu, baru skor total. Alasannya, ide yang
+mengajarkan hal paling dasar harus tampil lebih dulu walaupun skornya lebih
+rendah.
 
 Contoh:
-  python3 tools/ranking.py          # ranking ide aktif (tidak Gugur/Digabung)
-  python3 tools/ranking.py --semua  # semua ide termasuk gugur
-  python3 tools/ranking.py --detail # tampilkan breakdown skor
+  python3 tools/ranking.py            # ide hidup saja
+  python3 tools/ranking.py --semua    # termasuk Gugur dan Digabung
+  python3 tools/ranking.py --detail   # tampilkan rincian skor
 """
 
-import csv
 import os
+import sqlite3
+import sys
 
 DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TSV = os.path.join(DIR, "database", "ide.tsv")
+DB = os.path.join(DIR, "database", "database.db")
+
+URUT = "skor_prioritas DESC, total DESC, median_tayangan DESC"
 
 
-def baca():
-    with open(TSV) as f:
-        for row in csv.DictReader(f, delimiter="\t"):
-            row["total"] = int(row["total"])
-            yield row
-
-
-def ranking(rows, semua=False):
+def ambil(semua=False, pilar=None, status=None):
+    conn = sqlite3.connect(DB)
+    conn.row_factory = sqlite3.Row
+    sql = "SELECT * FROM ide"
+    syarat, nilai = [], []
     if not semua:
-        rows = [r for r in rows if r["status"] not in ("Gugur", "Digabung")]
-    return sorted(rows, key=lambda r: -r["total"])
+        syarat.append("status NOT IN ('Gugur', 'Digabung')")
+    if pilar:
+        syarat.append("pilar = ?")
+        nilai.append(pilar)
+    if status:
+        syarat.append("status = ?")
+        nilai.append(status)
+    if syarat:
+        sql += " WHERE " + " AND ".join(syarat)
+    sql += f" ORDER BY {URUT}"
+    baris = conn.execute(sql, nilai).fetchall()
+    conn.close()
+    return baris
 
 
-def cetak_simple(rows):
-    if not rows:
+def potong(teks, lebar):
+    teks = teks or ""
+    return teks if len(teks) <= lebar else teks[: lebar - 1] + "…"
+
+
+def ribuan(nilai):
+    return f"{int(nilai or 0):,}".replace(",", ".")
+
+
+def cetak_ringkas(baris):
+    if not baris:
         print("Kosong. Tidak ada ide yang lolos.")
         return
-    print(f"{'#':>3} | {'Sudut':<58} | {'P':>1} | {'Total':>5} | {'Status':>9}")
-    print("-" * 88)
-    for i, r in enumerate(rows, 1):
+    print(f"{'#':>2}  {'Pri':>3}  {'Total':>5}  {'Status':<9}  {'Kode':<9}  Sudut")
+    print("-" * 112)
+    for i, r in enumerate(baris, 1):
         print(
-            f"{i:>3} | {r['sudut'][:56]:<58} | {r['pilar']:>1} | {r['total']:>5} | {r['status']:>9}"
+            f"{i:>2}  {r['skor_prioritas']:>3}  {r['total']:>5}  "
+            f"{r['status']:<9}  {r['id']:<9}  {potong(r['sudut'], 64)}"
         )
     print()
-    siap = [r for r in rows if r["status"] == "Siap"]
-    if siap:
-        print(f"Siap diproduksi ({len(siap)}):")
-        for r in siap:
-            print(f"  {r['id']} — {r['sudut'][:50]}")
+    for s in ("Siap", "Perbaiki", "Tunda"):
+        kumpulan = [r for r in baris if r["status"] == s]
+        if kumpulan:
+            print(f"{s} ({len(kumpulan)}):")
+            for r in kumpulan:
+                print(f"  {r['id']}  {potong(r['sudut'], 60)}")
+            print()
 
 
-def cetak_detail(rows):
-    if not rows:
+def cetak_detail(baris):
+    if not baris:
         print("Kosong.")
         return
     print(
-        f"{'#':>3} | {'Sudut':<50} | {'Pilar':>1} | {'Tot':>3} | {'p':>1} {'g':>1} {'b':>1} {'k':>1} | {'bp':>2} {'bg':>2} | {'Format':>4} | {'Trigger':>12} | {'Status':>9}"
+        f"{'#':>2}  {'Pri':>3}  {'Tot':>3}  {'perm':>4} {'celah':>5} {'bukti':>5} "
+        f"{'kapas':>5}  {'Konsep':<28}  {'Median':>9}  Status"
     )
-    print("-" * 125)
-    for i, r in enumerate(rows, 1):
+    print("-" * 108)
+    for i, r in enumerate(baris, 1):
         print(
-            f"{i:>3} | {r['sudut'][:48]:<50} | {r['pilar']:>1} | {r['total']:>3} | "
-            f"{r['p']:>1} {r['g']:>1} {r['b']:>1} {r['k']:>1} | "
-            f"{r['bp']:>2} {r['bg']:>2} | {r['format']:>4} | {r['trigger']:>12} | {r['status']:>9}"
+            f"{i:>2}  {r['skor_prioritas']:>3}  {r['total']:>3}  "
+            f"{r['skor_permintaan']:>4} {r['skor_celah']:>5} {r['skor_bukti']:>5} "
+            f"{r['skor_kapasitas']:>5}  {potong(r['konsep_prioritas'], 28):<28}  "
+            f"{ribuan(r['median_tayangan']):>9}  {r['status']}"
         )
     print()
+    print("perm = skor permintaan (x2), celah = skor celah (x2).")
+    print("Total = (perm x 2) + (celah x 2) + bukti + kapasitas. Maksimum 28.")
 
 
 if __name__ == "__main__":
-    import sys
     semua = "--semua" in sys.argv
     detail = "--detail" in sys.argv
-    data = list(baca())
-    hasil = ranking(data, semua)
+    pilar = None
+    for a in sys.argv:
+        if a.startswith("--pilar="):
+            pilar = int(a.split("=")[1])
+    hasil = ambil(semua=semua, pilar=pilar)
     if detail:
         cetak_detail(hasil)
     else:
-        cetak_simple(hasil)
+        cetak_ringkas(hasil)

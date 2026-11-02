@@ -99,10 +99,17 @@ content-production-system/
 │   ├── brief-konten.md             # Brief per video
 │   └── post-mortem.md              # Evaluasi per video
 │
+├── database/                       # Database ide konten
+│   ├── database.db                 # Satu-satunya sumber data ide (SQLite)
+│   ├── skema.sql                   # Struktur tabel, bisa dibaca tanpa buka .db
+│   └── README.md                   # Arti kolom, rumus, cara pakai
+│
 ├── tools/                          # Skrip dan utilitas otomasi
 │   ├── ambil-daftar-video.py       # Daftar video terbaru channel YouTube tanpa login
 │   ├── pindai-youtube.py           # Ukur permintaan dan pasokan per kueri (3 putaran)
-│   └── cek-video.py                # Baca chapter dan deskripsi video tanpa menonton
+│   ├── cek-video.py                # Baca chapter dan deskripsi video tanpa menonton
+│   ├── ranking.py                  # Urutkan ide: prioritas dulu, lalu skor
+│   └── tambah-ide.py               # Tambah ide baru dari berkas JSON, tidak menimpa
 │
 ├── content/                        # File produksi per konten
 │   ├── log-keputusan.md            # Bukti tipe A: keputusan, angka, hasil
@@ -199,7 +206,8 @@ content bank untuk cek duplikat, komentar dan pertanyaan audiens sebagai sinyal 
 
 **Gerbang keluaran:** ✅ Minimal 10 kueri dipindai, minimal 5 kandidat diskor, tiga teratas punya
 skor minimal 18 dengan bukti tipe A atau B yang sudah diambil. Hasil disimpan di
-`content/pindai/pindai-topik-[tanggal].md`.
+`content/pindai/pindai-topik-[tanggal].md`, lalu ide masuk ke `database/database.db` lewat
+`tools/tambah-ide.py`. Lihat urutannya dengan `tools/ranking.py`.
 
 **SOP lengkap:** `workflows/01-ideasi.md`
 
