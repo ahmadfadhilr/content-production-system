@@ -112,6 +112,13 @@ Contoh:
 
 Urutannya penting. Jangan mulai dari Google.
 
+> [!IMPORTANT]
+> **Urutan mencari berbeda dari urutan menyajikan.** Yang paling kuat untuk meyakinkan bukan yang
+> paling enak dibuka. Dua belas video berperforma tertinggi yang saya periksa (2 November 2026)
+> tidak satu pun membuka dengan jurnal. Yang muncul di 60 detik pertama: klip pernyataan pejabat,
+> pengumuman lembaga, harga beli, omzet yang dibandingkan, rekaman lokasi. Jurnal masuk sebagai
+> penopang di tengah. Catatan lengkapnya di `content/analisis/2026-11-02-naskah-rujukan/`.
+
 #### 3a. Data dan Artefak Sendiri
 
 Ini bukti terkuat dan satu-satunya yang tidak bisa ditiru kreator lain.
@@ -170,6 +177,25 @@ tandai "sumber primer belum ditemukan" dan turunkan reliabilitasnya.
 
 - Atribusi jelas: siapa, kapan, di mana.
 - Jangan melepas kutipan dari konteksnya.
+
+#### 3e. Pilih Satu Bukti Pembuka yang Dikenali Penonton
+
+Setelah semua bukti terkumpul, tentukan satu yang akan muncul di 60 detik pertama. Syaratnya bukan
+"paling ilmiah", tetapi **bisa dikenali tanpa penjelasan**:
+
+| Layak jadi pembuka | Tidak layak jadi pembuka |
+|---|---|
+| Klip atau kutipan pejabat, pengumuman lembaga, siaran pers | Jurnal akademik |
+| Harga, omzet, atau biaya yang bisa dibandingkan | Angka tanpa pembanding |
+| Dokumen yang bisa ditampilkan di layar | Ringkasan artikel yang mengutip dokumen |
+| Rekaman lokasi atau layar kerja | Framework atau definisi |
+
+Studi akademik tetap dipakai, tetapi sebagai **penopang argumen di tengah**, bukan pintu masuk.
+Kalau satu-satunya bukti yang ada adalah jurnal, itu tanda Tahap 3 belum selesai, bukan tanda
+jurnalnya tidak layak.
+
+Yang perlu disiapkan untuk Tahap 4: satu angka spesifik untuk menit pertama, dan satu kalimat yang
+menjelaskan apa yang sedang dilihat penonton.
 
 ---
 
@@ -366,6 +392,8 @@ Riset bisa memenuhi jam kerja sebanyak apa pun yang disediakan. Batasi.
 - [ ] Setiap butir punya label jenis
 - [ ] Ada minimal satu artefak yang bisa ditampilkan di layar: dokumen sendiri, hasil pengukuran,
       atau dokumen publik primer
+- [ ] Sudah dipilih satu bukti pembuka yang dikenali penonton tanpa penjelasan (Langkah 3e), plus
+      satu angka spesifik untuk menit pertama
 - [ ] Bukti tidak bisa ditiru dari riset sudah dipilih lewat salah satu dari tiga jalur di Langkah 5
 - [ ] Data Salam Cendekia: izin didapat, sudah disamarkan
 - [ ] Ilustrasi berlabel dan asumsinya terbuka
@@ -461,6 +489,6 @@ Riset yang berjalan berhari-hari adalah cara menunda terbit tanpa terlihat menun
 
 ## Rujukan
 
-- [`workflows/prinsip-editorial.md`](./prinsip-editorial.md) — prinsip #4 dan #7.
+- [`workflows/produksi/prinsip-editorial.md`](./prinsip-editorial.md) — prinsip #4 dan #7.
 - Rubrik terbit, bagian ⭐ **Bukti**.
 - [`AGENTS.md`](../AGENTS.md) — Tahap 3 dan Batas Penggunaan AI.

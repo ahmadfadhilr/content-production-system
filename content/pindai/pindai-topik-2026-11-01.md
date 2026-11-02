@@ -1,7 +1,7 @@
 # Pindai Topik — 2026-11-01
 
 **Tahap:** 1 (Ideasi)
-**Metode:** `workflows/01-ideasi.md` versi 2026-11-01
+**Metode:** `workflows/produksi/01-ideasi.md` versi 2026-11-01
 **Alat:** `tools/pindai-youtube.py`, `tools/cek-video.py`
 **Kueri dipindai:** 15 kueri benih + 4 kueri verifikasi
 **Putaran per kueri:** 3

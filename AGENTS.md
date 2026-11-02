@@ -42,6 +42,22 @@ materi orisinal terpisah dulu.
 menetapkan target view atau subscriber secara arbitrer. Bandingkan empat video satu sama lain,
 lalu tetapkan baseline.
 
+**Tujuan channel: belum diputuskan.** Ini satu-satunya pertanyaan yang menentukan sistem, dan
+belum ada jawabannya di mana pun. Tanpa tujuan, "berhasil" tidak bisa didefinisikan dan pilot tidak
+bisa dievaluasi. Empat kemungkinan menuntut sistem yang berbeda:
+
+| Kalau tujuannya… | Sistem yang cocok |
+|---|---|
+| Leads untuk jasa konsultasi | Sedikit video, sangat dalam, CTA jelas, audiens sempit |
+| Otoritas untuk buku atau kelas | Volume tinggi, topik konsisten, distribusi luas |
+| Aset kredibilitas saat menjual | Kualitas produksi tinggi, siklus lambat tidak masalah |
+| Membangun audiens media | Volume tinggi, biaya per unit rendah, iterasi cepat |
+
+Sistem yang sekarang dibangun condong ke baris terakhir; positioning-nya menggambarkan baris
+pertama atau ketiga. Jangan menambah otomasi atau menaikkan standar produksi sebelum Fadhil
+menjawab ini. Kalau tujuannya aset kredibilitas, memperlambat produksi demi kualitas adalah
+keputusan yang benar, bukan kemunduran.
+
 **Hubungan dengan Salam Cendekia:** Proyek ini untuk personal brand Fadhil, bukan untuk
 perusahaan. Data Salam Cendekia boleh dipakai sebagai studi kasus **hanya jika** disamarkan dan
 diizinkan Fadhil. Jangan membuka data pelanggan, tutor, keuangan detail, atau informasi
@@ -57,9 +73,9 @@ naskah.
 
 | # | Pekerjaan | Selesai jika | Status |
 |---|---|---|---|
-| 1 | Finalisasi warna dan aset brand | Palet HEX, font, dan tiga templat thumbnail tersimpan di `brand_assets/` dan tertaut di `workflows/brand-guidelines.md` | ☐ |
+| 1 | Finalisasi warna dan aset brand | Palet HEX, font, dan tiga templat thumbnail tersimpan di `brand_assets/` dan tertaut di `workflows/produksi/brand-guidelines.md` | ☐ |
 | 2 | Isi brief empat video pilot | Empat file brief lengkap di `content/briefs/`, masing-masing lulus rubrik di `templates/brief-konten.md` | ☐ |
-| 3 | Audit izin data Salam Cendekia | Ada daftar tegas: angka dan cerita mana yang boleh dibuka, mana yang harus disamarkan, mana yang tidak boleh disebut sama sekali | ☐ |
+| 3 | Audit izin data Salam Cendekia | Ada daftar tegas: angka dan cerita mana yang boleh dibuka, mana yang harus disamarkan, mana yang tidak boleh disebut sama sekali. Hasil audit sekaligus menjadi **inventaris bukti**: 5–10 fakta konkret tentang bisnis Fadhil yang tidak bisa dikatakan kreator bisnis Indonesia lain, beserta status izinnya | ☐ |
 | 4 | Siapkan channel YouTube | Nama channel, deskripsi, banner, dan foto profil sudah terpasang | ☐ |
 
 **Urutan pengerjaan:** nomor 3 lebih dulu, karena hasil audit menentukan brief mana yang boleh
@@ -77,23 +93,25 @@ naskah — dua pekerjaan itu tidak bergantung pada brand atau channel.
 content-production-system/
 ├── AGENTS.md                       # Panduan utama (file ini)
 ├── Personal Brand Plan.docx        # Rencana brand dan riset audiens
-├── review-setup-2026-11-01.md      # Review setup dan temuan yang belum ditindaklanjuti
-├── review-pola-kreator-2026-11-01.md  # Review tujuh workflow terhadap pola kreator rujukan
-│
-├── workflows/                      # SOP per proses (baca sebelum mengerjakan)
-│   ├── 01-ideasi.md
-│   ├── 02-pengemasan.md
-│   ├── 03-riset-dan-fakta.md
-│   ├── 04-penulisan-naskah.md
-│   ├── 05-rekaman.md
-│   ├── 06-riset-visual.md
-│   ├── 07-penyuntingan.md
-│   ├── 08-penerbitan.md
-│   ├── 09-distribusi-ulang.md
-│   ├── 10-evaluasi.md
-│   ├── content-bank.md             # 40 ide konten dengan pilar dan format
-│   ├── brand-guidelines.md         # Identitas visual, warna, font, elemen
-│   └── prinsip-editorial.md        # Prinsip kualitas dan rubrik terbit
+├── workflows/                      # Dua pipeline, jangan dicampur
+│   ├── README.md                   # Peta: pipeline mana yang dibuka kapan
+│   ├── produksi/                   # Pipeline produksi konten
+│   │   ├── 00-pipeline.md          # Orchestrator: 10 tahap, aturan, ritme, keputusan desain
+│   │   ├── 01-ideasi.md
+│   │   ├── 02-pengemasan.md
+│   │   ├── 03-riset-dan-fakta.md
+│   │   ├── 04-penulisan-naskah.md
+│   │   ├── 05-rekaman.md
+│   │   ├── 06-riset-visual.md
+│   │   ├── 07-penyuntingan.md
+│   │   ├── 08-penerbitan.md
+│   │   ├── 09-distribusi-ulang.md
+│   │   ├── 10-evaluasi.md
+│   │   ├── content-bank.md         # 40 ide konten draf, bukan antrean produksi
+│   │   ├── brand-guidelines.md     # Identitas visual, warna, font, elemen
+│   │   └── prinsip-editorial.md    # Prinsip kualitas dan rubrik terbit
+│   └── analisis/                   # Pipeline analisis, belum berjalan
+│       └── 00-pipeline.md          # Review mingguan seluruh pipeline produksi
 │
 ├── templates/                      # Templat yang dipakai berulang
 │   ├── brief-konten.md             # Brief per video
@@ -108,15 +126,17 @@ content-production-system/
 │   ├── ambil-daftar-video.py       # Daftar video terbaru channel YouTube tanpa login
 │   ├── pindai-youtube.py           # Ukur permintaan dan pasokan per kueri (3 putaran)
 │   ├── cek-video.py                # Baca chapter dan deskripsi video tanpa menonton
+│   ├── urut-video.py               # Urutkan video channel per tayangan, ambil ID untuk transkrip
 │   ├── ranking.py                  # Urutkan ide: prioritas dulu, lalu skor
 │   └── tambah-ide.py               # Tambah ide baru dari berkas JSON, tidak menimpa
 │
 ├── content/                        # File produksi per konten
 │   ├── log-keputusan.md            # Bukti tipe A: keputusan, angka, hasil
 │   ├── pindai/                     # Hasil pindai topik per tanggal
-│   ├── briefs/                     # Brief yang sudah diisi
+│   ├── briefs/                     # Brief yang sudah diisi + post-mortem per video
 │   ├── scripts/                    # Naskah/outline per video
 │   ├── assets/                     # Aset visual per video
+│   ├── analisis/                   # Catatan review pipeline mingguan
 │   └── exports/                    # File jadi (video, thumbnail, klip)
 │
 └── brand_assets/                   # Logo, palet warna, font file
@@ -133,14 +153,19 @@ File ini adalah memori hidup. Tujuannya: **jangan memulai dari nol dua kali.**
 - Menemukan alat, URL, atau pengaturan yang benar — catat di tempat yang tepat.
 - Memecahkan masalah produksi (audio, edit, upload) — catat gejala → penyebab → perbaikan.
 - Menemukan cara lebih baik daripada yang tercatat — **ganti** catatan lama, jangan menambah.
-- Mempelajari preferensi audiens dari data evaluasi — catat di `workflows/10-evaluasi.md`.
+- Mempelajari preferensi audiens dari data evaluasi — catat di `workflows/produksi/10-evaluasi.md`.
 
 **Cara mencatat:**
-- Prosedur berulang → file di `workflows/`
-- Fakta kecil / jebakan → edit file topik yang tepat di `workflows/`
+- Prosedur berulang → file tahap yang tepat di `workflows/produksi/`
+- Fakta kecil / jebakan → edit file topik yang tepat di `workflows/produksi/`
+- Keputusan desain sistem (yang tidak boleh dibuka ulang) → `workflows/produksi/00-pipeline.md`
 - Skrip yang bisa dijalankan → simpan di `tools/`
 - Jujur soal apa yang belum berjalan
 - **Jangan mencatat password, token, atau rahasia**
+
+**Jangan buat berkas review terpisah.** Temuan review dibaca sekali, lalu dilupakan. Setelah
+temuannya masuk ke berkas tahap yang tepat, berkas review-nya dihapus. Berkas yang hanya berisi
+catatan historis menambah beban baca tanpa mengubah perilaku siapa pun.
 
 ---
 
@@ -148,21 +173,26 @@ File ini adalah memori hidup. Tujuannya: **jangan memulai dari nol dua kali.**
 
 Baca file topiknya **sebelum** mengerjakan. Jangan dari ingatan.
 
+Kalau baru membuka repo ini: baca `workflows/README.md` dulu (peta dua pipeline), lalu
+`workflows/produksi/00-pipeline.md` (orchestrator produksi).
+
 | Kalau pekerjaannya menyentuh… | Baca dulu |
 |---|---|
-| Mencari ide konten, memilih topik, memvalidasi ide | `workflows/01-ideasi.md` |
-| Membuat judul, merancang konsep thumbnail | `workflows/02-pengemasan.md` |
-| Riset fakta, data, referensi, studi kasus | `workflows/03-riset-dan-fakta.md` |
-| Menulis outline, naskah, hook, struktur cerita | `workflows/04-penulisan-naskah.md` |
-| Persiapan rekaman, ceklis peralatan, pengaturan ruang | `workflows/05-rekaman.md` |
-| Mencari B-roll, stok video/gambar, grafis, visualisasi data | `workflows/06-riset-visual.md` |
-| Mengedit video, audio, warna, grafis, teks di layar | `workflows/07-penyuntingan.md` |
-| Mengunggah, menulis metadata, SEO YouTube, menjadwalkan | `workflows/08-penerbitan.md` |
-| Memotong klip pendek, membuat Reels/Shorts/TikTok | `workflows/09-distribusi-ulang.md` |
-| Membaca analitik, menulis post-mortem, menentukan iterasi | `workflows/10-evaluasi.md` |
-| Memilih ide dari bank konten, memprioritaskan brief | `workflows/content-bank.md` |
-| Warna, font, elemen visual, templat thumbnail | `workflows/brand-guidelines.md` |
-| Standar kualitas, rubrik terbit, prinsip editorial | `workflows/prinsip-editorial.md` |
+| Urutan tahap, aturan lintas tahap, ritme mingguan | `workflows/produksi/00-pipeline.md` |
+| Mencari ide konten, memilih topik, memvalidasi ide | `workflows/produksi/01-ideasi.md` |
+| Membuat judul, merancang konsep thumbnail | `workflows/produksi/02-pengemasan.md` |
+| Riset fakta, data, referensi, studi kasus | `workflows/produksi/03-riset-dan-fakta.md` |
+| Menulis outline, naskah, hook, struktur cerita | `workflows/produksi/04-penulisan-naskah.md` |
+| Persiapan rekaman, ceklis peralatan, pengaturan ruang | `workflows/produksi/05-rekaman.md` |
+| Mencari B-roll, stok video/gambar, grafis, visualisasi data | `workflows/produksi/06-riset-visual.md` |
+| Mengedit video, audio, warna, grafis, teks di layar | `workflows/produksi/07-penyuntingan.md` |
+| Mengunggah, menulis metadata, SEO YouTube, menjadwalkan | `workflows/produksi/08-penerbitan.md` |
+| Memotong klip pendek, membuat Reels/Shorts/TikTok | `workflows/produksi/09-distribusi-ulang.md` |
+| Membaca analitik, menulis post-mortem, menentukan iterasi | `workflows/produksi/10-evaluasi.md` |
+| Menilai seluruh pipeline dan memilih perbaikan | `workflows/analisis/00-pipeline.md` |
+| Memilih ide dari bank konten, memprioritaskan brief | `workflows/produksi/content-bank.md` |
+| Warna, font, elemen visual, templat thumbnail | `workflows/produksi/brand-guidelines.md` |
+| Standar kualitas, rubrik terbit, prinsip editorial | `workflows/produksi/prinsip-editorial.md` |
 | Positioning, audiens, pilar, riset awal | `Personal Brand Plan.docx` |
 
 ---
@@ -170,7 +200,13 @@ Baca file topiknya **sebelum** mengerjakan. Jangan dari ingatan.
 ## Pipeline Produksi Konten — 10 Tahap
 
 Sepuluh tahap berurutan. Setiap tahap punya **gerbang keluaran** — jangan lanjut kalau
-gerbangnya belum lulus. SOP lengkap ada di file `workflows/` masing-masing.
+gerbangnya belum lulus.
+
+> [!TIP]
+> Bagian ini ringkasan. Untuk peta yang lebih mudah dipakai sehari-hari — urutan, penanggung
+> jawab, keluaran per tahap, aturan lintas tahap, ritme mingguan, dan keputusan desain yang sudah
+> diambil — buka `workflows/produksi/00-pipeline.md`. Kalau ada selisih antara dua dokumen ini,
+> yang di `00-pipeline.md` yang dipakai, lalu perbaiki bagian ini.
 
 ```
 ┌──────────┐   ┌───────────┐   ┌───────┐   ┌──────────┐   ┌─────────┐
@@ -209,7 +245,7 @@ skor minimal 18 dengan bukti tipe A atau B yang sudah diambil. Hasil disimpan di
 `content/pindai/pindai-topik-[tanggal].md`, lalu ide masuk ke `database/database.db` lewat
 `tools/tambah-ide.py`. Lihat urutannya dengan `tools/ranking.py`.
 
-**SOP lengkap:** `workflows/01-ideasi.md`
+**SOP lengkap:** `workflows/produksi/01-ideasi.md`
 
 ---
 
@@ -240,7 +276,7 @@ skor minimal 18 dengan bukti tipe A atau B yang sudah diambil. Hasil disimpan di
 judul terbaik. Minimal satu kombinasi lolos uji lima detik: ada nama atau angka, ada taruhan, ada
 pertentangan, dan bisa dipenuhi isi video.
 
-**SOP lengkap:** `workflows/02-pengemasan.md`
+**SOP lengkap:** `workflows/produksi/02-pengemasan.md`
 
 ---
 
@@ -264,7 +300,7 @@ pertentangan, dan bisa dipenuhi isi video.
 atau *tebakan*, plus label jenis sumber. Ada artefak yang bisa ditampilkan, dan satu bukti yang
 tidak bisa ditiru dari riset lewat salah satu dari tiga jalur.
 
-**SOP lengkap:** `workflows/03-riset-dan-fakta.md`
+**SOP lengkap:** `workflows/produksi/03-riset-dan-fakta.md`
 
 ---
 
@@ -319,7 +355,7 @@ tidak bisa ditiru dari riset lewat salah satu dari tiga jalur.
 **Gerbang keluaran:** ✅ Outline atau naskah lengkap yang bisa direkam tanpa persiapan
 tambahan. Hook, alur isi, dan bukti sudah lengkap. Tandai visual sudah ada.
 
-**SOP lengkap:** `workflows/04-penulisan-naskah.md`
+**SOP lengkap:** `workflows/produksi/04-penulisan-naskah.md`
 
 ---
 
@@ -347,7 +383,7 @@ tahap ini, tapi menyediakan ceklis dan panduan.
 **Gerbang keluaran:** ✅ File rekaman audio/video yang jelas dan cukup bersih untuk diedit.
 Backup tersimpan.
 
-**SOP lengkap:** `workflows/05-rekaman.md`
+**SOP lengkap:** `workflows/produksi/05-rekaman.md`
 
 ---
 
@@ -377,7 +413,7 @@ gambar/video.
 **Gerbang keluaran:** ✅ Minimal satu artefak terekam, folder aset dan peta visual lengkap di
 `content/assets/`, semua lisensi dicek, aset AI ditandai.
 
-**SOP lengkap:** `workflows/06-riset-visual.md`
+**SOP lengkap:** `workflows/produksi/06-riset-visual.md`
 
 ---
 
@@ -460,9 +496,9 @@ A5–A6 : Musik (stereo)
 ```
 
 **Gerbang keluaran:** ✅ Video final yang lulus ceklis teknis dan rubrik editorial (lihat
-`workflows/prinsip-editorial.md`).
+`workflows/produksi/prinsip-editorial.md`).
 
-**SOP lengkap:** `workflows/07-penyuntingan.md`
+**SOP lengkap:** `workflows/produksi/07-penyuntingan.md`
 
 ---
 
@@ -504,7 +540,7 @@ hari terakhir, ada POV Fadhil, ada satu artefak, dan rubrik editorial tetap lulu
 
 **Gerbang keluaran:** ✅ Video live atau terjadwal, seluruh ceklis wajib lulus, tiga klip siap.
 
-**SOP lengkap:** `workflows/08-penerbitan.md`
+**SOP lengkap:** `workflows/produksi/08-penerbitan.md`
 
 ---
 
@@ -534,7 +570,7 @@ hari terakhir, ada POV Fadhil, ada satu artefak, dan rubrik editorial tetap lulu
 **Gerbang keluaran:** ✅ 3–6 klip terjadwal di platform sekunder, masing-masing bisa berdiri
 sendiri.
 
-**SOP lengkap:** `workflows/09-distribusi-ulang.md`
+**SOP lengkap:** `workflows/produksi/09-distribusi-ulang.md`
 
 ---
 
@@ -564,27 +600,43 @@ sendiri.
 - Uji thumbnail A/B minimal 1–2 minggu. Jangan hentikan berdasarkan data hari pertama.
 - Catat post-mortem setiap video di `content/briefs/` memakai `templates/post-mortem.md`.
 
-**Gerbang keluaran:** ✅ Post-mortem selesai. Pelajaran dimasukkan ke `workflows/` yang
+**Gerbang keluaran:** ✅ Post-mortem selesai. Pelajaran dimasukkan ke `workflows/produksi/` yang
 relevan. Keputusan iterasi berikutnya (topik, format, atau teknis) dicatat.
 
-**SOP lengkap:** `workflows/10-evaluasi.md`
+**SOP lengkap:** `workflows/produksi/10-evaluasi.md`
 
 ---
 
-## Jadwal Produksi Batch (Rekomendasi)
+## Pipeline Analisis — Review Mingguan
+
+Evaluasi di atas menilai **satu video**. Pipeline analisis menilai **mesinnya**: seluruh sepuluh
+tahap, setiap minggu, lalu memilih satu perbaikan.
+
+Berkasnya ada di `workflows/analisis/00-pipeline.md`, catatannya di `content/analisis/`. Belum
+berjalan — baru dipakai setelah video pilot pertama punya data 7 hari. Jangan dicampur dengan blok
+produksi: produksi mengejar terbit, analisis mengejar perubahan sistem.
+
+---
+
+## Jadwal Produksi Mingguan (Rekomendasi)
 
 Untuk satu video per minggu selama pilot. Sesuaikan dengan jadwal pekerjaan utama.
 
 | Hari | Blok kerja | Tahap |
 |---|---|---|
-| Sabtu pagi | Ideasi + Pengemasan + Riset | Tahap 1–3 |
+| Sabtu pagi | Ideasi + Pengemasan (90 menit) | Tahap 1–2 |
+| Sabtu siang | Riset — berhenti di 90 menit | Tahap 3 |
 | Sabtu sore | Penulisan naskah | Tahap 4 |
-| Minggu pagi | Rekaman (batch 2 video jika bisa) | Tahap 5 |
+| Minggu pagi | Rekaman (satu video selama pilot, batch setelah format terbukti) | Tahap 5 |
 | Minggu sore | Riset visual | Tahap 6 |
 | Senin–Selasa | Editing + potong tiga klip 9:16 | Tahap 7 dan 9 |
 | Rabu | Penerbitan | Tahap 8 |
 | Rabu sampai dua minggu berikutnya | Sebar klip sisanya | Tahap 9 |
 | Rabu+7 hari | Evaluasi | Tahap 10 |
+
+Ideasi, pengemasan, dan riset tidak muat dalam satu pagi. Kalau dipaksa, verifikasi akan dilewati
+atau jadwalnya geser setiap minggu. Kalau riset lewat 90 menit, ganti klaimnya — jangan tambah
+waktunya.
 
 Kalau produksi mulai mengganggu pekerjaan utama, turunkan ke satu video per dua minggu dan
 perpanjang pilot.
@@ -624,6 +676,13 @@ perpanjang pilot.
 Pola-pola ini diekstrak dari lima kreator yang dipelajari. Bukan untuk ditiru mentah — ambil
 yang cocok dengan positioning dan sumber daya yang ada.
 
+> **Ada dua set kreator, dan jangan ditukar.** `Personal Brand Plan.docx` menganalisis delapan
+> kreator bisnis Indonesia. Set itu dipakai untuk menentukan **positioning**: siapa audiensnya, apa
+> yang mereka cari, dan di mana celahnya. Daftar di bawah dipakai untuk **taktik produksi**: cara
+> membuka video, menyusun judul, dan mengedit. Meminjam taktik set kedua tanpa memeriksa
+> kecocokannya dengan positioning set pertama adalah cara paling cepat menghasilkan channel yang
+> rapi tetapi tidak punya alasan untuk ada.
+
 ### Kreator Rujukan
 
 Lima channel ini adalah dasar pola di bawah. Buka lewat handle, jangan mencari nama tampilan di
@@ -655,6 +714,10 @@ berdasarkan nama tampilan menemukan channel yang salah.
 Yang terbaca hanya judul, durasi, tayangan, dan waktu unggah. Klaim tentang gaya visual ketiganya
 belum saya periksa sendiri, jadi jangan dipakai sebagai dasar keputusan produksi sebelum ditonton.
 
+Satu-satunya transkrip di `reference/` adalah milik Alex Hormozi. Klaim tentang empat kreator lain
+berasal dari halaman channel masing-masing, bukan dari transkrip. Kalau ada yang menambahkan klaim
+baru tentang mereka, buka channelnya lewat handle lebih dulu; jangan menulis dari ingatan.
+
 **SepulangSekolah, data 2 November 2026.** Diukur dengan `tools/ambil-daftar-video.py`: 2,49 juta
 subscriber, 30 video terdaftar, durasi 14 menit 43 detik sampai 22 menit 33 detik. Semua judul
 membawa angka atau pertentangan yang spesifik: "84 Juta Orang Gagal Bayar! Bunga 400!", "Target
@@ -679,6 +742,12 @@ sendiri. Sebagian judulnya juga di luar positioning Fadhil dan tidak boleh ditir
 | Batch recording 2–4 video/sesi | Alex Hormozi | Kurangi waktu setup, naikkan output per hari |
 | Thumbnail minimalis gelap | Alex Hormozi | Uji gaya ini melawan thumbnail dengan wajah |
 | 1 video → banyak klip pendek | Alex Hormozi | Mulai dari 3–5 klip per video |
+| Produksi murah, bahan mahal | Semua lima kreator | Yang mahal harus riset dan bukti. Efek visual, motion graphics, dan sound design ditambahkan setelah ada baseline — bukan sebelum |
+
+> **Bukti tidak bisa ditiru, bukan produksi yang mewah.** Pola yang sama muncul di semua kreator
+> yang bisa diverifikasi: Hormozi memakai angka perusahaannya sendiri, Raymond membaca laporan dan
+> kejadian, Ferry pergi ke lokasi. Yang mahal adalah bahannya, bukan editnya. Kalau satu video
+> terasa butuh lebih banyak efek untuk layak terbit, masalahnya biasanya di bukti, bukan di efek.
 
 > **Yang sengaja tidak diadopsi.** Jump cut setiap 1–3 detik adalah estetika direct response
 > untuk konten cepat. Format Decision Notes adalah studi kasus. Potongan setiap dua detik membuat
@@ -779,5 +848,12 @@ Jadwal pilot dari Personal Brand Plan. Satu video per minggu menguji satu hipote
 lolos ambang permintaan. Urutan baru harus diambil dari `content/pindai/`, bukan dari dokumen ini.
 Desain empat hipotesis berbeda tetap dipakai; yang berubah hanya ide dan urutannya.
 
-**Sesudah empat video:** Evaluasi. Keputusan: lanjut, ubah format, atau pindah fokus.
+**Jangan mengubah semua variabel sekaligus.** Empat video dengan empat pilar, empat format, dan
+empat jenis bukti tidak bisa dibandingkan: kalau video 2 menang, tidak ada cara tahu apakah karena
+formatnya, topiknya, atau kebetulan. Pegang dua hal tetap selama empat video — misalnya format dan
+pilar — lalu variasi satu hal. Dengan empat video, satu perbandingan bersih lebih berharga daripada
+empat eksperimen yang semuanya berbeda.
+
+**Sesudah empat video:** Evaluasi. Keputusan: lanjut, ubah format, atau pindah fokus. Kalau belum
+ada tujuan channel yang eksplisit (lihat "Konteks Proyek"), tetapkan tujuan itu sebelum memutuskan.
 

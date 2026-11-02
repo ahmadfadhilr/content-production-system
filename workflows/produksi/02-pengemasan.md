@@ -143,7 +143,7 @@ Kalau nomor 1 atau 2 dijawab "tidak", tulis ulang.
 
 > Semua judul di kolom kanan adalah ilustrasi untuk menunjukkan pola, bukan janji hasil.
 
-#### Tiga Sudut sebagai Referensi
+#### Empat Sudut sebagai Referensi
 
 Bukan kewajiban. Pakai kalau macet.
 
@@ -155,6 +155,9 @@ Bukan kewajiban. Pakai kalau macet.
 
 **3. Keputusan.** Pilihan yang sudah diambil, dengan trade-off.
 "Saya Tutup Lini Produk yang Menyumbang 22% Omzet. Ini Alasannya."
+
+**4. Skala pembanding.** Angka diletakkan di samping sesuatu yang sudah dikenal penonton.
+"Real Madrid 16 Kali Lebih Kecil dari Uniqlo, 68 Kali dari LVMH."
 
 > [!WARNING]
 > Sudut "curiosity gap" tidak lagi diwajibkan. Studi OverseerOS terhadap 3.357 video menemukan
@@ -173,6 +176,28 @@ Bukan kewajiban. Pakai kalau macet.
 - [ ] Bahasa percakapan?
 - [ ] Tidak menjanjikan yang tidak bisa dipenuhi?
 - [ ] Saya akan klik ini kalau muncul di feed?
+
+#### Bukti dari Dua Belas Video (2 November 2026)
+
+Saya ukur dua belas video berperforma tertinggi dari enam channel rujukan. Transkrip, angka, dan
+metodenya ada di `content/analisis/2026-11-02-naskah-rujukan/`. Tiga alat judul ini muncul di sana
+dan belum tercatat di SOP:
+
+| Alat | Contoh terukur | Kenapa bekerja |
+|---|---|---|
+| **Skala pembanding** | "Real Madrid 16 kali lebih kecil dari Uniqlo, 68 kali dari LVMH" | Angka telanjang tidak terasa. Pembanding membuatnya terasa |
+| **Tenggat waktu** | "in 90 Days", lalu dijawab di akhir video | Mengubah klaim menjadi taruhan yang bisa gagal |
+| **Ironi** | "Selamat, Purbaya Dipecat." | Pertentangan terbaca dari dua kata, tanpa angka |
+
+Cara pakai: tambahkan salah satunya kalau judul sudah punya entitas dan taruhan tetapi masih
+terasa datar. Jangan menambahkan ketiganya sekaligus.
+
+> [!CAUTION]
+> **Apa yang tidak dibuktikan data ini.** Saya tidak punya angka CTR, retensi, atau average view
+> duration — tiga angka itu hanya ada di YouTube Studio pemilik channel. Tayangan tinggi bisa
+> berarti judulnya bekerja, bisa juga berarti topiknya sedang ramai. Jadi tabel di atas adalah
+> **pola pada judul yang berhasil**, bukan bukti bahwa pola itu penyebabnya. Uji satu per satu
+> selama pilot, catat CTR-nya di Tahap 10.
 
 ---
 
@@ -373,15 +398,17 @@ Batas waktu: 30 menit. Kalau lewat, kembali ke Tahap 1.
 
 | Kreator | Pola thumbnail | Pola judul |
 |---|---|---|
-| **Alex Hormozi** | Latar gelap, wajah close-up, teks 2–3 kata | Pernyataan tegas, angka spesifik, sering kontarian |
+| **Alex Hormozi** | Latar gelap, wajah close-up, teks 2–3 kata | Pernyataan tegas, angka spesifik, sering kontarian, sering bertenggat ("in 90 Days") |
 | **Raymond Chin** | Data/grafik, wajah serius, warna bold | Entitas bernama + angka + pertanyaan: "KFC Rugi Rp369 Miliar, Salah Dimana?" |
+| **SepulangSekolah** | Belum diperiksa | Entitas negara + angka publik + pertentangan: "84 Juta Orang Gagal Bayar! Bunga 400!" |
 | **Ferry Irwandi** | Wajah ekspresif, latar kontekstual | Pertanyaan investigatif: "Bagaimana X Terjadi" |
 | **Big A Story** | Wajah + latar cerita, teks minimal | Entitas (klub) + taruhan uang + pertentangan: "Kenapa Klub Bola yang Makin Rugi Justru Makin Mahal?" |
-| **Moon** | Belum diverifikasi | Putusan tentang entitas besar: "Apple Is Now Completely F*cked" |
+| **Moon** | Belum diperiksa | Putusan tentang entitas besar: "Apple Is Now Completely F*cked" |
 
-> **Catatan verifikasi:** pola judul di atas dibaca dari daftar video channel pada 1 November
-> 2026. Pola thumbnail Moon dan Big A Story belum saya periksa sendiri. Jangan jadikan dasar
-> keputusan sebelum ditonton.
+> **Catatan verifikasi, 2 November 2026.** Pola judul dibaca dari daftar video channel, lalu
+> diperiksa ulang pada transkrip dua belas video teratas. Yang terverifikasi: judul, tayangan,
+> durasi, dan isi ucapan. Yang belum: **bentuk thumbnail semua channel**, karena saya tidak
+> menonton satu pun. Jangan pakai kolom thumbnail sebagai dasar keputusan sebelum dilihat sendiri.
 
 > [!TIP]
 > Jangan tiru mentah. Ambil polanya, bukan topiknya. Big A Story adalah channel sepak bola, bukan

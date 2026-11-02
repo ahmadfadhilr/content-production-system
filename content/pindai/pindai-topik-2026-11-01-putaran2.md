@@ -192,7 +192,7 @@ Akibatnya klasifikasi supply bisa memakai video yang keliru tanpa terlihat. Skri
 Leaders Talk (ThinkEduca), Leadership with Mike, Layla at ProcessDriven, I Started My Business,
 Rajiv Talreja, CEO Entrepreneur, Dan Martell, Educationleaves, Valuetainment, Neil Patel, Ben
 Heath, Adam Erhart, Big Rob Unbothered, Thomas Morgan, Alex Hormozi. Daftar ini masuk ke
-`workflows/01-ideasi.md`.
+`workflows/produksi/01-ideasi.md`.
 
 ---
 

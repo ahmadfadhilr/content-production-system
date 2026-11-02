@@ -306,7 +306,7 @@ MASALAH AUDIENS:
 
 ### Langkah 8 — Periksa Duplikat
 
-- Buka `workflows/content-bank.md` dan `content/briefs/`. Sudah ada yang mirip?
+- Buka `workflows/produksi/content-bank.md` dan `content/briefs/`. Sudah ada yang mirip?
 - Cari sudut itu di YouTube. Sudah dibahas dengan angka?
 - Kalau sudah, ubah sudutnya atau gugurkan topiknya.
 

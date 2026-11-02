@@ -15,7 +15,8 @@ Naskah yang baik bukan esai. Naskah adalah panduan bicara — ditulis untuk dide
 | Brief konten (judul, POV, audiens, format) | Tahap 2 | ✅ Wajib |
 | Lembar fakta | Tahap 3 | ✅ Wajib |
 | Artefak utama (angka/dokumen) | Tahap 3 | ✅ Wajib |
-| Angka yang merugikan | Tahap 3 | ✅ Wajib |
+| Bukti yang tidak bisa ditiru dari riset | Tahap 3, salah satu dari tiga jalur | ✅ Wajib |
+| Angka yang merugikan | Tahap 3, jalur 1 atau 2 | Dianjurkan, tidak wajib |
 
 > [!CAUTION]
 > Jangan menulis tanpa fact sheet. Naskah tanpa bahan akan ditulis ulang.
@@ -43,6 +44,34 @@ Membuat penonton berhenti scroll.
 - ❌ Sapaan atau basa-basi.
 - ❌ Penjelasan siapa dirimu.
 - ❌ Hook lebih dari 5 detik sebelum menyentuh masalah.
+
+> [!NOTE]
+> **Bedanya sapaan dan basa-basi.** Ferry Irwandi membuka video MSCI dengan "Halo warga sipil
+> sekalian. Oke. Breaking news nih ya." Itu tiga detik, lalu langsung ke peristiwa. Itu ritual
+> persona, bukan basa-basi, dan videonya 7,3 kali median channelnya.
+>
+> Yang dilarang adalah **waktu yang habis sebelum masalah disebut**. Sapaan satu kalimat yang
+> memang bagian dari persona boleh. Sapaan plus perkenalan plus "sebelum kita mulai" tidak.
+
+#### Pola Pembuka yang Terukur
+
+Empat cara membuka yang benar-benar dipakai video berperforma tertinggi, 2 November 2026. Semua
+kutipan di bawah adalah kalimat pertama yang terucap, bukan parafrase.
+
+| Pola | Contoh terukur | Kapan dipakai |
+|---|---|---|
+| **Mulai di tengah adegan** | "mereka juga tuh nemuin kalau di bawah formasi baturanya tuh emang ada ruangan besar" (SepulangSekolah) | Kalau ada peristiwa yang bisa ditunjukkan, bukan diceritakan |
+| **Pertanyaan atas sesuatu yang terlihat** | "Kalian lihat ini, coba tebak grafik yang paling kecil ini siapa?" (Big A Story) | Kalau ada grafik atau artefak yang layak dilihat sebelum dijelaskan |
+| **Kontras dua keadaan** | "Used to feel like a safe pair of hands... but now they're just something else entirely" (Moon) | Kalau inti videonya perubahan, bukan temuan |
+| **Taruhan dengan tenggat** | "$7 juta per tahun... 90 hari kemudian kita hubungi lagi" (Hormozi) | Kalau ada klaim yang bisa gagal dan bisa dicek |
+
+Yang tidak muncul satu kali pun: pembukaan dengan definisi, dengan framework, atau dengan
+"di video kali ini kita akan membahas".
+
+> [!CAUTION]
+> Pola di atas dibaca dari transkrip, bukan dari data retensi. Saya tidak tahu berapa persen
+> penonton bertahan setelah 30 detik. Perlakukan sebagai hipotesis yang diuji satu per satu selama
+> pilot, bukan sebagai resep.
 
 ---
 
@@ -75,6 +104,12 @@ Penonton sudah melihat bukti sebelum tahu janji videonya. Itu yang membuat merek
   Tahap 6.
 - Jangan menjelaskan metodologi di sini. Cukup tunjukkan dan sebut satu kalimat.
 
+> [!NOTE]
+> **Yang terukur, bukan yang diwajibkan.** Dari dua belas video teratas, angka pertama terucap di
+> median detik 40, rentang 1 sampai 109 detik. Sepuluh dari dua belas menyebut angka sebelum detik
+> 60. Jadi target realistisnya: **satu angka spesifik sebelum detik 60**, bukan susunan bukti
+> lengkap sebelum detik 30. Bukti lengkap dengan sumber dan definisi justru memperlambat pembukaan.
+
 ---
 
 ### 3. JANJI (30–40 detik)
@@ -92,6 +127,16 @@ Baru sekarang sebutkan apa yang akan didapat penonton.
 - Spesifik dan bisa dibuktikan isi video.
 - Jangan "Anda akan kaya" atau "rahasia sukses".
 - Sebut bentuk hasilnya: tiga angka, satu rumus, satu urutan langkah.
+
+> [!NOTE]
+> **Janji boleh berbentuk pertanyaan.** Dari dua belas video berperforma tertinggi yang saya
+> periksa, hanya satu yang menyatakan janji dengan pola "di video ini kita akan lihat" — Big A Story,
+> di detik 37. Raymond dan SepulangSekolah hampir tidak pernah menyatakannya. Mereka mengajukan
+> pertanyaan spesifik, lalu menjawabnya pelan-pelan.
+>
+> Jadi kalimat janji bukan syarat. Yang syarat: **penonton tahu pertanyaan apa yang sedang dijawab
+> video ini sebelum detik 40.** "Kenapa satu layanan memakai 60 persen jam tim tapi omzetnya 8
+> persen?" sudah cukup, tanpa perlu "di video ini saya akan menunjukkan".
 
 ---
 
@@ -341,13 +386,26 @@ harus dilakukan?
 - Terlalu panjang: potong poin terlemah, atau pindahkan ke video lain.
 - Terlalu pendek: tambah contoh atau bukti, bukan poin baru.
 
-**Kecepatan bicara:**
+**Kecepatan bicara, hasil ukur 2 November 2026:**
 
-| Durasi | Kata |
-|---|---|
-| 8 menit | ±1.200 |
-| 12 menit | ±1.800 |
-| 15 menit | ±2.250 |
+Saya hitung kata dan durasi dua belas video berperforma tertinggi dari enam channel rujukan.
+Median 163 kata per menit, rentang 112 sampai 213. Channel Indonesia yang analitis berada di
+143–180: Raymond 172–180, SepulangSekolah 146–154, Big A Story 143–148. Ferry 112 karena banyak
+diam dan memperlihatkan lokasi.
+
+Pakai **150 kata per menit** untuk perencanaan. Angka itu sedikit konservatif, jadi naskah yang
+pas di atas kertas tidak akan kebablasan saat direkam.
+
+| Durasi | Kata pada 150/menit | Rentang wajar (135–175) |
+|---|---|---|
+| 8 menit | 1.200 | 1.080–1.400 |
+| 12 menit | 1.800 | 1.620–2.100 |
+| 15 menit | 2.250 | 2.025–2.625 |
+
+Cara mengukur naskah sendiri: buang penanda visual dan label, lalu hitung kata yang benar-benar
+diucapkan. Naskah yang ditulis 3.000 kata sering hanya 1.900 kata terucap, karena tabel dan
+penanda tidak dibacakan.
+
 
 ### Langkah 12 — Uji "hanya Fadhil yang bisa mengatakan ini"
 
@@ -380,7 +438,7 @@ kesalahan dari log yang belum masuk naskah.
 ### Langkah 14 — Final review
 
 - [ ] Hook bekerja?
-- [ ] Bukti pertama muncul sebelum detik 30?
+- [ ] Bukti pertama muncul sebelum detik 30, satu angka spesifik sebelum detik 60, dan ada satu angka spesifik sebelum detik 60?
 - [ ] Janji satu kalimat, spesifik?
 - [ ] Tiga poin, bukan lima?
 - [ ] Setiap poin punya klaim, bukti, contoh, trade-off?
@@ -461,7 +519,7 @@ menambah layanan lagi, dan kapan angkanya berarti berhenti."
 
 - [ ] Naskah lengkap, bisa direkam tanpa persiapan tambahan
 - [ ] Hook bekerja, bukan sapaan
-- [ ] Bukti pertama muncul sebelum detik 30
+- [ ] Bukti pertama muncul sebelum detik 30, satu angka spesifik sebelum detik 60
 - [ ] Janji jelas dan bisa dipenuhi
 - [ ] Maksimal tiga poin utama
 - [ ] Setiap poin: klaim, bukti, contoh, trade-off

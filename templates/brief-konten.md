@@ -32,7 +32,7 @@ tulis "belum dipindai" dan jangan lanjut ke produksi.
 | Gap | Kosong / Dangkal | `content/pindai/…` |
 | Bukti | Tipe A / B / C | Bagian 6 brief ini |
 | Kapasitas | Perkiraan hari kerja: ____ | — |
-| **Skor** | **__ / 30** | `workflows/01-ideasi.md` Langkah 6 |
+| **Skor** | **__ / 30** | `workflows/produksi/01-ideasi.md` Langkah 6 |
 
 **Keputusan:** Produksi sekarang (24–30) / Perbaiki satu kriteria (18–23) / Tunda (di bawah 18)
 

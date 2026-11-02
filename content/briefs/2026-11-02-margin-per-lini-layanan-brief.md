@@ -35,7 +35,7 @@ sendiri belum dikumpulkan.
 | Gap | Kosong. Tidak ada video Indonesia yang membahas margin per lini dengan angka. | Sama |
 | Bukti | Tipe B. Empat klaim inti bersumber jurnal peer review. Bukti tipe A belum ada. | `…-fakta.md` |
 | Kapasitas | 2 hari kerja | Database |
-| **Skor** | **28 / 28** | `workflows/01-ideasi.md` Langkah 6 |
+| **Skor** | **28 / 28** | `workflows/produksi/01-ideasi.md` Langkah 6 |
 
 **Keputusan:** Produksi dijalankan, tidak ditunda. Bukti diambil lewat jalur 2 selama satu minggu.
 Kalau pencatatan tidak sempat, turun ke jalur 3 tanpa menunda terbit.

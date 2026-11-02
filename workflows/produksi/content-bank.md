@@ -7,9 +7,23 @@ Judul di bawah adalah **draf kerja**, bukan judul final. Sebelum produksi, pasti
 - Ide sudah dikemas di Tahap 2 (Pengemasan).
 
 Status "Ide" berarti belum dipindai. Jangan produksi ide berstatus "Ide" tanpa menjalankan
-`workflows/01-ideasi.md` lebih dulu.
+`workflows/produksi/01-ideasi.md` lebih dulu.
 
 Tambahkan status dan catatan saat ide bergerak di pipeline.
+
+**Kolom yang wajib diisi sebelum status berubah dari "Ide":** bukti yang tersedia (tipe A/B/C dan
+kode rujukannya). Sistem ini gampang memilih topik berdasarkan topiknya, lalu mencari bukti
+belakangan. Urutan yang benar dibalik: tanpa bukti yang bisa dibuka, ide tetap "Ide".
+
+**Ide yang saling tumpang tindih — pilih satu, arsipkan sisanya:**
+
+| Kelompok | Nomor | Tema |
+|---|---|---|
+| Omzet vs margin | 1, 2, 5 | Tiga sudut dari satu keputusan yang sama |
+| ARPU | 2, 12 | Nomor 12 mengulang nomor 2 |
+| Kualitas vs jumlah leads | 13, 14 | Nomor 14 mengulang nomor 13 |
+| Retention | 20, 25 | Satu tema, dua rumusan |
+
 
 ---
 
@@ -82,7 +96,7 @@ Tambahkan status dan catatan saat ide bergerak di pipeline.
 
 ## Hasil Pindai 2026-11-01
 
-Kandidat baru dari `workflows/01-ideasi.md`. Detail, angka, dan bukti ada di
+Kandidat baru dari `workflows/produksi/01-ideasi.md`. Detail, angka, dan bukti ada di
 `content/pindai/pindai-topik-2026-11-01.md`.
 
 | Sudut | Pilar | Skor | Status |

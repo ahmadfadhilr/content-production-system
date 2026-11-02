@@ -25,11 +25,17 @@ python3 tools/ambil-daftar-video.py Moon-Real             # daftar video channel
 
 ## Alur kerja
 
-Sepuluh tahap, dari ideasi sampai evaluasi, ada di `workflows/`. Urutannya
-dijelaskan di `AGENTS.md`.
+Dua pipeline, dipisah:
+
+- **Produksi** — `workflows/produksi/`. Peta sepuluh tahap ada di
+  `workflows/produksi/00-pipeline.md`. SOP per tahap dibuka hanya saat mengerjakan tahap itu.
+- **Analisis** — `workflows/analisis/00-pipeline.md`. Review mingguan seluruh pipeline produksi.
+  Belum berjalan; baru dipakai setelah video pilot punya data 7 hari.
+
+Peta keduanya ada di `workflows/README.md`. Panduan utama proyek ada di `AGENTS.md`.
 
 Hasil pindai tersimpan di `content/pindai/`. Ide yang lolos masuk ke database
-lewat `tools/tambah-ide.py`.
+lewat `tools/tambah-ide.py`. Catatan review pipeline mingguan masuk ke `content/analisis/`.
 
 ## Yang belum berjalan
 

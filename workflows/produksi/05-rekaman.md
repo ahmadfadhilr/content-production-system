@@ -200,6 +200,12 @@ Waveform audio:
 
 Rekam 2–4 naskah per sesi untuk efisiensi. Satu kali setup, beberapa video.
 
+> [!IMPORTANT]
+> Batch baru masuk akal **setelah format terbukti**, yaitu setelah empat video pilot terbit.
+> Sebelum itu, merekam 2–4 naskah sekaligus berarti menulis banyak naskah sebelum ada satu pun
+> respons audiens. Kalau formatnya ternyata salah, semuanya ikut salah. Selama pilot: satu video
+> per sesi rekaman.
+
 | Aturan | Alasan |
 |---|---|
 | Ganti baju di antara video | Variasi visual — penonton tidak sadar video direkam hari yang sama |
@@ -345,7 +351,7 @@ Rekaman **lulus** dan boleh lanjut ke Tahap 6 (Riset Visual) jika:
 
 ## Referensi Terkait
 
-- **Sebelum rekam:** Baca naskah final di [`04-penulisan-naskah.md`](file:///Users/ahmadfadhilramadhan/Documents/Personal%20Works/content-production-system/workflows/04-penulisan-naskah.md)
-- **Setelah rekam:** Lanjut ke [`06-riset-visual.md`](file:///Users/ahmadfadhilramadhan/Documents/Personal%20Works/content-production-system/workflows/06-riset-visual.md) untuk mengumpulkan aset visual
-- **Standar editing audio:** Lihat [`07-penyuntingan.md`](file:///Users/ahmadfadhilramadhan/Documents/Personal%20Works/content-production-system/workflows/07-penyuntingan.md) untuk standar teknis loudness dan mixing
-- **Prinsip kualitas:** Lihat [`prinsip-editorial.md`](file:///Users/ahmadfadhilramadhan/Documents/Personal%20Works/content-production-system/workflows/prinsip-editorial.md)
+- **Sebelum rekam:** Baca naskah final di [`04-penulisan-naskah.md`](./04-penulisan-naskah.md)
+- **Setelah rekam:** Lanjut ke [`06-riset-visual.md`](./06-riset-visual.md) untuk mengumpulkan aset visual
+- **Standar editing audio:** Lihat [`07-penyuntingan.md`](./07-penyuntingan.md) untuk standar teknis loudness dan mixing
+- **Prinsip kualitas:** Lihat [`prinsip-editorial.md`](./prinsip-editorial.md)

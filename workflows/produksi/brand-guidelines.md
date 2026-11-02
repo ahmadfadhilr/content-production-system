@@ -9,6 +9,24 @@
 - **Nada bicara:** Langsung, berbasis bukti, praktis, jujur soal keterbatasan
 - **Bukan:** Motivator, coach serba bisa, influencer gaya hidup
 
+### Pembeda — belum dijawab
+
+Warna dan font bisa ditunda. Ini tidak bisa: tanpa jawaban di bawah, channel ini hanya pendapat
+tambahan di antara pendapat yang sudah banyak, dan tidak ada yang membedakannya dari enam kreator
+pembanding di `Personal Brand Plan.docx`.
+
+Tiga pertanyaan, dijawab Fadhil, bukan AI:
+
+1. **Keyakinan apa yang Fadhil pegang dan bertentangan dengan arus?** Satu kalimat. Kalau
+   jawabannya sama dengan yang diucapkan semua orang, itu bukan pembeda.
+2. **Sebutkan tiga sifat langka yang biasanya tidak muncul bersamaan pada satu orang, dan dimiliki
+   Fadhil.** (Uji ini dipakai untuk menemukan sudut yang tidak bisa ditiru.)
+3. **Pola apa yang Fadhil patahkan?** Contoh: "kebanyakan orang menambah layanan untuk naik
+   omzet; saya menutup layanan untuk menaikkan margin."
+
+Jawabannya masuk ke bagian ini, lalu dipakai di judul dan di kalimat penutup naskah. Ini lebih
+menentukan daripada templat thumbnail mana pun.
+
 ---
 
 ## Warna (Belum Difinalkan)
