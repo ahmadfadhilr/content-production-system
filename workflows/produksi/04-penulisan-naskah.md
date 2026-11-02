@@ -106,9 +106,11 @@ Penonton sudah melihat bukti sebelum tahu janji videonya. Itu yang membuat merek
 
 > [!NOTE]
 > **Yang terukur, bukan yang diwajibkan.** Dari dua belas video teratas, angka pertama terucap di
-> median detik 40, rentang 1 sampai 109 detik. Sepuluh dari dua belas menyebut angka sebelum detik
-> 60. Jadi target realistisnya: **satu angka spesifik sebelum detik 60**, bukan susunan bukti
-> lengkap sebelum detik 30. Bukti lengkap dengan sumber dan definisi justru memperlambat pembukaan.
+> median sekitar 44 detik, rentang 1 sampai 109 detik. Sepuluh dari dua belas menyebut angka
+> sebelum detik 60. Jadi target realistisnya: **satu angka spesifik sebelum detik 60**, bukan
+> susunan bukti lengkap sebelum detik 30. Bukti lengkap dengan sumber dan definisi justru
+> memperlambat pembukaan. Definisi ukurannya ada di
+> `content/analisis/2026-11-02-naskah-rujukan/README.md`.
 
 ---
 
@@ -566,10 +568,6 @@ menambah layanan lagi, dan kapan angkanya berarti berhenti."
 | Tahap 5 — Rekaman | Naskah final |
 | Tahap 6 — Visual | Penanda visual dan artefak |
 | Tahap 7 — Editing | Struktur dan penanda |
-
----
-
-*Terakhir diperbarui: 1 November 2026*
 
 ---
 

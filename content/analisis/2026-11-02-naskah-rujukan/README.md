@@ -58,10 +58,16 @@ dokumenternya lebih banyak diam dan memperlihatkan lokasi daripada berbicara.
 Artinya: **10 menit berisi 1.430–1.800 kata**, bukan satu angka pasti. Untuk perencanaan, 150 kata
 per menit cukup dan sedikit konservatif.
 
-### 2. Angka pertama muncul di sekitar detik 40, bukan detik 30
+### 2. Angka pertama muncul di sekitar detik 44, bukan detik 30
 
-Median 40 detik, rentang 1 sampai 109 detik. Sepuluh dari dua belas video menyebut angka sebelum
+Median 43,5 detik, rentang 1 sampai 109 detik. Sepuluh dari dua belas video menyebut angka sebelum
 detik 60.
+
+Definisi "angka pertama": detik pertama yang memuat digit **atau kata bilangan** — termasuk
+"puluhan juta" dan ordinal seperti "satu yang pertama". Definisi ini longgar. Kalau hanya digit dan
+satuan jumlah yang dihitung, median bergeser ke 45,7 detik dan yang memenuhi sebelum detik 60
+turun jadi 8 dari 12. Kesimpulan intinya tidak berubah: angka spesifik di menit pertama, bukan
+susunan bukti lengkap sebelum detik 30.
 
 Yang menarik: yang paling cepat menyebut angka bukan yang paling banyak ditonton. Hormozi
 menyebut angka di detik 1, Raymond di detik 2. Ferry yang paling lambat justru yang kelipatannya
