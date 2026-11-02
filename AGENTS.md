@@ -256,12 +256,13 @@ pertentangan, dan bisa dipenuhi isi video.
 - Setiap angka harus punya definisi, periode, dan sumber.
 - Jangan menyajikan ilustrasi sebagai data nyata. Selalu beri label.
 - Data internal Salam Cendekia: samarkan dan pastikan izin Fadhil sebelum dipakai.
-- Setiap video memuat minimal satu angka atau keputusan yang merugikan Fadhil.
+- Setiap video memuat satu bukti yang tidak bisa ditiru dari riset. Tiga jalur: catatan sendiri,
+  pengukuran untuk video ini, atau batas pengalaman yang disebut eksplisit.
 - Riset berhenti di 90 menit. Kalau klaim inti belum terbukti, ganti klaimnya.
 
 **Gerbang keluaran:** ✅ Lembar fakta tersusun. Setiap butir ditandai: *terverifikasi*, *simpulan*,
-atau *tebakan*, plus label jenis sumber. Ada artefak yang bisa ditampilkan dan satu angka yang
-merugikan.
+atau *tebakan*, plus label jenis sumber. Ada artefak yang bisa ditampilkan, dan satu bukti yang
+tidak bisa ditiru dari riset lewat salah satu dari tiga jalur.
 
 **SOP lengkap:** `workflows/03-riset-dan-fakta.md`
 
@@ -610,7 +611,7 @@ perpanjang pilot.
 | **Audiens** | Jelas siapa yang sedang mengalami masalah ini |
 | ⭐ **Masalah** | Ada satu pertanyaan yang spesifik dan penting |
 | ⭐ **POV** | Ada jawaban atau keputusan yang bisa diringkas satu kalimat |
-| ⭐ **Bukti** | Klaim inti punya sumber primer. Ada artefak milik sendiri. Ada satu angka yang merugikan Fadhil. Data internal aman dibuka |
+| ⭐ **Bukti** | Klaim inti punya sumber primer. Ada satu bukti yang tidak bisa ditiru dari riset, lewat tiga jalur di Tahap 3. Data internal aman dibuka |
 | **Trade-off** | Dampak negatif dan batas saran disebutkan |
 | **Kegunaan** | Ada langkah atau keputusan yang bisa diterapkan |
 | **Judul** | Ada entitas atau angka, dan taruhan. Tanpa klaim berlebihan |
@@ -633,6 +634,7 @@ bukan bukti bahwa channelnya tidak ada.
 |---|---|---|---|
 | Alex Hormozi | `https://www.youtube.com/@AlexHormozi` | Bisnis, penawaran, akuisisi | 4,6 juta subscriber |
 | Raymond Chin | `https://www.youtube.com/@RaymondChins` | Bedah bisnis perusahaan Indonesia | 3,52 juta subscriber |
+| SepulangSekolah | `https://www.youtube.com/@SepulangSekolah` | Geopolitik, ekonomi, dan sosial dengan judul berbasis angka publik | 2,49 juta subscriber |
 | Ferry Irwandi | `https://www.youtube.com/@ferryirwandi` | Investigasi lapangan dan ekonomi | 2,44 juta subscriber |
 | Moon | `https://www.youtube.com/@Moon-Real` | Video esai ekonomi dan teknologi, bahasa Inggris | 1,79 juta subscriber |
 | Big A Story | `https://www.youtube.com/@WeAreBigAStory` | Bisnis sepak bola, bahasa Indonesia | 58,1 ribu subscriber |
@@ -649,9 +651,19 @@ tayangan, waktu unggah, dan judul. Tiga jebakan yang sudah terbukti: feed RSS
 ini; halaman `/videos` sekarang memakai `lockupViewModel`, bukan `videoRenderer`; dan pencarian
 berdasarkan nama tampilan menemukan channel yang salah.
 
-**Yang belum terverifikasi.** Saya belum menonton video Moon dan Big A Story. Yang terbaca hanya
-judul, durasi, tayangan, dan waktu unggah. Klaim tentang gaya visual keduanya belum saya periksa
-sendiri, jadi jangan dipakai sebagai dasar keputusan produksi sebelum ditonton.
+**Yang belum terverifikasi.** Saya belum menonton video Moon, Big A Story, dan SepulangSekolah.
+Yang terbaca hanya judul, durasi, tayangan, dan waktu unggah. Klaim tentang gaya visual ketiganya
+belum saya periksa sendiri, jadi jangan dipakai sebagai dasar keputusan produksi sebelum ditonton.
+
+**SepulangSekolah, data 2 November 2026.** Diukur dengan `tools/ambil-daftar-video.py`: 2,49 juta
+subscriber, 30 video terdaftar, durasi 14 menit 43 detik sampai 22 menit 33 detik. Semua judul
+membawa angka atau pertentangan yang spesifik: "84 Juta Orang Gagal Bayar! Bunga 400!", "Target
+170 km, Berhenti Di 2,4 km". Angka-angkanya berasal dari dokumen publik, bukan dari pengalaman
+pribadi pembuatnya. Ini bukti bahwa video berbasis riset bisa bekerja.
+
+Iramanya bukan irama satu orang. Tujuh video terbit dalam 12 jam pada hari pemeriksaan. Perlakukan
+channel ini sebagai contoh kemasan dan contoh hasil, bukan contoh proses yang bisa dikerjakan
+sendiri. Sebagian judulnya juga di luar positioning Fadhil dan tidak boleh ditiru.
 
 ### Yang layak diadopsi
 

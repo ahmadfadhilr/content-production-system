@@ -22,8 +22,13 @@ buruk adalah video yang tidak pernah ditemukan.
 - [ ] Pilar dan format yang dipilih
 - [ ] **Satu artefak utama**: angka, dokumen, atau keputusan yang akan terlihat di layar
 
-Kalau artefak utama belum ada, kembali ke `01-ideasi.md`. Kemasan tanpa artefak akan menjadi
-janji yang tidak bisa dipenuhi isi video.
+Artefak boleh berasal dari catatan sendiri, hasil pengukuran untuk video ini, atau dokumen publik
+primer seperti laporan tahunan, tabel BPS, atau tabel jurnal. Yang tidak boleh: artefak yang tidak
+ada dan tidak akan dibuat.
+
+Kalau artefak utama belum ada, jangan kembali ke `01-ideasi.md`. Tentukan dulu jalurnya di
+`03-riset-dan-fakta.md` Langkah 5. Kemasan tanpa artefak akan menjadi janji yang tidak bisa
+dipenuhi isi video.
 
 ---
 

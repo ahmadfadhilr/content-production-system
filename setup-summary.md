@@ -62,6 +62,7 @@ Ideasi → Pengemasan → Riset → Naskah → Rekam → Visual → Edit → Ter
 |---|---|---|
 | **Alex Hormozi** | `https://www.youtube.com/@AlexHormozi` | Hook tanpa basa-basi, jump cut, punch zoom 4K, kinetic captions, batch recording |
 | **Raymond Chin** | `https://www.youtube.com/@RaymondChins` | Business Breakdown berbasis data, motion graphics, editing dinamis |
+| **SepulangSekolah** | `https://www.youtube.com/@SepulangSekolah` | Judul memakai angka publik yang spesifik ditambah pertentangan: "84 Juta Orang Gagal Bayar! Bunga 400!", "Target 170 km, Berhenti Di 2,4 km". Durasi 15–22 menit. Bukti bahwa kemasan berbasis riset bisa bekerja tanpa pengalaman pribadi. Irama unggahnya kerja tim, bukan kerja satu orang. |
 | **Ferry Irwandi** | `https://www.youtube.com/@ferryirwandi` | Gaya investigatif mini-dokumenter, sound design sinematik |
 | **Big A Story** | `https://www.youtube.com/@WeAreBigAStory` | Judul pertanyaan dengan entitas dan taruhan uang. Channel bisnis sepak bola, bukan channel bisnis umum. |
 | **Moon** | `https://www.youtube.com/@Moon-Real` | Video esai panjang berbahasa Inggris dengan produksi tim. Contoh hasil, bukan contoh proses. |

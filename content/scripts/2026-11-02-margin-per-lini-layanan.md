@@ -1,40 +1,41 @@
-# Naskah — Omzet Naik [X]%, Margin Turun [Y] Poin
+# Naskah — Satu Layanan Pakai [J]% Jam Tim, Omzetnya [O]%
 
 **Tanggal:** 2026-11-02
 **Format:** Decision Notes (PAS)
-**Target durasi:** 8–10 menit. Saat ini 953 kata terucap, sekitar 6,5 menit.
+**Target durasi:** 8–10 menit. Saat ini 944 kata terucap, sekitar 6,5 menit.
 **Brief:** `content/briefs/2026-11-02-margin-per-lini-layanan-brief.md`
 **Lembar fakta:** `content/briefs/2026-11-02-margin-per-lini-layanan-fakta.md`
 
 > [!WARNING]
-> **Status: belum siap direkam.** Empat slot menunggu data sendiri: `[X]`, `[Y]`, `[TIGA-BARIS]`,
-> dan `[SATU-KALIMAT]`. Selama slot itu kosong, naskah ini belum lulus gerbang Tahap 4. Jangan
-> direkam dengan angka karangan.
+> **Status: belum siap direkam dalam bentuk jalur 2.** Tiga slot menunggu data: `[J]`, `[O]`, dan
+> `[SATU-KALIMAT]`. Kalau pencatatan jam tim tidak dikerjakan, pakai **versi jalur 3** di bagian
+> paling bawah naskah ini. Jangan merekam angka karangan.
 
 ---
 
 ## HOOK (0–5 detik)
 
-Omzet saya naik [X] persen. Margin turun [Y] poin.
+Satu layanan pakai [J] persen jam tim saya. Omzetnya cuma [O] persen.
 
 ---
 
 ## BUKTI PERTAMA (5–30 detik)
 
-Ini tabel margin per layanan saya. Kolom pertama nama layanan. Kolom kedua omzet. Kolom ketiga
-margin.
+Ini tabel jam tim saya minggu lalu. Kolom pertama nama layanan. Kolom kedua jam tim. Kolom ketiga
+porsi omzet.
 
-Tiga baris ini saya tandai. Omzetnya besar. Marginnya paling kecil di seluruh tabel.
+Baris ini saya tandai. Jam timnya paling banyak di seluruh tabel. Porsi omzetnya paling kecil.
 
-`[SCREEN-REC: tabel margin per layanan, tiga baris ditandai merah]`
+`[SCREEN-REC: tabel jam tim per layanan, satu baris ditandai merah]`
 
-Setahun saya tidak melihatnya. Karena yang saya buka setiap bulan cuma satu angka di paling bawah.
+Setahun saya tidak melihatnya. Karena yang saya buka setiap bulan cuma satu angka di paling bawah:
+total omzet.
 
 ---
 
 ## JANJI (30–40 detik)
 
-Di video ini saya tunjukkan tiga angka yang saya periksa sebelum menambah layanan lagi.
+Di video ini saya tunjukkan tiga cara membaca tabel ini sebelum menambah layanan lagi.
 
 Dan satu tanda bahwa angkanya sudah bilang berhenti.
 
@@ -220,22 +221,21 @@ Omzet yang naik tanpa margin yang naik hanya menambah pekerjaan.
 
 ### Langkah aksi
 
-Minggu ini, buat satu tabel. Tiga kolom. Nama layanan, omzet, biaya langsung.
+Minggu ini, buat satu tabel. Tiga kolom. Nama layanan, jam tim, porsi omzet.
 
-Isi hanya untuk satu periode yang sudah tutup buku. Jangan pakai perkiraan.
+Jam tim diambil dari catatan jadwal, bukan perkiraan. Porsi omzet cukup persentase, bukan nominal.
 
-`[TEKS-LAYAR: Layanan | Omzet | Biaya Langsung]`
+`[TEKS-LAYAR: Layanan | Jam Tim | Porsi Omzet]`
 
-Kalau kamu tidak punya akuntan, jangan mulai dari membagi biaya tak langsung. Mulai dari jam.
+Jangan mulai dari membagi biaya tak langsung. Itu pekerjaan akuntan, dan hasilnya selalu ada
+taksirannya.
 
-Untuk setiap layanan, catat jam tim yang benar-benar dipakai minggu lalu. Kalikan dengan biaya
-satu jam tim kamu. Angka itu bukan angka akuntansi.
+Mulai dari jam. Jam itu dibayar setiap bulan, dan jam itu kelihatan di jadwal.
 
-Tapi cukup untuk membandingkan lini satu dengan lini lain. Dan itu yang kamu butuhkan minggu ini.
+Setelah tabelnya jadi, lihat baris yang jam timnya paling besar. Cek porsi omzetnya.
 
-Setelah tabelnya jadi, lihat baris yang omzetnya paling besar. Cek marginnya.
-
-Kalau marginnya paling kecil di tabel, kamu baru saja menemukan hal yang setahun saya lewatkan.
+Kalau porsi omzetnya paling kecil di tabel, kamu baru saja menemukan hal yang setahun saya
+lewatkan.
 
 ### CTA
 
@@ -249,7 +249,7 @@ Layanan mana yang mau kamu hitung duluan? Tulis di komentar.
 
 | Segmen | Penanda | Status |
 |---|---|---|
-| Bukti pertama | `[SCREEN-REC]` tabel margin | Belum, butuh data |
+| Bukti pertama | `[SCREEN-REC]` tabel jam tim | Belum, butuh pencatatan satu minggu |
 | Poin 1 | `[GRAFIS]` dua pelanggan | Bisa dibuat |
 | Poin 2 | `[GRAFIS]` tiga tingkat | Bisa dibuat dari sumber |
 | Poin 2 | `[TEKS-LAYAR]` jam tim | Siap |
@@ -258,15 +258,16 @@ Layanan mana yang mau kamu hitung duluan? Tulis di komentar.
 
 **Kalimat yang hanya Fadhil bisa ucapkan:** `[SATU-KALIMAT]`
 
-Belum ada. Kalimat itu harus berisi keputusan atau kesalahan nyata dari
-`content/log-keputusan.md`. Tanpa itu, naskah ini masih bisa ditulis siapa saja yang membaca dua
-jurnal.
+Belum ada. Kalau `content/log-keputusan.md` masih kosong, kalimat ini bisa diganti hasil
+pengukuran jam tim: satu temuan yang bertentangan dengan dugaan awal. Misalnya, layanan yang
+dianggap kecil ternyata memakai jam tim paling banyak.
 
-Satu hal yang perlu dicatat: panjang dan kredibilitas naskah ini kekurangan hal yang sama. 953 kata
+Satu hal yang perlu dicatat: panjang dan kredibilitas naskah ini kekurangan hal yang sama. 944 kata
 cukup untuk menjelaskan mekanisme. Tidak cukup untuk membuat orang percaya.
 
-Yang membuat orang percaya adalah cerita keputusan yang pernah salah. Cerita itu biasanya menambah
-150 sampai 250 kata. Jadi begitu `[SATU-KALIMAT]` terisi, durasinya ikut naik melewati 8 menit.
+Yang membuat orang percaya adalah satu temuan yang tidak bisa disalin dari jurnal. Temuan itu
+biasanya menambah 150 sampai 250 kata. Jadi begitu `[SATU-KALIMAT]` terisi, durasinya ikut naik
+melewati 8 menit.
 
 ---
 
@@ -274,7 +275,7 @@ Yang membuat orang percaya adalah cerita keputusan yang pernah salah. Cerita itu
 
 | Syarat | Status |
 |---|---|
-| Naskah lengkap, bisa direkam tanpa persiapan tambahan | **Belum.** Empat slot kosong |
+| Naskah lengkap, bisa direkam tanpa persiapan tambahan | **Belum.** Tiga slot kosong |
 | Hook bekerja, bukan sapaan | Lulus |
 | Bukti pertama sebelum detik 30 | Lulus strukturnya, isinya belum |
 | Janji jelas dan bisa dipenuhi | Lulus |
@@ -286,5 +287,45 @@ Yang membuat orang percaya adalah cerita keputusan yang pernah salah. Cerita itu
 | Penanda visual lengkap | Lulus |
 | Kesimpulan dan langkah aksi ada | Lulus |
 | CTA ringan | Lulus |
-| Durasi 8–15 menit | **Belum.** 953 kata, sekitar 6,5 menit |
-| Lulus rubrik editorial | **Belum.** Butir Bukti gagal |
+| Durasi 8–15 menit | **Belum.** 944 kata, sekitar 6,5 menit |
+| Lulus rubrik editorial | **Belum.** Butir Bukti lulus hanya lewat jalur 3 |
+
+---
+
+## Versi Jalur 3 — Bisa Direkam Tanpa Data Sendiri
+
+Dipakai kalau jam tim tidak dicatat. Yang diganti empat bagian: judul, hook, bukti pertama, dan
+penutup. Isi utama, trade-off, dan langkah aksi tetap sama.
+
+**Judul:** Bisnis Edukasi Saya: Omzet Naik, Uang di Rekening Tidak
+
+Syarat pemakaian judul ini: di tingkat total, omzet memang naik dan uang di rekening memang tidak
+naik sebanding. Itu fakta tingkat total, bukan per lini, jadi lebih aman dibuka. Kalau faktanya
+tidak begitu, jangan pakai judul ini.
+
+**Hook (menggantikan hook berbasis angka):**
+
+Dua pelanggan bisa membayar dengan jumlah yang sama, dan tetap tidak sama untungnya.
+
+Yang membedakan bukan harganya. Yang membedakan adalah biaya yang tidak pernah masuk hitungan.
+
+Itu temuan sebuah studi. Bukan pengalaman saya.
+
+**Bukti pertama (menggantikan blok tabel jam tim):**
+
+`[SCREEN-REC: tabel dari Lueg & Ilieva 2024, bagian 2.3, tiga tingkat perhitungan]`
+
+Yang Anda lihat ini tabel dari penelitian tahun 2024. Penelitinya membagi cara menghitung laba
+pelanggan jadi tiga tingkat. Tingkat pertama cuma mengurangi biaya langsung. Tingkat ketiga baru
+membagi biaya tak langsung.
+
+Ini bukan angka bisnis saya. Ini angka penelitian orang lain, dan saya sebutkan supaya jelas.
+
+**Batas pengalaman (menggantikan `[SATU-KALIMAT]`, ditaruh sebelum kesimpulan):**
+
+Saya belum pernah membuka pembukuan per layanan di bisnis saya sendiri. Jadi yang saya bagikan di
+video ini adalah cara memeriksanya, bukan hasil pemeriksaan saya. Kalau kamu sudah punya angkanya,
+kamulah yang punya temuannya.
+
+**Yang hilang di versi ini:** angka pembuka, dan alasan menonton Fadhil alih-alih membaca jurnalnya.
+Versi ini masih bisa terbit, tetapi tidak boleh jadi kebiasaan.

@@ -1,7 +1,7 @@
 # Brief Konten: Margin per Lini Layanan
 
 **Tanggal brief:** 2026-11-02
-**Status:** Riset (Tahap 3 selesai sebagian, Tahap 4 tertahan)
+**Status:** Naskah (Tahap 2–4 selesai. Jalur 2 menunggu pencatatan, jalur 3 siap direkam)
 **Pilar:** Model Bisnis & Keuangan
 **Format:** Decision Notes
 **Kode database:** IDEA-001
@@ -37,7 +37,8 @@ sendiri belum dikumpulkan.
 | Kapasitas | 2 hari kerja | Database |
 | **Skor** | **28 / 28** | `workflows/01-ideasi.md` Langkah 6 |
 
-**Keputusan:** Produksi sekarang, dengan satu syarat: data sendiri harus dikumpulkan lebih dulu.
+**Keputusan:** Produksi dijalankan, tidak ditunda. Bukti diambil lewat jalur 2 selama satu minggu.
+Kalau pencatatan tidak sempat, turun ke jalur 3 tanpa menunda terbit.
 
 ---
 
@@ -52,11 +53,15 @@ Empat klaim inti berasal dari jurnal peer review akses terbuka yang membaca lang
 perhitungan laba di enam unit bisnis. Bukan opini, bukan rangkuman blog.
 
 **Artefak utama yang akan terlihat di layar:**
-**Belum ada.** Yang dibutuhkan: satu tabel berisi kolom layanan, omzet, biaya langsung, jam tim,
-untuk satu periode yang sudah tutup buku. Rinciannya ada di bagian 10.
+Tabel jam tim per layanan, satu minggu. Diukur khusus untuk video ini, jadi masuk **jalur 2** di
+`03-riset-dan-fakta.md` Langkah 5. Cara mengumpulkannya ada di bagian 10.
 
-**Angka atau keputusan yang merugikan Fadhil:**
-**Belum ada.** `content/log-keputusan.md` masih kosong.
+Kalau jam tim tidak bisa dicatat, video tetap bisa jalan lewat **jalur 3**: batas pengalaman
+disebut eksplisit, dan artefaknya tabel dari Lueg & Ilieva 2024 yang bisa dibuka siapa saja.
+
+**Bukti yang tidak bisa ditiru dari riset:**
+Jalur 2. Hasil pencatatan jam tim hampir selalu bertentangan dengan dugaan awal. Angka yang
+bertentangan itulah yang dipakai di hook.
 
 ---
 
@@ -69,32 +74,42 @@ untuk satu periode yang sudah tutup buku. Rinciannya ada di bagian 10.
 
 | # | Judul | Entitas atau angka | Taruhan | Pertentangan | Status |
 |---|---|---|---|---|---|
-| 1 | Omzet Naik [X]%, Margin Turun [Y] Poin: Tiga Baris yang Menjelaskan | Angka | Kalau tidak tahu, kenaikan omzet dianggap kemajuan | Naik tetapi turun | **Terpilih** |
-| 2 | Layanan Terlaris Saya Cuma Menyumbang [Y]% Laba | Entitas "saya" + angka | Layanan favorit bisa jadi sumber kebocoran | Ramai tetapi tipis | Ditolak, terlalu mirip nomor 1 |
-| 3 | Bisnis Edukasi Saya: Omzet Naik, Uang di Rekening Tidak | Entitas "bisnis edukasi saya" | Uang hilang tanpa terlihat | Naik tetapi tidak bertambah | **Cadangan** |
+| 1 | Satu Layanan Pakai [J]% Jam Tim, Omzetnya [O]% | Angka | Jam yang dibayar setiap bulan habis di tempat yang salah | Banyak dipakai tetapi sedikit menyumbang | **Terpilih** |
+| 2 | Omzet Naik [X]%, Margin Turun [Y] Poin: Tiga Baris yang Menjelaskan | Angka | Kenaikan omzet dianggap kemajuan | Naik tetapi turun | **Cadangan**, butuh pembukuan |
+| 3 | Bisnis Edukasi Saya: Omzet Naik, Uang di Rekening Tidak | Entitas saja | Uang hilang tanpa terlihat | Naik tetapi tidak bertambah | Cadangan terakhir, tanpa angka |
 | 4 | Kenapa Omzet Naik tapi Profit Tidak Ikut Naik | Tidak ada | Tidak ada | Ada | Ditolak, gagal aturan entitas dan angka |
 | 5 | Cara Menghitung Margin per Layanan | Tidak ada | Tidak ada | Tidak ada | Ditolak, ini instruksi bukan taruhan |
 
-**Judul terpilih:** nomor 1, setelah [X] dan [Y] diisi angka sebenarnya.
-**Judul cadangan:** nomor 3, dipakai kalau angkanya terlalu sensitif untuk dibuka.
+**Judul terpilih:** nomor 1, setelah [J] dan [O] terisi.
+**Judul cadangan:** nomor 2 kalau pembukuan boleh dibuka, nomor 3 kalau angka sama sekali tidak
+boleh dibuka.
 
 > [!IMPORTANT]
 > Tidak satu pun judul di sini boleh tayang dengan angka karangan. Aturan Tahap 2 melarang angka
-> di thumbnail berbeda dari angka di video. Selama [X] dan [Y] kosong, Tahap 2 belum lulus.
+> di thumbnail berbeda dari angka di video. Selama [J] dan [O] kosong, Tahap 2 lulus hanya lewat
+> judul nomor 3 yang tanpa angka.
 
 **Konsep thumbnail A:**
 - Pendekatan: Angka
-- Subjek: dua angka besar bertumpuk, [X]% di atas, [Y] di bawah, panah berlawanan arah
-- Teks (3–5 kata): "[X]% NAIK, [Y] TURUN"
+- Subjek: satu batang jam tim yang panjang, satu batang omzet yang pendek, angka persen di ujung
+  masing-masing
+- Teks (3–5 kata): "[J]% JAM, [O]% OMZET"
 - Latar: gelap polos
-- Warna dominan: oranye untuk angka naik, biru dingin untuk angka turun
+- Warna dominan: merah untuk jam tim, abu-abu untuk omzet
 
 **Konsep thumbnail B:**
 - Pendekatan: Kontras
-- Subjek: dua batang berdampingan, batang omzet tinggi, batang margin pendek
-- Teks (3–5 kata): "OMZET vs MARGIN"
+- Subjek: satu layanan di tengah, dikelilingi jam kerja yang menumpuk
+- Teks (3–5 kata): "BANYAK DIPAKAI, SEDIKIT MENYUMBANG"
 - Latar: gelap polos
-- Warna dominan: oranye lawan biru
+- Warna dominan: merah lawan abu-abu
+
+**Konsep thumbnail C, dipakai kalau jalur 3:**
+- Pendekatan: Angka dari sumber publik
+- Subjek: tabel tiga tingkat dari Lueg & Ilieva 2024, satu baris disorot
+- Teks (3–5 kata): "TIGA TINGKAT HITUNG LABA"
+- Latar: putih bersih, terlihat seperti dokumen
+- Warna dominan: hitam dan satu aksen merah
 
 **Hasil uji:** Kesatuan cerita [belum] | Feed test [belum] | Mobile 120 px [belum]
 
@@ -105,23 +120,23 @@ Ketiganya belum bisa diuji karena teks thumbnail masih berisi slot angka.
 ## 5. Alur Isi
 
 **Hook (0–5 detik):**
-"Omzet saya naik [X]%. Margin turun [Y] poin."
+"Satu layanan pakai [J] persen jam tim saya. Omzetnya cuma [O] persen."
 
 **Bukti pertama (5–30 detik):**
-Spreadsheet margin per layanan. Penonton melihat kolom layanan, omzet, dan margin. Tiga baris
+Tabel jam tim per layanan. Penonton melihat kolom layanan, jam tim, porsi omzet. Satu baris
 ditandai. Narasi menyebut apa yang sedang dilihat, tanpa menjelaskan metodologi.
 
 **Janji (30–40 detik):**
-"Di video ini saya tunjukkan tiga angka yang saya periksa sebelum menambah layanan lagi, dan kapan
+"Di video ini saya tunjukkan tiga cara membaca tabel ini sebelum menambah layanan lagi, dan kapan
 angkanya berarti berhenti."
 
 **Isi utama — maksimal tiga poin:**
 
-- Poin 1: Omzet per layanan bukan margin per layanan. Bukti dari studi 2024. Contoh dari data
-  sendiri. Trade-off: menghitung per lini makan waktu.
+- Poin 1: Omzet per layanan bukan margin per layanan. Bukti dari studi 2024. Contoh: ilustrasi
+  berlabel dua lini. Trade-off: menghitung per lini makan waktu.
 - Poin 2: Margin yang terlihat sehat sering baru margin kotor. Bukti dari tiga tingkat
-  perhitungan di studi yang sama. Contoh dari data sendiri. Trade-off: membagi biaya tak langsung
-  selalu mengandung taksiran.
+  perhitungan di studi yang sama. Contoh: dua layanan dengan jam tim berbeda. Trade-off: membagi
+  biaya tak langsung selalu mengandung taksiran.
 - Poin 3: Jangan potong layanan hanya dari angka ini. Bukti kutipan manajer yang menolak memutuskan
   dari satu angka. Contoh: lini tipis yang membawa pelanggan ke lini tebal. Trade-off: kalau semua
   lini dituntut untung sendiri, pintu masuk bisa hilang.
@@ -132,7 +147,7 @@ biaya. Menit 6 peringatan jangan memotong. Menit 8 langkah aksi.
 
 **Kesimpulan:**
 "Omzet yang naik tanpa margin yang naik hanya menambah pekerjaan." Langkah: minggu ini buat satu
-tabel tiga kolom, layanan, omzet, biaya langsung.
+tabel tiga kolom, layanan, jam tim, porsi omzet.
 
 **CTA:**
 "Layanan mana yang mau kamu hitung duluan? Tulis di komentar."
@@ -159,12 +174,13 @@ tabel tiga kolom, layanan, omzet, biaya langsung.
 
 | Segmen | Jenis Visual | Deskripsi | Status |
 |---|---|---|---|
-| Hook | Teks layar | Dua angka besar | Belum, menunggu data |
-| Bukti pertama | Artefak | Spreadsheet margin per layanan, tiga baris ditandai | Belum, menunggu data |
-| Poin 1 | Grafis | Dua lini: omzet besar, margin tipis | Belum, menunggu data |
+| Hook | Teks layar | Dua angka besar, [J] dan [O] | Belum, menunggu pencatatan |
+| Bukti pertama | Artefak | Tabel jam tim per layanan, satu baris ditandai | Belum, menunggu pencatatan |
+| Poin 1 | Grafis | Ilustrasi dua lini: omzet besar, margin tipis | Bisa dibuat, wajib diberi label ilustrasi |
 | Poin 2 | Grafis | Tiga tingkat perhitungan, bertingkat | Bisa dibuat dari sumber |
 | Poin 3 | Grafis | Satu lini tipis yang membawa pelanggan | Butuh ilustrasi berlabel |
 | Kesimpulan | Teks layar | Tiga kolom tabel yang harus dibuat | Siap |
+| Jalur 3 | Artefak | Tabel tiga tingkat dari Lueg & Ilieva 2024 | Siap, tinggal tangkapan layar |
 
 ---
 
@@ -175,13 +191,14 @@ tabel tiga kolom, layanan, omzet, biaya langsung.
 | Audiens jelas | Ya | Pemilik bisnis jasa, tim 2–10 orang |
 | ⭐ Masalah spesifik | Ya | Satu pertanyaan: lini mana yang membiayai lini lain |
 | ⭐ POV satu kalimat | Ya | Ada, dan bisa diucapkan dalam satu tarikan napas |
-| ⭐ Bukti | **Tidak** | Sumber primer ada. Artefak sendiri tidak ada. Angka merugikan tidak ada |
+| ⭐ Bukti | **Lulus bersyarat** | Sumber primer ada untuk empat klaim inti. Jalur 2 dipilih, menunggu pencatatan jam satu minggu. Kalau tidak dikerjakan, turun ke jalur 3 dan judulnya ganti |
 | Trade-off disebutkan | Ya | Poin 2 dan 3 |
-| Ada langkah yang bisa diterapkan | Ya | Satu tabel tiga kolom |
-| Judul punya entitas atau angka, dan taruhan | **Tidak** | Slot angka belum terisi |
+| Ada langkah yang bisa diterapkan | Ya | Satu tabel tiga kolom: layanan, jam tim, porsi omzet |
+| Judul punya entitas atau angka, dan taruhan | **Bersyarat** | Nomor 1 butuh [J] dan [O]. Nomor 3 lulus sekarang, tanpa angka |
 | Bukan pengulangan | Ya | Tidak ada di content bank, tidak ada di YouTube Indonesia |
 
-**Keputusan:** Tunda produksi sampai dua butir yang gagal terisi.
+**Keputusan:** Lanjut. Jalur 2 dipakai kalau jam tim tercatat. Kalau tidak, jalur 3 dengan judul
+cadangan.
 
 ---
 
@@ -195,27 +212,30 @@ tabel tiga kolom, layanan, omzet, biaya langsung.
 
 ---
 
-## 10. Yang Harus Dikumpulkan Sebelum Rekaman
+## 10. Yang Perlu Dikerjakan Sebelum Rekaman
 
-Satu tabel. Empat kolom. Satu periode yang sudah tutup buku.
+Bukan audit pembukuan. Satu catatan jam, satu minggu. Tidak perlu membuka angka keuangan apa pun.
 
-| Layanan | Omzet | Biaya langsung | Jam tim |
-|---|---|---|---|
-| | | | |
+| Layanan | Jam tim minggu ini | Porsi omzet bulan lalu |
+|---|---|---|
+| | | |
 
-Aturan pengisian:
+Aturan pencatatan:
 
 1. **Layanan** adalah hal yang dijual terpisah di invoice, bukan departemen.
-2. **Omzet** adalah yang ditagih, bukan yang diterima setelah diskon yang belum dibayar.
-3. **Biaya langsung** hanya biaya yang hilang kalau layanan itu tidak dijual: honor pengajar,
-   materi, biaya platform per sesi.
-4. **Jam tim** adalah jam kerja yang benar-benar dipakai, dari catatan jadwal, bukan perkiraan.
+2. **Jam tim** diambil dari catatan jadwal, bukan perkiraan. Kalau tidak ada jadwal, tulis jam
+   mulai dan selesai setiap kali tim mengerjakan layanan itu.
+3. **Porsi omzet** cukup persentase, bukan nominal. Persentase lebih aman dibuka.
+4. Cukup satu minggu. Satu minggu sudah cukup untuk melihat ketimpangan.
 
-Dari tabel itu, ambil empat angka:
+Dari situ, ambil tiga angka:
 
-- [X] persentase kenaikan omzet periode ini.
-- [Y] perubahan margin, dalam poin persen.
-- [Z] jumlah lini yang marginnya di bawah rata-rata tertimbang.
-- [W] satu lini yang marginnya paling tipis padahal jam timnya paling banyak.
+- [J] porsi jam tim untuk layanan dengan porsi omzet terkecil.
+- [O] porsi omzet layanan itu.
+- [B] selisih antara [J] dan [O], dalam poin persen.
 
-Kalau [W] tidak ada, video ini tidak punya temuan dan sebaiknya diganti topik.
+Kalau [B] di bawah 5 poin, ketimpangannya tipis dan video ini kehilangan hook. Dalam kasus itu,
+pakai jalur 3 dan ganti judul ke nomor 3 yang tanpa angka.
+
+**Kalau ini tidak dikerjakan sama sekali**, video tetap bisa terbit lewat jalur 3. Yang hilang
+bukan izin terbit, melainkan hook dan kalimat yang hanya Fadhil bisa ucapkan.

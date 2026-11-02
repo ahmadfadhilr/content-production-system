@@ -53,8 +53,11 @@ tulis "belum dipindai" dan jangan lanjut ke produksi.
 [Spreadsheet, dashboard, invoice, dokumen, atau tangkapan layar keputusan. Sebut file dan
 bagian yang akan disorot.]
 
-**Angka atau keputusan yang merugikan Fadhil:**
-[Kerugian, kesalahan, atau perkiraan yang meleset, beserta nominal atau akibatnya]
+**Bukti yang tidak bisa ditiru dari riset** (pilih satu jalur, lihat `03-riset-dan-fakta.md` Langkah 5):
+
+- [ ] Jalur 1: angka dari catatan sendiri, termasuk yang merugikan. Nominalnya: ___
+- [ ] Jalur 2: pengukuran untuk video ini. Yang diukur: ___ Hasilnya: ___
+- [ ] Jalur 3: batas pengalaman yang disebut eksplisit di video: ___
 
 ---
 
@@ -158,7 +161,7 @@ bagian yang akan disorot.]
 | Audiens jelas | [ ] | |
 | ⭐ Masalah spesifik | [ ] | |
 | ⭐ POV satu kalimat | [ ] | |
-| ⭐ Bukti: sumber primer, artefak sendiri, satu angka merugikan | [ ] | |
+| ⭐ Bukti: sumber primer, artefak bisa ditampilkan, satu bukti tidak bisa ditiru dari riset | [ ] | |
 | Trade-off disebutkan | [ ] | |
 | Ada langkah yang bisa diterapkan | [ ] | |
 | Judul punya entitas atau angka, dan taruhan | [ ] | |

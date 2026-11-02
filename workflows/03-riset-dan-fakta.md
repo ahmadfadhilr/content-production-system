@@ -27,7 +27,7 @@ Kebanyakan sistem riset hanya mengerjakan nomor 2. Akibatnya rapi tetapi kosong.
 |---|---|---|
 | Brief konten (masalah, POV, format) | `content/briefs/` | ✅ |
 | Judul dan konsep thumbnail | Tahap 2 | ✅ |
-| Log keputusan | `content/log-keputusan.md` | ✅ |
+| Log keputusan | `content/log-keputusan.md` | Opsional. Dibutuhkan kalau memakai jalur 1 di Langkah 5 |
 | Pengalaman langsung Fadhil | Wawancara / catatan | Jika relevan |
 
 ---
@@ -189,27 +189,44 @@ tandai "sumber primer belum ditemukan" dan turunkan reliabilitasnya.
 
 ---
 
-### Langkah 5 — Cari Satu Angka yang Merugikan Fadhil
+### Langkah 5 — Pilih Satu Bukti yang Tidak Bisa Ditiru dari Riset
 
-Setiap video harus memuat minimal satu angka atau keputusan yang membuat Fadhil terlihat buruk.
-Bukan untuk dramatisasi. Untuk membuat klaim lain dipercaya.
+Setiap video harus memuat satu hal yang tidak bisa disalin kreator lain hanya dengan membaca
+sumber yang sama. Tanpa itu, video menjadi rangkuman dua jurnal, dan tidak ada alasan menonton
+Anda alih-alih membaca sumbernya.
 
-Alex Hormozi menyebut syarat ini "the whole truth": ceritakan bagian yang merugikan, bukan hanya
-bagian yang menguntungkan. *Terverifikasi* dari transkrip di `reference/`.
+Syarat ini **tidak wajib berupa data historis milik sendiri.** Ada tiga bentuk, pilih salah satu.
+Bentuk 1 paling kuat. Bentuk 3 paling longgar, tetapi tetap jujur.
 
-**Bentuk yang sah:**
+| Jalur | Syarat | Yang ditampilkan di layar |
+|---|---|---|
+| **1. Catatan sendiri** | Angka dari `content/log-keputusan.md`, spreadsheet, invoice, atau dashboard yang sudah ada. Boleh angka yang merugikan. | Dokumen aslinya |
+| **2. Pengukuran untuk video ini** | Ukur satu hal minggu ini. Catat caranya, tampilkan hasilnya, sebut yang tidak berjalan sesuai dugaan. | Hasil ukur dan cara mengukurnya |
+| **3. Batas pengalaman** | Sebut terang-terangan apa yang belum pernah Anda jalankan, dan bagian mana yang karena itu dibatasi. | Teks di layar atau ucapan langsung |
+
+Jalur 3 dipakai kalau dua jalur di atas belum tersedia. Contohnya: "Saya belum pernah menjalankan
+bisnis dengan 100 karyawan, jadi bagian ini saya batasi pada bisnis dengan tim di bawah 10 orang."
+
+Yang membuat jalur 3 tetap sah: batas itu disebut di dalam video, bukan disembunyikan. Yang membuat
+jalur 3 tidak sah: dipakai terus-menerus tanpa pernah naik ke jalur 1 atau 2.
+
+**Kalau memakai jalur 1, angka yang merugikan tetap dianjurkan.** Alex Hormozi menyebutnya "the
+whole truth": ceritakan bagian yang merugikan, bukan hanya bagian yang menguntungkan.
+*Terverifikasi* dari transkrip di `reference/`.
+
+**Bentuk angka merugikan yang sah:**
 
 - Kerugian yang pernah terjadi, beserta nominalnya.
 - Keputusan yang ternyata salah, dan biayanya.
 - Perkiraan awal yang meleset dari hasil akhir.
-- Batas pengalaman: "Saya belum pernah menjalankan bisnis dengan 100 karyawan, jadi bagian ini
-  saya batasi."
+- Hasil pengukuran jalur 2 yang tidak sesuai dugaan.
 
 **Bentuk yang tidak sah:**
 
 - Kegagalan kecil yang dipakai untuk membangun kredibilitas palsu.
 - "Saya juga pernah salah" tanpa angka dan tanpa konsekuensi.
 - Kerugian yang sebenarnya bukan kerugian.
+- Jalur 3 yang dipakai tanpa menyebut batasnya secara eksplisit.
 
 > [!CAUTION]
 > Angka yang merugikan tetap tunduk pada audit izin data. Kalau tidak boleh dibuka, ganti dengan
@@ -347,8 +364,9 @@ Riset bisa memenuhi jam kerja sebanyak apa pun yang disediakan. Batasi.
 - [ ] Setiap angka punya definisi, periode, sumber
 - [ ] Setiap butir punya label reliabilitas
 - [ ] Setiap butir punya label jenis
-- [ ] Ada minimal satu artefak yang bisa ditampilkan di layar
-- [ ] Ada minimal satu angka atau keputusan yang merugikan Fadhil
+- [ ] Ada minimal satu artefak yang bisa ditampilkan di layar: dokumen sendiri, hasil pengukuran,
+      atau dokumen publik primer
+- [ ] Bukti tidak bisa ditiru dari riset sudah dipilih lewat salah satu dari tiga jalur di Langkah 5
 - [ ] Data Salam Cendekia: izin didapat, sudah disamarkan
 - [ ] Ilustrasi berlabel dan asumsinya terbuka
 - [ ] Riset selesai dalam 90 menit

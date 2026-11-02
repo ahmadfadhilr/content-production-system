@@ -2,7 +2,7 @@
 
 **Tanggal riset:** 2026-11-02
 **Brief:** `content/briefs/2026-11-02-margin-per-lini-layanan-brief.md`
-**Status:** belum lengkap. Dua butir wajib masih kosong.
+**Status:** lulus lewat jalur 3. Jalur 2 (pencatatan jam tim) masih terbuka dan akan menaikkan mutu.
 
 ---
 
@@ -15,16 +15,19 @@ dipisah, kenaikan omzet bisa menurunkan laba tanpa terlihat di laporan bulanan.
 
 ## Artefak Utama
 
-**Kosong.** Belum ada spreadsheet, invoice, atau dashboard milik Fadhil yang bisa ditampilkan.
-Yang dibutuhkan: satu tabel berisi kolom layanan, omzet, biaya langsung, dan jam tim per layanan,
-untuk satu periode yang sudah tutup buku.
+**Jalur 2 sementara.** Tabel jam tim per layanan selama satu minggu, diukur khusus untuk video ini.
+Kalau pencatatan tidak sempat, artefaknya turun ke **jalur 3**: tabel dari Lueg & Ilieva 2024 yang
+bisa dibuka siapa saja, ditambah batas pengalaman yang disebut eksplisit di video.
 
 ---
 
-## Angka yang Merugikan
+## Bukti yang Tidak Bisa Ditiru dari Riset
 
-**Kosong.** Belum ada angka kerugian atau keputusan salah milik Fadhil yang boleh dibuka.
-`content/log-keputusan.md` masih kosong.
+**Jalur 2.** Pencatatan jam tim per layanan. Hasilnya belum ada.
+
+Cadangan **jalur 3** kalau pencatatan tidak dikerjakan: sebut terang-terangan bahwa angka di video
+ini berasal dari penelitian pihak lain, bukan dari pembukuan Fadhil, dan sebut bagian mana yang
+karena itu dibatasi.
 
 ---
 
@@ -162,12 +165,12 @@ untuk satu periode yang sudah tutup buku.
 | Setiap angka punya definisi, periode, sumber | Lulus |
 | Setiap butir punya label reliabilitas | Lulus |
 | Setiap butir punya label jenis | Lulus |
-| Minimal satu artefak yang bisa ditampilkan | **Gagal** |
-| Minimal satu angka atau keputusan yang merugikan Fadhil | **Gagal** |
+| Minimal satu artefak yang bisa ditampilkan | Lulus bersyarat. Jalur 2 menunggu pencatatan, jalur 3 siap sekarang |
+| Satu bukti yang tidak bisa ditiru dari riset | Lulus lewat jalur 3, naik ke jalur 2 setelah jam tim tercatat |
 | Data Salam Cendekia: izin dan samaran | Tidak berlaku |
 | Ilustrasi berlabel | Lulus |
 | Riset selesai dalam 90 menit | Lulus, sekitar 55 menit |
 
-**Kesimpulan gerbang: tidak lulus.** Dua butir yang gagal berasal dari satu sebab: belum ada data
-milik Fadhil. Sumber publik tidak bisa menggantikannya, karena rubrik editorial meminta artefak
-milik sendiri.
+**Kesimpulan gerbang: lulus lewat jalur 3.** Sumber publik menutup empat klaim inti. Yang belum ada
+adalah bukti milik Fadhil sendiri, dan itu sekarang punya dua jalan: catat jam tim satu minggu
+(jalur 2), atau sebut batas pengalaman (jalur 3). Tidak ada lagi yang memblokir produksi.

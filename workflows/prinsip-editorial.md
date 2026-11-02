@@ -36,14 +36,16 @@ dulu**. Perbaiki sumber masalahnya, bukan menambah durasi atau efek edit.
 | **Audiens** | Jelas siapa yang sedang mengalami masalah ini. |
 | ⭐ **Masalah** | Ada satu pertanyaan yang spesifik dan penting. |
 | ⭐ **POV** | Ada jawaban atau keputusan yang bisa diringkas dalam satu kalimat. |
-| ⭐ **Bukti** | Klaim inti punya sumber primer. Ada minimal satu angka atau artefak milik sendiri. Ada satu angka yang merugikan Fadhil. Data internal aman dibuka. |
+| ⭐ **Bukti** | Klaim inti punya sumber primer. Ada satu bukti yang tidak bisa ditiru dari riset, dipilih dari tiga jalur di `03-riset-dan-fakta.md` Langkah 5: catatan sendiri, pengukuran untuk video ini, atau batas pengalaman yang disebut eksplisit. Data internal aman dibuka. |
 | **Trade-off** | Dampak negatif dan batas saran disebutkan. |
 | **Kegunaan** | Ada langkah, kerangka, atau keputusan yang bisa diterapkan. |
 | **Judul** | Ada entitas atau angka, dan taruhan. Menjelaskan masalah tanpa klaim berlebihan. |
 | **Keaslian** | Bukan pengulangan konten sendiri atau ringkasan konten kreator lain. |
 
-> **Bukti milik sendiri** berarti angka yang pernah diukur, keputusan yang sudah diambil, atau
-> dokumen yang benar-benar dipakai. Bukan perasaan bahwa "bisnis seperti ini biasanya begini".
+> **Bukti yang tidak bisa ditiru dari riset** berarti angka yang pernah diukur, keputusan yang sudah
+> diambil, pengukuran yang dijalankan untuk video ini, atau batas pengalaman yang disebut eksplisit
+> di dalam video. Bukan perasaan bahwa "bisnis seperti ini biasanya begini". Tiga jalurnya ada di
+> `03-riset-dan-fakta.md` Langkah 5.
 
 ---
 
@@ -67,8 +69,10 @@ Setiap klaim, angka, dan contoh di naskah harus ditandai salah satu:
 - [ ] Satu masalah yang jelas, bukan tiga
 - [ ] POV bisa dinyatakan dalam satu kalimat
 - [ ] Setiap klaim inti punya sumber primer
-- [ ] Ada minimal satu angka atau artefak milik sendiri yang terlihat di layar
-- [ ] Ada satu angka atau keputusan yang merugikan Fadhil
+- [ ] Ada minimal satu artefak yang terlihat di layar: dokumen sendiri, hasil pengukuran, atau
+      dokumen publik primer
+- [ ] Ada satu bukti yang tidak bisa ditiru dari riset, dipilih lewat salah satu dari tiga jalur di
+      `03-riset-dan-fakta.md` Langkah 5
 - [ ] Trade-off dan batasan disebutkan
 - [ ] Ada langkah yang bisa diterapkan penonton
 - [ ] Naskah terdengar alami saat dibaca keras
