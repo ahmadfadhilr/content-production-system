@@ -143,7 +143,7 @@ Kalau nomor 1 atau 2 dijawab "tidak", tulis ulang.
 
 > Semua judul di kolom kanan adalah ilustrasi untuk menunjukkan pola, bukan janji hasil.
 
-#### Empat Sudut sebagai Referensi
+#### Tiga Sudut sebagai Referensi
 
 Bukan kewajiban. Pakai kalau macet.
 
@@ -155,9 +155,6 @@ Bukan kewajiban. Pakai kalau macet.
 
 **3. Keputusan.** Pilihan yang sudah diambil, dengan trade-off.
 "Saya Tutup Lini Produk yang Menyumbang 22% Omzet. Ini Alasannya."
-
-**4. Skala pembanding.** Angka diletakkan di samping sesuatu yang sudah dikenal penonton.
-"Real Madrid 16 Kali Lebih Kecil dari Uniqlo, 68 Kali dari LVMH."
 
 > [!WARNING]
 > Sudut "curiosity gap" tidak lagi diwajibkan. Studi OverseerOS terhadap 3.357 video menemukan
@@ -432,7 +429,7 @@ Batas waktu: 30 menit. Kalau lewat, kembali ke Tahap 1.
 ## Catatan Fase Pilot
 
 1. **Uji pendekatan thumbnail berbeda setiap video.** Angka, kontras, wajah.
-2. **Uji sudut judul berbeda.** Pertentangan, taruhan, keputusan.
+2. **Uji sudut judul berbeda.** Pertentangan, taruhan, keputusan, skala pembanding.
 3. **Jangan A/B test thumbnail dulu.** Volume belum cukup.
 4. **Simpan opsi cadangan.** Bisa dipakai saat uji ulang 30 hari.
 5. **Belum ada baseline CTR.** Bandingkan empat video satu sama lain.
@@ -460,3 +457,7 @@ TAHAP 2: PENGEMASAN — CEKLIS
 □ Keputusan: lanjut / ubah sudut / ganti ide
 □ Dokumentasi di content brief
 ```
+
+---
+
+*Terakhir diperbarui: 2 November 2026*

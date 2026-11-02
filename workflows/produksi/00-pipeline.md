@@ -15,7 +15,7 @@ satu kalimat, satu bukti yang terlihat di layar.
 |---|---|---|---|---|
 | 1 | Ideasi | AI + Fadhil | Top N berskor, sudah masuk database | [`01-ideasi.md`](./01-ideasi.md) |
 | 2 | Pengemasan | AI + Fadhil | 5 judul → 2 dipilih, 1–2 sketsa thumbnail | [`02-pengemasan.md`](./02-pengemasan.md) |
-| 3 | Riset dan fakta | AI | Lembar fakta berlabel + artefak + angka yang merugikan | [`03-riset-dan-fakta.md`](./03-riset-dan-fakta.md) |
+| 3 | Riset dan fakta | AI | Lembar fakta berlabel + artefak + bukti yang tidak bisa ditiru dari riset | [`03-riset-dan-fakta.md`](./03-riset-dan-fakta.md) |
 | 4 | Naskah | AI | Naskah siap direkam, penanda visual lengkap | [`04-penulisan-naskah.md`](./04-penulisan-naskah.md) |
 | 5 | Rekaman | Fadhil | File mentah + room tone, sudah di-backup | [`05-rekaman.md`](./05-rekaman.md) |
 | 6 | Riset visual | AI + Fadhil | Artefak terekam, peta visual, lisensi dicek | [`06-riset-visual.md`](./06-riset-visual.md) |
@@ -30,8 +30,10 @@ Tahap 1–4 dan 10 boleh dikerjakan AI. Tahap 5 dan 7 hanya Fadhil.
 
 ## Lima Aturan yang Berlaku di Semua Tahap
 
-1. **Artefak wajib.** Setiap video memuat minimal satu angka, dokumen, atau keputusan milik sendiri
-   yang terlihat di layar. Bukan disebut. Kalau tidak ada, kembali ke Tahap 1.
+1. **Bukti yang terlihat wajib.** Setiap video memuat minimal satu artefak yang terlihat di layar,
+   bukan hanya disebut. Artefak boleh dari tiga jalur: catatan sendiri, pengukuran untuk video ini,
+   atau dokumen publik primer ditambah batas pengalaman yang disebut eksplisit. Aturannya di
+   `03-riset-dan-fakta.md` Langkah 5.
 2. **Satu konten, satu masalah.** Kalau satu ide menyentuh dua pilar, pecah jadi dua video.
 3. **Gerbang tidak boleh dilewati.** Kalau keluaran tahap sebelumnya belum ada, jangan lanjut.
    Menunda sehari lebih murah daripada menerbitkan tanpa bukti.

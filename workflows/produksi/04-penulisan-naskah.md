@@ -307,7 +307,7 @@ retention, conversion, leads, pipeline, cash flow, unit economics, break-even, b
 
 ### Langkah 1 — Review brief dan fact sheet
 
-Pastikan ada: judul, POV satu kalimat, audiens, format, artefak utama, angka yang merugikan.
+Pastikan ada: judul, POV satu kalimat, audiens, format, artefak utama, dan bukti yang tidak bisa ditiru dari riset.
 
 ### Langkah 2 — Pilih kerangka isi
 
@@ -438,7 +438,7 @@ kesalahan dari log yang belum masuk naskah.
 ### Langkah 14 — Final review
 
 - [ ] Hook bekerja?
-- [ ] Bukti pertama muncul sebelum detik 30, satu angka spesifik sebelum detik 60, dan ada satu angka spesifik sebelum detik 60?
+- [ ] Bukti pertama muncul sebelum detik 30, dan ada satu angka spesifik sebelum detik 60?
 - [ ] Janji satu kalimat, spesifik?
 - [ ] Tiga poin, bukan lima?
 - [ ] Setiap poin punya klaim, bukti, contoh, trade-off?
@@ -559,7 +559,7 @@ menambah layanan lagi, dan kapan angkanya berarti berhenti."
 |---|---|
 | Tahap 1 | Masalah audiens |
 | Tahap 2 | Judul, POV, format, konsep thumbnail |
-| Tahap 3 | Fakta, artefak, angka yang merugikan |
+| Tahap 3 | Fakta, artefak, bukti yang tidak bisa ditiru dari riset |
 
 | Ke | Yang dikirim |
 |---|---|
@@ -570,3 +570,7 @@ menambah layanan lagi, dan kapan angkanya berarti berhenti."
 ---
 
 *Terakhir diperbarui: 1 November 2026*
+
+---
+
+*Terakhir diperbarui: 2 November 2026*
