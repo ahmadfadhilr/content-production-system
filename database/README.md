@@ -18,6 +18,10 @@ Atau buka langsung:
 sqlite3 database/database.db "select * from ide_ringkas;"
 ```
 
+`ide_ringkas` adalah tampilan siap baca. Kolomnya sudah diringkas dan sudah
+diurutkan: `id`, `total`, `pri` (skor prioritas), `konsep`, `sudut`, `pil`,
+`fmt`, `status`, `median`, `celah`, `bukti`.
+
 ## Arti kolom
 
 | Kolom | Isi |
