@@ -50,6 +50,8 @@ dipenuhi isi video.
 - Setiap judul memuat satu jangkar konkret dan satu taruhan
 - Ada satu kalimat pembeda: kenapa penonton memilih video ini, bukan sumber yang sama
 - Ada 1–2 sketsa thumbnail untuk judul terbaik
+- Thumbnail terpilih diuji **berdampingan lima thumbnail hasil kueri utama** (Langkah 5), bukan
+  dibayangkan
 - Kombinasi terpilih lolos uji mobile 120 px
 - Semua opsi terdokumentasi di content brief
 
@@ -416,15 +418,32 @@ Konsep Thumbnail [A/B]:
 - Thumbnail: teks "NAIKKAN PROFIT" + panah naik
 - Mengulang informasi yang sama.
 
-#### Uji Feed
+#### Uji Feed — berdampingan, bukan dibayangkan
 
-Bayangkan kombinasi ini di antara 20 thumbnail lain.
+Uji ini tidak boleh dibayangkan. Bayangan selalu menang. Ambil lima thumbnail nyata yang bersaing,
+dari ID yang sudah dicatat waktu pindai di Tahap 1:
 
-- Stand out secara visual?
-- Dalam 2 detik saya paham videonya tentang apa?
-- Saya ingin tahu kelanjutannya?
+```bash
+# ID diambil dari keluaran `pindai-youtube.py -d` di Tahap 1
+for id in ID1 ID2 ID3 ID4 ID5; do
+  curl -s -o "thumb/$id.jpg" "https://i.ytimg.com/vi/$id/maxresdefault.jpg"
+done
+```
+
+Tempel thumbnail terpilih di antara kelimanya, lalu buka di layar ponsel selebar feed. Baru
+pertanyaan ini dijawab:
+
+- Apakah ia menonjol **karena** berbeda, bukan hanya karena lebih ramai?
+- Dalam 2 detik, apakah jelas videonya tentang apa dan untuk siapa?
+- Kalau kelima lainnya memakai wajah, apakah punyamu kalah tanpa wajah — atau menang justru
+  karena itu?
 - Orang yang belum punya bisnis paham rasa sakitnya tanpa perlu definisi?
 - Founder yang lebih matang melihat keputusan atau trade-off yang belum selesai?
+
+Kalau jawabannya "tidak menonjol", ubah thumbnailnya. Jangan menambah kata di judul untuk menutupi
+thumbnail yang lemah.
+
+Dasar dan contohnya: `content/analisis/2026-11-03-jake-trinder/` Temuan M.
 
 ---
 
