@@ -120,15 +120,31 @@ Kerjakan kalau waktu tersisa. Jangan menunda terbit karena ini.
 - **Kategori:** Education atau Howto & Style.
 - **Cards:** tautan ke video terkait.
 
-### 5. Komentar terpin
+### 5. Langkah berikutnya: memberi, bukan meminta
 
-Pilih satu:
+Sampai 3 November 2026, bagian ini hanya menyiapkan komentar terpin. Sekarang diperjelas: yang
+dipin harus terasa seperti **langkah paling berguna** bagi penonton, bukan ajakan mengambil sesuatu
+dari mereka. Dalam contoh Indonesia yang diperiksa, tawarannya menempel pada isi video itu sendiri
+— kelas yang topiknya persis video itu, atau buku yang sedang dijelaskan. Ini bukti arah, bukan
+aturan sebab-akibat untuk semua channel.
 
-1. Rangkuman: "Ringkasan: [3 poin]"
-2. Pertanyaan: "[pertanyaan yang memancing diskusi]"
-3. Sumber: "Sumber yang disebutkan: [URL]"
+Selama pilot **belum ada produk**, jadi "yang paling berguna berikutnya" adalah **artefak yang sudah
+terlihat di layar**: spreadsheet, tabel, atau template dari video itu.
 
-Pin dalam satu jam pertama.
+- Dibagikan tanpa diminta imbalan. Tidak ada email, tidak ada pendaftaran. Itu yang membedakannya
+  dari funnel leads, yang memang belum dipakai selama pilot.
+- Kalau artefaknya tidak aman dibuka, jangan dijadikan tawaran. Tawaran yang tidak bisa dipenuhi
+  lebih buruk daripada tidak ada tawaran.
+
+Komentar terpin — pilih satu:
+
+1. Artefak: "Tabel yang saya pakai di video ini: [tautan]"
+2. Rangkuman: "Ringkasan: [3 poin]"
+3. Pertanyaan: "[pertanyaan yang memancing diskusi]"
+4. Sumber: "Sumber yang disebutkan: [tautan]"
+
+Pin dalam satu jam pertama. Jangan menjual apa pun. Jalur monetisasi menunggu keputusan tujuan
+channel di `AGENTS.md`. Dasar: `content/analisis/2026-11-03-jake-trinder/` Temuan H.
 
 ### 6. Review akhir
 
@@ -230,6 +246,7 @@ performa di atas median channel.
 - [ ] Deskripsi 150 karakter pertama
 - [ ] Chapter
 - [ ] Caption diperiksa manual
+- [ ] Langkah berikutnya disiapkan: artefak di layar, bukan produk
 - [ ] Komentar terpin disiapkan
 
 **Opsional:**

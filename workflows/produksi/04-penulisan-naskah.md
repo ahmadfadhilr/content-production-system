@@ -137,6 +137,18 @@ Baru sekarang sebutkan apa yang akan didapat penonton.
 - Spesifik dan bisa dibuktikan isi video.
 - Jangan "Anda akan kaya" atau "rahasia sukses".
 - Sebut bentuk hasilnya: tiga angka, satu rumus, satu urutan langkah.
+- **Sebut juga di mana bagian paling bergunanya.** Kalau ada payoff di akhir, katakan posisinya:
+  "di akhir video, rumus shortcutnya". Ini yang menjawab "apakah sisanya layak waktu saya" dan
+  membuat penonton berkomitmen menunggu.
+
+> [!NOTE]
+> **Rencana lebih penting daripada kredensial.** Video bisnis Indonesia berperforma tinggi langsung
+> menyebut apa yang akan dibahas dan di mana payoff-nya, tanpa satu beat pun "kenapa saya layak
+> didengar". Contoh terukur: "aku bakal share cara hitung HPP untuk bisnis produk, untuk bisnis
+> jasa, **plus di akhir video aku bakal share rumus shortcut** hitung HPP biar kamu cukup hitung
+> satu kali aja sebulan". Fadhil juga tidak punya kredensial publik, dan pipeline melarang
+> perkenalan diri — beban membangun kepercayaan jatuh ke artefak, bukan ke kalimat kredensial.
+> Dasarnya: `content/analisis/2026-11-03-jake-trinder/` Temuan F.
 
 > [!NOTE]
 > **Janji boleh berbentuk pertanyaan.** Dari dua belas video berperforma tertinggi yang saya
