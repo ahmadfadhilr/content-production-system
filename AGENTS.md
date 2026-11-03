@@ -262,7 +262,10 @@ sinyal permintaan, celah pasokan, dan jenis bukti awal yang nyata.
 
 **Aturan utama:**
 - Mulai dari celah: sudut yang dicari orang tetapi belum dibahas mendalam di YouTube Indonesia.
-- Permintaan diukur, bukan dirasakan. Median tayangan 10 hasil teratas, tiga putaran per kueri.
+- Permintaan diukur, bukan dirasakan. Median tayangan 10 hasil teratas, tiga putaran per kueri,
+  setelah saringan relevansi, lalu dibandingkan dengan median channel pengucapnya.
+- Satu video outlier hanyalah petunjuk. Yang dicari bukti berulang di beberapa channel, dan bukti
+  negatif: video lokal serupa yang gagal.
 - Ada dua bentuk pintu masuk: ketidaktahuan dan gejala. Bentuk dipilih berdasarkan cara penonton
   mengalami masalahnya, bukan kuota pilar atau kuota bentuk.
 - Judul berada di level hasil atau gejala, bukan level mekanisme. Nama alat masuk isi video.
@@ -659,8 +662,9 @@ kemasan yang menjanjikan lebih dari isi adalah utang yang dibayar di video berik
 - Uji thumbnail A/B minimal 1–2 minggu. Jangan hentikan berdasarkan data hari pertama.
 - Catat post-mortem setiap video di `content/briefs/` memakai `templates/post-mortem.md`.
 
-**Gerbang keluaran:** ✅ Post-mortem selesai. Pelajaran dimasukkan ke `workflows/produksi/` yang
-relevan. Keputusan iterasi berikutnya (topik, format, atau teknis) dicatat.
+**Gerbang keluaran:** ✅ Post-mortem selesai, tiga proksi kepenuhan janji dibaca. Pelajaran
+dimasukkan ke `workflows/produksi/` yang relevan. Keputusan iterasi berikutnya (topik, format, atau
+teknis) dicatat.
 
 **SOP lengkap:** `workflows/produksi/10-evaluasi.md`
 
