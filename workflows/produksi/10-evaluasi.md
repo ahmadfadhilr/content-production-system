@@ -28,6 +28,26 @@ dan apa yang dihentikan.
 | **Kualitas audiens** | Komentar spesifik, pertanyaan lanjutan, DM dari pemilik bisnis | Apakah audiens target yang merespons? |
 | **Biaya produksi** | Jam riset + tulis + rekam + edit | Apakah format ini bisa diulang tanpa mengganggu pekerjaan utama? |
 
+### Proksi kepenuhan janji
+
+Sampai 3 November 2026, metrik di atas mengukur apakah video **ditemukan, diklik, dan ditonton lama**.
+Tidak satu pun menjawab pertanyaan yang lebih menentukan: apakah penonton **mendapat apa yang
+dijanjikan judulnya**. CTR dan AVD hari pertama adalah derau, dan "kepuasan" tidak punya angka
+publik. Karena itu dipakai tiga proksi, bukan metrik baru:
+
+| Proksi | Cara membacanya | Tanda gagal |
+|---|---|---|
+| **Komentar menyebut janji** | Ada komentar yang mengulang atau mengutip janji judul, bukan hanya "video bagus" | Komentar ramai tetapi tidak ada yang menyebut isi janjinya |
+| **Penonton kembali** | Penonton yang sama muncul lagi di video berikutnya | Video ini tinggi, video berikutnya jatuh ke audiens yang berbeda |
+| **Titik pergi** | Penonton pergi tepat sebelum atau sesudah bukti pertama | Banyak yang pergi di tengah hook — janji belum dibayar |
+
+Proksi pertama dan ketiga dibaca di YouTube Studio. Proksi kedua adalah alasan aturan 7 (satu
+penonton inti) ada: kalau video berikutnya jatuh, periksa dahulu apakah kemasannya menarik penonton
+yang berbeda sebelum menyimpulkan masalahnya ada pada isi video.
+
+Prinsipnya: **kemasan yang menjanjikan lebih dari isi adalah utang yang dibayar di video berikutnya.**
+Dasar: `content/analisis/2026-11-03-jake-trinder/` Temuan E dan G.
+
 ---
 
 ## Alur Kerja

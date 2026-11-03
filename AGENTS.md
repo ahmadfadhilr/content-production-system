@@ -282,10 +282,12 @@ content bank untuk cek duplikat, komentar dan pertanyaan audiens sebagai sinyal 
 diukur di level hasil dan dilengkapi preseden kemasan yang dekat; keduanya tidak disajikan sebagai
 prediksi tayangan. Kandidat utama dan maksimal
 dua cadangan masing-masing punya masalah audiens, keputusan, sinyal permintaan, celah lokal, jenis
-bukti, **judul kerja, teks thumbnail**, dan alasan keputusan. Judul kerja adalah kalimat yang layak
+bukti, **judul kerja, teks thumbnail**, bukti negatif (minimal dua video lokal serupa yang gagal),
+dan alasan keputusan. Judul kerja adalah kalimat yang layak
 muncul di feed, bukan ringkasan topik; jangkarnya harus sudah ada, bukan dijanjikan. Hasil disimpan
 di `content/pindai/pindai-topik-[tanggal].md`, lalu ide hidup masuk ke `database/database.db` lewat
-`tools/tambah-ide.py`. Skor hanya mengurutkan; gerbang menentukan kandidat utama.
+`tools/tambah-ide.py`. Skor hanya mengurutkan; gerbang menentukan kandidat utama. Sumber permintaan
+disaring relevansi dan dibandingkan dengan median channel pengucapnya, bukan median kueri mentah.
 
 **Batas tahap ini:** belum ada sketsa thumbnail, desain, atau naskah. Satu judul kerja per kandidat,
 bukan lima — lima opsi milik Tahap 2.
@@ -322,7 +324,8 @@ naskah. Bahan awalnya sudah ada dari Tahap 1.
 **Gerbang keluaran:** ✅ Lima opsi judul, dua dipertahankan, ditambah 1–2 sketsa thumbnail untuk
 judul terbaik. Opsi pertama adalah judul kerja dari Tahap 1, ditulis apa adanya sebelum
 dibandingkan. Minimal satu kombinasi lolos uji lima detik: ada jangkar konkret, ada taruhan, ada
-pertentangan, dan bisa dipenuhi isi video.
+pertentangan, dan bisa dipenuhi isi video. Thumbnail terpilih diuji berdampingan lima thumbnail
+hasil kueri utama, bukan dibayangkan.
 
 **SOP lengkap:** `workflows/produksi/02-pengemasan.md`
 
@@ -568,7 +571,7 @@ A5–A6 : Musik (stereo)
 - [ ] Deskripsi body: 150–200 kata, kata kunci turunan alami, tanpa spam
 - [ ] Chapter untuk setiap bagian utama
 - [ ] Subtitle/caption diperiksa manual (auto-caption akurasi 70–85% untuk bahasa Indonesia)
-- [ ] Komentar terpin: rangkuman isi atau pertanyaan diskusi
+- [ ] Komentar terpin: artefak di layar (pemberian), atau rangkuman, atau pertanyaan diskusi
 
 **Opsional, jangan menunda terbit:**
 - [ ] Tags: 5–8, kata kunci utama pertama
@@ -644,10 +647,15 @@ sendiri.
 | Kualitas audiens | Komentar spesifik, pertanyaan lanjutan, DM dari pemilik bisnis | Apakah audiens target yang merespons? |
 | Biaya produksi | Jam riset + tulis + rekam + edit | Apakah bisa diulang tanpa mengganggu pekerjaan utama? |
 
+**Proksi kepenuhan janji** (bukan metrik baru): komentar yang menyebut janji judul; penonton yang
+sama kembali di video berikutnya; titik pergi tepat sebelum atau sesudah bukti pertama. Prinsipnya:
+kemasan yang menjanjikan lebih dari isi adalah utang yang dibayar di video berikutnya.
+
 **Aturan evaluasi:**
 - Belum ada baseline. Jangan tetapkan target arbitrer. Bandingkan video satu sama lain.
 - CTR tinggi + bounce langsung lebih buruk daripada CTR sedang + retensi tinggi.
 - Komentar dari pemilik bisnis yang bertanya lebih berharga daripada 1.000 likes acak.
+- Kalau video meledak lalu video berikutnya jatuh, curigai penontonnya berbeda, bukan videonya.
 - Uji thumbnail A/B minimal 1–2 minggu. Jangan hentikan berdasarkan data hari pertama.
 - Catat post-mortem setiap video di `content/briefs/` memakai `templates/post-mortem.md`.
 
