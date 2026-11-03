@@ -561,6 +561,20 @@ Gunakan `skor_prioritas_konsep` hanya untuk menunjukkan dampak masalah jika dibi
 
 Kandidat yang lolos semua gerbang dengan skor tertinggi menjadi **utama**. Simpan maksimal dua berikutnya sebagai **cadangan**. Kandidat lain diberi status `perlu perbaikan`, `ditunda`, `digabung`, atau `gugur` beserta satu alasan.
 
+**Status khusus: `taruhan` (paling banyak satu per empat video).** Kandidat yang gagal **hanya** di
+gerbang permintaan boleh diberi label `taruhan`, dengan tiga syarat: bukti negatifnya sudah
+diperiksa dan dicatat, pembedanya bisa disebut satu kalimat, dan alasannya ditulis di berkas pindai.
+Ia tidak boleh melanggar gerbang lain, termasuk aturan 7 (satu penonton inti). Taruhan bukan izin
+mengerjakan ide mati; ia cara mengizinkan pasar menguji dugaan yang belum terbaca di data. Hasilnya
+wajib dibandingkan dan dicatat di post-mortem.
+
+> `taruhan` adalah label di **berkas pindai**, bukan nilai baru di kolom `status` database. Kolom
+> `status` tetap hanya `siap`, `perlu perbaikan`, `ditunda`, `gugur`, atau `digabung`
+> (lihat `database/skema.sql`). Ide taruhan masuk database sebagai `siap`, dengan
+> `alasan_keputusan` yang menyebut bahwa ia lolos sebagai pengecualian permintaan.
+
+Bukti dan dasar: `content/analisis/2026-11-03-jake-trinder/` Temuan N.
+
 ### 7. Catat hasil dan serahkan ke Tahap 2
 
 Simpan hasil pindai di `content/pindai/pindai-topik-[tanggal].md`, lalu masukkan kandidat yang masih hidup ke database melalui `tools/tambah-ide.py`.
