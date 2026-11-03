@@ -70,9 +70,10 @@ disetujui apa adanya.
    atau batas yang memberi kedalaman bagi operator yang lebih matang.
 7. **Satu penonton inti.** Semua video channel ini harus bisa ditonton oleh penonton yang sama.
    Yang berubah antar video adalah kemasan dan format — bukan audiens sasarannya. Hit di luar topik
-   dibayar mahal: ia mendatangkan penonton yang melewati video berikutnya. Diukur pada 3 November
-   2026, tiga channel Indonesia menunjukkan pola ini, termasuk channel yang video bisnisnya kalah
-   jauh dari video motivasinya. Bukti: `content/analisis/2026-11-03-jake-trinder/` Temuan E.
+   berisiko mendatangkan penonton yang melewati video berikutnya. Diukur pada 3 November 2026, tiga
+   channel Indonesia menunjukkan pola ini, termasuk channel yang video bisnisnya kalah jauh dari
+   video motivasinya. Ini pola peringatan, bukan bukti sebab-akibat.
+   Bukti: `content/analisis/2026-11-03-jake-trinder/` Temuan E.
 8. **Bukti negatif wajib.** Setiap kandidat membawa minimal dua video lokal dengan topik atau format
    serupa yang tampil **di bawah median**, beserta dugaan sebabnya. Riset yang hanya membaca
    pemenang bisa membuktikan ide buruk apa pun. Satu format judul yang sama di Indonesia terbentang
@@ -106,7 +107,7 @@ Bagian ini ada supaya tidak ada yang membuka ulang perdebatan yang sama.
 | **Median kueri bukan lagi gerbang tunggal; bukti berulang yang menentukan** | Satu video outlier hanyalah petunjuk. Topik yang lolos karena satu video 45× median channelnya gagal saat diverifikasi dengan kueri baru (median 38.121, satu video di atas 100 ribu). Yang dicari: topik yang berulang di beberapa channel. Bukti: Temuan A dan B. |
 | **Bukti negatif menjadi syarat, bukan pelengkap** | Tanpa itu, riset hanya bisa mengonfirmasi apa yang sudah dipilih. Format judul "cara menghitung HPP" yang sama menghasilkan 238.893 dan 308 tayangan. Bukti: Temuan C. |
 | **Gerbang permintaan dibaca sebagai prioritas, bukan larangan** | Pasar memberi putusan akhir. Satu slot taruhan per empat video menjaga disiplin tetap ada sambil mengizinkan pasar menguji dugaan yang belum terbaca di data. Taruhan tidak boleh mengubah aturan 7 (satu penonton inti). Bukti: Temuan N. |
-| **Satu penonton inti per channel** | Channel adalah satu kampanye; video adalah kampanye per video. Hit di luar topik menarik penonton yang tidak kembali. Bukti: Temuan E. |
+| **Satu penonton inti per channel** | Channel adalah satu kampanye; video adalah kampanye per video. Hit di luar topik berisiko menarik penonton yang tidak kembali. Bukti: Temuan E. |
 | **Bukti tipe A tidak diwajibkan** | Video boleh memakai catatan sendiri, pengukuran untuk video ini, atau dokumen publik primer. |
 | **Pembeda diuji di Tahap 2, bukan di Tahap 3** | Sampai 3 November 2026, Tahap 3 menagih "bukti yang tidak bisa ditiru dari riset". Syarat itu mencampur kebenaran klaim dengan pembeda, dan tidak bisa dipenuhi selama `content/log-keputusan.md` kosong. Sekarang kebenaran klaim diuji di Tahap 3 lewat sumber primer, dan pembeda diuji di Tahap 2 lewat satu kalimat. |
 | **"Bukti" di pembuka berarti artefak, bukan kredensial** | Di pasar Indonesia, video bisnis berperforma tinggi langsung mengajar dan tidak menyisipkan beat otoritas. Fadhil juga tidak punya kredensial publik, dan pipeline melarang perkenalan diri. Yang menjawab "kenapa dengar orang ini" adalah artefak miliknya sendiri. Bukti: Temuan F. |
