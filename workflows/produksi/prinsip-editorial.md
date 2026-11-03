@@ -24,6 +24,10 @@
 7. **Jujur soal batas pengalaman.** Bedakan pengalaman sendiri, contoh perusahaan lain, fakta
    publik, dan hipotesis. Jangan membuat klaim yang tidak bisa diverifikasi.
 
+8. **Dekat tanpa menjadi dangkal.** Mulai dari situasi yang dikenali banyak orang, lalu bawa
+    penonton ke keputusan nyata dan batasnya. Jangan memulai dari istilah seperti CAC, retensi,
+    atau unit economics sebelum masalahnya terasa.
+
 ---
 
 ## Rubrik Sebelum Terbit
@@ -34,12 +38,14 @@ dulu**. Perbaiki sumber masalahnya, bukan menambah durasi atau efek edit.
 | Pemeriksaan | Lulus jika |
 |---|---|
 | **Audiens** | Jelas siapa yang sedang mengalami masalah ini. |
+| **Akses** | Pintu masuk dipahami tanpa jargon; keputusan tetap ditujukan kepada audiens utama. |
+| **Kedalaman** | Ada ukuran, trade-off, atau batas yang membuat video tetap berguna bagi operator matang. |
 | ⭐ **Masalah** | Ada satu pertanyaan yang spesifik dan penting. |
 | ⭐ **POV** | Ada jawaban atau keputusan yang bisa diringkas dalam satu kalimat. |
 | ⭐ **Bukti** | Klaim inti punya sumber primer. Ada satu bukti yang tidak bisa ditiru dari riset, dipilih dari tiga jalur di `03-riset-dan-fakta.md` Langkah 5: catatan sendiri, pengukuran untuk video ini, atau batas pengalaman yang disebut eksplisit. Data internal aman dibuka. |
 | **Trade-off** | Dampak negatif dan batas saran disebutkan. |
 | **Kegunaan** | Ada langkah, kerangka, atau keputusan yang bisa diterapkan. |
-| **Judul** | Ada entitas atau angka, dan taruhan. Menjelaskan masalah tanpa klaim berlebihan. |
+| **Judul** | Ada jangkar konkret dan taruhan. Menjelaskan masalah tanpa klaim berlebihan. |
 | **Keaslian** | Bukan pengulangan konten sendiri atau ringkasan konten kreator lain. |
 
 > **Bukti yang tidak bisa ditiru dari riset** berarti angka yang pernah diukur, keputusan yang sudah
@@ -87,6 +93,19 @@ Setiap klaim, angka, dan contoh di naskah harus ditandai salah satu:
 - Istilah bisnis yang umum boleh langsung: KPI, SOP, OKR, CAC, funnel, margin.
 - Jika istilah harus dijelaskan, ganti dengan kata biasa.
 - Uji: kalau dibaca sekali dan tidak langsung dipahami, tulis ulang.
+- Naskah adalah ucapan Fadhil, bukan ringkasan artikel atau presentasi. Pakai kata yang memang
+  biasa dipakai saat menjelaskan sesuatu kepada satu pemilik bisnis.
+- Variasikan panjang kalimat dan beri ruang untuk jeda. Jangan menjadikan setiap kalimat slogan.
+- Penghubung seperti “nah”, “tapi”, “jadi”, dan “masalahnya” boleh dipakai untuk alur, bukan sebagai
+  pengisi otomatis.
+- Jangan mengarang cerita, emosi, atau keputusan pribadi. Kalau bukti personal belum ada, akui
+  batas pengalaman dan beri label ilustrasi pada contoh buatan.
+- Pertahankan suara Fadhil; pelajari kreator rujukan dari kekuatan bukti, alur, dan kejelasan, bukan
+  dengan meniru diksi, persona, atau ritme khas mereka.
+- Naskah lulus uji suara setelah dibaca keras-keras dan direvisi pada bagian yang terasa kaku,
+  sulit diucapkan, atau baru jelas ketika dibaca.
+- Jangan memakai istilah bisnis sebagai pintu masuk. Sebut keadaan yang terlihat lebih dulu,
+  kemudian beri nama konsepnya saat penonton sudah memahami masalahnya.
 
 ---
 

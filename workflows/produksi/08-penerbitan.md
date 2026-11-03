@@ -14,7 +14,7 @@ SEO. Yang menentukan video ditemukan dan ditonton:
 
 1. Thumbnail
 2. Judul
-3. 30 detik pertama
+3. Menit pertama
 4. End screen
 5. Deskripsi dan chapter
 
@@ -63,13 +63,13 @@ sering muncul: "nanti saja setelah video terbit". Itu tidak pernah terjadi.
 
 - Pakai judul terpilih dari Tahap 2.
 - Total di bawah 70 karakter.
-- Ada entitas atau angka, dan taruhan.
+- Ada jangkar konkret dan taruhan.
 - Jangan menambah klaim baru saat unggah.
 
-#### Tingkat 3 — 30 detik pertama
+#### Tingkat 3 — Menit pertama
 
-- Tonton 30 detik pertama sebelum terbit.
-- Bukti pertama muncul sebelum detik 30?
+- Tonton menit pertama sebelum terbit.
+- Bukti pembuka dikenali penonton? Satu angka spesifik sebelum detik 60?
 - Tidak ada sapaan?
 - Kalau tidak lulus, kembali ke editing. Jangan terbitkan dengan harapan "nanti naik sendiri".
 
@@ -227,7 +227,7 @@ performa di atas median channel.
 
 - [ ] Thumbnail teruji di ponsel
 - [ ] Judul dari Tahap 2, di bawah 70 karakter
-- [ ] 30 detik pertama lulus (bukti muncul, tanpa sapaan)
+- [ ] Menit pertama lulus (bukti pembuka dikenali, satu angka sebelum detik 60, tanpa sapaan)
 - [ ] End screen terpasang
 - [ ] Deskripsi 150 karakter pertama
 - [ ] Chapter
@@ -254,7 +254,7 @@ performa di atas median channel.
 ## Kesalahan Umum
 
 - Menunda terbit karena tag dan hashtag belum lengkap.
-- Mengunggah tanpa memeriksa 30 detik pertama.
+- Mengunggah tanpa memeriksa menit pertama.
 - Tidak memotong klip sebelum terbit, lalu Tahap 9 tidak pernah jalan.
 - Memeriksa angka pada dua jam pertama.
 - Menulis deskripsi terburu-buru setelah unggah.

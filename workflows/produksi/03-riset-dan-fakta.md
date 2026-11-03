@@ -79,11 +79,15 @@ Kebanyakan sistem riset hanya mengerjakan nomor 2. Akibatnya rapi tetapi kosong.
 
 ### Langkah 1 — Baca Brief dan Tulis Ulang POV
 
+- **Pintu masuk:** situasi yang dapat dipahami tanpa istilah bisnis.
 - **Masalah audiens:** pertanyaan spesifik yang dijawab video ini.
 - **POV:** posisi Fadhil.
+- **Ketegangan lanjut:** ukuran, trade-off, atau batas yang perlu diuji untuk operator yang lebih matang.
 - **Format:** Decision Notes / Business Breakdown / Operating Playbook.
 
-Tulis POV dalam satu kalimat. Kalau tidak bisa, kembali ke Tahap 1.
+Tulis POV dalam satu kalimat. Pastikan bukti dapat menjelaskan pintu masuk tanpa membuatnya
+terasa seperti contoh kosong, dan dapat menjawab ketegangan lanjut tanpa menambah jargon. Kalau
+tidak bisa, kembali ke Tahap 1.
 
 ---
 

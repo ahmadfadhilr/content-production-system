@@ -1,331 +1,188 @@
-# Naskah — Satu Layanan Pakai [J]% Jam Tim, Omzetnya [O]%
+# Margin per Lini Layanan: Omzet Besar Belum Tentu Paling Menguntungkan
 
-**Tanggal:** 2026-11-02
-**Format:** Decision Notes (PAS)
-**Target durasi:** 8–10 menit. Saat ini 944 kata terucap, sekitar 6,5 menit.
-**Brief:** `content/briefs/2026-11-02-margin-per-lini-layanan-brief.md`
-**Lembar fakta:** `content/briefs/2026-11-02-margin-per-lini-layanan-fakta.md`
+**Tanggal:** 2026-11-02  
+**Format:** Decision Notes  
+**Perkiraan durasi:** sekitar 7 menit pada 150 kata/menit, sebelum jeda visual. Ukur dengan memo suara; jangan menambah isi hanya untuk mengejar durasi.  
+**Brief:** `content/briefs/2026-11-02-margin-per-lini-layanan-brief.md`  
+**Lembar fakta:** `content/briefs/2026-11-02-margin-per-lini-layanan-fakta.md`  
+**Jalur bukti:** 3. Belum ada pengukuran jam tim atau hasil pembukuan per lini dari Fadhil.
 
-> [!WARNING]
-> **Status: belum siap direkam dalam bentuk jalur 2.** Tiga slot menunggu data: `[J]`, `[O]`, dan
-> `[SATU-KALIMAT]`. Kalau pencatatan jam tim tidak dikerjakan, pakai **versi jalur 3** di bagian
-> paling bawah naskah ini. Jangan merekam angka karangan.
-
----
-
-## HOOK (0–5 detik)
-
-Satu layanan pakai [J] persen jam tim saya. Omzetnya cuma [O] persen.
+> **Catatan status:** Ini versi naskah yang bisa diuji dengan bukti publik dan ilustrasi berlabel.
+> Jangan gunakan judul atau kalimat yang menyiratkan Fadhil sudah mengukur margin per layanan.
+> Setelah pembacaan suara, hitung durasi sebenarnya. Jangan menambah cerita pribadi atau angka untuk
+> mengejar target menit.
 
 ---
 
-## BUKTI PERTAMA (5–30 detik)
+## Naskah
 
-Ini tabel jam tim saya minggu lalu. Kolom pertama nama layanan. Kolom kedua jam tim. Kolom ketiga
-porsi omzet.
+### Pembuka
 
-Baris ini saya tandai. Jam timnya paling banyak di seluruh tabel. Porsi omzetnya paling kecil.
+Kalau satu layanan paling ramai, apa berarti layanan itu paling menguntungkan?
 
-`[SCREEN-REC: tabel jam tim per layanan, satu baris ditandai merah]`
+Belum tentu.
 
-Setahun saya tidak melihatnya. Karena yang saya buka setiap bulan cuma satu angka di paling bawah:
-total omzet.
+Dua layanan bisa sama-sama menghasilkan omzet Rp2 juta, tapi satu menghabiskan dua jam kerja tim
+sementara yang lain menghabiskan enam jam. Kalau jam kerja itu tidak masuk hitungan per layanan,
+keduanya kelihatan sama-sama menyisakan Rp1 juta.
+
+Padahal belum tentu.
+
+`[GRAFIS — ILUSTRASI: dua layanan dengan omzet dan biaya langsung sama; jam tim 2 jam vs 6 jam]`
+`[TEKS-LAYAR: “ILUSTRASI, bukan data Fadhil”]`
+
+Saya belum menghitung margin tiap layanan di bisnis saya sendiri. Jadi saya tidak akan bilang,
+“Ini yang terjadi di bisnis saya.” Yang bisa saya tunjukkan adalah cara membaca hitungan itu, dan
+batasnya.
+
+### Pertanyaan yang sedang kita jawab
+
+Masalahnya, laporan bulanan sering menjawab pertanyaan, “Bulan ini uang masuk dan keluar berapa?”
+Tapi belum tentu bisa menjawab, “Layanan mana yang memakai paling banyak waktu dan biaya?”
+
+Dua pertanyaan itu beda.
+
+Di studi lapangan yang terbit di PLOS ONE pada 2024, Rainer Lueg dan Dima Ilieva meneliti praktik
+menghitung laba pelanggan di enam unit bisnis sebuah perusahaan manufaktur B2B di Eropa. Mereka
+menemukan bahwa pendapatan dan pemakaian sumber daya tidak terbagi rata antar pelanggan, bahkan
+ketika pelanggannya membeli produk yang sama.
+
+Itu temuan tentang pelanggan di perusahaan tersebut. Bukan bukti langsung tentang lini layanan di
+bisnis kecil Indonesia. Saya pakai logikanya sebagai pertanyaan untuk diperiksa, bukan sebagai
+kesimpulan bahwa semua bisnis jasa punya pola yang sama.
+
+`[SCREEN-REC — bagian studi yang menjelaskan tiga tingkat analisis laba pelanggan]`
+`[TEKS-LAYAR: “Studi: manufaktur B2B, Eropa, 6 unit bisnis”]`
+
+### 1. Omzet belum menjawab berapa banyak sumber daya yang dipakai
+
+Coba kembali ke contoh dua layanan tadi. Omzetnya sama. Biaya langsungnya juga sama. Tapi satu
+layanan memerlukan tiga kali lebih banyak jam tim.
+
+Kalau jam itu memang kapasitas yang dibayar bisnis setiap bulan, perbedaan tersebut patut diperiksa.
+Bukan berarti kita langsung bisa menempelkan harga yang tepat untuk setiap jam. Tapi kita jadi tahu
+bahwa angka “sisa setelah biaya langsung” belum menceritakan seluruh beban layanan itu.
+
+Ada satu hal yang sering tercampur di sini: margin kotor dan laba setelah biaya lain diperhitungkan
+bukan angka yang sama. Dalam studi tadi, tingkat paling sederhana hanya mengurangi pendapatan
+pelanggan dengan biaya langsung. Biaya tidak langsung yang khusus untuk pelanggan belum masuk.
+
+Untuk bisnis jasa, jam tim bisa menjadi petunjuk awal tentang beban kerja. Tapi jam saja belum
+menjadi margin. Kita masih perlu tahu biaya mana yang benar-benar berubah karena layanan itu, biaya
+mana yang dipakai bersama, dan bagaimana cara membaginya.
+
+`[GRAFIS — tiga lapisan: pendapatan dikurangi biaya langsung; tambah indikator beban kerja; baru
+alokasi biaya tidak langsung]`
+
+Jadi kalau saat ini kamu hanya punya omzet per layanan, jangan langsung menyebutnya profit. Sebut
+saja omzet. Itu tetap berguna, cuma menjawab pertanyaan yang lebih sempit.
+
+### 2. Mulai dengan ukuran sederhana, tapi jangan menyamaratakan hasilnya
+
+Penulis studi itu mengelompokkan praktik analisis menjadi tiga tingkat.
+
+Tingkat pertama: pendapatan dikurangi biaya langsung.
+
+Tingkat kedua: tambahkan informasi non-keuangan yang membantu menjelaskan beban layanan. Misalnya,
+berapa kali pelanggan perlu dibantu, seberapa rumit permintaannya, atau berapa banyak revisi yang
+dibutuhkan.
+
+Tingkat ketiga: coba alokasikan biaya tidak langsung yang memang berkaitan dengan pelanggan atau
+layanan tersebut.
+
+Urutannya masuk akal untuk dipakai sebagai cara berpikir. Mulai dari yang sudah tercatat, lalu
+periksa beban kerja, baru pertimbangkan pembagian biaya bersama.
+
+Tapi jangan anggap pembagian biaya di tingkat ketiga sebagai angka pasti. Kalau biaya itu dipakai
+bersama banyak layanan, hasilnya bergantung pada aturan pembagian yang kita pilih. Bisa berdasarkan
+jam, jumlah transaksi, jumlah pelanggan, atau ukuran lain. Pilihan itu bisa mengubah hasil.
+
+`[TEKS-LAYAR: “Biaya langsung → beban kerja → biaya bersama”]`
+
+Contohnya, biaya administrasi bulanan mungkin mendukung beberapa layanan sekaligus. Membaginya
+rata per layanan akan memberi jawaban berbeda dari membaginya berdasarkan jumlah transaksi. Tidak
+otomatis salah satu benar untuk semua keputusan. Yang penting, kita tahu aturan yang dipakai dan
+tidak menyebut hasilnya sebagai kebenaran mutlak.
+
+Di studi yang sama, para praktisi juga menyebut alokasi biaya melibatkan banyak perkiraan. Jadi
+semakin rumit hitungannya, semakin penting menjelaskan asumsi di baliknya.
+
+Kalau bisnis masih kecil, mulai dari tabel sederhana saja:
+
+- nama layanan;
+- omzet atau porsi omzet;
+- jam kerja yang benar-benar tercatat;
+- biaya langsung yang bisa ditelusuri.
+
+Jangan masukkan angka yang tidak kamu punya. Kosong lebih jujur daripada perkiraan yang kelihatan
+rapi.
+
+`[GRAFIS — contoh tabel kosong; beri label “format kerja”, bukan data aktual]`
+
+### 3. Angka ini membantu bertanya, bukan memutuskan sendirian
+
+Lalu, kalau satu layanan tampak menyerap banyak waktu dan menyisakan sedikit, apakah harus
+dihentikan?
+
+Belum tentu.
+
+Dalam studi tersebut, salah satu direktur controlling memperingatkan bahwa keputusan besar
+berbahaya jika hanya didasarkan pada satu hitungan laba. Ini pendapat seorang praktisi di konteks
+perusahaan yang diteliti, bukan aturan universal. Tapi sebagai kehati-hatian, masuk akal: satu
+angka bisa menunjukkan ada sesuatu yang perlu diperiksa, bukan otomatis memberi tahu tindakan
+terbaik.
+
+Mungkin layanan itu memang perlu diperbaiki harganya. Mungkin prosesnya terlalu banyak revisi.
+Mungkin layanan tersebut membuka jalan ke layanan lain. Atau mungkin ia memang tidak cocok lagi
+dipertahankan. Kita perlu melihat konteks sebelum memilih.
+
+Sebelum mengubah atau menghentikan layanan, cek tiga hal.
+
+Pertama, apa yang membuat layanan ini memakai banyak waktu? Catatan jadwal, jumlah revisi, dan
+permintaan bantuan bisa membantu menjawabnya.
+
+Kedua, apakah pelanggan dari layanan ini juga memakai layanan lain? Kalau iya, lihat hubungan itu
+dengan data yang benar-benar ada. Jangan berasumsi pelanggan pasti akan membeli layanan berikutnya.
+
+Ketiga, apa pilihan selain menghentikan layanan? Misalnya mengubah harga, memperjelas batas revisi,
+atau merapikan proses. Bandingkan dampaknya sebelum mengambil keputusan.
+
+`[TEKS-LAYAR: “Cari penyebab → cek hubungan → bandingkan pilihan”]`
+
+Dan kalau tidak ada bukti bahwa layanan tersebut membawa pelanggan ke layanan lain, jangan pakai
+alasan itu untuk membenarkan kerugian terus-menerus. Itu juga harus diuji, bukan diasumsikan.
+
+### Penutup
+
+Omzet per layanan berguna, tapi belum cukup untuk tahu layanan mana yang paling sehat. Jam kerja
+bisa membantu menunjukkan beban yang selama ini tidak terlihat, sementara pembagian biaya bersama
+selalu membawa asumsi.
+
+Minggu ini, pilih satu atau dua layanan yang paling ingin kamu pahami. Catat omzet, biaya langsung,
+dan jam kerja yang memang tercatat. Tandai mana angka asli dan mana yang masih perkiraan. Setelah
+itu baru putuskan pertanyaan berikutnya.
+
+Saya belum melakukan pengukuran per layanan ini di bisnis saya, jadi saya belum punya hasil pribadi
+yang bisa dibagikan. Kalau kamu pernah membuat hitungan seperti ini, bagian mana yang paling sulit
+dicatat: jam kerja, biaya langsung, atau biaya bersama?
 
 ---
 
-## JANJI (30–40 detik)
-
-Di video ini saya tunjukkan tiga cara membaca tabel ini sebelum menambah layanan lagi.
-
-Dan satu tanda bahwa angkanya sudah bilang berhenti.
-
----
-
-## ISI UTAMA
-
-### Poin 1 — Omzet bukan margin
-
-**KLAIM**
-
-Layanan yang paling ramai belum tentu yang membayar gaji tim.
-
-**BUKTI**
-
-Ada studi tahun 2024 yang meneliti ini. Penulisnya Rainer Lueg dan Dima Ilieva, terbit di PLOS ONE,
-jurnal peer review yang bisa dibuka siapa saja.
-
-Kalimat kuncinya begini. Pendapatan dan pemakaian sumber daya tidak tersebar merata antar
-pelanggan, walaupun mereka membeli produk yang sama.
-
-Artinya dua pelanggan bisa memberi uang yang sama, tetapi memakai biaya yang berbeda. Yang satu
-banyak bertanya lewat chat. Yang satu langsung bayar dan pergi.
-
-`[GRAFIS: dua pelanggan, omzet sama, biaya berbeda]`
-
-Sekarang saya harus jujur soal batasnya. Studi itu meneliti pelanggan, bukan lini layanan. Saya
-meminjam logikanya untuk lini layanan. Jadi bagian ini simpulan saya, bukan temuan mereka.
-
-**CONTOH**
-
-Ilustrasinya begini. Bisnis jasa punya dua lini.
-
-Lini A omzetnya besar. Biaya langsungnya juga besar. Marginnya tipis.
-Lini B omzetnya kecil. Biaya langsungnya kecil. Marginnya tebal.
-
-Kalau biaya tak langsung dibagi rata menurut omzet, lini A terlihat paling menguntungkan. Padahal
-yang membiayai lini A justru lini B.
-
-Kenapa ini tidak kelihatan di laporan? Karena laporan bulanan biasanya disusun per jenis biaya,
-bukan per layanan. Barisnya gaji, sewa, platform, materi.
-
-Tidak ada satu baris pun yang bertanya layanan mana yang memakai gaji itu. Jadi pertanyaan lini
-mana yang membiayai lini lain tidak bisa dijawab dari laporan yang ada.
-
-Bukan karena datanya salah. Karena laporannya disusun untuk pertanyaan lain.
-
-**TRADE-OFF**
-
-Menghitung per lini itu kerjaan. Tidak selesai dalam satu malam.
-
-Di satu unit bisnis dalam studi tadi, 83 persen penjualan datang dari pelanggan yang biayanya
-terlalu mahal untuk dihitung. Mereka memilih tidak menghitung.
-
-Itu pilihan yang sah. Selama kamu tahu apa yang kamu lewatkan.
-
-> **TITIK CATAT (menit 2)**
-> Kalau kamu cuma punya satu angka di bisnismu, itu omzet. Itu angka yang paling mudah didapat, dan
-> paling mudah menipu.
-
----
-
-### Poin 2 — Margin yang kamu lihat biasanya baru margin kotor
-
-**KLAIM**
-
-Ada tiga tingkat perhitungan. Kebanyakan bisnis jasa berhenti di tingkat pertama.
-
-**BUKTI**
-
-Studi yang sama membaginya begini.
-
-Tingkat satu. Pendapatan dikurangi biaya langsung. Penulisnya menulis bahwa margin kotor ini
-mengabaikan biaya tak langsung yang khusus untuk pelanggan.
-
-Tingkat dua. Ditambah informasi yang bukan uang. Seberapa sering pesan, seberapa rumit
-permintaannya, seberapa sering minta revisi.
-
-Tingkat tiga. Biaya tak langsung baru benar-benar dibagi ke tiap pelanggan atau tiap lini.
-
-`[GRAFIS: tiga tingkat bertingkat, tingkat 1 paling sederhana]`
-
-Kebanyakan laporan bulanan berhenti di tingkat satu. Bukan karena pemiliknya malas. Karena
-tingkat satu sudah cukup untuk lapor pajak dan menghitung bagi hasil.
-
-**CONTOH**
-
-Ambil dua layanan yang biaya langsungnya sama.
-
-Layanan pertama butuh dua jam tim. Layanan kedua butuh enam jam tim.
-
-Di laporan, keduanya terlihat sama untungnya. Padahal yang kedua memakai tiga kali lipat jam yang
-kamu bayar setiap bulan, dan jam itu tidak muncul di kolom biaya langsung.
-
-Anggap saja, ini ilustrasi. Biaya langsung dua layanan sama-sama Rp1 juta. Omzetnya sama-sama
-Rp2 juta. Di laporan, keduanya untung Rp1 juta.
-
-Tapi layanan kedua memakai enam jam tim. Yang pertama dua jam. Kalau satu jam tim kamu bernilai
-Rp150 ribu, biaya sebenarnya layanan kedua bertambah Rp900 ribu.
-
-Untungnya bukan Rp1 juta lagi. Tinggal Rp100 ribu. Dari 50 persen jadi 5 persen. Dan tidak ada
-satu baris pun di laporan yang memberi tahu.
-
-`[GRAFIS: dua layanan, untung menurut laporan vs untung setelah jam tim dihitung]`
-
-`[TEKS-LAYAR: "Jam tim bukan biaya langsung. Tapi jam tim dibayar."]`
-
-**TRADE-OFF**
-
-Membagi biaya tak langsung selalu ada taksirannya.
-
-Manajer di studi itu bilang sendiri. Ada banyak perkiraan dan tebakan saat membagi biaya ini ke
-pelanggan. Kalimat aslinya: "it involves a lot of approximation and guessing when allocating these
-costs to customers."
-
-Jadi angka margin per lini bukan kebenaran. Dia alat untuk membandingkan lini satu dengan lini
-lain. Bukan angka yang bisa kamu bawa ke rapat dengan akuntan.
-
-> **TITIK CATAT (menit 4,5)**
-> Tiga tingkat. Biaya langsung saja. Tambah kerumitan. Baru bagi biaya tak langsung. Kamu berhenti
-> di mana?
-
----
-
-### Poin 3 — Jangan hentikan layanan hanya dari angka ini
-
-**KLAIM**
-
-Angka margin per lini dipakai untuk bertanya, bukan untuk memutuskan sendiri.
-
-**BUKTI**
-
-Salah satu manajer di studi itu, direktur controlling di unit kelima, bilang begini. Sangat
-berbahaya memutuskan hanya dari ini. Kami butuh jenis informasi lain untuk mengambil perubahan
-sebesar itu.
-
-Manajer lain, wakil presiden senior controlling, lebih tajam lagi. Haruskah kami memotong pelanggan
-yang sudah kami layani bertahun-tahun hanya berdasarkan satu perhitungan laba pelanggan?
-
-`[TEKS-LAYAR: "Satu angka tidak cukup untuk memotong layanan."]`
-
-Kalimat itu diucapkan di perusahaan manufaktur besar. Bisnis jasa kecil justru lebih rawan, karena
-satu pelanggan bisa berarti sepertiga omzet.
-
-**CONTOH**
-
-Lini yang marginnya tipis sering jadi pintu masuk.
-
-Orang datang untuk layanan murah. Setelah percaya, dia beli layanan yang marginnya tebal.
-
-Kalau kamu hentikan pintu masuknya karena marginnya tipis, kamu menutup jalan masuk pelanggan
-berikutnya. Dan kerugiannya baru terasa enam bulan kemudian.
-
-**TRADE-OFF**
-
-Tapi ada batasnya.
-
-Kalau setiap lini tipis kamu beri alasan yang sama, kamu akan membiayai lini yang rugi selamanya.
-
-Batas yang saya pakai: tiga pertanyaan sebelum lini tipis dipertahankan.
-
-Satu. Bisa sebut nama pelanggan yang datang karena lini ini? Bukan tipe pelanggan. Nama.
-
-Dua. Pelanggan itu pernah membeli lini lain yang marginnya lebih tebal? Kalau tidak pernah, lini
-ini pintu masuk yang tidak pernah terbuka.
-
-Tiga. Setelah dihitung jamnya, sisanya masih positif? Kalau negatif, itu bukan pintu masuk. Itu
-subsidi.
-
-Kalau satu saja dijawab tidak, hentikan. Kalau ketiganya dijawab ya, kamu punya alasan yang bisa
-kamu pertanggungjawabkan, bukan perasaan.
-
-> **TITIK CATAT (menit 6,5)**
-> Bisa sebut nama pelanggannya? Kalau tidak bisa, hentikan.
-
----
-
-## KESIMPULAN (60 detik terakhir)
-
-### Ringkasan
-
-Omzet yang naik tanpa margin yang naik hanya menambah pekerjaan.
-
-### Langkah aksi
-
-Minggu ini, buat satu tabel. Tiga kolom. Nama layanan, jam tim, porsi omzet.
-
-Jam tim diambil dari catatan jadwal, bukan perkiraan. Porsi omzet cukup persentase, bukan nominal.
-
-`[TEKS-LAYAR: Layanan | Jam Tim | Porsi Omzet]`
-
-Jangan mulai dari membagi biaya tak langsung. Itu pekerjaan akuntan, dan hasilnya selalu ada
-taksirannya.
-
-Mulai dari jam. Jam itu dibayar setiap bulan, dan jam itu kelihatan di jadwal.
-
-Setelah tabelnya jadi, lihat baris yang jam timnya paling besar. Cek porsi omzetnya.
-
-Kalau porsi omzetnya paling kecil di tabel, kamu baru saja menemukan hal yang setahun saya
-lewatkan.
-
-### CTA
-
-Layanan mana yang mau kamu hitung duluan? Tulis di komentar.
-
----
-
-## Catatan untuk Tahap 5 dan 6
-
-**Penanda visual yang harus dibuat:**
-
-| Segmen | Penanda | Status |
-|---|---|---|
-| Bukti pertama | `[SCREEN-REC]` tabel jam tim | Belum, butuh pencatatan satu minggu |
-| Poin 1 | `[GRAFIS]` dua pelanggan | Bisa dibuat |
-| Poin 2 | `[GRAFIS]` tiga tingkat | Bisa dibuat dari sumber |
-| Poin 2 | `[TEKS-LAYAR]` jam tim | Siap |
-| Poin 3 | `[TEKS-LAYAR]` satu angka | Siap |
-| Kesimpulan | `[TEKS-LAYAR]` tiga kolom | Siap |
-
-**Kalimat yang hanya Fadhil bisa ucapkan:** `[SATU-KALIMAT]`
-
-Belum ada. Kalau `content/log-keputusan.md` masih kosong, kalimat ini bisa diganti hasil
-pengukuran jam tim: satu temuan yang bertentangan dengan dugaan awal. Misalnya, layanan yang
-dianggap kecil ternyata memakai jam tim paling banyak.
-
-Satu hal yang perlu dicatat: panjang dan kredibilitas naskah ini kekurangan hal yang sama. 944 kata
-cukup untuk menjelaskan mekanisme. Tidak cukup untuk membuat orang percaya.
-
-Yang membuat orang percaya adalah satu temuan yang tidak bisa disalin dari jurnal. Temuan itu
-biasanya menambah 150 sampai 250 kata. Jadi begitu `[SATU-KALIMAT]` terisi, durasinya ikut naik
-melewati 8 menit.
-
----
-
-## Ceklis Gerbang Tahap 4
-
-| Syarat | Status |
-|---|---|
-| Naskah lengkap, bisa direkam tanpa persiapan tambahan | **Belum.** Tiga slot kosong |
-| Hook bekerja, bukan sapaan | Lulus |
-| Bukti pertama sebelum detik 30 | Lulus strukturnya, isinya belum |
-| Janji jelas dan bisa dipenuhi | Lulus |
-| Maksimal tiga poin | Lulus |
-| Setiap poin: klaim, bukti, contoh, trade-off | Lulus |
-| Titik catat setiap 90 detik | Lulus |
-| Sudut pandang konsisten | Lulus. "Saya" untuk keputusan, "kamu" untuk instruksi |
-| Satu kalimat yang hanya Fadhil bisa ucapkan | **Belum** |
-| Penanda visual lengkap | Lulus |
-| Kesimpulan dan langkah aksi ada | Lulus |
-| CTA ringan | Lulus |
-| Durasi 8–15 menit | **Belum.** 944 kata, sekitar 6,5 menit |
-| Lulus rubrik editorial | **Belum.** Butir Bukti lulus hanya lewat jalur 3 |
-
----
-
-## Versi Jalur 3 — Bisa Direkam Tanpa Data Sendiri
-
-Dipakai kalau jam tim tidak dicatat. Yang diganti empat bagian: judul, hook, bukti pertama, dan
-penutup. Isi utama, trade-off, dan langkah aksi tetap sama.
-
-**Judul:** Bisnis Edukasi Saya: Omzet Naik, Uang di Rekening Tidak
-
-Syarat pemakaian judul ini: di tingkat total, omzet memang naik dan uang di rekening memang tidak
-naik sebanding. Itu fakta tingkat total, bukan per lini, jadi lebih aman dibuka. Kalau faktanya
-tidak begitu, jangan pakai judul ini.
-
-**Hook (menggantikan hook berbasis angka):**
-
-Dua pelanggan bisa membayar dengan jumlah yang sama, dan tetap tidak sama untungnya.
-
-Yang membedakan bukan harganya. Yang membedakan adalah biaya yang tidak pernah masuk hitungan.
-
-Itu temuan sebuah studi. Bukan pengalaman saya.
-
-**Bukti pertama (menggantikan blok tabel jam tim):**
-
-`[SCREEN-REC: tabel dari Lueg & Ilieva 2024, bagian 2.3, tiga tingkat perhitungan]`
-
-Yang Anda lihat ini tabel dari penelitian tahun 2024. Penelitinya membagi cara menghitung laba
-pelanggan jadi tiga tingkat. Tingkat pertama cuma mengurangi biaya langsung. Tingkat ketiga baru
-membagi biaya tak langsung.
-
-Ini bukan angka bisnis saya. Ini angka penelitian orang lain, dan saya sebutkan supaya jelas.
-
-**Batas pengalaman (menggantikan `[SATU-KALIMAT]`, ditaruh sebelum kesimpulan):**
-
-Saya belum pernah membuka pembukuan per layanan di bisnis saya sendiri. Jadi yang saya bagikan di
-video ini adalah cara memeriksanya, bukan hasil pemeriksaan saya. Kalau kamu sudah punya angkanya,
-kamulah yang punya temuannya.
-
-**Yang hilang di versi ini:** angka pembuka, dan alasan menonton Fadhil alih-alih membaca jurnalnya.
-Versi ini masih bisa terbit, tetapi tidak boleh jadi kebiasaan.
+## Catatan visual dan sumber
+
+- Angka Rp2 juta dan jam 2 vs 6 adalah **ilustrasi**, bukan data bisnis aktual.
+- Studi utama: Lueg & Ilieva (2024), DOI `10.1371/journal.pone.0296974`; studi kasus enam unit
+  bisnis manufaktur B2B di Eropa.
+- Jangan menampilkan ilustrasi seolah hasil studi atau hasil pengukuran Fadhil.
+- Kutipan panjang tidak dibacakan; gagasan diparafrasekan dan konteks studi disebut.
+- Artefak pembuka saat ini adalah tabel ilustrasi dan cuplikan sumber publik. Jika ingin memakai
+  tabel jam tim Fadhil, lakukan pencatatan dulu dan revisi seluruh bagian yang merujuk hasilnya.
+
+## Pemeriksaan sebelum rekaman
+
+- [ ] Fadhil membaca keras-keras dan mengganti frasa yang tidak biasa diucapkan.
+- [ ] Durasi diukur dengan rekaman suara, bukan perkiraan jumlah kata.
+- [ ] Seluruh angka ilustrasi diberi label di layar.
+- [ ] Sumber dan batas konteks studi disebut jelas.
+- [ ] Tidak ada klaim bahwa Fadhil telah mengukur margin per layanan.
+- [ ] Brief dan thumbnail diselaraskan dengan judul baru; jangan pakai judul berisi slot [J] dan [O].

@@ -6,6 +6,10 @@ Menyusun naskah yang siap direkam tanpa persiapan tambahan.
 
 Naskah yang baik bukan esai. Naskah adalah panduan bicara — ditulis untuk didengar, bukan dibaca.
 
+Kualitas rujukan bukan berarti meniru suara atau susunan kalimat kreator lain. Ambil standarnya:
+masuk cepat ke masalah, bangun penjelasan dari bukti, beri contoh yang bisa dibayangkan, lalu
+tutup dengan keputusan yang punya batas. Suara, pengalaman, dan pilihan katanya tetap milik Fadhil.
+
 ---
 
 ## Input yang Dibutuhkan
@@ -13,6 +17,7 @@ Naskah yang baik bukan esai. Naskah adalah panduan bicara — ditulis untuk dide
 | Input | Sumber | Status |
 |---|---|---|
 | Brief konten (judul, POV, audiens, format) | Tahap 2 | ✅ Wajib |
+| Pintu masuk dan ketegangan lanjut | Tahap 1–2 | ✅ Wajib |
 | Lembar fakta | Tahap 3 | ✅ Wajib |
 | Artefak utama (angka/dokumen) | Tahap 3 | ✅ Wajib |
 | Bukti yang tidak bisa ditiru dari riset | Tahap 3, salah satu dari tiga jalur | ✅ Wajib |
@@ -33,6 +38,7 @@ Membuat penonton berhenti scroll.
 
 **Yang boleh:**
 
+- Situasi yang dikenali: "Pelanggan bilang harga kamu mahal. Padahal tim kamu sudah lembur."
 - Pernyataan kontarian: "Kebanyakan pemilik bisnis salah soal margin."
 - Angka mengejutkan: "Omzet saya naik 31%. Profit turun 9%."
 - Pertanyaan tajam: "Berapa biaya sebenarnya untuk dapat satu pelanggan?"
@@ -75,13 +81,15 @@ Yang tidak muncul satu kali pun: pembukaan dengan definisi, dengan framework, at
 
 ---
 
-### 2. BUKTI PERTAMA (5–30 detik)
+### 2. BUKTI PERTAMA (5–60 detik)
 
 **Ini bagian yang paling sering hilang.** YouTube mengukur 30 detik pertama sebagai Intro, dan
 rekomendasi resminya adalah memindahkan momen terbaik ke depan. *Terverifikasi* lewat YouTube
 Help.
 
-Artinya: jangan pakai 30 detik pertama untuk janji. Pakai untuk menunjukkan satu bukti.
+Keputusan gerbang (2 November 2026): mengikuti pola terukur, bukan rekomendasi literal. Syaratnya
+dua — **satu bukti yang dikenali penonton tampil di 60 detik pertama**, dan **satu angka spesifik
+terucap sebelum detik 60**. Menit pertama bukan untuk janji atau persiapan.
 
 **Yang ditampilkan:**
 
@@ -166,6 +174,10 @@ KLAIM → BUKTI → CONTOH → TRADE-OFF
 - Tiga poin. Bukan lima.
 - Setiap poin punya satu artefak atau angka yang terlihat.
 - Jangan mengulang poin yang sama dengan kata berbeda.
+- Mulai dari situasi yang mudah dibayangkan, lalu jelaskan keputusan intinya. Ukuran, trade-off,
+  dan batas masuk setelah penonton memahami masalahnya.
+- Jangan membuat tiga segmen terpisah untuk pemula, founder kecil, dan operator matang. Satu alur
+  harus membawa semua penonton dari situasi ke keputusan, lalu ke batasnya.
 
 #### Tiga Kerangka Isi
 
@@ -289,6 +301,20 @@ dari keputusan sendiri, penonton tidak perlu curiga bahwa ini teori.
 - **Tulis untuk didengar.** Kalau aneh diucapkan, tulis ulang.
 - **Satu ide per kalimat.**
 - **Bahasa Indonesia percakapan.** Bukan bahasa buku.
+- **Tulis seperti Fadhil sedang menjelaskan ke satu pemilik bisnis.** Pakai kata yang biasa
+  diucapkan, bukan kata yang terdengar pintar. Jangan memaksa slang atau meniru aksen kreator lain.
+- **Boleh ada kalimat pendek dan panjang.** Variasikan napasnya; jangan membuat setiap baris jadi
+  slogan atau kalimat pukulan.
+- **Pakai penghubung lisan bila membantu alur:** “masalahnya”, “nah”, “tapi”, “jadi”, “contohnya”.
+  Hapus jika hanya menjadi kebiasaan pengisi.
+- **Jangan bicara seperti presentasi.** Hindari pengumuman struktur berulang (“poin pertama”,
+  “ada tiga hal”, “sekarang kita masuk”) kecuali penonton memang perlu peta.
+- **Jangan mengarang pengalaman untuk membuat naskah terasa personal.** Jika pengalaman belum ada,
+  katakan batasnya terus terang lalu berikan contoh yang jelas berlabel ilustrasi.
+- **Baca dengan suara normal, bukan suara penyiar.** Jika satu napas terasa sesak, pecah kalimatnya.
+  Jika terdengar seperti caption motivasi, ubah menjadi penjelasan yang lebih spesifik.
+- **Jaga sapaan konsisten.** Gunakan “kamu” untuk instruksi dan “saya” untuk pengalaman. Jangan
+  berganti ke “Anda” atau “kita” tanpa alasan.
 
 **Istilah yang boleh langsung:** KPI, SOP, OKR, CAC, LTV, funnel, margin, revenue, churn,
 retention, conversion, leads, pipeline, cash flow, unit economics, break-even, bootstrapping.
@@ -309,7 +335,8 @@ retention, conversion, leads, pipeline, cash flow, unit economics, break-even, b
 
 ### Langkah 1 — Review brief dan fact sheet
 
-Pastikan ada: judul, POV satu kalimat, audiens, format, artefak utama, dan bukti yang tidak bisa ditiru dari riset.
+Pastikan ada: pintu masuk, keputusan inti, ketegangan lanjut, judul, POV satu kalimat, audiens,
+format, artefak utama, dan bukti yang tidak bisa ditiru dari riset.
 
 ### Langkah 2 — Pilih kerangka isi
 
@@ -440,7 +467,7 @@ kesalahan dari log yang belum masuk naskah.
 ### Langkah 14 — Final review
 
 - [ ] Hook bekerja?
-- [ ] Bukti pertama muncul sebelum detik 30, dan ada satu angka spesifik sebelum detik 60?
+- [ ] Bukti pembuka yang dikenali penonton tampil, dan satu angka spesifik sebelum detik 60?
 - [ ] Janji satu kalimat, spesifik?
 - [ ] Tiga poin, bukan lima?
 - [ ] Setiap poin punya klaim, bukti, contoh, trade-off?
@@ -450,6 +477,38 @@ kesalahan dari log yang belum masuk naskah.
 - [ ] Visual ditandai?
 - [ ] Durasi 8–15 menit?
 - [ ] Bahasa natural?
+- [ ] Pintu masuk dipahami tanpa jargon, keputusan inti berguna bagi founder, dan batasnya cukup dalam untuk operator matang?
+
+### Langkah 15 — Penyuntingan suara (wajib, setelah naskah utuh)
+
+Lakukan satu putaran khusus untuk mengubah draf yang benar secara struktur menjadi percakapan yang
+enak diucapkan. Jangan menambah bukti baru di putaran ini.
+
+1. Baca naskah keras-keras sambil merekam memo suara. Jangan membawakannya seperti presentasi.
+2. Tandai bagian yang membuat lidah tersangkut, napas habis, atau terdengar seperti tulisan.
+3. Ganti frasa abstrak dengan tindakan atau pertanyaan konkret. “Melakukan alokasi biaya tidak
+   langsung” bisa menjadi “memutuskan biaya bersama ini dibebankan ke layanan yang mana”.
+4. Hapus pengulangan janji dan kesimpulan. Jika satu ide sudah dipahami, lanjut.
+5. Pastikan tiap bagian punya alasan untuk muncul setelah bagian sebelumnya. Tambahkan jembatan
+   sebab-akibat, bukan transisi presentasi.
+6. Dengarkan memo suara. Revisi bagian yang terasa kaku; jangan memoles sampai semua kalimat punya
+   ritme yang sama.
+
+**Uji alami:** orang yang mendengar harus menangkap maksudnya sekali dengar. Jika perlu melihat
+teks untuk paham, kalimatnya belum selesai.
+
+**Uji suara Fadhil:** tandai tiga frasa yang memang akan Fadhil ucapkan sehari-hari. Jika tidak ada,
+seluruh naskah masih terlalu formal. Jangan menambahkan slang buatan; sederhanakan pilihan kata.
+
+### Langkah 16 — Pemeriksaan bukti dan transisi
+
+Telusuri setiap angka dan klaim kembali ke fact sheet. Periksa lompatan konteks: bukti tentang
+pelanggan tidak otomatis membuktikan hal yang sama tentang lini layanan; studi perusahaan besar
+tidak otomatis berlaku pada bisnis kecil Indonesia. Tandai bagian penalaran kita sebagai simpulan,
+bukan temuan sumber.
+
+Untuk tiap bagian, tanyakan: “Apa yang membuat kalimat berikutnya layak didengar?” Jika jawabannya
+hanya “karena ini poin berikutnya”, ubah urutan atau buang bagian itu.
 
 ---
 
@@ -461,7 +520,7 @@ kesalahan dari log yang belum masuk naskah.
 ## HOOK (0–5 detik)
 "Tahun lalu omzet saya naik 31%. Profit turun 9%."
 
-## BUKTI PERTAMA (5–30 detik)
+## BUKTI PERTAMA (5–60 detik)
 "Ini spreadsheet margin per layanan saya. Kolom ini omzet, naik 31%.
 Kolom ini profit, turun 9%. Selisihnya ada di tiga baris yang saya
 tandai merah."
@@ -521,7 +580,7 @@ menambah layanan lagi, dan kapan angkanya berarti berhenti."
 
 - [ ] Naskah lengkap, bisa direkam tanpa persiapan tambahan
 - [ ] Hook bekerja, bukan sapaan
-- [ ] Bukti pertama muncul sebelum detik 30, satu angka spesifik sebelum detik 60
+- [ ] Bukti pembuka yang dikenali penonton tampil di 60 detik pertama, satu angka spesifik sebelum detik 60
 - [ ] Janji jelas dan bisa dipenuhi
 - [ ] Maksimal tiga poin utama
 - [ ] Setiap poin: klaim, bukti, contoh, trade-off
@@ -543,7 +602,7 @@ menambah layanan lagi, dan kapan angkanya berarti berhenti."
 | Kesalahan | Kenapa berbahaya | Cara menghindari |
 |---|---|---|
 | Membuka dengan sapaan | Kehilangan penonton di 3 detik | Langsung ke hook |
-| 30 detik pertama untuk janji | Jendela yang dinilai YouTube dipakai untuk persiapan | Taruh bukti pertama di detik 5–30 |
+| Menit pertama untuk janji atau persiapan | Jendela yang dinilai YouTube terbuang | Tunjukkan bukti yang dikenali penonton, lalu satu angka sebelum detik 60 |
 | Lima poin utama | Tidak ada yang diingat | Maksimal tiga |
 | Mencampur "saya" dan "kita" | Menyembunyikan siapa yang memutuskan | "Saya" untuk keputusan, "kamu" untuk instruksi |
 | Tidak ada trade-off | Terasa seperti jualan | Tanya "kapan saran ini tidak berlaku?" |
@@ -559,7 +618,7 @@ menambah layanan lagi, dan kapan angkanya berarti berhenti."
 
 | Dari | Yang diterima |
 |---|---|
-| Tahap 1 | Masalah audiens |
+| Tahap 1 | Pintu masuk, masalah audiens, keputusan, dan ketegangan lanjut |
 | Tahap 2 | Judul, POV, format, konsep thumbnail |
 | Tahap 3 | Fakta, artefak, bukti yang tidak bisa ditiru dari riset |
 

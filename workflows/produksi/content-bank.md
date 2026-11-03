@@ -1,10 +1,14 @@
 # Content Bank — 40 Ide Konten
 
-Judul di bawah adalah **draf kerja**, bukan judul final. Sebelum produksi, pastikan:
+Sudut di bawah adalah **draf kerja**, bukan judul final. Sebelum produksi, pastikan:
 - Ide sudah lolos pindai di Tahap 1 (Ideasi): permintaan terukur, celah pasokan jelas.
 - Ada bukti yang bisa dibuka: tipe A (data sendiri) atau tipe B (laporan, jurnal, dokumen resmi).
 - Topik tidak terlalu mirip dengan video yang sudah terbit.
 - Ide sudah dikemas di Tahap 2 (Pengemasan).
+
+Sebelum sebuah ide naik dari status “Ide”, tambahkan pintu masuk yang bisa dipahami tanpa jargon
+dan ketegangan lanjut yang memberi kedalaman bagi operator matang. Jangan memakai judul kerja di
+tabel ini sebagai judul YouTube.
 
 Status "Ide" berarti belum dipindai. Jangan produksi ide berstatus "Ide" tanpa menjalankan
 `workflows/produksi/01-ideasi.md` lebih dulu.
@@ -124,6 +128,23 @@ Kueri seluruhnya berbeda dari putaran 1. Detail ada di
 
 **Catatan penting:** putaran 1 dan putaran 2 nyaris tidak beririsan. Hanya keluarga harga dan margin
 yang muncul di keduanya. Satu putaran menghasilkan kandidat, bukan peringkat yang stabil.
+
+## Hasil Pindai 2026-11-03
+
+Putaran ini menguji ulang kandidat dan mengubah urutannya. Detail, angka, dan alasan ada di
+`content/pindai/pindai-topik-2026-11-03.md`. Status yang berlaku ada di `database/database.db`.
+
+| Sudut | Pilar | Skor | Status |
+|---|---|---|---|
+| Harga jasa ketika biaya utamanya waktu tim | 1 | 20 | Kandidat utama (IDEA-009) |
+| Retensi per kohort, bukan repeat order total | 2 | 20 | Cadangan pertama (IDEA-003) |
+| Margin per lini layanan di bisnis jasa | 1 | 18 | Cadangan kedua; menunggu pencatatan jam tim (IDEA-001) |
+| Mengukur kapasitas tim | 3 | — | `ditunda`; rentang hasil 5,7× |
+| Membagi tugas tim kecil | 3 | — | `ditunda`; rentang hasil 10,6× |
+
+**Catatan:** tabel putaran 1 dan putaran 2 di atas adalah arsip keputusan, bukan status yang berlaku.
+Skor di tabel arsip adalah penilaian pada putaran masing-masing, jadi tidak selalu sama dengan
+`skor_total` sekarang. Jangan memakai tabel arsip untuk memutuskan produksi.
 
 ---
 

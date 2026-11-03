@@ -12,8 +12,14 @@
 **Siapa yang mengalami masalah ini?**
 [Deskripsi spesifik: tipe bisnis, ukuran tim, tahap pertumbuhan]
 
+**Pintu masuk:**
+[Situasi yang mudah dikenali bahkan oleh orang yang belum punya bisnis. Hindari jargon.]
+
 **Apa masalah spesifiknya?**
 [Satu pertanyaan yang jelas dan penting]
+
+**Ketegangan lanjut:**
+[Ukuran, trade-off, atau batas yang tetap relevan bagi operator yang lebih matang.]
 
 **Bukti bahwa masalah ini nyata:**
 [Komentar berulang, pertanyaan komunitas, atau pengalaman langsung. Kata kunci hanya penentu
@@ -29,15 +35,16 @@ tulis "belum dipindai" dan jangan lanjut ke produksi.
 | Kriteria | Isi | Sumber |
 |---|---|---|
 | Permintaan | Median tayangan 10 hasil teratas: ____ | `content/pindai/…` |
-| Gap | Kosong / Dangkal | `content/pindai/…` |
-| Bukti | Tipe A / B / C | Bagian 6 brief ini |
+| Gap | `lebar` / `sedang` / `sempit` | `content/pindai/…` |
+| Bukti | `data sendiri` / `riset primer` / `tanpa sumber primer` | Bagian 6 brief ini |
 | Kapasitas | Perkiraan hari kerja: ____ | — |
 | **Skor** | **__ / 30** | `workflows/produksi/01-ideasi.md` Langkah 6 |
 
-**Keputusan:** Produksi sekarang (24–30) / Perbaiki satu kriteria (18–23) / Tunda (di bawah 18)
+**Keputusan Tahap 1:** Utama / Cadangan / `perlu perbaikan` / `ditunda` / `digabung` / `gugur`. Skor mengurutkan;
+gerbang Tahap 1 yang menentukan status.
 
-> Topik dengan gap kelas Dalam atau permintaan di bawah ambang seharusnya sudah gugur di Tahap 1.
-> Kalau topik seperti itu sampai di sini, kembalikan ke pindai, jangan diteruskan.
+> Topik dengan gap kelas `sempit` tanpa pembeda, atau permintaan di bawah ambang, seharusnya sudah
+> gugur di Tahap 1. Kalau topik seperti itu sampai di sini, kembalikan ke pindai, jangan diteruskan.
 
 ---
 
@@ -66,9 +73,14 @@ bagian yang akan disorot.]
 **Kata kunci utama:**
 **Kata kunci turunan:**
 
+**Uji tiga lapisan:**
+- Pintu masuk yang dikenali:
+- Keputusan inti untuk audiens utama:
+- Ketegangan lanjut untuk operator matang:
+
 **Lima opsi judul.** Dua dipertahankan.
 
-| # | Judul | Entitas atau angka | Taruhan | Pertentangan | Status |
+| # | Judul | Jangkar konkret | Taruhan | Pertentangan | Status |
 |---|---|---|---|---|---|
 | 1 | | | | | |
 | 2 | | | | | |
@@ -102,7 +114,7 @@ bagian yang akan disorot.]
 **Hook (0–5 detik):**
 [Pernyataan kontarian, angka mengejutkan, atau pertanyaan tajam]
 
-**Bukti pertama (5–30 detik):**
+**Bukti pertama (5–60 detik):**
 [Satu angka atau artefak dari lembar fakta. Sebut apa yang penonton lihat.]
 
 **Janji (30–40 detik):**
@@ -159,12 +171,14 @@ bagian yang akan disorot.]
 | Pemeriksaan | Lulus? | Catatan |
 |---|---|---|
 | Audiens jelas | [ ] | |
+| Akses tanpa jargon | [ ] | |
+| Kedalaman untuk operator matang | [ ] | |
 | ⭐ Masalah spesifik | [ ] | |
 | ⭐ POV satu kalimat | [ ] | |
 | ⭐ Bukti: sumber primer, artefak bisa ditampilkan, satu bukti tidak bisa ditiru dari riset | [ ] | |
 | Trade-off disebutkan | [ ] | |
 | Ada langkah yang bisa diterapkan | [ ] | |
-| Judul punya entitas atau angka, dan taruhan | [ ] | |
+| Judul punya jangkar konkret dan taruhan | [ ] | |
 | Bukan pengulangan | [ ] | |
 
 **Keputusan:** Lanjut ke produksi / Revisi / Tunda / Buang

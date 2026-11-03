@@ -1,441 +1,252 @@
-# Tahap 1 — Ideasi Berbasis Data
+# Tahap 1 — Memilih Ide yang Layak Diproduksi
 
 > **Posisi:** Tahap pertama dari sepuluh.
-> **Tahap berikutnya:** [02 — Pengemasan](./02-pengemasan.md)
-> **Keluaran:** daftar Top N topik, sudah diskor, siap dikemas.
+> **Tahap berikutnya:** [02 — Pengemasan](./02-pengemasan.md).
+> **Keluaran:** satu kandidat utama dan maksimal dua cadangan, masing-masing dengan alasan yang dapat diperiksa.
 
 ---
 
 ## Tujuan
 
-Menghasilkan **daftar Top N topik** yang layak diproduksi. Setiap topik punya tiga hal: bukti
-permintaan, celah supply, dan sumber bukti yang bisa dibuka orang lain.
+Memilih satu masalah audiens yang layak dijadikan video berikutnya. Ide yang lolos harus memiliki keputusan yang jelas, alasan penonton peduli, celah di YouTube Indonesia, dan jenis bukti awal yang realistis.
 
-Keluaran tahap ini bukan satu ide. Keluarannya peringkat, supaya keputusan memilih bisa
-diperiksa, bukan berdasarkan selera.
+Tahap ini belum membuat judul, teks atau ilustrasi thumbnail, maupun outline video. Pekerjaan itu berada di Tahap 2 dan Tahap 4. Memaksakannya di sini membuat kemasan menjanjikan sesuatu sebelum riset membuktikan bahwa janji tersebut dapat dipenuhi.
 
----
+## Keluaran Wajib
+
+Setiap kandidat utama dan cadangan memuat tujuh hal berikut.
+
+| Keluaran | Pertanyaan yang dijawab | Dipakai oleh |
+|---|---|---|
+| Pintu masuk | Situasi atau rasa sakit apa yang dikenali bahkan oleh calon pemilik bisnis? | Tahap 2–4 |
+| Masalah audiens | Siapa yang mengalami masalah apa, dan apa akibatnya? | Tahap 2–4 |
+| Sudut keputusan | Keputusan apa yang perlu dibuat penonton? | Tahap 2–4 |
+| Ketegangan lanjut | Ukuran, trade-off, atau batas apa yang tetap penting bagi operator yang lebih matang? | Tahap 3–4 |
+| Sinyal permintaan | Adakah bukti orang mencari atau membahas masalah ini? | Prioritas |
+| Celah lokal | Bagian mana yang belum dibahas dengan baik di YouTube Indonesia? | Tahap 2 |
+| Jenis bukti awal | Data, dokumen, atau pengukuran apa yang mungkin dipakai? | Tahap 3 |
+| Hipotesis kemasan | Kontras atau bukti visual apa yang bisa membuat orang berhenti? | Tahap 2 |
+| Alasan keputusan | Mengapa kandidat ini dipilih, ditunda, digabung, atau gugur? | Audit berikutnya |
+
+**Pintu masuk** bukan penyederhanaan palsu. Ia menyebut keadaan yang bisa dikenali orang baru,
+misalnya “pesanan bertambah, tetapi waktu tidak pernah cukup”. **Ketegangan lanjut** menjaga agar
+video tidak berhenti di nasihat umum, misalnya “kapasitas tim tidak sama dengan jumlah orang”.
+
+**Hipotesis kemasan** hanya satu kalimat. Contoh: “Perbandingan jam tim dan porsi omzet pada satu layanan.” Ini bukan kandidat judul atau desain thumbnail. Tahap 2 baru mengubahnya menjadi lima judul dan satu atau dua sketsa setelah bukti utamanya jelas.
 
 ## Prinsip
 
-1. **Permintaan dulu, ide belakangan.** Topik yang tidak dicari dan tidak ditanyakan tidak masuk
-   daftar, sekuat apa pun POV-nya.
-2. **Gap adalah sudut yang belum dibahas, bukan topik yang belum ada.** Topik "margin" sudah ada
-   di mana-mana. Sudut "margin per lini layanan di bisnis jasa" belum tentu ada.
-3. **Bukti boleh dari riset.** Data sendiri, laporan tahunan, filing, statistik resmi, jurnal,
-   dan studi kasus semuanya sah. Yang tidak sah adalah opini tanpa sumber.
-4. **Setiap skor harus bisa diperiksa.** Kalau orang lain tidak bisa mengulang penilaianmu dari
-   data yang sama, skornya tidak dipakai.
-5. **Satu topik, satu pilar, satu masalah.** Kalau menyentuh dua pilar, pecah.
-
----
+1. **Masalah lebih dulu, topik kemudian.** “Margin” bukan ide. “Pemilik bisnis jasa tidak tahu layanan mana yang menyerap jam tim paling banyak” adalah ide yang bisa diuji.
+2. **Keputusan lebih penting daripada informasi.** Video harus membantu memilih, menghentikan, mengubah, atau mengukur sesuatu. Tutorial alat tanpa keputusan bisnis gugur.
+3. **Permintaan adalah sinyal, bukan putusan.** Tayangan hasil pencarian membantu membandingkan minat. Tayangan tidak membuktikan bahwa penontonnya adalah audiens Fadhil.
+4. **Gap harus berarti pembeda yang nyata.** Topik yang sudah banyak dibahas tetap dapat dipakai bila sudut, bukti, atau keputusan yang dibawa belum ada dalam video Indonesia yang relevan.
+5. **Bukti dicari sebelum kemasan diputuskan.** Tahap ini hanya memastikan jenis buktinya ada. Tahap 3 yang memverifikasi klaim dan menyiapkan artefaknya.
+6. **Satu kandidat utama cukup.** Pilot membuat satu video pada satu waktu. Dua kandidat lain hanya cadangan agar keputusan tidak perlu dimulai dari nol minggu depan.
 
 ## Input
 
-| Input | Sumber | Wajib? |
+| Input | Wajib | Kegunaan |
 |---|---|---|
-| Tiga pilar konten | Bagian di bawah | ✅ |
-| Kueri benih | Disusun di Langkah 1 | ✅ |
-| Data permintaan YouTube | `tools/pindai-youtube.py` | ✅ |
-| Sumber bukti | Laporan, jurnal, filing, data sendiri | ✅ |
-| Content bank | [`content-bank.md`](./content-bank.md) | Untuk cek duplikat |
-| Log keputusan | `content/log-keputusan.md` | Sumber bukti tipe A |
-| Komentar audiens | YouTube, Instagram, DM | Menambah keyakinan |
-
----
+| Tiga pilar konten | Ya | Menjaga fokus positioning |
+| Content bank dan brief yang ada | Ya | Mencegah pengulangan |
+| Log keputusan dan inventaris bukti | Ya, jika tersedia | Mencari bukti yang khas |
+| Pertanyaan audiens atau pengalaman langsung | Jika ada | Memperjelas masalah |
+| Pindai YouTube | Ya | Mengukur sinyal permintaan dan pasokan lokal |
+| Satu calon sumber primer atau rencana pengukuran | Ya | Memastikan riset dapat dimulai |
 
 ## Prosedur
 
-### Langkah 1 — Susun Kueri Benih
+### 1. Mulai dari pintu masuk, masalah, dan keputusan
 
-Tulis 15 kueri: lima per pilar. Pakai bahasa yang diketik pemilik bisnis, bukan bahasa akademik.
+Tulis 8 masalah calon. Ambil minimal dua dari setiap pilar, lalu gunakan dua sisanya untuk masalah dari log keputusan, komentar, atau pertanyaan audiens.
 
-| Pilar | Contoh kueri benih |
-|---|---|
-| **1. Model Bisnis & Keuangan** | cara menghitung margin usaha; kapan menaikkan harga; omzet naik profit turun |
-| **2. Pertumbuhan Pendapatan** | leads banyak tidak closing; cara meningkatkan konversi; biaya akuisisi pelanggan |
-| **3. Operasional & Kepemimpinan** | cara delegasi tugas; bisnis tidak berkembang karena owner; cara membuat SOP |
+```text
+[Pintu masuk yang mudah dikenali].
+[Siapa] tidak tahu [hal yang perlu diketahui], sehingga mereka berisiko [akibat].
+Keputusan yang dibahas: [pilihan yang harus dibuat].
+Ketegangan lanjut: [ukuran, trade-off, atau batas].
+```
 
-**Aturan:** kalau sebuah kueri terdengar seperti judul skripsi, ganti. "Analisis struktur biaya"
-bukan bahasa pembeli. "Kenapa profit saya kecil" adalah bahasa pembeli.
+Contoh:
 
----
+> Pesanan bertambah, tetapi waktu tim semakin habis dan uang tidak terasa ikut bertambah.
+> Pemilik bisnis jasa dengan tim kecil tidak tahu layanan mana yang memakai kapasitas paling besar, sehingga mereka dapat menambah penjualan pada layanan yang justru membebani laba.
+> Keputusan yang dibahas: layanan mana yang perlu diukur, diubah, atau dipertahankan.
+> Ketegangan lanjut: jam kerja bukan biaya langsung, tetapi tetap membatasi kapasitas yang dibayar bisnis.
 
-### Langkah 2 — Ukur Permintaan
+Buang masalah yang tidak punya satu keputusan. “Cara memakai aplikasi X” dan “tips bisnis lebih produktif” tidak cukup spesifik untuk masuk pipeline ini.
 
-Jalankan:
+### 2. Uji bahasa dan sinyal permintaan
+
+Ubah setiap masalah menjadi satu atau dua frasa yang mungkin diketik pemilik bisnis. Gunakan bahasa audiens, bukan istilah internal.
 
 ```bash
-python3 tools/pindai-youtube.py "kueri 1" "kueri 2" "kueri 3"
+python3 tools/pindai-youtube.py "frasa pertama" "frasa kedua" "frasa ketiga"
 ```
 
-Skrip menjalankan tiga putaran per kueri secara bawaan. Itu bukan pemborosan: hasil pencarian
-YouTube berubah antar permintaan. Pada uji 2026-11-01, kueri yang sama memberi median 13.368
-sampai 65.923 dalam lima putaran. Satu putaran tidak cukup untuk menentukan skor.
+Skrip melakukan tiga putaran untuk setiap frasa. Catat median tayangan dan rentang hasilnya.
 
-Catat tiga angka per kueri, dan abaikan sisanya:
+Sebelum memakai angkanya, periksa sepuluh hasil teratas.
 
-| Angka | Arti | Dipakai? |
-|---|---|---|
-| **Median 10 teratas** (median dari 3 putaran) | Minat yang wajar, bukan outlier | ✅ Ya |
-| Rentang 3 putaran | Seberapa tidak stabil kueri itu | ✅ Ya |
-| Jumlah video di atas 100 ribu | Bukti minat berulang | ⚠️ Hanya setelah diperiksa relevansinya |
-| Tayangan tertinggi | Batas atas minat | ❌ Tidak |
-| Jumlah hasil | Seberapa banyak supply | ❌ Tidak |
+- Apakah hasilnya benar-benar membahas masalah yang sama?
+- Apakah orang yang menontonnya adalah pemilik bisnis jasa, edukasi, atau digital dengan tim kecil?
+- Apakah hasil tinggi berasal dari video asing yang judulnya diterjemahkan otomatis?
 
-**Kenapa tayangan tertinggi dibuang.** Pada uji yang sama, kueri "cara membuat sop bisnis kecil"
-memberi angka tertinggi 4.463.000 dan 828.200 pada putaran berbeda. Selisih lima kali, karena
-video di posisi teratas berganti. Angka itu mengukur keberuntungan, bukan minat.
+Buang hasil yang hanya kebetulan memuat kata yang sama. Video asing boleh menjadi tanda minat, tetapi tidak dihitung sebagai pasokan lokal.
 
-**Ambang lulus:**
+**Batas awal:** median di bawah 10.000 atau rentang lebih dari lima kali tidak dapat menjadi dasar utama pemilihan. Kandidat masih boleh disimpan jika ada bukti audiens yang lebih kuat, misalnya pertanyaan berulang dari calon penonton. Tandai alasan pengecualian itu sebagai *simpulan*.
 
-- Median 10 teratas di atas 10 ribu tayangan, **dan**
-- Rentang 3 putaran tidak lebih dari 5 kali.
+### 3. Periksa celah lokal
 
-Kalau median di bawah 10 ribu, kueri itu topik mati. Buang. Kalau rentangnya lebih dari 5 kali,
-kueri itu terlalu tidak stabil untuk dinilai; pakai hanya sebagai sinyal pendukung, bukan sebagai
-dasar skor.
+Untuk kandidat yang sinyalnya cukup, buka dua hasil Indonesia yang paling relevan. Gunakan `tools/cek-video.py` untuk membaca judul asli, deskripsi, dan chapter.
 
-> [!IMPORTANT]
-> Ambang ini adalah lantai, bukan gerbang. Pada uji 2026-11-01, 11 dari 15 kueri lulus. Ambang
-> yang meloloskan 73% hanya menyaring kasus ekstrem. Yang benar-benar memisahkan topik hidup dari
-> topik mati adalah Langkah 3 dan Langkah 3b. Jangan berhenti di sini dan merasa sudah menyaring.
-
-**Wajib: periksa relevansi.** Sebelum menghitung, buang video yang hanya cocok kata kuncinya.
-Contoh nyata: kueri "omzet naik tapi profit turun" menampilkan video "Margin Keuntungan Dijelaskan
-dalam Satu Menit" (210.719 tayangan). Video itu tidak membahas omzet yang naik. Tanpa dibuang,
-topik mati terlihat hidup.
-
-Pada putaran 2 tanggal 2026-11-01, tiga dari lima belas kueri memberi median tinggi yang seluruhnya
-palsu setelah disaring: "bisnis ramai tapi tidak ada untung" 549.744 menjadi puluhan tayangan,
-"marketing tidak menghasilkan penjualan" 591.555 menjadi ribuan, dan "cara menaikkan nilai transaksi"
-79.291 menjadi sekitar 3.000. Itu 20 persen. Kalau relevansi tidak diperiksa, ketiganya akan duduk
-di peringkat satu sampai tiga.
-
-**Waspadai kueri berjargon.** Semakin istilah yang dipakai adalah jargon internal bisnis, semakin
-besar kemungkinan hasilnya konten umum yang kebetulan memuat kata itu. "Nilai transaksi" memancing
-konten "meningkatkan omset". "Menolak proyek" memancing berita penolakan proyek pemerintah. Uji
-cepat: kalau sepuluh judul teratas tidak ada yang memakai kata kunci utama di judulnya, kueri itu
-sedang mengukur hal lain.
-
-**Periksa relevansi audiens, bukan hanya relevansi kata kunci.** Ini kesalahan yang lolos dari
-pemeriksaan di atas. Kueri "cara membuat laporan mingguan" mendapat median 97.639 dengan rentang
-1,0 kali, kestabilan tertinggi di seluruh putaran, dan seluruh dua puluh hasilnya benar-benar
-tentang laporan mingguan. Relevansi kata kunci sempurna. Tetapi semuanya laporan proyek konstruksi,
-karena yang mengetik frasa itu insinyur sipil, bukan pemilik bisnis jasa.
-
-Pertanyaannya bukan "apakah video ini membahas kueri", melainkan **"apakah orang yang mengetik kueri
-ini adalah audiens kita"**. Kalau seluruh hasil berasal dari satu industri yang bukan audiens kita,
-topiknya gugur walau angkanya bagus dan stabil.
-
----
-
-### Langkah 3 — Ukur Supply
-
-Untuk kueri yang lulus, periksa 10 video teratas. Catat:
-
-- Durasi.
-- Nama channel.
-- Apakah judul menjanjikan angka, kerangka, atau hanya pengantar.
-- Tahun unggah.
-
-**Pisahkan pasokan lokal dari terjemahan.** YouTube otomatis menerjemahkan judul video asing ke
-bahasa Indonesia. Video The Futur tampil sebagai "Cara Menentukan Harga Layanan Anda", padahal
-judul aslinya bahasa Inggris. Tanpa pemeriksaan ini, setiap gap akan terlihat lebih sempit daripada
-kenyataan, karena video asing terhitung sebagai pasokan Indonesia.
-
-Aturannya: video dari channel asing adalah bukti **permintaan**, bukan bukti **pasokan lokal**.
-Kalau yang membahas sebuah sudut hanya channel asing, sudut itu masih kosong di Indonesia.
-
-Channel yang sudah terbukti menerjemahkan judul: Alex Hormozi, The Futur, Tony Robbins, Rory
-Sutherland (Chris Williamson), Philip VanDusen, The Organic Chemistry Tutor, Modern School Bus,
-Learn With Shopify, GaryVee, Success Before 30, Acumen Learning, The Legal CFO, One Minute
-Economics, Young Entrepreneurs Forum, LYFE Marketing, Leaders Talk (ThinkEduca), Leadership with
-Mike, Layla at ProcessDriven, I Started My Business, Rajiv Talreja, CEO Entrepreneur, Dan Martell,
-Educationleaves, Valuetainment, Neil Patel, Ben Heath, Adam Erhart, Big Rob Unbothered, Thomas
-Morgan. Daftar ini akan bertambah; periksa channel yang belum dikenal sebelum menghitungnya sebagai
-pasokan lokal.
-
-**Cara memeriksa:** jalankan `tools/cek-video.py`. Alat itu mencetak judul asli di samping judul
-terjemahan, plus deskripsi. Deskripsi berbahasa Inggris, tautan Gumroad, atau nama chapter bahasa
-Inggris adalah tanda channel asing.
-
-> [!WARNING]
-> **ID video dan judul harus diambil dalam satu permintaan.** Urutan hasil pencarian berubah antar
-> permintaan. Kalau ID dicetak di baris terpisah dari judul, ID dari satu permintaan mudah
-> dipasangkan dengan judul dari permintaan lain. Pada putaran 2, empat dari enam pemetaan salah
-> sebelum ketahuan, dan klasifikasi supply sempat memakai video yang keliru tanpa gejala apa pun.
-> Skrip sekarang mencetak ID sebaris dengan judul. Jangan memisahkannya lagi.
-
-**Klasifikasi:**
-
-| Kelas | Ciri | Boleh jadi gap? |
-|---|---|---|
-| **Kosong** | Tidak ada video Indonesia yang membahas sudut ini | Ya |
-| **Dangkal** | Ada, tetapi di bawah 8 menit, atau tanpa angka, atau hanya pengantar | Ya |
-| **Dalam** | Ada video 10 menit ke atas, dengan angka dan trade-off | Tidak |
-
-> [!WARNING]
-> Klasifikasi dari judul dan durasi hanya perkiraan. Sebelum masuk Top 3, buka dua video teratas
-> dengan `tools/cek-video.py`. Chapter dan deskripsi menunjukkan apakah videonya benar-benar
-> membahas sudut itu atau hanya menyinggungnya.
-
-```bash
-python3 tools/cek-video.py VIDEO_ID
-```
-
-Yang dicari di keluaran itu: ada chapter atau tidak, berapa lama bagian yang relevan, dan apakah
-deskripsinya menyebut angka atau template. Video tanpa chapter dengan deskripsi satu baris
-biasanya penjelasan singkat, bukan analisis.
-
-> [!NOTE]
-> Membaca chapter bukan menonton. Kalau chapter menunjukkan bagian yang relevan hanya 2–3 menit
-> dari video 12 menit, itu bukti cukup untuk menyebutnya dangkal. Kalau chapternya justru
-> menunjukkan pembahasan panjang, tonton sebelum menyimpulkan.
-
----
-
-### Langkah 3b — Gugurkan Sebelum Menilai
-
-Dua kondisi ini membatalkan topik, bukan menurunkan skornya:
-
-| Kondisi | Tindakan |
+| Kelas | Arti |
 |---|---|
-| Gap kelas **Dalam** | Buang. Sudah ada yang mengerjakan lebih baik. |
-| Permintaan gagal ambang Langkah 2 | Buang. Tidak ada yang mencari. |
+| `lebar` | Tidak ada video Indonesia yang membahas keputusan ini secara langsung. |
+| `sedang` | Ada yang membahas topiknya, tetapi tanpa keputusan jelas, bukti, atau trade-off. |
+| `sempit` | Ada video Indonesia yang sudah membahas keputusan, bukti, dan batasnya dengan baik. |
 
-Alasannya ditemukan saat menjalankan SOP ini: pada 2026-11-01, topik arus kas mendapat skor 20 dan
-topik CAC juga 20, walau keduanya seharusnya gugur, satu karena pasokan sudah dalam dan satu karena
-tidak ada yang mencari. Skor tinggi tidak bisa menyelamatkan topik yang seharusnya gugur di langkah
-sebelumnya.
+Kelas **sempit** tidak otomatis membuat topik gugur. Kandidat hanya lanjut jika ada pembeda yang dapat disebut dalam satu kalimat: bukti yang lebih kuat, audiens yang lebih spesifik, atau keputusan yang lebih sempit. Jika tidak ada, gugurkan. Membuat versi yang sama tidak memberi alasan bagi penonton untuk memilih video ini.
 
+### 4. Tetapkan jenis bukti awal
 
----
+Setiap kandidat harus memiliki satu jenis bukti awal sebelum diberi peringkat.
 
-### Langkah 4 — Rumuskan Sudut
-
-Sudut bukan topik. Sudut adalah topik + penonton spesifik + keputusan yang dibahas.
-
-| Topik | Sudut |
-|---|---|
-| Margin | Margin per lini layanan di bisnis jasa yang omzetnya naik tetapi profitnya turun |
-| Harga | Kapan menaikkan harga ketika churn baru terasa tiga bulan kemudian |
-| Delegasi | Tugas apa yang tidak boleh didelegasikan saat kapasitas layanan mulai penuh |
-
-**Format:**
-
-```
-SUDUT: [topik] untuk [penonton spesifik], membahas [keputusan]
-```
-
----
-
-### Langkah 5 — Tentukan Jenis Bukti
-
-| Tipe | Contoh | Status |
+| Jenis bukti awal | Bukti awal yang cukup di Tahap 1 | Yang dilakukan di Tahap 3 |
 |---|---|---|
-| **A. Data sendiri** | Spreadsheet, invoice, dashboard, log keputusan | Terkuat |
-| **B. Riset primer** | Laporan tahunan, filing IDX, BPS, jurnal, siaran pers resmi | Kuat |
-| **C. Riset sekunder** | Artikel berita, blog, video kreator lain | Lemah, hanya pendukung |
-| **D. Tanpa sumber** | Opini, "biasanya begini" | Tidak boleh |
+| A. Catatan sendiri | Nama dokumen atau catatan yang ada dan aman dibuka | Periksa angka, izin, dan samaran |
+| B. Sumber primer publik | Tautan laporan, filing, statistik resmi, jurnal, atau siaran pers | Baca sumber asli dan verifikasi klaim |
+| C. Pengukuran untuk video | Apa yang diukur, siapa yang mencatat, dan kapan selesai | Jalankan pengukuran dan simpan artefaknya |
+| D. Batas pengalaman | Batas yang akan disebut eksplisit dan dokumen publik pendukung | Pastikan video tidak mengaku punya data sendiri |
 
-**Aturan:** setiap topik di Top 3 wajib punya minimal satu bukti tipe A atau B. Topik yang hanya
-punya tipe C boleh masuk daftar, tetapi tidak boleh masuk tiga teratas.
+Sumber sekunder hanya boleh membantu menemukan sumber primer. Kalau tidak ada jenis bukti awal, kandidat tidak masuk peringkat. Jangan mencari lima sumber di tahap ini. Satu jenis bukti yang nyata sudah cukup untuk mengirim topik ke Tahap 3.
 
----
+Huruf A–D di sini adalah **jenis bukti awal**, bukan tiga jalur bukti di
+`03-riset-dan-fakta.md` Langkah 5. Pemetaan ke kolom `jenis_bukti`: A → `data sendiri` (skor 5),
+B dan C → `riset primer` (skor 3), D → `tanpa sumber primer` (skor 1). Tiga jalur di Tahap 3
+memakai nomor 1–3: catatan sendiri, pengukuran untuk video, dan batas pengalaman.
 
-### Langkah 6 — Skor dan Peringkat
+### 5. Uji hipotesis kemasan
 
-Hanya topik yang lolos Langkah 3b yang masuk sini.
+Tuliskan satu kalimat tentang hal yang secara visual akan membuat masalah ini terasa nyata.
 
-| Kriteria | Bobot | Skor 5 | Skor 3 | Skor 1 |
-|---|---|---|---|---|
-| **Permintaan** | ×2 | Median di atas 100 rb | Median 10–100 rb | Median di bawah 10 rb |
-| **Gap** | ×2 | Kosong | Dangkal | — |
-| **Bukti** | ×1 | Tipe A | Tipe B | Tipe C |
-| **Kapasitas** | ×1 | 2 hari kerja | 4 hari kerja | Lebih dari 1 minggu |
-
-Gap tidak punya skor 1. Gap kelas Dalam sudah dibuang di Langkah 3b, jadi topik yang sampai di
-sini paling buruk hanya Dangkal.
-
-**Skor maksimum: 30.**
-
-| Total | Arti |
+| Masalah | Hipotesis kemasan |
 |---|---|
-| 24–30 | Produksi sekarang |
-| 18–23 | Layak, tetapi perbaiki satu kriteria dulu |
-| Di bawah 18 | Simpan di content bank |
+| Layanan ramai menguras kapasitas | Satu baris tabel yang jam timnya jauh lebih besar daripada porsi omzetnya. |
+| Harga jasa tidak menutup kerja tambahan | Perbandingan harga awal dengan biaya revisi yang muncul sesudahnya. |
+| Founder menjadi persetujuan untuk semua pekerjaan | Kalender yang penuh rapat persetujuan dibandingkan jam kerja tim yang menunggu. |
 
-> [!NOTE]
-> Bobot di atas adalah tebakan awal, bukan hasil pengukuran. Ganti setelah empat video, memakai
-> data mana yang benar-benar memprediksi performa.
+Jika tidak ada kontras, artefak, atau pertanyaan tajam yang dapat disebut, kandidat boleh disimpan. Namun jangan menjadi kandidat utama sebelum Tahap 2 menunjukkan kemasan yang benar-benar bekerja.
 
-**Batas yang harus diakui:** skor ini memeringkat, bukan memutuskan. Pada uji 2026-11-01, lima
-topik mendapat nilai sama (20) padahal mutunya berbeda jauh: dua siap dikerjakan setelah satu
-perbaikan, satu harus digabung, dua seharusnya gugur. Kalau dua topik berselisih kurang dari 3
-poin, jangan pakai skornya sebagai alasan memilih. Pakai satu pertanyaan: mana yang buktinya sudah
-di tangan, bukan baru calon.
+### 6. Beri nilai untuk mengurutkan, lalu putuskan dengan gerbang
 
-**Ambang 100 ribu adalah garis yang saya gambar, bukan fakta pasar.** Karena Permintaan berbobot
-dua, melewati ambang ini bernilai empat poin. Pada putaran 2, nomor 1 (121.915) dan nomor 2
-(81.301) identik di tiga kriteria lain; seluruh selisih empat poin berasal dari satu garis itu.
-Kalau ambangnya digeser ke 80 ribu, keduanya seri. Jangan menyebut selisih seperti ini sebagai
-"pasarnya lebih besar".
+Gunakan skor database yang sudah ada. Skor membantu mengurutkan kandidat, bukan memberi izin produksi.
 
-**Rumus ini tidak punya kriteria kesesuaian pilar.** Pada putaran 2, "cara membuat penawaran harga
-ke klien" mendapat 23 dan seharusnya duduk di peringkat dua. Isinya tutorial Excel dan aplikasi
-quotation: itu keterampilan alat, bukan keputusan bisnis, jadi tidak punya POV dan tidak bisa
-lulus rubrik editorial. Topik seperti ini harus digugurkan dengan alasan di luar rumus, dan
-alasannya ditulis, bukan disembunyikan. Kandidat perbaikan: tambah kriteria kelima "Keputusan"
-(apakah ada satu keputusan yang dibahas, bukan satu alat yang diajarkan). Belum diputuskan.
+| Kriteria | Nilai 5 | Nilai 3 | Nilai terendah |
+|---|---|---|---|
+| Permintaan | Median di atas 100.000 | Median 10.000–100.000 | Di bawah 10.000 atau tidak stabil (1) |
+| Celah | `lebar` | `sedang`, atau `sempit` dengan pembeda yang jelas | `sempit` tanpa pembeda (0) |
+| Bukti | Catatan sendiri yang aman dibuka | Sumber primer atau pengukuran siap jalan | Hanya sumber sekunder atau batas pengalaman tanpa dokumen pendukung (1) |
+| Kapasitas | Dapat disiapkan dalam dua hari kerja | Empat hari kerja | Lebih dari satu minggu (1) |
 
----
+Rumus database tetap:
 
-### Langkah 7 — Tulis Masalah Audiens
-
-Untuk setiap topik di Top 3, tulis satu kalimat.
-
-```
-MASALAH AUDIENS:
-[Siapa] yang [mengalami apa] sehingga [dampak negatif apa].
+```text
+skor_total = (skor_permintaan × 2) + (skor_celah_pasokan × 2) + skor_bukti + skor_kapasitas
 ```
 
-**Uji:** kalau kalimatnya bisa dipakai untuk dua topik berbeda, terlalu lebar.
+Gunakan `skor_prioritas_konsep` hanya untuk menunjukkan dampak masalah jika dibiarkan salah. Ia tidak boleh mengalahkan gerbang di bawah.
 
----
+**Gerbang kandidat utama:**
 
-### Langkah 8 — Periksa Duplikat
+- pintu masuk, masalah, keputusan, dan ketegangan lanjut jelas;
+- sinyal permintaan relevan atau ada alasan pengecualian yang tertulis;
+- celah lokal ada, atau pembeda terhadap video yang sudah dalam dapat dijelaskan;
+- jenis bukti awal yang nyata;
+- tidak mengulang ide, brief, atau video Fadhil yang sudah ada;
+- hipotesis kemasan ada.
 
-- Buka `workflows/produksi/content-bank.md` dan `content/briefs/`. Sudah ada yang mirip?
-- Cari sudut itu di YouTube. Sudah dibahas dengan angka?
-- Kalau sudah, ubah sudutnya atau gugurkan topiknya.
+Kandidat yang lolos semua gerbang dengan skor tertinggi menjadi **utama**. Simpan maksimal dua berikutnya sebagai **cadangan**. Kandidat lain diberi status `perlu perbaikan`, `ditunda`, `digabung`, atau `gugur` beserta satu alasan.
 
----
+### 7. Catat hasil dan serahkan ke Tahap 2
 
-## Output
+Simpan hasil pindai di `content/pindai/pindai-topik-[tanggal].md`, lalu masukkan kandidat yang masih hidup ke database melalui `tools/tambah-ide.py`.
 
-Simpan hasil di `content/pindai/pindai-topik-[YYYY-MM-DD].md`. Satu file per putaran, bukan
-menimpa file lama, supaya perubahan peringkat antar bulan bisa dibandingkan.
+Tahap 2 hanya menerima kandidat utama beserta tujuh keluaran pada tabel pertama. Tahap 2 wajib membuat kandidat judul, teks thumbnail, dan sketsa thumbnail. Jika kemasannya tidak lulus, kembali ke kandidat cadangan atau revisi sudutnya.
+
+## Format Hasil Pindai
 
 ```markdown
 # Pindai Topik — [Tanggal]
 
-| # | Sudut | Pilar | Permintaan | Gap | Bukti | Kapasitas | Skor |
-|---|---|---|---|---|---|---|---|
-| 1 | | | /5 | /5 | /5 | /5 | /30 |
-| 2 | | | | | | | |
-| 3 | | | | | | | |
-| 4 | | | | | | | |
-| 5 | | | | | | | |
+## Kandidat utama
 
-## Bukti per Topik
+- **Sudut:** [satu kalimat]
+- **Pilar dan format:** [pilar] / [format]
+- **Pintu masuk:** [situasi yang mudah dikenali]
+- **Masalah audiens:** [siapa, masalah, akibat]
+- **Keputusan yang dibahas:** [satu keputusan]
+- **Ketegangan lanjut:** [ukuran, trade-off, atau batas]
+- **Sinyal permintaan:** [kueri, median, rentang, pemeriksaan relevansi]
+- **Celah lokal:** [lebar/sedang/sempit + pembeda]
+- **Jenis bukti awal:** [A/B/C/D + tautan atau nama dokumen]
+- **Hipotesis kemasan:** [satu kontras, artefak, atau pertanyaan]
+- **Skor:** [rincian dan total]
+- **Keputusan:** Utama, karena [alasan].
 
-### 1. [Sudut]
-- Sumber: [tautan / dokumen]
-- Jenis: [A / B / C]
-- Angka kunci: [___]
-- Masalah audiens: [satu kalimat]
+## Kandidat cadangan
+
+### [Sudut]
+[Tujuh keluaran yang sama, lebih ringkas.]
+
+## Kandidat tidak dipilih
+
+| Sudut | Status | Alasan |
+|---|---|---|
+| | `perlu perbaikan` / `ditunda` / `digabung` / `gugur` | |
 ```
-
----
 
 ## Gerbang Keluaran
 
-| # | Syarat | Cek |
-|---|---|---|
-| 1 | Minimal 10 kueri dipindai, masing-masing 3 putaran | ☐ |
-| 2 | Minimal 5 kandidat diskor | ☐ |
-| 3 | Tiga teratas punya skor minimal 18 | ☐ |
-| 4 | Tiga teratas punya bukti tipe A atau B yang sudah diambil, bukan baru calon | ☐ |
-| 5 | Setiap bukti punya tautan, DOI, atau nama dokumen | ☐ |
-| 6 | Video yang hanya cocok kata kuncinya sudah dibuang dari hitungan | ☐ |
-| 7 | Video dari channel asing tidak dihitung sebagai pasokan lokal | ☐ |
-| 8 | Chapter dan deskripsi dua video teratas per kandidat Top 3 sudah dibaca | ☐ |
-| 9 | Tidak ada duplikat dengan bank atau brief | ☐ |
+- [ ] Delapan masalah calon telah ditulis; masing-masing punya pintu masuk, keputusan, dan ketegangan lanjut.
+- [ ] Minimal enam kueri relevan telah dipindai, masing-masing dalam tiga putaran.
+- [ ] Hasil yang tidak relevan dan channel asing telah ditandai sebelum angka dibaca.
+- [ ] Dua hasil lokal paling relevan untuk kandidat utama telah diperiksa melalui deskripsi dan chapter.
+- [ ] Satu kandidat utama dan maksimal dua cadangan memiliki tujuh keluaran wajib.
+- [ ] Kandidat utama memiliki jenis bukti awal yang nyata, bukan hanya ide mencari bukti.
+- [ ] Kandidat utama memiliki hipotesis kemasan, bukan judul atau thumbnail final.
+- [ ] Kandidat yang tidak dipilih memiliki alasan singkat dan tercatat.
+- [ ] Kandidat hidup telah masuk ke `database/database.db`.
 
-> **Catatan jujur tentang gerbang 8.** Versi sebelumnya menuntut "dua video teratas sudah
-> ditonton". Itu tidak bisa dikerjakan tanpa menonton, dan menonton 6 video untuk 3 kandidat
-> menambah 60–120 menit ke langkah yang seharusnya 85 menit. Yang sekarang dituntut: baca chapter
-> dan deskripsi. Itu bukti lebih lemah, dan harus ditulis sebagai *simpulan*, bukan
-> *terverifikasi*. Kalau topik akan diproduksi, tonton satu video teratas sebelum menulis naskah.
+## Batas Waktu
 
----
+Gunakan batas kerja 90 menit setelah kueri dan sumber yang sering dipakai sudah tersedia. Jika waktunya habis, jangan memperdalam semua kandidat. Pilih kandidat yang bukti awalnya paling dekat, simpan sisanya sebagai cadangan, lalu lanjut ke Tahap 2.
 
-## Alat
-
-| Alat | Fungsi |
-|---|---|
-| `tools/pindai-youtube.py` | Mengukur permintaan dan supply. Bawaan 3 putaran per kueri. |
-| `tools/cek-video.py` | Membaca chapter dan deskripsi satu video tanpa menonton |
-| YouTube Autocomplete | Melihat bahasa yang benar-benar diketik |
-| Google Trends | Membandingkan minat antarkueri, region Indonesia |
-| Laporan tahunan / IDX / BPS / jurnal | Sumber bukti tipe B |
-| Google Scholar, Scopus, DOAJ | Mencari sumber tipe B untuk topik yang tidak punya data sendiri |
-
----
+Ini target uji, bukan waktu yang sudah terbukti. Versi lama membutuhkan sekitar 160–185 menit.
+Ukur empat putaran berikutnya sebelum menetapkan batas permanen. Jika masih melewati 90 menit,
+catat penyebabnya. Biasanya masalahnya salah satu dari tiga: kueri terlalu banyak, pemeriksaan
+relevansi belum punya aturan yang jelas, atau riset primer seharusnya dipindahkan ke Tahap 3.
 
 ## Kesalahan Umum
 
-| Kesalahan | Kenapa berbahaya | Perbaikan |
+| Kesalahan | Dampak | Perbaikan |
 |---|---|---|
-| Menilai gap dari jumlah hasil | Topik mati terlihat seperti gap | Lihat median tayangan |
-| Memakai tayangan tertinggi | Berubah 5 kali antar putaran | Pakai median 3 putaran |
-| Satu putaran per kueri | Skor bisa berubah 5 kali lipat | Tiga putaran |
-| Menghitung video terjemahan sebagai pasokan lokal | Gap terlihat lebih sempit daripada kenyataan | Periksa nama channel |
-| Memakai istilah akademik | Tidak ada yang mencarinya | Pakai bahasa pembeli |
-| Menganggap topik ramai sebagai peluang | Berarti supply sudah dalam | Cari sudut, bukan topik |
-| Memberi skor tanpa data | Peringkat jadi selera | Setiap skor harus punya angka |
-| Memindai 40 kueri | Menghabiskan waktu, hasilnya sama | Batasi 15 kueri |
-| Mempercayai skor untuk memutuskan | Tiga topik bisa dapat nilai sama padahal beda mutu | Skor memeringkat; kriteria gugur memutuskan |
-| Memakai kueri berjargon | Hasilnya konten umum, median naik 26 kali lipat | Uji: kata kunci utama harus muncul di judul hasil |
-| Memeriksa relevansi kata kunci saja | Topik industri lain lolos ke peringkat dua | Tanya: apakah pengetik kueri ini audiens kita |
-| Mengambil ID video di permintaan terpisah | ID tertukar antar permintaan, supply salah dinilai tanpa gejala | Ambil ID dan judul dalam satu permintaan |
-| Membaca satu putaran sebagai peringkat final | Dua putaran bisa nyaris tidak beririsan | Peringkat yang dipercaya lahir dari konvergensi |
-
----
-
-## Waktu
-
-Angka di kolom tengah adalah hasil pengukuran 2026-11-01 pada 15 kueri, bukan perkiraan.
-
-| Pekerjaan | Perkiraan awal | Aktual | Catatan |
-|---|---|---|---|
-| Susun 15 kueri | 10 menit | 15 menit | |
-| Jalankan pindai | 10 menit | 40 menit | Termasuk 3 putaran dan perbaikan skrip |
-| Klasifikasi supply | 20 menit | 55 menit | Bagian termahal. Membaca 10 judul per kueri. |
-| Rumuskan sudut | 15 menit | 20 menit | |
-| Tentukan bukti dan skor | 20 menit | 45 menit | Mencari 3 sumber tipe B dari nol |
-| Tulis masalah audiens | 10 menit | 10 menit | |
-| **Total** | **85 menit** | **185 menit** | |
-
-Putaran kedua seharusnya 100–120 menit, karena kueri dan skrip sudah ada. Kalau masih di atas
-150 menit, kurangi kueri dari 15 menjadi 10, jangan kurangi putaran.
-
-**Kenyataan putaran 2:** sekitar 160 menit, tidak diukur dengan stopwatch. Lebih cepat 25 menit dari
-putaran 1, tetapi masih di atas 120 menit. Yang menyerap waktu bukan pemindaian, melainkan
-memeriksa relevansi 15 kueri satu per satu dan mencari sumber tipe B dari nol. Kalau ini diulang
-rutin, bagian pencarian sumber yang harus dipangkas lebih dulu: pakai sumber yang sudah terkumpul
-di putaran sebelumnya sebelum mencari yang baru.
-
----
+| Memulai dari daftar topik luas | Video berakhir sebagai penjelasan umum | Mulai dari masalah dan satu keputusan |
+| Menganggap tayangan sebagai permintaan murni | Topik dari industri lain ikut lolos | Periksa relevansi hasil dan audiens |
+| Menilai supply dari jumlah hasil | Topik mati terlihat seperti peluang | Periksa dua video lokal yang paling relevan |
+| Menggunakan skor untuk memutuskan | Kandidat lemah terlihat objektif | Pakai skor untuk urutan; pakai gerbang untuk memilih |
+| Mencari lima sumber sebelum memilih kandidat | Tahap 1 berubah menjadi riset penuh | Cukup pastikan satu jenis bukti awal yang nyata |
+| Membuat judul dan thumbnail final di Tahap 1 | Janji dibuat sebelum bukti diperiksa | Kirim hipotesis kemasan ke Tahap 2 |
+| Membuat outline lengkap di Tahap 1 | Naskah dibangun sebelum fakta terkumpul | Tahap 1 hanya menetapkan keputusan yang akan dijawab |
+| Memilih tiga topik untuk diproduksi sekaligus | Minggu berikutnya harus memilih ulang | Pilih satu utama dan dua cadangan |
 
 ## Hubungan dengan Tahap Lain
 
 | Ke | Yang dikirim |
 |---|---|
-| Tahap 2 — Pengemasan | Sudut, penonton, masalah audiens, angka kunci |
-| Tahap 3 — Riset | Sumber bukti yang harus diverifikasi |
-| `content/pindai/` | Arsip hasil pindai per tanggal |
-| Content bank | Kandidat yang tidak masuk Top 3 |
+| Tahap 2 — Pengemasan | Pintu masuk, masalah, sudut keputusan, ketegangan lanjut, pembeda, jenis bukti awal, hipotesis kemasan |
+| Tahap 3 — Riset | Jenis bukti awal yang harus diverifikasi |
+| Content bank | Kandidat tunda, gabung, dan gugur beserta alasan |
+| Database ide | Kandidat hidup beserta skor dan status |
 
----
-
-## Changelog
-
-| Tanggal | Perubahan |
-|---|---|
-| 2026-10-31 | Versi awal |
-| 2026-11-01 | Tambah log keputusan, empat filter, kata kunci sebagai penentu prioritas |
-| 2026-11-01 | Ditulis ulang. Gap-first, bukti boleh dari riset primer, keluaran berupa peringkat Top N |
-| 2026-11-01 | Setelah dijalankan: 3 putaran per kueri, tayangan tertinggi dibuang, Langkah 3b (gugurkan sebelum menilai), peringatan judul terjemahan, gerbang "tonton" diganti "baca chapter", waktu aktual 185 menit |
-| 2026-11-01 | Setelah putaran 2: relevansi audiens (bukan hanya kata kunci), peringatan kueri berjargon, ID dan judul wajib satu permintaan, ambang 100 ribu diakui sebagai garis sendiri, catatan bahwa rumus tidak punya kriteria kesesuaian pilar, daftar channel asing ditambah 15 |
+*Terakhir diperbarui: 3 November 2026*

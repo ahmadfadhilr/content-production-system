@@ -13,9 +13,23 @@ Builder.
 **Positioning:** Membagikan keputusan, eksperimen, dan sistem praktis untuk membantu pemilik
 bisnis yang sudah berjalan tumbuh lebih sehat dengan sumber daya terbatas.
 
-**Audiens:** Founder dan pemilik bisnis jasa, edukasi, atau digital yang sudah punya pelanggan
-dan tim kecil. Mereka ingin meningkatkan pendapatan tanpa merusak margin, kualitas layanan,
-atau kendali operasional.
+**Audiens utama:** Founder dan pemilik bisnis jasa, edukasi, atau digital yang sudah punya
+pelanggan dan tim kecil. Mereka ingin meningkatkan pendapatan tanpa merusak margin, kualitas
+layanan, atau kendali operasional.
+
+**Standar jangkauan:** Konten tetap dibuat untuk audiens utama, tetapi harus dapat diikuti oleh
+orang yang belum punya bisnis dan tetap memberi kedalaman bagi operator bisnis yang lebih besar
+atau lebih matang. Ini bukan tiga audiens utama yang setara.
+
+- **Pintu masuk:** masalah dijelaskan lewat situasi, biaya, atau pilihan yang bisa dipahami orang
+  yang baru ingin membangun bisnis. Jangan mengandaikan mereka sudah tahu istilah bisnis.
+- **Inti:** keputusan dan langkah dibuat untuk founder dengan bisnis berjalan dan tim kecil.
+- **Kedalaman:** setiap rekomendasi membuka ukuran, trade-off, dan batasnya agar operator yang
+  lebih matang dapat menguji logikanya. Jangan membuat segmen khusus yang mengorbankan kejelasan
+  bagi audiens utama.
+
+Ambang pendapatan untuk kategori “bisnis lebih besar” belum ditetapkan. Jangan menulis angka
+ambang baru sampai Fadhil menetapkannya.
 
 **Channel utama:** YouTube — konten mendalam 8–15 menit.
 **Distribusi sekunder:** Instagram Reels/Carousel dari materi YouTube yang sama. Jangan membuat
@@ -34,9 +48,9 @@ materi orisinal terpisah dulu.
 
 | Format | Struktur | Contoh judul |
 |---|---|---|
-| **Decision Notes** | Situasi → pilihan → kriteria → keputusan → trade-off | "Margin Tinggi vs Omzet Besar: Angka Apa yang Menentukan?" |
-| **Business Breakdown** | Konteks → masalah → keputusan → dampak → pelajaran | "Mengapa Bisnis Pendidikan Mengubah Produk Belajar Mandiri Menjadi Tutoring?" |
-| **Operating Playbook** | Masalah → langkah → contoh → ukuran keberhasilan → batas penggunaan | "Cara Menemukan Titik Bocor di Funnel Penjualan" |
+| **Decision Notes** | Situasi → pilihan → kriteria → keputusan → trade-off | "Layanan Paling Ramai, Kenapa Justru Bikin Bisnis Berat?" |
+| **Business Breakdown** | Konteks → masalah → keputusan → dampak → pelajaran | "Produk Ini Laku, Kenapa Justru Diubah?" |
+| **Operating Playbook** | Masalah → langkah → contoh → ukuran keberhasilan → batas penggunaan | "Pelanggan Ramai, Kenapa Uang Tidak Bertambah?" |
 
 **Fase saat ini:** Pilot — empat video pertama dalam empat minggu. Belum ada baseline. Jangan
 menetapkan target view atau subscriber secara arbitrer. Bandingkan empat video satu sama lain,
@@ -128,6 +142,7 @@ content-production-system/
 │   ├── cek-video.py                # Baca chapter dan deskripsi video tanpa menonton
 │   ├── urut-video.py               # Urutkan video channel per tayangan, ambil ID untuk transkrip
 │   ├── ranking.py                  # Urutkan ide: prioritas dulu, lalu skor
+│   ├── lihat-ide.py                # Baca satu ide lengkap atau daftar ide hidup
 │   └── tambah-ide.py               # Tambah ide baru dari berkas JSON, tidak menimpa
 │
 ├── content/                        # File produksi per konten
@@ -180,6 +195,7 @@ Kalau baru membuka repo ini: baca `workflows/README.md` dulu (peta dua pipeline)
 |---|---|
 | Urutan tahap, aturan lintas tahap, ritme mingguan | `workflows/produksi/00-pipeline.md` |
 | Mencari ide konten, memilih topik, memvalidasi ide | `workflows/produksi/01-ideasi.md` |
+| Membaca database ide, arti kolom, menambah ide | `database/README.md` |
 | Membuat judul, merancang konsep thumbnail | `workflows/produksi/02-pengemasan.md` |
 | Riset fakta, data, referensi, studi kasus | `workflows/produksi/03-riset-dan-fakta.md` |
 | Menulis outline, naskah, hook, struktur cerita | `workflows/produksi/04-penulisan-naskah.md` |
@@ -224,26 +240,27 @@ gerbangnya belum lulus.
 
 ### Tahap 1 — Ideasi
 
-**Tujuan:** Menghasilkan daftar Top N topik yang layak diproduksi, sudah diskor, berbasis data
-permintaan dan celah pasokan.
+**Tujuan:** Memilih satu kandidat video utama dan maksimal dua cadangan, berbasis masalah audiens,
+sinyal permintaan, celah pasokan, dan jenis bukti awal yang nyata.
 
 **Aturan utama:**
-- Mulai dari celah: sudut yang dicari orang tetapi belum dibahas dalam di YouTube Indonesia.
+- Mulai dari celah: sudut yang dicari orang tetapi belum dibahas mendalam di YouTube Indonesia.
 - Permintaan diukur, bukan dirasakan. Median tayangan 10 hasil teratas, tiga putaran per kueri.
 - Bukti boleh dari riset: data sendiri, laporan tahunan, filing, BPS, jurnal, siaran pers resmi.
 - Setiap ide harus masuk ke salah satu dari tiga pilar konten.
 - Topik boleh aktual. Yang tidak boleh berubah adalah lensanya: keputusan, margin, kapasitas.
 
-**Dua hal yang menggugurkan topik sebelum dinilai:** pasokan sudah dalam, atau permintaan di bawah
+**Dua hal yang menggugurkan topik sebelum dinilai:** pasokan sudah `sempit` tanpa pembeda, atau permintaan di bawah
 ambang. Skor tidak bisa menyelamatkan topik yang seharusnya gugur di sini.
 
 **Sumber ide:** pindai YouTube (`tools/pindai-youtube.py`), log keputusan sebagai bukti tipe A,
 content bank untuk cek duplikat, komentar dan pertanyaan audiens sebagai sinyal pendukung.
 
-**Gerbang keluaran:** ✅ Minimal 10 kueri dipindai, minimal 5 kandidat diskor, tiga teratas punya
-skor minimal 18 dengan bukti tipe A atau B yang sudah diambil. Hasil disimpan di
-`content/pindai/pindai-topik-[tanggal].md`, lalu ide masuk ke `database/database.db` lewat
-`tools/tambah-ide.py`. Lihat urutannya dengan `tools/ranking.py`.
+**Gerbang keluaran:** ✅ Minimal enam kueri dipindai dalam tiga putaran. Kandidat utama dan maksimal
+dua cadangan masing-masing punya masalah audiens, keputusan, sinyal permintaan, celah lokal, jalur
+bukti, hipotesis kemasan, dan alasan keputusan. Hasil disimpan di
+`content/pindai/pindai-topik-[tanggal].md`, lalu ide hidup masuk ke `database/database.db` lewat
+`tools/tambah-ide.py`. Skor hanya mengurutkan; gerbang menentukan kandidat utama.
 
 **SOP lengkap:** `workflows/produksi/01-ideasi.md`
 
@@ -257,7 +274,8 @@ skor minimal 18 dengan bukti tipe A atau B yang sudah diambil. Hasil disimpan di
 > menarik, jangan lanjut ke penulisan. Ubah sudut pandang atau ganti ide.
 
 **Aturan judul:**
-- Wajib ada entitas bernama atau angka. "Bisnis edukasi saya" dan "Rp450 ribu" sah sebagai entitas.
+- Wajib ada jangkar konkret: entitas bernama, angka, identitas, atau situasi yang sangat dikenali.
+  "Bisnis edukasi saya", "Rp450 ribu", "pelanggan bilang mahal", dan "tim selalu lembur" sah.
 - Wajib ada taruhan: apa yang hilang atau berubah kalau penonton tidak tahu isinya.
 - Wajib ada pertentangan yang terbaca dari judul saja.
 - Total di bawah 70 karakter. Kata kunci di awal adalah preferensi, bukan syarat.
@@ -273,7 +291,7 @@ skor minimal 18 dengan bukti tipe A atau B yang sudah diambil. Hasil disimpan di
 - Kalau video punya angka, pertimbangkan menampilkan angka itu. Harus sama dengan angka di video.
 
 **Gerbang keluaran:** ✅ Lima opsi judul, dua dipertahankan, ditambah 1–2 sketsa thumbnail untuk
-judul terbaik. Minimal satu kombinasi lolos uji lima detik: ada nama atau angka, ada taruhan, ada
+judul terbaik. Minimal satu kombinasi lolos uji lima detik: ada jangkar konkret, ada taruhan, ada
 pertentangan, dan bisa dipenuhi isi video.
 
 **SOP lengkap:** `workflows/produksi/02-pengemasan.md`
@@ -315,9 +333,10 @@ tidak bisa ditiru dari riset lewat salah satu dari tiga jalur.
    Pernyataan kontarian, angka mengejutkan, atau pertanyaan tajam.
    Jangan pembukaan basa-basi. Jangan "Halo semuanya".
 
-2. BUKTI PERTAMA (5–30 detik)
+2. BUKTI PERTAMA (5–60 detik)
    Tunjukkan satu angka atau artefak dari lembar fakta.
-   Jangan pakai 30 detik pertama untuk janji. YouTube menilai jendela ini sebagai Intro.
+   Satu bukti yang dikenali penonton plus satu angka spesifik sebelum detik 60. Menit pertama
+   bukan untuk janji — YouTube menilai 30 detik pertama sebagai Intro.
 
 3. JANJI (30–40 detik)
    Satu kalimat: apa yang penonton dapat, dalam bentuk apa.
@@ -510,8 +529,9 @@ A5–A6 : Musik (stereo)
 
 **Wajib sebelum terbit:**
 - [ ] Thumbnail dari Tahap 2, sudah diuji di layar ponsel 120 px
-- [ ] Judul dari Tahap 2, di bawah 70 karakter, ada entitas atau angka dan taruhan
-- [ ] 30 detik pertama lulus: bukti pertama muncul sebelum detik 30, tanpa sapaan
+- [ ] Judul dari Tahap 2, di bawah 70 karakter, punya jangkar konkret dan taruhan
+- [ ] Menit pertama lulus: bukti pembuka dikenali penonton, satu angka spesifik sebelum detik 60,
+      tanpa sapaan
 - [ ] End screen terpasang di 15–20 detik terakhir
 - [ ] Deskripsi: 150 karakter pertama = kata kunci + alasan menonton
 - [ ] Deskripsi body: 150–200 kata, kata kunci turunan alami, tanpa spam
@@ -653,7 +673,7 @@ per dua minggu dan perpanjang pilot.
 | ⭐ **Bukti** | Klaim inti punya sumber primer. Ada satu bukti yang tidak bisa ditiru dari riset, lewat tiga jalur di Tahap 3. Data internal aman dibuka |
 | **Trade-off** | Dampak negatif dan batas saran disebutkan |
 | **Kegunaan** | Ada langkah atau keputusan yang bisa diterapkan |
-| **Judul** | Ada entitas atau angka, dan taruhan. Tanpa klaim berlebihan |
+| **Judul** | Ada jangkar konkret dan taruhan. Tanpa klaim berlebihan |
 | **Keaslian** | Bukan pengulangan konten sendiri atau ringkasan konten orang lain |
 
 ---

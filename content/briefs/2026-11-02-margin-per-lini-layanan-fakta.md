@@ -117,12 +117,14 @@ karena itu dibatasi.
 
 ### Klaim 6: Permintaan topik ini terukur
 
-- **Bukti:** Median tayangan 10 hasil teratas untuk kueri keluarga margin per lini layanan:
-  183.822. Tiga putaran, rentang 1,17 kali.
-- **Sumber:** `content/pindai/pindai-topik-2026-11-01.md`.
+- **Bukti:** Median tayangan 10 hasil teratas untuk kueri “cara menghitung margin bisnis jasa”:
+  136.495. Tiga putaran, rentang 1,3 kali.
+- **Sumber:** `content/pindai/pindai-topik-2026-11-03.md`.
 - **Jenis:** Data publik.
 - **Reliabilitas:** **Terverifikasi**, diukur sendiri.
-- **Catatan:** Ini angka pasar, bukan angka bisnis. Tidak dipakai di dalam naskah.
+- **Catatan:** Ini angka pasar, bukan angka bisnis. Tidak dipakai di dalam naskah. Angka 183.822
+  dari putaran 2026-11-01 memakai kueri “cara menghitung margin usaha” yang lebih lebar; angka
+  yang dipakai sekarang berasal dari kueri yang lebih dekat ke sudut video.
 
 ---
 

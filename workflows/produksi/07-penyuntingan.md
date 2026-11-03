@@ -29,7 +29,7 @@ berarti menebak, dan menebak dengan biaya jam kerja.
 2. Potong semua jeda, filler ("eh", "hmm"), kesalahan, dan pengulangan.
 3. Periksa alur: masuk akal dari awal sampai akhir?
 4. Periksa durasi: target 8–15 menit.
-5. Review: hook kuat? bukti pertama muncul sebelum detik 30? kesimpulan jelas?
+5. Review: hook kuat? bukti pembuka dikenali penonton dan satu angka spesifik sebelum detik 60? kesimpulan jelas?
 
 **Keluaran:** video kasar yang ceritanya utuh.
 

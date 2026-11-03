@@ -18,7 +18,9 @@ buruk adalah video yang tidak pernah ditemukan.
 ## Input yang Dibutuhkan
 
 - [ ] Satu masalah audiens yang spesifik
+- [ ] Satu pintu masuk yang dipahami orang yang belum punya bisnis
 - [ ] Satu ide konten yang bisa diringkas dalam satu kalimat
+- [ ] Satu ketegangan lanjut: ukuran, trade-off, atau batas untuk operator yang lebih matang
 - [ ] Pilar dan format yang dipilih
 - [ ] **Satu artefak utama**: angka, dokumen, atau keputusan yang akan terlihat di layar
 
@@ -37,7 +39,7 @@ dipenuhi isi video.
 ✅ **Lulus jika:**
 
 - Ada 5 opsi judul, 2 di antaranya dipertahankan
-- Setiap judul memuat entitas bernama atau angka, dan satu taruhan
+- Setiap judul memuat satu jangkar konkret dan satu taruhan
 - Ada 1–2 sketsa thumbnail untuk judul terbaik
 - Kombinasi terpilih lolos uji mobile 120 px
 - Semua opsi terdokumentasi di content brief
@@ -69,16 +71,21 @@ dipenuhi isi video.
 
 ## Prosedur Langkah demi Langkah
 
-### Langkah 1 — Tulis Ulang Ide dalam Satu Kalimat
+### Langkah 1 — Tulis Ulang Janji untuk Tiga Lapisan Penonton
 
-**"Video ini membantu [siapa] menyelesaikan [masalah apa] dengan cara [pendekatan apa]."**
+```text
+Pintu masuk: [situasi yang dikenali bahkan oleh orang yang belum punya bisnis].
+Keputusan inti: [pilihan yang perlu dibuat founder dengan bisnis berjalan].
+Ketegangan lanjut: [ukuran, trade-off, atau batas yang membuat jawabannya tidak dangkal].
+```
 
 Contoh:
 
-> "Video ini membantu pemilik bisnis jasa yang omzetnya naik tapi profitnya stagnan memahami
-> kapan harus menaikkan harga dan kapan harus memotong biaya."
+> Pintu masuk: “Pelanggan bilang harga kamu mahal, padahal tim sudah kewalahan.”
+> Keputusan inti: harga dinaikkan, ruang lingkup dipersempit, atau layanan dihentikan?
+> Ketegangan lanjut: harga yang terlihat untung dapat tetap menghabiskan kapasitas tim.
 
-Kalau kalimatnya mencoba menjelaskan dua hal, topik masih terlalu lebar.
+Kalau tiga baris ini menjelaskan dua keputusan, topik masih terlalu lebar.
 
 ---
 
@@ -97,7 +104,7 @@ Frasa turunan: ___
 
 > [!IMPORTANT]
 > Kata kunci ditempatkan di awal judul sebagai **preferensi**, bukan syarat. Judul yang memuat
-> entitas dan taruhan tetapi kata kuncinya di tengah lebih baik daripada judul yang kata
+> jangkar konkret dan taruhan tetapi kata kuncinya di tengah lebih baik daripada judul yang kata
 > kuncinya di depan tetapi tidak punya taruhan.
 
 ---
@@ -110,7 +117,7 @@ Tulis lima opsi. Setelah diuji, pertahankan dua: satu utama, satu cadangan.
 
 | Aturan | Penjelasan |
 |---|---|
-| **Ada entitas bernama atau angka** | "KFC", "Rp369 Miliar", "31%", "€100 Juta". Minimal salah satu. |
+| **Ada jangkar konkret** | Nama, angka, situasi yang sangat dikenal, atau identitas yang jelas. "KFC", "Rp369 miliar", "pelanggan bilang mahal", dan "tim selalu lembur" sama-sama dapat menjadi jangkar. |
 | **Ada taruhan** | Apa yang hilang, berubah, atau dipertaruhkan kalau penonton tidak tahu isinya. |
 | **Ada pertentangan** | Dua hal yang seharusnya tidak berdampingan: makin rugi tetapi makin mahal; omzet naik tetapi profit turun. |
 | Bahasa percakapan | Kata yang benar-benar dipakai pemilik bisnis, bukan bahasa buku. |
@@ -119,18 +126,20 @@ Tulis lima opsi. Setelah diuji, pertahankan dua: satu utama, satu cadangan.
 | Judul ≠ thumbnail | Keduanya melengkapi, bukan mengulang. |
 | Kata kunci di awal | Preferensi, bukan syarat. |
 
-**Kalau topik tidak punya entitas publik**, entitasnya adalah bisnis Fadhil sendiri atau angka
-dari log keputusan. "Bisnis edukasi saya" dan "Rp450 ribu" sama sahnya dengan nama perusahaan
-besar.
+Jangkar bukan alasan membuat angka. Kalau tidak ada angka atau entitas yang aman dipakai, gunakan
+situasi yang konkret. Judul “Pelanggan Bilang Mahal, Tapi Tim Sudah Kewalahan” lebih jujur dan
+lebih dekat daripada memaksa angka generik.
 
-**Uji lima detik.** Untuk setiap judul, jawab tanpa berpikir:
+**Uji lima detik.** Jawab tanpa berpikir. Pertanyaannya menurun dari tabel Aturan Judul di atas,
+lalu disesuaikan dengan tiga lapisan penonton:
 
-1. Ada nama atau angka?
-2. Ada taruhan?
-3. Ada pertentangan?
-4. Bisa dipenuhi isi video?
+1. Apakah orang yang belum punya bisnis langsung mengenali situasinya?
+2. Apakah founder dengan bisnis berjalan tahu keputusan yang dipertaruhkan?
+3. Apakah ada pertentangan, batas, atau biaya yang membuat operator matang tetap ingin tahu?
+4. Bisakah isi video memenuhi janji itu?
 
-Kalau nomor 1 atau 2 dijawab "tidak", tulis ulang.
+Kalau nomor 2 atau 4 dijawab "tidak", tulis ulang. Kalau nomor 1 atau 3 dijawab "tidak", ubah
+sudut atau thumbnail sebelum menambah kata ke judul.
 
 #### Perbandingan
 
@@ -159,20 +168,16 @@ Bukan kewajiban. Pakai kalau macet.
 > [!WARNING]
 > Sudut "curiosity gap" tidak lagi diwajibkan. Studi OverseerOS terhadap 3.357 video menemukan
 > judul yang hanya mengandalkan rasa penasaran berperforma 0,92 kali median. Rasa penasaran
-> bekerja kalau ada entitas dan taruhan yang jelas. Tanpa itu, ia hanya menjadi teka-teki.
+> bekerja kalau ada jangkar konkret dan taruhan yang jelas. Tanpa itu, ia hanya menjadi teka-teki.
 >
 > Angka itu saya kutip dari review, bukan dari pengukuran sendiri. Perlakukan sebagai petunjuk,
 > bukan kebenaran final.
 
-#### Ceklis per Opsi Judul
+#### Periksa Opsi Judul
 
-- [ ] Ada entitas bernama atau angka?
-- [ ] Ada taruhan yang jelas?
-- [ ] Ada pertentangan yang terbaca dari judul saja?
-- [ ] Total di bawah 70 karakter?
-- [ ] Bahasa percakapan?
-- [ ] Tidak menjanjikan yang tidak bisa dipenuhi?
-- [ ] Saya akan klik ini kalau muncul di feed?
+Periksa setiap opsi hanya dengan tabel **Aturan Judul** di atas. Tidak ada daftar periksa kedua —
+aturan yang disimpan di dua tempat usang di satu tempat. Pertanyaan "apakah saya akan klik ini
+kalau muncul di feed" dijawab di Uji Feed, Langkah 5.
 
 #### Bukti dari Dua Belas Video (2 November 2026)
 
@@ -186,7 +191,7 @@ dan belum tercatat di SOP:
 | **Tenggat waktu** | "in 90 Days", lalu dijawab di akhir video | Mengubah klaim menjadi taruhan yang bisa gagal |
 | **Ironi** | "Selamat, Purbaya Dipecat." | Pertentangan terbaca dari dua kata, tanpa angka |
 
-Cara pakai: tambahkan salah satunya kalau judul sudah punya entitas dan taruhan tetapi masih
+Cara pakai: tambahkan salah satunya kalau judul sudah punya jangkar konkret dan taruhan tetapi masih
 terasa datar. Jangan menambahkan ketiganya sekaligus.
 
 > [!CAUTION]
@@ -272,6 +277,8 @@ Konsep Thumbnail [A/B]:
 | Judul menambah konteks yang tidak ada di thumbnail? | Ya |
 | Ada satu janji yang jelas? | Ya |
 | Janji itu bisa dipenuhi isi video? | Ya |
+| Situasi di kemasan dapat dikenali tanpa memahami jargon bisnis? | Ya |
+| Isi tetap menjanjikan keputusan atau batas yang berarti bagi operator matang? | Ya |
 
 **Contoh bagus:**
 
@@ -292,6 +299,8 @@ Bayangkan kombinasi ini di antara 20 thumbnail lain.
 - Stand out secara visual?
 - Dalam 2 detik saya paham videonya tentang apa?
 - Saya ingin tahu kelanjutannya?
+- Orang yang belum punya bisnis paham rasa sakitnya tanpa perlu definisi?
+- Founder yang lebih matang melihat keputusan atau trade-off yang belum selesai?
 
 ---
 
@@ -341,7 +350,7 @@ Batas waktu: 30 menit. Kalau lewat, kembali ke Tahap 1.
 - Turunan: [___]
 
 ### Opsi Judul
-1. [Judul] — entitas/angka: [___] — taruhan: [___] — [terpilih / cadangan / ditolak]
+1. [Judul] — jangkar konkret: [___] — taruhan: [___] — [terpilih / cadangan / ditolak]
 2. [Judul] — ...
 3. [Judul] — ...
 4. [Judul] — ...
@@ -378,13 +387,13 @@ Batas waktu: 30 menit. Kalau lewat, kembali ke Tahap 1.
 | Kesalahan | Kenapa berbahaya | Cara menghindari |
 |---|---|---|
 | Merancang kemasan setelah naskah selesai | Naskah terbuang kalau topik tidak bisa dikemas | Kerjakan di Tahap 2 |
-| Judul tanpa entitas dan angka | Tidak ada alasan untuk berhenti scroll | Uji lima detik |
+| Judul tanpa jangkar konkret | Tidak ada alasan untuk berhenti scroll | Uji lima detik |
 | Judul tanpa taruhan | Penonton tidak tahu apa yang dipertaruhkan | Tanya: "apa yang hilang kalau saya tidak tahu isinya?" |
 | Judul dan thumbnail mengulang kata yang sama | Informasi yang sama dua kali | Uji: thumbnail menambah apa? |
 | Teks thumbnail terlalu kecil | Tidak terbaca di ponsel | Uji 120 px |
 | Clickbait yang tidak sesuai isi | CTR tinggi, retensi hancur | Tanya: bisa dipenuhi? |
 | Bahasa buku di judul | Bukan bahasa yang dicari audiens | Pakai kata yang dipakai pemilik bisnis |
-| Mengandalkan rasa penasaran saja | Studi OverseerOS 3.357 video: 0,92 kali median | Tambahkan entitas, angka, taruhan |
+| Mengandalkan rasa penasaran saja | Studi OverseerOS 3.357 video: 0,92 kali median | Tambahkan jangkar konkret dan taruhan |
 | Terlalu banyak elemen thumbnail | Mata tidak tahu harus fokus ke mana | Maksimal 3 elemen |
 | Warna terlalu lembut | Tenggelam di feed | Saturasi 10–15% |
 | Terlalu lama di tahap ini | Menghambat produksi | Batasi 30 menit |
@@ -443,16 +452,8 @@ TAHAP 2: PENGEMASAN — CEKLIS
 
 □ Ide satu kalimat, artefak utama sudah ada
 □ Kata kunci ditentukan (kalau belum ada)
-□ 5 opsi judul, 2 dipertahankan
-  □ Ada entitas bernama atau angka
-  □ Ada taruhan
-  □ Ada pertentangan
-  □ Total <70 karakter
-  □ Bahasa percakapan
-□ 1–2 konsep thumbnail
-  □ Maksimal 3 elemen
-  □ Teks 3–5 kata, kontras tinggi
-  □ Tidak ada teks di pojok kanan bawah
+□ 5 opsi judul, 2 dipertahankan — diperiksa dengan tabel Aturan Judul
+□ 1–2 konsep thumbnail — diperiksa dengan Aturan Thumbnail di Langkah 4
 □ Uji kombinasi: melengkapi, feed test, 120 px
 □ Keputusan: lanjut / ubah sudut / ganti ide
 □ Dokumentasi di content brief

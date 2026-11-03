@@ -19,6 +19,8 @@
 | Views | |
 | CTR | |
 | AVD (menit:detik) | |
+| AVD (% durasi video) | |
+| Share per 1.000 tayangan | |
 | Retensi 30 detik pertama | |
 | Komentar | |
 | Likes | |
@@ -30,6 +32,7 @@
 | Total views | |
 | CTR (update) | |
 | AVD (update) | |
+| Returning viewers | |
 | Sumber traffic utama | |
 | Performa klip pendek (views total) | |
 | Subscriber baru dari video | |
@@ -43,7 +46,7 @@ sebagai pelajaran.
 |---|---|---|
 | Artefak utama terlihat di layar | [ ] | |
 | Angka atau keputusan yang merugikan muncul | [ ] | |
-| Bukti pertama muncul sebelum detik 30 | [ ] | |
+| Bukti pembuka dikenali penonton + angka spesifik sebelum detik 60 | [ ] | |
 | Jumlah poin utama maksimal tiga | [ ] | |
 | Tiga klip 9:16 terbit | [ ] | |
 | Caption diperiksa manual | [ ] | |
