@@ -12,7 +12,7 @@ Contoh:
 Isi minimal satu ide (nama kunci = nama kolom):
 
   {
-    "judul_kerja": "Judul sementara, bukan judul final",
+    "judul_kerja": "Kalimat yang layak muncul di feed; jangkar sudah ada",
     "situasi_audiens": "Situasi yang dikenali tanpa jargon",
     "masalah_utama": "Siapa, mengalami apa, akibatnya apa",
     "kedalaman_bisnis": "Ukuran atau trade-off untuk operator matang",

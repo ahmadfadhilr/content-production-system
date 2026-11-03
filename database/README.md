@@ -13,7 +13,7 @@ Lima hal ini yang menentukan keputusan. Sisanya penjelasan dan arsip.
 | `skor_total` | Seberapa layak diproduksi. Makin tinggi makin baik. Dihitung database. |
 | `skor_prioritas_konsep` | Seberapa dasar konsepnya. 5 = paling dasar, 1 = alat/dokumen. |
 | `konsep_bisnis` | Konsep yang diajarkan, mis. "Penetapan harga". |
-| `judul_kerja` | Judul sementara, bukan judul final video. |
+| `judul_kerja` | Judul kerja dari Tahap 1. Bukan judul final video. |
 
 Urutan baca: **kode → judul → status → skor → konsep → isi → bukti**.
 
@@ -63,7 +63,7 @@ Itu satu ide, dibaca dari atas ke bawah tanpa membuka kamus.
 | Kolom | Isi | Contoh |
 |---|---|---|
 | `kode_ide` | Kode permanen. Jangan diubah setelah dipakai di brief atau naskah. | `IDEA-009` |
-| `judul_kerja` | Judul sementara untuk mengenali ide. Bukan judul final video. | `Harga Jasa Terlihat Untung, ...` |
+| `judul_kerja` | Judul kerja dari Tahap 1: kalimat yang layak muncul di feed dan jangkarnya sudah ada. Bukan judul final video — yang final dipilih di Tahap 2. | `Pelanggan Bilang Mahal, Tim Sudah Kewalahan` |
 | `status` | Posisi ide. Nilainya di tabel "Status" di bawah. | `siap` |
 | `skor_total` | 4–30. Dihitung otomatis dari empat skor. Jangan diisi tangan. | `20` |
 
@@ -207,7 +207,7 @@ Contoh satu ide:
 ```json
 [
   {
-    "judul_kerja": "Judul sementara, bukan judul final",
+    "judul_kerja": "Kalimat yang layak muncul di feed; jangkar sudah ada",
     "situasi_audiens": "Situasi yang dikenali tanpa jargon",
     "masalah_utama": "Siapa, mengalami apa, akibatnya apa",
     "kedalaman_bisnis": "Ukuran atau trade-off untuk operator matang",

@@ -2,7 +2,8 @@
 
 > **Posisi:** Tahap pertama dari sepuluh.
 > **Tahap berikutnya:** [02 — Pengemasan](./02-pengemasan.md).
-> **Keluaran:** satu kandidat utama dan maksimal dua cadangan, masing-masing dengan alasan yang dapat diperiksa.
+> **Keluaran:** satu kandidat utama dan maksimal dua cadangan, masing-masing dengan masalah, keputusan,
+> judul kerja, teks thumbnail, dan alasan yang dapat diperiksa.
 
 ---
 
@@ -10,11 +11,17 @@
 
 Memilih satu masalah audiens yang layak dijadikan video berikutnya. Ide yang lolos harus memiliki keputusan yang jelas, alasan penonton peduli, celah di YouTube Indonesia, dan jenis bukti awal yang realistis.
 
-Tahap ini belum membuat judul, teks atau ilustrasi thumbnail, maupun outline video. Pekerjaan itu berada di Tahap 2 dan Tahap 4. Memaksakannya di sini membuat kemasan menjanjikan sesuatu sebelum riset membuktikan bahwa janji tersebut dapat dipenuhi.
+Tahap ini belum menulis naskah, outline, atau sketsa thumbnail. Tetapi tahap ini **wajib**
+menghasilkan judul kerja dan teks thumbnail. Ide yang tidak bisa diberi judul dan teks thumbnail
+bukan ide — ia topik. Menemukannya di sini berbiaya beberapa menit; menemukannya di Tahap 2
+berbiaya satu blok riset yang sudah berjalan.
+
+Yang tetap bukan pekerjaan tahap ini: judul final, desain thumbnail, dan janji yang butuh angka
+yang belum diverifikasi. Itu milik Tahap 2 dan Tahap 3.
 
 ## Keluaran Wajib
 
-Setiap kandidat utama dan cadangan memuat tujuh hal berikut.
+Setiap kandidat utama dan cadangan memuat keluaran berikut.
 
 | Keluaran | Pertanyaan yang dijawab | Dipakai oleh |
 |---|---|---|
@@ -25,14 +32,23 @@ Setiap kandidat utama dan cadangan memuat tujuh hal berikut.
 | Sinyal permintaan | Adakah bukti orang mencari atau membahas masalah ini? | Prioritas |
 | Celah lokal | Bagian mana yang belum dibahas dengan baik di YouTube Indonesia? | Tahap 2 |
 | Jenis bukti awal | Data, dokumen, atau pengukuran apa yang mungkin dipakai? | Tahap 3 |
-| Hipotesis kemasan | Kontras atau bukti visual apa yang bisa membuat orang berhenti? | Tahap 2 |
+| **Judul kerja** | Kalimat apa yang muncul di feed dan memuat jangkar, taruhan, serta pertentangan? | Tahap 2 |
+| **Teks thumbnail** | Tiga sampai lima kata apa yang melengkapi judul tanpa mengulanginya? | Tahap 2 |
+| Kontras visual | Apa yang terlihat di layar sehingga masalah ini terasa nyata? | Tahap 2 dan 6 |
 | Alasan keputusan | Mengapa kandidat ini dipilih, ditunda, digabung, atau gugur? | Audit berikutnya |
 
 **Pintu masuk** bukan penyederhanaan palsu. Ia menyebut keadaan yang bisa dikenali orang baru,
 misalnya “pesanan bertambah, tetapi waktu tidak pernah cukup”. **Ketegangan lanjut** menjaga agar
 video tidak berhenti di nasihat umum, misalnya “kapasitas tim tidak sama dengan jumlah orang”.
 
-**Hipotesis kemasan** hanya satu kalimat. Contoh: “Perbandingan jam tim dan porsi omzet pada satu layanan.” Ini bukan kandidat judul atau desain thumbnail. Tahap 2 baru mengubahnya menjadi lima judul dan satu atau dua sketsa setelah bukti utamanya jelas.
+**Judul kerja** berbentuk kalimat yang akan dibaca orang di feed, bukan ringkasan topik dan bukan
+label internal. Satu judul per kandidat, bukan lima — lima opsi adalah pekerjaan Tahap 2.
+**Teks thumbnail** adalah kata yang tercetak di gambar, dan ia harus menambah informasi yang tidak
+ada di judul. **Kontras visual** adalah artefak atau perbandingan yang membuat masalahnya terlihat,
+bukan sekadar diucapkan.
+
+Ketiganya masih **bahan**, bukan keputusan. Tahap 2 yang menulis lima opsi, memilih dua, merancang
+sketsa, dan mengujinya di layar ponsel.
 
 ## Prinsip
 
@@ -40,8 +56,13 @@ video tidak berhenti di nasihat umum, misalnya “kapasitas tim tidak sama denga
 2. **Keputusan lebih penting daripada informasi.** Video harus membantu memilih, menghentikan, mengubah, atau mengukur sesuatu. Tutorial alat tanpa keputusan bisnis gugur.
 3. **Permintaan adalah sinyal, bukan putusan.** Tayangan hasil pencarian membantu membandingkan minat. Tayangan tidak membuktikan bahwa penontonnya adalah audiens Fadhil.
 4. **Gap harus berarti pembeda yang nyata.** Topik yang sudah banyak dibahas tetap dapat dipakai bila sudut, bukti, atau keputusan yang dibawa belum ada dalam video Indonesia yang relevan.
-5. **Bukti dicari sebelum kemasan diputuskan.** Tahap ini hanya memastikan jenis buktinya ada. Tahap 3 yang memverifikasi klaim dan menyiapkan artefaknya.
+5. **Kemasan diuji lebih dulu, tetapi janjinya tidak mendahului bukti.** Tahap ini wajib menulis
+   judul kerja. Yang dilarang bukan menulis judul, melainkan menulis judul yang butuh angka yang
+   belum ada. Tahap 3 yang memverifikasi klaim dan menyiapkan artefaknya.
 6. **Satu kandidat utama cukup.** Pilot membuat satu video pada satu waktu. Dua kandidat lain hanya cadangan agar keputusan tidak perlu dimulai dari nol minggu depan.
+7. **Ide yang tidak bisa diberi judul bukan ide.** Kalau setelah riset di tahap ini tidak ada satu
+   kalimat pun yang layak muncul di feed, masalahnya bukan kekurangan kata. Sudutnya belum tajam.
+   Ganti sudut atau gugurkan sekarang, jangan setelah riset penuh.
 
 ## Input
 
@@ -126,17 +147,89 @@ Huruf A–D di sini adalah **jenis bukti awal**, bukan tiga jalur bukti di
 B dan C → `riset primer` (skor 3), D → `tanpa sumber primer` (skor 1). Tiga jalur di Tahap 3
 memakai nomor 1–3: catatan sendiri, pengukuran untuk video, dan batas pengalaman.
 
-### 5. Uji hipotesis kemasan
+### 5. Tulis judul kerja dan teks thumbnail
 
-Tuliskan satu kalimat tentang hal yang secara visual akan membuat masalah ini terasa nyata.
+Ini langkah yang menentukan apakah kandidat masih layak. Judul kerja bukan ringkasan topik. Ia
+kalimat yang benar-benar akan dibaca orang di feed, dan ia harus memuat jangkar konkret, taruhan,
+serta pertentangan.
 
-| Masalah | Hipotesis kemasan |
-|---|---|
-| Layanan ramai menguras kapasitas | Satu baris tabel yang jam timnya jauh lebih besar daripada porsi omzetnya. |
-| Harga jasa tidak menutup kerja tambahan | Perbandingan harga awal dengan biaya revisi yang muncul sesudahnya. |
-| Founder menjadi persetujuan untuk semua pekerjaan | Kalender yang penuh rapat persetujuan dibandingkan jam kerja tim yang menunggu. |
+**Satu judul per kandidat.** Bukan lima. Lima opsi, dua dipertahankan, dan satu atau dua sketsa
+adalah pekerjaan Tahap 2. Yang dilakukan di sini adalah membuktikan bahwa idenya **bisa** dikemas
+sama sekali.
 
-Jika tidak ada kontras, artefak, atau pertanyaan tajam yang dapat disebut, kandidat boleh disimpan. Namun jangan menjadi kandidat utama sebelum Tahap 2 menunjukkan kemasan yang benar-benar bekerja.
+> **Dasar langkah ini.** Paddy Galloway, konsultan YouTube, menyatakannya langsung: kalau sebuah ide
+> tidak bisa diberi judul dan thumbnail yang bisa diklik audiensnya, "it's not an idea anymore. We
+> scrap it." Ia juga menyebut judul dan thumbnail ditentukan sebelum naskah, karena kemasan
+> memengaruhi cara video dibuka.
+>
+> Status bukti: kutipan itu *terverifikasi* pada transkrip wawancara yang diterbitkan dan unggahan
+> publiknya. Kesimpulan bahwa kemasan harus diputuskan di tahap ide adalah *simpulan*, bukan
+> temuan. Enam channel rujukan di `AGENTS.md` **tidak** diwawancarai soal urutan kerja mereka, jadi
+> jangan mengakuinya sebagai praktik mereka. Yang bisa dibaca dari channel mereka hanya judul dan
+> tayangan.
+
+#### Aturan mutu judul
+
+Aturan lengkapnya ada di `02-pengemasan.md` Langkah 3 — jangkar konkret, taruhan, pertentangan, dan
+bahasa percakapan. Daftarnya **tidak disalin ke sini**; aturan yang hidup di dua tempat akan usang
+di salah satunya. Yang diulang di sini hanya ambang yang bisa diuji: **di bawah 70 karakter**.
+
+Yang khusus berlaku di Tahap 1 hanya satu:
+
+> **Jangkar judul harus sudah ada, bukan dijanjikan.**
+
+| Jangkar yang boleh dipakai | Contoh | Syarat |
+|---|---|---|
+| Situasi yang dikenali | “Pelanggan bilang mahal, tim sudah kewalahan” | Sudah tertulis di pintu masuk |
+| Entitas yang pasti dibahas | “Layanan paling ramai” | Pasti muncul di video, bukan contoh karangan |
+| Angka dari jenis bukti A | “Rp450 ribu” | Sudah tercatat dan aman dibuka |
+| Angka dari jenis bukti B | “Margin 8%” | Ada di sumber primer yang sudah ditunjuk |
+| Angka dari jenis bukti C | “42 jam” | Pengukurannya dijadwalkan dan tanggal selesainya jelas |
+| Pengalaman pribadi (bukti D) | “Saya Berhenti Jual Layanan Paling Ramai” | Tidak mengaku punya data pembanding; batasnya disebut di video |
+
+Kalau angkanya belum ada, **pakai jangkar situasi**. Judul yang butuh angka yang belum diukur bukan
+kemasan — itu janji. Contoh yang sah: “Pelanggan Bilang Mahal, Tim Sudah Kewalahan”. Contoh yang
+tidak sah: “Margin Layanan Ini Cuma 8%” kalau angka 8% belum pernah dihitung.
+
+#### Aturan teks thumbnail
+
+- Tiga sampai lima kata. Bukan kalimat, bukan pengulangan judul.
+- Menambah informasi yang tidak ada di judul: angka, lawan, atau akibat.
+- Tidak memuat angka yang berbeda dari angka di video.
+- Cukup pendek untuk terbaca di ponsel. Uji 120 px dilakukan di Tahap 2, setelah ada desainnya.
+
+#### Contoh
+
+| Masalah | Judul kerja | Teks thumbnail | Kontras visual |
+|---|---|---|---|
+| Layanan ramai menguras kapasitas | Layanan Paling Ramai, Kenapa Bikin Bisnis Berat? | “Sibuk, tapi tidak untung” | Satu baris tabel: porsi jam tim jauh di atas porsi omzet |
+| Harga jasa tidak menutup kerja tambahan | Pelanggan Bilang Mahal, Tim Sudah Kewalahan | “Revisi tidak dibayar” | Harga awal dibanding biaya revisi yang muncul sesudahnya |
+| Founder menjadi persetujuan untuk semua pekerjaan | Semua Keputusan Lewat Saya, Tim Cuma Menunggu | “Satu tanda tangan” | Kalender rapat persetujuan dibanding jam tim yang menunggu |
+
+Perhatikan bahwa teks thumbnail tidak mengulang satu kata pun dari judulnya. Kalau judul dan teks
+thumbnail mengatakan hal yang sama, salah satunya belum bekerja.
+
+Perhatikan juga bahwa tidak satu pun teks thumbnail memuat angka. Bukan karena angka dilarang, tetapi
+karena pada contoh ini angkanya belum ada. Kalau angkanya nanti terukur, angka itulah yang paling
+layak dipindahkan ke thumbnail — asalkan sama dengan angka di video.
+
+#### Uji cepat sebelum lanjut
+
+Jawab dua pertanyaan ini. Kalau ada yang "tidak", kandidat belum boleh menjadi utama.
+
+1. **Bisa dipenuhi?** Apakah judul ini dapat dibuktikan dengan jenis bukti awal yang sudah
+   ditunjuk, tanpa menambah riset baru di luar Tahap 3?
+2. **Ada tambahan?** Apakah teks thumbnail memberi informasi yang tidak ada di judul?
+
+Kalau nomor 1 gagal, ganti jangkar angkanya dengan jangkar situasi. Kalau nomor 2 gagal, tulis
+ulang teks thumbnail — biasanya masalahnya judul yang sudah terlalu lengkap.
+
+Kalau setelah beberapa percobaan tetap tidak ada judul yang layak, itu sinyal, bukan kegagalan
+mekanis. Sudutnya terlalu lebar atau keputusannya belum tajam. Pindahkan kandidat ke `perlu
+perbaikan`, dan jangan jadikan utama.
+
+**Batas waktu langkah ini: 8 menit untuk tiga kandidat hidup.** Kalau lebih lama, biasanya bukan
+karena kurang kata, melainkan karena masalahnya masih kabur.
 
 ### 6. Beri nilai untuk mengurutkan, lalu putuskan dengan gerbang
 
@@ -164,7 +257,8 @@ Gunakan `skor_prioritas_konsep` hanya untuk menunjukkan dampak masalah jika dibi
 - celah lokal ada, atau pembeda terhadap video yang sudah dalam dapat dijelaskan;
 - jenis bukti awal yang nyata;
 - tidak mengulang ide, brief, atau video Fadhil yang sudah ada;
-- hipotesis kemasan ada.
+- judul kerja ada, dan setiap jangkarnya sudah tersedia menurut tabel di Langkah 5;
+- teks thumbnail tiga sampai lima kata dan menambah informasi yang tidak ada di judul.
 
 Kandidat yang lolos semua gerbang dengan skor tertinggi menjadi **utama**. Simpan maksimal dua berikutnya sebagai **cadangan**. Kandidat lain diberi status `perlu perbaikan`, `ditunda`, `digabung`, atau `gugur` beserta satu alasan.
 
@@ -172,7 +266,18 @@ Kandidat yang lolos semua gerbang dengan skor tertinggi menjadi **utama**. Simpa
 
 Simpan hasil pindai di `content/pindai/pindai-topik-[tanggal].md`, lalu masukkan kandidat yang masih hidup ke database melalui `tools/tambah-ide.py`.
 
-Tahap 2 hanya menerima kandidat utama beserta tujuh keluaran pada tabel pertama. Tahap 2 wajib membuat kandidat judul, teks thumbnail, dan sketsa thumbnail. Jika kemasannya tidak lulus, kembali ke kandidat cadangan atau revisi sudutnya.
+Tahap 2 menerima kandidat utama beserta seluruh keluaran pada tabel pertama. Judul kerja dari tahap
+ini menjadi **opsi pertama** di Tahap 2, bukan dibuang lalu dimulai dari nol. Tahap 2 wajib menulis
+lima opsi, memilih dua, merancang satu atau dua sketsa, dan menguji kombinasi di layar ponsel.
+
+Kalau Tahap 2 mengubah judul kerja, alasannya dicatat di content brief. Kalau tidak satu pun dari
+lima opsi lolos uji, kemasannya gagal — kembali ke kandidat cadangan atau revisi sudutnya. Yang
+tidak boleh terjadi: Tahap 1 menulis judul sebagai formalitas, lalu Tahap 2 mengabaikannya tanpa
+membaca hasil pindai.
+
+**Catatan penyimpanan.** Kolom `judul_kerja` di database diisi dengan judul kerja ini. Teks
+thumbnail dan kontras visual tidak masuk database — keduanya tinggal di berkas pindai dan content
+brief, karena masih berubah di Tahap 2 dan Tahap 6.
 
 ## Format Hasil Pindai
 
@@ -190,14 +295,16 @@ Tahap 2 hanya menerima kandidat utama beserta tujuh keluaran pada tabel pertama.
 - **Sinyal permintaan:** [kueri, median, rentang, pemeriksaan relevansi]
 - **Celah lokal:** [lebar/sedang/sempit + pembeda]
 - **Jenis bukti awal:** [A/B/C/D + tautan atau nama dokumen]
-- **Hipotesis kemasan:** [satu kontras, artefak, atau pertanyaan]
+- **Judul kerja:** [judul di bawah 70 karakter + jangkar yang dipakai]
+- **Teks thumbnail:** [3–5 kata]
+- **Kontras visual:** [artefak atau perbandingan yang terlihat di layar]
 - **Skor:** [rincian dan total]
 - **Keputusan:** Utama, karena [alasan].
 
 ## Kandidat cadangan
 
 ### [Sudut]
-[Tujuh keluaran yang sama, lebih ringkas.]
+[Seluruh keluaran yang sama, lebih ringkas.]
 
 ## Kandidat tidak dipilih
 
@@ -212,20 +319,27 @@ Tahap 2 hanya menerima kandidat utama beserta tujuh keluaran pada tabel pertama.
 - [ ] Minimal enam kueri relevan telah dipindai, masing-masing dalam tiga putaran.
 - [ ] Hasil yang tidak relevan dan channel asing telah ditandai sebelum angka dibaca.
 - [ ] Dua hasil lokal paling relevan untuk kandidat utama telah diperiksa melalui deskripsi dan chapter.
-- [ ] Satu kandidat utama dan maksimal dua cadangan memiliki tujuh keluaran wajib.
+- [ ] Satu kandidat utama dan maksimal dua cadangan memiliki seluruh keluaran wajib.
 - [ ] Kandidat utama memiliki jenis bukti awal yang nyata, bukan hanya ide mencari bukti.
-- [ ] Kandidat utama memiliki hipotesis kemasan, bukan judul atau thumbnail final.
+- [ ] Kandidat utama punya judul kerja di bawah 70 karakter, dan setiap jangkarnya sudah tersedia.
+- [ ] Kandidat utama punya teks thumbnail tiga sampai lima kata yang tidak mengulang judul.
+- [ ] Belum ada sketsa atau desain thumbnail di tahap ini; itu pekerjaan Tahap 2.
 - [ ] Kandidat yang tidak dipilih memiliki alasan singkat dan tercatat.
 - [ ] Kandidat hidup telah masuk ke `database/database.db`.
 
 ## Batas Waktu
 
-Gunakan batas kerja 90 menit setelah kueri dan sumber yang sering dipakai sudah tersedia. Jika waktunya habis, jangan memperdalam semua kandidat. Pilih kandidat yang bukti awalnya paling dekat, simpan sisanya sebagai cadangan, lalu lanjut ke Tahap 2.
+Gunakan batas kerja 90 menit setelah kueri dan sumber yang sering dipakai sudah tersedia. Delapan
+menit di antaranya milik Langkah 5. Kalau langkah itu melewati batasnya, itu tanda sudutnya belum
+tajam — bukan tanda perlu menambah waktu.
+
+Jika waktunya habis, jangan memperdalam semua kandidat. Pilih kandidat yang bukti awalnya paling dekat, simpan sisanya sebagai cadangan, lalu lanjut ke Tahap 2.
 
 Ini target uji, bukan waktu yang sudah terbukti. Versi lama membutuhkan sekitar 160–185 menit.
 Ukur empat putaran berikutnya sebelum menetapkan batas permanen. Jika masih melewati 90 menit,
-catat penyebabnya. Biasanya masalahnya salah satu dari tiga: kueri terlalu banyak, pemeriksaan
-relevansi belum punya aturan yang jelas, atau riset primer seharusnya dipindahkan ke Tahap 3.
+catat penyebabnya. Biasanya masalahnya salah satu dari empat: kueri terlalu banyak, pemeriksaan
+relevansi belum punya aturan yang jelas, riset primer seharusnya dipindahkan ke Tahap 3, atau judul
+macet karena masalahnya masih kabur.
 
 ## Kesalahan Umum
 
@@ -236,7 +350,11 @@ relevansi belum punya aturan yang jelas, atau riset primer seharusnya dipindahka
 | Menilai supply dari jumlah hasil | Topik mati terlihat seperti peluang | Periksa dua video lokal yang paling relevan |
 | Menggunakan skor untuk memutuskan | Kandidat lemah terlihat objektif | Pakai skor untuk urutan; pakai gerbang untuk memilih |
 | Mencari lima sumber sebelum memilih kandidat | Tahap 1 berubah menjadi riset penuh | Cukup pastikan satu jenis bukti awal yang nyata |
-| Membuat judul dan thumbnail final di Tahap 1 | Janji dibuat sebelum bukti diperiksa | Kirim hipotesis kemasan ke Tahap 2 |
+| Menunda judul dan teks thumbnail ke Tahap 2 | Ide yang tidak bisa dikemas baru ketahuan setelah riset berjalan | Tulis judul kerja di Langkah 5 |
+| Membuat judul final dan desain thumbnail di Tahap 1 | Janji dibuat sebelum bukti diperiksa | Judul kerja saja; keputusan dan sketsa di Tahap 2 |
+| Menulis lima judul di Tahap 1 | Blok ideasi membengkak dan keputusan tertunda | Satu judul per kandidat; lima opsi di Tahap 2 |
+| Judul memakai angka yang belum diukur | Janji tidak bisa dipenuhi isi video | Pakai jangkar situasi sampai angkanya ada |
+| Teks thumbnail mengulang judul | Dua tempat untuk satu informasi | Teks harus menambah, bukan mengulang |
 | Membuat outline lengkap di Tahap 1 | Naskah dibangun sebelum fakta terkumpul | Tahap 1 hanya menetapkan keputusan yang akan dijawab |
 | Memilih tiga topik untuk diproduksi sekaligus | Minggu berikutnya harus memilih ulang | Pilih satu utama dan dua cadangan |
 
@@ -244,7 +362,7 @@ relevansi belum punya aturan yang jelas, atau riset primer seharusnya dipindahka
 
 | Ke | Yang dikirim |
 |---|---|
-| Tahap 2 — Pengemasan | Pintu masuk, masalah, sudut keputusan, ketegangan lanjut, pembeda, jenis bukti awal, hipotesis kemasan |
+| Tahap 2 — Pengemasan | Pintu masuk, masalah, sudut keputusan, ketegangan lanjut, pembeda, jenis bukti awal, judul kerja, teks thumbnail, kontras visual |
 | Tahap 3 — Riset | Jenis bukti awal yang harus diverifikasi |
 | Content bank | Kandidat tunda, gabung, dan gugur beserta alasan |
 | Database ide | Kandidat hidup beserta skor dan status |

@@ -257,10 +257,14 @@ ambang. Skor tidak bisa menyelamatkan topik yang seharusnya gugur di sini.
 content bank untuk cek duplikat, komentar dan pertanyaan audiens sebagai sinyal pendukung.
 
 **Gerbang keluaran:** ✅ Minimal enam kueri dipindai dalam tiga putaran. Kandidat utama dan maksimal
-dua cadangan masing-masing punya masalah audiens, keputusan, sinyal permintaan, celah lokal, jalur
-bukti, hipotesis kemasan, dan alasan keputusan. Hasil disimpan di
-`content/pindai/pindai-topik-[tanggal].md`, lalu ide hidup masuk ke `database/database.db` lewat
+dua cadangan masing-masing punya masalah audiens, keputusan, sinyal permintaan, celah lokal, jenis
+bukti, **judul kerja, teks thumbnail**, dan alasan keputusan. Judul kerja adalah kalimat yang layak
+muncul di feed, bukan ringkasan topik; jangkarnya harus sudah ada, bukan dijanjikan. Hasil disimpan
+di `content/pindai/pindai-topik-[tanggal].md`, lalu ide hidup masuk ke `database/database.db` lewat
 `tools/tambah-ide.py`. Skor hanya mengurutkan; gerbang menentukan kandidat utama.
+
+**Batas tahap ini:** belum ada sketsa thumbnail, desain, atau naskah. Satu judul kerja per kandidat,
+bukan lima — lima opsi milik Tahap 2.
 
 **SOP lengkap:** `workflows/produksi/01-ideasi.md`
 
@@ -268,7 +272,8 @@ bukti, hipotesis kemasan, dan alasan keputusan. Hasil disimpan di
 
 ### Tahap 2 — Pengemasan (Packaging)
 
-**Tujuan:** Merancang judul dan konsep thumbnail **sebelum** menulis naskah.
+**Tujuan:** Menguji, membandingkan, dan memilih judul dan konsep thumbnail **sebelum** menulis
+naskah. Bahan awalnya sudah ada dari Tahap 1.
 
 > **Ini tahap paling kritis.** Kalau ide tidak bisa dikemas menjadi judul dan thumbnail yang
 > menarik, jangan lanjut ke penulisan. Ubah sudut pandang atau ganti ide.
@@ -291,7 +296,8 @@ bukti, hipotesis kemasan, dan alasan keputusan. Hasil disimpan di
 - Kalau video punya angka, pertimbangkan menampilkan angka itu. Harus sama dengan angka di video.
 
 **Gerbang keluaran:** ✅ Lima opsi judul, dua dipertahankan, ditambah 1–2 sketsa thumbnail untuk
-judul terbaik. Minimal satu kombinasi lolos uji lima detik: ada jangkar konkret, ada taruhan, ada
+judul terbaik. Opsi pertama adalah judul kerja dari Tahap 1, ditulis apa adanya sebelum
+dibandingkan. Minimal satu kombinasi lolos uji lima detik: ada jangkar konkret, ada taruhan, ada
 pertentangan, dan bisa dipenuhi isi video.
 
 **SOP lengkap:** `workflows/produksi/02-pengemasan.md`

@@ -70,15 +70,22 @@ bagian yang akan disorot.]
 
 ## 4. Pengemasan
 
-**Kata kunci utama:**
-**Kata kunci turunan:**
+**Kemasan awal dari Tahap 1** (bahan, bukan keputusan):
+
+- Judul kerja:
+- Jangkar yang dipakai: situasi / entitas / angka dari bukti A–D
+- Teks thumbnail (3–5 kata):
+- Kontras visual:
 
 **Uji tiga lapisan:**
 - Pintu masuk yang dikenali:
 - Keputusan inti untuk audiens utama:
 - Ketegangan lanjut untuk operator matang:
 
-**Lima opsi judul.** Dua dipertahankan.
+**Kata kunci utama:**
+**Kata kunci turunan:**
+
+**Lima opsi judul.** Dua dipertahankan. Baris 1 adalah judul kerja Tahap 1, ditulis apa adanya.
 
 | # | Judul | Jangkar konkret | Taruhan | Pertentangan | Status |
 |---|---|---|---|---|---|
@@ -87,6 +94,9 @@ bagian yang akan disorot.]
 | 3 | | | | | |
 | 4 | | | | | |
 | 5 | | | | | |
+
+**Kalau judul terpilih bukan judul kerja Tahap 1, apa yang gagal darinya:**
+[satu kalimat, atau "tidak berubah"]
 
 **Judul terpilih:**
 **Judul cadangan:**

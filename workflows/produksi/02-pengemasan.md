@@ -22,6 +22,7 @@ buruk adalah video yang tidak pernah ditemukan.
 - [ ] Satu ide konten yang bisa diringkas dalam satu kalimat
 - [ ] Satu ketegangan lanjut: ukuran, trade-off, atau batas untuk operator yang lebih matang
 - [ ] Pilar dan format yang dipilih
+- [ ] **Judul kerja dan teks thumbnail dari Tahap 1** — bahan awal, bukan keputusan
 - [ ] **Satu artefak utama**: angka, dokumen, atau keputusan yang akan terlihat di layar
 
 Artefak boleh berasal dari catatan sendiri, hasil pengukuran untuk video ini, atau dokumen publik
@@ -32,6 +33,12 @@ Kalau artefak utama belum ada, jangan kembali ke `01-ideasi.md`. Tentukan dulu j
 `03-riset-dan-fakta.md` Langkah 5. Kemasan tanpa artefak akan menjadi janji yang tidak bisa
 dipenuhi isi video.
 
+> [!IMPORTANT]
+> Tahap ini tidak mulai dari nol. Tahap 1 sudah menulis satu judul kerja dan satu teks thumbnail
+> per kandidat. Tugas di sini bukan menyalinnya, dan bukan pula membuangnya. Tugasnya menguji
+> apakah bahan itu bertahan setelah dibandingkan dengan empat opsi lain, lalu memilih yang terkuat.
+> Kalau judul kerja diubah, alasannya dicatat di content brief.
+
 ---
 
 ## Output (Gerbang Keluaran)
@@ -39,6 +46,7 @@ dipenuhi isi video.
 ✅ **Lulus jika:**
 
 - Ada 5 opsi judul, 2 di antaranya dipertahankan
+- Opsi pertama adalah judul kerja dari Tahap 1; alasan perubahan tercatat kalau judulnya berubah
 - Setiap judul memuat satu jangkar konkret dan satu taruhan
 - Ada 1–2 sketsa thumbnail untuk judul terbaik
 - Kombinasi terpilih lolos uji mobile 120 px
@@ -112,6 +120,14 @@ Frasa turunan: ___
 ### Langkah 3 — Tulis Lima Judul, Pertahankan Dua
 
 Tulis lima opsi. Setelah diuji, pertahankan dua: satu utama, satu cadangan.
+
+**Opsi pertama adalah judul kerja dari Tahap 1, ditulis apa adanya.** Jangan diperhalus sebelum
+dibandingkan — kalau diperbaiki lebih dulu, tidak ada cara tahu apakah judul aslinya yang lemah
+atau empat opsi lain yang lebih kuat. Empat opsi berikutnya boleh mengubah sudut, jangkar, atau
+tingkat pertentangan.
+
+Kalau judul terpilih bukan judul kerja Tahap 1, tulis satu kalimat di content brief: apa yang gagal
+dari judul kerja itu. Catatan ini yang membuat Tahap 1 membaik di putaran berikutnya.
 
 #### Aturan Judul
 
@@ -205,7 +221,9 @@ terasa datar. Jangan menambahkan ketiganya sekaligus.
 
 ### Langkah 4 — Rancang 1–2 Konsep Thumbnail
 
-Untuk dua judul terbaik, buat 1–2 sketsa.
+Untuk dua judul terbaik, buat 1–2 sketsa. Mulai dari teks thumbnail yang sudah ditulis di Tahap 1,
+lalu perbaiki kalau perlu — teks itu dibuat sebelum judul final dipilih, jadi ia sering membawa sudut
+yang tidak terpikirkan saat menyusun naskah.
 
 #### Aturan Thumbnail
 
@@ -345,6 +363,12 @@ Batas waktu: 30 menit. Kalau lewat, kembali ke Tahap 1.
 ```markdown
 ## Pengemasan
 
+### Kemasan Awal dari Tahap 1
+- Judul kerja: [___]
+- Jangkar yang dipakai: [situasi / entitas / angka bukti A–D]
+- Teks thumbnail: [___]
+- Kontras visual: [___]
+
 ### Kata Kunci
 - Utama: [___]
 - Turunan: [___]
@@ -426,7 +450,7 @@ Batas waktu: 30 menit. Kalau lewat, kembali ke Tahap 1.
 
 | Hubungan | Penjelasan |
 |---|---|
-| ← Tahap 1 | Menerima ide satu kalimat dan artefak utama |
+| ← Tahap 1 | Menerima judul kerja, teks thumbnail, kontras visual, dan artefak utama |
 | → Tahap 3 | Judul menentukan janji yang harus dipenuhi riset |
 | → Tahap 4 | Hook harus konsisten dengan janji judul |
 | → Tahap 7 | Konsep thumbnail menjadi brief desain final |
@@ -451,8 +475,9 @@ Batas waktu: 30 menit. Kalau lewat, kembali ke Tahap 1.
 TAHAP 2: PENGEMASAN — CEKLIS
 
 □ Ide satu kalimat, artefak utama sudah ada
+□ Judul kerja dan teks thumbnail dari Tahap 1 sudah dibaca
 □ Kata kunci ditentukan (kalau belum ada)
-□ 5 opsi judul, 2 dipertahankan — diperiksa dengan tabel Aturan Judul
+□ 5 opsi judul, 2 dipertahankan — judul kerja Tahap 1 jadi opsi pertama; diperiksa dengan tabel Aturan Judul
 □ 1–2 konsep thumbnail — diperiksa dengan Aturan Thumbnail di Langkah 4
 □ Uji kombinasi: melengkapi, feed test, 120 px
 □ Keputusan: lanjut / ubah sudut / ganti ide

@@ -7,8 +7,8 @@ Sudut di bawah adalah **draf kerja**, bukan judul final. Sebelum produksi, pasti
 - Ide sudah dikemas di Tahap 2 (Pengemasan).
 
 Sebelum sebuah ide naik dari status “Ide”, tambahkan pintu masuk yang bisa dipahami tanpa jargon
-dan ketegangan lanjut yang memberi kedalaman bagi operator matang. Jangan memakai judul kerja di
-tabel ini sebagai judul YouTube.
+dan ketegangan lanjut yang memberi kedalaman bagi operator matang. Jangan memakai judul di tabel
+ini sebagai judul YouTube.
 
 Status "Ide" berarti belum dipindai. Jangan produksi ide berstatus "Ide" tanpa menjalankan
 `workflows/produksi/01-ideasi.md` lebih dulu.

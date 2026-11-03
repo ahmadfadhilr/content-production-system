@@ -13,8 +13,8 @@ satu kalimat, satu bukti yang terlihat di layar.
 
 | # | Tahap | Dikerjakan | Keluaran yang harus ada sebelum lanjut | Berkas |
 |---|---|---|---|---|
-| 1 | Ideasi | AI + Fadhil | Satu kandidat utama + maksimal dua cadangan, semua punya masalah, keputusan, jalur bukti, dan hipotesis kemasan | [`01-ideasi.md`](./01-ideasi.md) |
-| 2 | Pengemasan | AI + Fadhil | 5 judul → 2 dipilih, 1–2 sketsa thumbnail | [`02-pengemasan.md`](./02-pengemasan.md) |
+| 1 | Ideasi | AI + Fadhil | Satu kandidat utama + maksimal dua cadangan, semua punya masalah, keputusan, jenis bukti, judul kerja, dan teks thumbnail | [`01-ideasi.md`](./01-ideasi.md) |
+| 2 | Pengemasan | AI + Fadhil | 5 judul → 2 dipilih (mulai dari judul kerja Tahap 1), 1–2 sketsa thumbnail | [`02-pengemasan.md`](./02-pengemasan.md) |
 | 3 | Riset dan fakta | AI | Lembar fakta berlabel + artefak + bukti yang tidak bisa ditiru dari riset | [`03-riset-dan-fakta.md`](./03-riset-dan-fakta.md) |
 | 4 | Naskah | AI | Naskah siap direkam, penanda visual lengkap | [`04-penulisan-naskah.md`](./04-penulisan-naskah.md) |
 | 5 | Rekaman | Fadhil | File mentah + room tone, sudah di-backup | [`05-rekaman.md`](./05-rekaman.md) |
@@ -28,7 +28,7 @@ Tahap 1–4 dan 10 boleh dikerjakan AI. Tahap 5 dan 7 hanya Fadhil.
 
 ---
 
-## Lima Aturan yang Berlaku di Semua Tahap
+## Enam Aturan yang Berlaku di Semua Tahap
 
 1. **Bukti yang terlihat wajib.** Setiap video memuat minimal satu artefak yang terlihat di layar,
    bukan hanya disebut. Artefak boleh dari tiga jalur: catatan sendiri, pengukuran untuk video ini,
@@ -39,7 +39,9 @@ Tahap 1–4 dan 10 boleh dikerjakan AI. Tahap 5 dan 7 hanya Fadhil.
    Menunda sehari lebih murah daripada menerbitkan tanpa bukti.
 4. **Setiap klaim diberi label:** *terverifikasi*, *simpulan*, atau *tebakan* — plus jenis sumber
    (pengalaman sendiri, data publik, ilustrasi). Aturan ini berlaku juga untuk dokumen internal.
-5. **Kemasan sebelum naskah.** Judul dan thumbnail dirancang di Tahap 2, bukan setelah video jadi.
+5. **Kemasan sebelum naskah.** Judul kerja dan teks thumbnail sudah ada sejak Tahap 1; Tahap 2
+   menguji, membandingkan, dan memilih. Yang tidak boleh: menulis judul setelah naskah atau setelah
+   video jadi.
 6. **Satu inti, tiga lapisan akses.** Setiap video memakai pintu masuk yang dipahami orang yang
    belum punya bisnis, keputusan yang berguna bagi founder dengan bisnis berjalan, serta ukuran
    atau batas yang memberi kedalaman bagi operator yang lebih matang.
@@ -68,6 +70,7 @@ Bagian ini ada supaya tidak ada yang membuka ulang perdebatan yang sama.
 | **Tidak ada A/B test thumbnail di pilot** | CTR tidak bisa dibaca tanpa volume impresi. |
 | **Produksi murah, bahan mahal** | Yang mahal harus riset dan bukti. Efek visual ditambahkan setelah ada baseline, bukan sebelum. |
 | **Tidak ada target view atau subscriber** | Belum ada baseline. Bandingkan empat video pilot satu sama lain. |
+| **Judul kerja dibuat di Tahap 1**, bukan diserahkan seluruhnya ke Tahap 2 | Ide yang tidak bisa diberi judul dan teks thumbnail bukan ide. Menemukannya setelah riset berjalan membuang satu blok kerja. Tahap 2 tetap memegang lima opsi, sketsa, dan uji ponsel. |
 
 ---
 
@@ -100,6 +103,7 @@ waktunya.
 | Gejala | Berkas |
 |---|---|
 | Tidak ada ide yang layak | `01-ideasi.md`, lalu `content/log-keputusan.md` |
+| Ide ada, tetapi tidak ada judul yang layak | `01-ideasi.md` Langkah 5 — sudutnya belum tajam |
 | Judul terasa lemah, thumbnail tidak jelas | `02-pengemasan.md` |
 | Riset melebar, klaim inti belum terbukti | `03-riset-dan-fakta.md` (batas 90 menit) |
 | Naskah terasa seperti esai | `04-penulisan-naskah.md` |
