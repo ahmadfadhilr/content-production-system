@@ -856,6 +856,11 @@ pendek. Jika menambah, pastikan masalahnya sungguhan dan kegagalannya senyap.
 **Pengemasan & penerbitan:**
 - Metadata yang ditulis setelah video selesai hampir selalu lebih buruk daripada yang dirancang
   sebelum produksi. Rancang judul dan thumbnail **sebelum** menulis naskah.
+- Median tayangan satu kueri memasukkan audiens yang berbeda. Kueri "cara mengatur keuangan bisnis
+  kecil" ber-median 787.353, sementara channel pengucapnya ber-median 16.500. Saring relevansi, lalu
+  bandingkan dengan median channel, bukan dengan kueri.
+- Satu video outlier bukan bukti pasar. Format judul yang sama bisa terbentang dari 238.893 sampai
+  308 tayangan. Cari pengulangan lintas channel, dan catat juga yang gagal.
 - Auto-caption YouTube akurasinya 70–85% untuk bahasa Indonesia. Selalu periksa manual.
 - Nama file video, tag, dan hashtag dampaknya kecil. Isi kalau sempat, jangan menunda terbit
   karena itu. `cara-naikkan-margin-bisnis.mp4` tetap lebih rapi daripada `video_final_v3.mp4`.
@@ -879,6 +884,10 @@ pendek. Jika menambah, pastikan masalahnya sungguhan dan kegagalannya senyap.
 **Evaluasi:**
 - View tinggi dari audiens bukan target lebih berbahaya daripada view rendah dari audiens yang
   tepat. View viral dari clickbait mengundang subscriber yang tidak menonton video berikutnya.
+- Channel dengan satu hit di luar topik dapat menarik penonton yang tidak kembali. Diukur 3 November
+  2026: satu channel Indonesia punya hit motivasi 1 juta tayangan, sementara video bisnisnya di
+  channel yang sama hanya 6.500–64.000. Ini pola peringatan, bukan bukti sebab-akibat; jaga satu
+  penonton inti dan periksa apakah audiens unggahan berikutnya tetap relevan.
 - CTR dan AVD hari pertama sangat tidak stabil. Tunggu minimal 7 hari.
 - Jangan bandingkan metrik lintas video tanpa memperhitungkan topik, format, dan sumber traffic.
 - Jangan menambah pilar, format, channel, atau otomasi sebelum empat konten pilot selesai.
