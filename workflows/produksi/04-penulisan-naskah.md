@@ -20,7 +20,7 @@ tutup dengan keputusan yang punya batas. Suara, pengalaman, dan pilihan katanya 
 | Pintu masuk dan ketegangan lanjut | Tahap 1–2 | ✅ Wajib |
 | Lembar fakta | Tahap 3 | ✅ Wajib |
 | Artefak utama (angka/dokumen) | Tahap 3 | ✅ Wajib |
-| Bukti yang tidak bisa ditiru dari riset | Tahap 3, salah satu dari tiga jalur | ✅ Wajib |
+| Satu kalimat pembeda | Tahap 2 | ✅ Wajib |
 | Angka yang merugikan | Tahap 3, jalur 1 atau 2 | Dianjurkan, tidak wajib |
 
 > [!CAUTION]
@@ -336,7 +336,7 @@ retention, conversion, leads, pipeline, cash flow, unit economics, break-even, b
 ### Langkah 1 — Review brief dan fact sheet
 
 Pastikan ada: pintu masuk, keputusan inti, ketegangan lanjut, judul, POV satu kalimat, audiens,
-format, artefak utama, dan bukti yang tidak bisa ditiru dari riset.
+format, artefak utama, dan satu kalimat pembeda.
 
 ### Langkah 2 — Pilih kerangka isi
 
@@ -510,6 +510,62 @@ bukan temuan sumber.
 Untuk tiap bagian, tanyakan: “Apa yang membuat kalimat berikutnya layak didengar?” Jika jawabannya
 hanya “karena ini poin berikutnya”, ubah urutan atau buang bagian itu.
 
+### Langkah 17 — Penyisipan pengalaman (04.1)
+
+**Kapan dijalankan:** setelah naskah utuh lulus Langkah 14–16, dan **sebelum** rekaman. Bukan saat
+menulis draf pertama. Kalau dijalankan sambil menulis, naskah akan mengarang pengalaman untuk
+menutup lubang.
+
+**Kenapa ada:** slot *kalimat pembeda* hanya bisa diisi Fadhil. AI tidak
+tahu angka, keputusan, atau kekeliruan yang pernah terjadi. Tanpa langkah ini, naskah berbasis
+riset publik akan lulus semua pemeriksaan kecuali satu: tidak ada alasan video ini dibuat oleh
+Fadhil, bukan oleh siapa saja yang bisa membaca jurnal.
+
+**Prasyarat bahan.** Minimal satu dari:
+
+- Catatan keputusan di `content/log-keputusan.md` (tanggal, pilihan, alasan, hasil sementara).
+- Tabel jam atau omzet per layanan yang benar-benar pernah dicatat, berapa pun kecilnya.
+- Satu keputusan harga, lingkup, atau penghentian layanan yang pernah diambil, beserta apa yang
+  terjadi setelahnya.
+
+Kalau tidak ada satu pun, **jangan jalankan 04.1**. Lanjutkan dengan bukti publik, lalu catat di
+post-mortem bahwa rubrik ⭐Bukti tidak lulus penuh. Itu lebih baik daripada satu paragraf yang
+terdengar personal tetapi tidak bisa dipertanggungjawabkan.
+
+**Aturan menyisip:**
+
+1. **Jangan menulis ulang naskah.** Sisipkan hanya di titik yang sudah ditandai di berkas naskah
+   (bagian "Titik sisip untuk 04.1"). Maksimal tiga sisipan.
+2. **Setiap sisipan wajib punya tiga hal:** periode (bulan atau kuartal), angka atau kejadian yang
+   spesifik, dan apa yang berubah setelahnya. Tanpa periode, itu anekdot. Tanpa perubahan, itu
+   keluhan.
+3. **Pilih satu, bukan tiga, kalau waktunya terbatas.** Sisipan pembuka mengubah seluruh video dari
+   penjelasan menjadi keputusan. Itu yang paling berdampak.
+4. **Hapus label ilustrasi hanya untuk bagian yang benar-benar diganti.** Angka yang tetap asumsi
+   tetap berlabel asumsi. Jangan pernah mencampur angka nyata dan angka karangan dalam satu grafis
+   tanpa membedakan keduanya.
+5. **Samarkan nama klien, tutor, atau mitra.** Sebut jenisnya ("klien bimbel dengan 40 siswa"),
+   bukan namanya. Data yang tidak boleh dibuka tetap tidak dibuka, sekuat apa pun dampaknya pada
+   naskah.
+6. **Jangan menyimpulkan hasil yang belum terjadi.** "Sisanya naik dari Rp100 ribu ke Rp400 ribu"
+   boleh kalau memang tercatat. "Omzet naik 30 persen sejak itu" tidak boleh kalau penyebabnya
+   belum bisa dipisahkan.
+
+**Yang harus direvisi setelah sisipan:**
+
+- [ ] Durasi diukur ulang — sisipan menambah 30–90 detik per titik.
+- [ ] Transisi sebelum dan sesudah sisipan dibaca ulang; jangan sampai terasa ditempel.
+- [ ] Grafis dan teks layar diperbarui; label ilustrasi dihapus hanya di bagian yang berubah.
+- [ ] Kalimat "Angka-angka itu ilustrasi, bukan pembukuan bisnis saya" diperiksa ulang. Kalau
+      sekarang ada angka nyata di video, kalimat itu harus dibedakan, bukan dihapus seluruhnya.
+- [ ] Rubrik ⭐Keaslian dinilai ulang: apakah kalimat pembeda sekarang punya isi, bukan hanya janji?
+- [ ] Langkah 12 diulang: garis bawahi kalimat yang hanya Fadhil bisa ucapkan.
+
+**Gerbang 04.1:** minimal satu kalimat dalam naskah tidak bisa diucapkan kreator lain tanpa
+berbohong, dan setiap angka nyata bisa ditunjuk sumbernya (tanggal, catatan, atau dokumen). Kalau
+gerbang ini tidak lulus, rekaman ditunda atau Fadhil menerima bukti yang lebih lemah secara
+eksplisit — dan itu dicatat, bukan didiamkan.
+
 ---
 
 ## Contoh Kerangka Naskah
@@ -592,6 +648,7 @@ menambah layanan lagi, dan kapan angkanya berarti berhenti."
 - [ ] CTA ringan
 - [ ] Durasi 8–15 menit
 - [ ] Lulus rubrik editorial
+- [ ] 04.1 selesai, atau Fadhil menerima bukti yang lebih lemah secara eksplisit (dicatat di post-mortem)
 
 **Output:** `content/scripts/[YYYY-MM-DD]-[judul-pendek].md`
 
@@ -620,7 +677,7 @@ menambah layanan lagi, dan kapan angkanya berarti berhenti."
 |---|---|
 | Tahap 1 | Pintu masuk, masalah audiens, keputusan, dan ketegangan lanjut |
 | Tahap 2 | Judul, POV, format, konsep thumbnail |
-| Tahap 3 | Fakta, artefak, bukti yang tidak bisa ditiru dari riset |
+| Tahap 3 | Fakta dan artefak yang bisa ditampilkan |
 
 | Ke | Yang dikirim |
 |---|---|
@@ -630,4 +687,4 @@ menambah layanan lagi, dan kapan angkanya berarti berhenti."
 
 ---
 
-*Terakhir diperbarui: 2 November 2026*
+*Terakhir diperbarui: 3 November 2026*

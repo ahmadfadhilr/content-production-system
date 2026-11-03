@@ -147,7 +147,8 @@ Ini bukti terkuat dan satu-satunya yang tidak bisa ditiru kreator lain.
 
 > [!IMPORTANT]
 > Kalau klaim inti tidak punya bukti sendiri, klaim itu turun tingkat menjadi klaim pendukung.
-> POV tidak boleh bergantung pada klaim yang tidak punya bukti sendiri.
+> POV boleh berdiri di atas sumber primer publik, asalkan sumbernya disebut di video dan batasnya
+> jelas. Yang tidak boleh: POV yang berpura-pura punya data sendiri.
 
 #### 3b. Sumber Primer Publik
 
@@ -219,14 +220,19 @@ menjelaskan apa yang sedang dilihat penonton.
 
 ---
 
-### Langkah 5 — Pilih Satu Bukti yang Tidak Bisa Ditiru dari Riset
+### Langkah 5 — Catat Bahan Pembeda (Opsional)
 
-Setiap video harus memuat satu hal yang tidak bisa disalin kreator lain hanya dengan membaca
-sumber yang sama. Tanpa itu, video menjadi rangkuman dua jurnal, dan tidak ada alasan menonton
-Anda alih-alih membaca sumbernya.
+Langkah ini **bukan gerbang**. Sejak 3 November 2026, pembeda diuji di Tahap 2 sebagai satu kalimat,
+bukan ditagih di Tahap 3 sebagai syarat data. Syarat lama mencampur dua hal berbeda: kebenaran klaim
+dan alasan memilih video ini. Akibatnya rekaman berhenti selama `content/log-keputusan.md` kosong.
 
-Syarat ini **tidak wajib berupa data historis milik sendiri.** Ada tiga bentuk, pilih salah satu.
-Bentuk 1 paling kuat. Bentuk 3 paling longgar, tetapi tetap jujur.
+Yang tetap berlaku: kalau video hanya merangkum dua jurnal, tidak ada alasan menontonnya alih-alih
+membaca sumbernya. Bedanya, alasan itu boleh datang dari sudut pandang, bukan hanya dari angka.
+
+Kalau bahan di bawah tersedia, catat di lembar fakta. Kalau tidak, lewati dan lanjut ke Langkah 6.
+
+Tiga bentuk pembeda, berurutan dari yang paling kuat. Jalur 1 paling kuat. Jalur 3 paling longgar,
+tetapi tetap jujur.
 
 | Jalur | Syarat | Yang ditampilkan di layar |
 |---|---|---|
@@ -398,7 +404,7 @@ Riset bisa memenuhi jam kerja sebanyak apa pun yang disediakan. Batasi.
       atau dokumen publik primer
 - [ ] Sudah dipilih satu bukti pembuka yang dikenali penonton tanpa penjelasan (Langkah 3e), plus
       satu angka spesifik untuk menit pertama
-- [ ] Bukti tidak bisa ditiru dari riset sudah dipilih lewat salah satu dari tiga jalur di Langkah 5
+- [ ] Bahan pembeda sudah dicatat kalau tersedia; kalau tidak ada, dilewati dengan sadar (Langkah 5)
 - [ ] Data Salam Cendekia: izin didapat, sudah disamarkan
 - [ ] Ilustrasi berlabel dan asumsinya terbuka
 - [ ] Riset selesai dalam 90 menit

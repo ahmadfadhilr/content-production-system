@@ -10,8 +10,10 @@ dan TikTok (jika aktif). Satu sumber, banyak distribusi.
 ## Alur Kerja
 
 > [!IMPORTANT]
-> Tiga klip pertama harus selesai **sebelum** video utama terbit. Ini syarat di Tahap 8, bukan
-> saran. Kalau menunggu video terbit, klipnya tidak akan pernah dipotong.
+> Tiga klip pertama dipotong **sesudah** video utama terbit, paling lambat Jumat minggu yang sama.
+> Sampai 3 November 2026, syaratnya dibalik: klip harus selesai sebelum terbit. Aturan itu dicabut
+> karena menahan video utama demi platform sekunder membalik prioritas. Yang tetap berlaku: kalau
+> klip belum dipotong sampai Jumat, jangan tunggu minggu depan — potong hari itu juga.
 
 ### 1. Seleksi klip
 

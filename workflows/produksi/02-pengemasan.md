@@ -48,6 +48,7 @@ dipenuhi isi video.
 - Ada 5 opsi judul, 2 di antaranya dipertahankan
 - Opsi pertama adalah judul kerja dari Tahap 1; alasan perubahan tercatat kalau judulnya berubah
 - Setiap judul memuat satu jangkar konkret dan satu taruhan
+- Ada satu kalimat pembeda: kenapa penonton memilih video ini, bukan sumber yang sama
 - Ada 1–2 sketsa thumbnail untuk judul terbaik
 - Kombinasi terpilih lolos uji mobile 120 px
 - Semua opsi terdokumentasi di content brief
@@ -85,6 +86,7 @@ dipenuhi isi video.
 Pintu masuk: [situasi yang dikenali bahkan oleh orang yang belum punya bisnis].
 Keputusan inti: [pilihan yang perlu dibuat founder dengan bisnis berjalan].
 Ketegangan lanjut: [ukuran, trade-off, atau batas yang membuat jawabannya tidak dangkal].
+Pembeda: [kenapa penonton memilih video ini, bukan sumber yang sama].
 ```
 
 Contoh:
@@ -92,8 +94,20 @@ Contoh:
 > Pintu masuk: “Pelanggan bilang harga kamu mahal, padahal tim sudah kewalahan.”
 > Keputusan inti: harga dinaikkan, ruang lingkup dipersempit, atau layanan dihentikan?
 > Ketegangan lanjut: harga yang terlihat untung dapat tetap menghabiskan kapasitas tim.
+> Pembeda: hitungan harga yang dipakai sekarang tidak pernah memasukkan jam tim, dan itu tidak
+> terlihat di laporan bulanan.
 
-Kalau tiga baris ini menjelaskan dua keputusan, topik masih terlalu lebar.
+Kalau tiga baris pertama menjelaskan dua keputusan, topik masih terlalu lebar.
+
+**Uji pembeda.** Baca baris keempat, lalu jawab satu pertanyaan: apakah ada kreator bisnis lain yang
+bisa mengucapkan kalimat itu tanpa berbohong? Kalau ya, baris itu masih ringkasan topik. Pembeda yang
+sah berbentuk salah satu dari empat: sudut yang melawan arus pasokan lokal, kedalaman riset yang
+tidak dilakukan orang lain, cerita atau pengalaman yang hanya dimiliki Fadhil, atau keputusan yang
+jauh lebih sempit daripada yang biasa dibahas.
+
+Pembeda **tidak wajib berupa data milik sendiri**. Sampai 3 November 2026, syarat ini tinggal di
+Tahap 3 dan menuntut angka pribadi, sehingga rekaman berhenti saat `content/log-keputusan.md` masih
+kosong. Sekarang syaratnya di sini, dalam bentuk satu kalimat, dan diuji sebelum naskah ditulis.
 
 ---
 
@@ -136,7 +150,8 @@ dari judul kerja itu. Catatan ini yang membuat Tahap 1 membaik di putaran beriku
 | **Ada jangkar konkret** | Nama, angka, situasi yang sangat dikenal, atau identitas yang jelas. "KFC", "Rp369 miliar", "pelanggan bilang mahal", dan "tim selalu lembur" sama-sama dapat menjadi jangkar. |
 | **Ada taruhan** | Apa yang hilang, berubah, atau dipertaruhkan kalau penonton tidak tahu isinya. |
 | **Ada pertentangan** | Dua hal yang seharusnya tidak berdampingan: makin rugi tetapi makin mahal; omzet naik tetapi profit turun. |
-| Bahasa percakapan | Kata yang benar-benar dipakai pemilik bisnis, bukan bahasa buku. |
+| Bahasa percakapan | Kata yang benar-benar dipakai pemilik bisnis, bukan bahasa buku. Kalimat nominal dan kata abstrak ("belum tahu untungnya") adalah tanda tulisan, bukan ucapan. |
+| Perintah atau tuduhan, bukan keterangan | "Jangan Naikkan Harga Dulu" lebih kuat daripada "Harga Jasa Perlu Dihitung Ulang". Video teratas memakai bentuk perintah, bukan bentuk laporan. |
 | Total di bawah 70 karakter | Lebih dari itu terpotong di hasil pencarian. |
 | Tidak ada klaim berlebihan | Tidak ada "rahasia", "instan", "terbukti". |
 | Judul ≠ thumbnail | Keduanya melengkapi, bukan mengulang. |
@@ -217,6 +232,93 @@ terasa datar. Jangan menambahkan ketiganya sekaligus.
 > **pola pada judul yang berhasil**, bukan bukti bahwa pola itu penyebabnya. Uji satu per satu
 > selama pilot, catat CTR-nya di Tahap 10.
 
+#### Bukti dari Empat Belas Thumbnail (3 November 2026)
+
+Putaran sebelumnya hanya mengukur judul. Itu setengah pekerjaan: di feed, judul dan thumbnail dibaca
+sebagai satu kalimat. Empat belas thumbnail dari video berperforma tertinggi dibuka satu per satu.
+Tangkapan, skor, dan batasnya ada di `content/analisis/2026-11-03-kemasan-klik/`.
+
+| Pola | Contoh terukur | Kalau dilanggar |
+|---|---|---|
+| **Thumbnail adalah setengah kalimat yang hilang**, bukan ringkasan judul | "Selamat, Purbaya Dipecat." + "PURBAYA WAJIB DIPECAT, KARNA…" | Judul dan thumbnail saling mengulang; tidak ada yang perlu diklik untuk menutup kalimat |
+| **Satu angka, dengan satuan, dan angkanya taruhan** | Rp200 Miliar · 90 hari · $10.000 | Angka statistik ("31%") tidak terasa sebagai taruhan |
+| **Bahasa lisan** | "GA SUSAH" · "Sebenernya" · "Kalo" · "OTW" | Kalimat nominal ("belum tahu untungnya") terbaca seperti tulisan, bukan ucapan |
+| **Frasa utuh yang terbaca**, kapital seperlunya, satu frasa disorot | "JANGAN SAMPE JUARA?" · "SALAH BELI KLUB" | Fragmen tanpa subjek atau tindakan memaksa penonton menebak konteks |
+| **Ada yang bisa hilang** | pekerjaan · kepercayaan · uang · waktu · gengsi | Tidak ada alasan untuk berhenti scroll |
+| **Perintah atau tuduhan, bukan keterangan** | "PURBAYA WAJIB DIPECAT" · "DAPET 100JT GA SUSAH" | "Ini adalah…" / "Mengapa hal ini penting" = judul brosur |
+
+> **Catatan panjang teks.** Angka 3–5 kata di atas berasal dari thumbnail berita dan bedah bisnis.
+> Di niche layanan bisnis Indonesia, thumbnail berjalan 6–10 kata dalam dua baris dan tetap terbaca,
+> karena hurufnya besar dan barisnya hanya dua. Data dan delapan contohnya ada di
+> `content/analisis/2026-11-03-pasar-indonesia/`. Yang tidak boleh dilanggar tetap satu: teks harus
+> melengkapi judul. Jumlah kata adalah akibat, bukan target.
+
+**Uji bahasa manusia.** Baca judul keras-keras. Kalau tidak ada orang yang akan mengucapkan kalimat
+itu di percakapan, tulis ulang. Penanda yang muncul di judul teratas: *kok, nggak, dulu, cuma,
+ternyata, padahal, kalo, doang*. Penanda yang tidak muncul satu kali pun: *adalah, merupakan,
+yang mana, sehingga*, dan kalimat pasif.
+
+#### Uji empat lapis
+
+"Terasa wajar" bukan selera. Ada empat hal yang bisa diperiksa satu per satu, dan masing-masing
+punya perbaikan yang jelas.
+
+| Lapis | Pertanyaan | Kalau gagal |
+|---|---|---|
+| **1. Kata kerja** | Setelah *lupa, salah, coba, takut, mulai* — apakah kata berikutnya kata kerja? | Ganti kata benda dengan kata kerja |
+| **2. Afiks** | Apakah kata kerja memakai bentuk yang diucapkan? | Ganti ke bentuk ucap |
+| **3. Rujukan** | Apakah setiap *ini, itu, -nya* punya anteseden yang sudah disebut? | Sebut bendanya, atau pindahkan arti ke kata kerja |
+| **4. Elipsis** | Kalau satu kata dihapus, apakah artinya berubah? | Hapus |
+
+**Contoh nyata, dari judul pilot pertama.**
+
+| Versi | Hasil uji | Sebab |
+|---|---|---|
+| Lupa **satu ini** | Gagal lapis 1 dan 3 | *Lupa* diikuti kata benda, dan *satu ini* tidak menunjuk apa pun |
+| Lupa **ngitung** ini | Lulus | *Lupa* diikuti kata kerja; *ini* menjadi objek *ngitung*, jadi punya peran |
+| Lupa **menghitung** ini | Lulus | Sama, hanya berbeda register |
+
+Lapis 1 adalah yang paling sering dilanggar. Dalam bahasa Indonesia, *lupa* dan *salah* adalah kata
+kerja yang menuntut kata kerja lain di belakangnya ketika yang dilupakan adalah sebuah tindakan.
+*Lupa dompet* benar karena dompet benda. *Lupa hitung* benar karena hitung tindakan. *Lupa satu
+ini* secara tata bahasa sah, tetapi yang dilupakan jadi benda, dan pembaca harus menebak benda apa.
+
+**Pola tindakan yang bisa diulang.** Bila inti video adalah satu hitungan, keputusan, atau
+pengukuran yang belum dilakukan, bentuk berikut boleh dipakai:
+
+```text
+[Objek bisnis yang dimiliki penonton] [salah/bermasalah] kalau [lupa/gak] [kata kerja] ini.
+```
+
+Contoh: **“Harga Jualmu Salah Hitung Kalau Lupa Ngitung Ini.”** Objeknya jelas, kesalahannya jelas,
+dan *ini* menunjuk tindakan yang belum dilakukan. Thumbnail lalu menyebut tindakan itu:
+**“BIAYA JAM KERJA MASUK HARGA.”**
+
+Jangan memaksa pola ini bila isi video tidak punya satu tindakan yang dapat disebut. Dalam kasus itu,
+pakai pola keadaan dan akibat, bukan kata *ini* sebagai pengganti makna.
+
+**Tabel afiks.** Register judul harus sama dengan register format.
+
+| Bentuk ucap | Bentuk baku | Dipakai untuk |
+|---|---|---|
+| ngitung, naikin, ngatur, nagih, ngecek, masukin, nentuin | menghitung, menaikkan, mengatur, menagih, memeriksa, memasukkan, menentukan | Decision Notes dan Business Breakdown memakai yang kiri; Operating Playbook boleh memakai yang kanan |
+
+Mencampur keduanya dalam satu judul menghasilkan kalimat yang tidak diucapkan siapa pun. "Cara
+Menaikkan Harga Tanpa Kehilangan Pelanggan" wajar sebagai judul tutorial. "Takut Naikin Harga?"
+wajar sebagai tuduhan. Yang tidak wajar adalah "Takut Menaikkan Harga".
+
+Sapaan "Anda" menandai video terjemahan atau pelatih seminar. Kalau Fadhil memakai "kamu", jangan
+campur keduanya dalam satu judul atau satu thumbnail. Dasarnya di berkas pasar Indonesia di atas.
+
+**Uji dua bagian.** Tutup thumbnailnya: judul masih harus menjanjikan keputusan atau taruhan. Tutup
+judulnya: thumbnail masih harus menjelaskan objek dan hasil/tindakannya. Setelah keduanya dipasang
+lagi, cek bahwa perannya tidak identik. Kejelasan mandiri wajib; pengulangan kosong yang harus
+dihilangkan.
+
+**Rubrik estimasi klik.** Enam kriteria, 0–2 per kriteria: jangkar, taruhan, pertentangan, bahasa
+manusia, loop judul–thumbnail, bisa dipenuhi isi. Skor di bawah 9 dari 12 berarti judulnya belum
+layak dipakai. Ini alat pembanding, bukan prediksi CTR.
+
 ---
 
 ### Langkah 4 — Rancang 1–2 Konsep Thumbnail
@@ -234,7 +336,10 @@ yang tidak terpikirkan saat menyusun naskah.
 
 **Teks:**
 
-- 3–5 kata. Bukan kalimat.
+- 2–10 kata dalam maksimal dua baris. Frasa utuh lebih penting daripada jumlah kata.
+- Harus tetap menjelaskan objek dan hasil atau tindakan ketika judul ditutup. Jangan memakai
+  fragmen data seperti "JAM TIM" atau "6 JAM ≠ 2 JAM" bila pembaca belum tahu benda apa yang
+  sedang dibandingkan.
 - Font sans-serif tebal.
 - Kontras tinggi.
 - Terbaca di 120 px.
@@ -278,7 +383,7 @@ yang tidak terpikirkan saat menyusun naskah.
 Konsep Thumbnail [A/B]:
 - Pendekatan: [Angka / Kontras / Wajah]
 - Elemen 1 (subjek): [deskripsi]
-- Elemen 2 (teks): [3–5 kata]
+- Elemen 2 (teks): [frasa utuh, 2–10 kata]
 - Elemen 3 (latar): [deskripsi]
 - Warna dominan: [___]
 - Status: [terpilih / cadangan]
@@ -293,6 +398,7 @@ Konsep Thumbnail [A/B]:
 | Judul dan thumbnail menceritakan satu cerita? | Ya |
 | Thumbnail menambah informasi yang tidak ada di judul? | Ya |
 | Judul menambah konteks yang tidak ada di thumbnail? | Ya |
+| Thumbnail tetap menjelaskan objek dan hasil/tindakan saat judul ditutup? | Ya |
 | Ada satu janji yang jelas? | Ya |
 | Janji itu bisa dipenuhi isi video? | Ya |
 | Situasi di kemasan dapat dikenali tanpa memahami jargon bisnis? | Ya |
@@ -486,4 +592,4 @@ TAHAP 2: PENGEMASAN — CEKLIS
 
 ---
 
-*Terakhir diperbarui: 2 November 2026*
+*Terakhir diperbarui: 3 November 2026*

@@ -28,8 +28,25 @@ atau lebih matang. Ini bukan tiga audiens utama yang setara.
   lebih matang dapat menguji logikanya. Jangan membuat segmen khusus yang mengorbankan kejelasan
   bagi audiens utama.
 
-Ambang pendapatan untuk kategori “bisnis lebih besar” belum ditetapkan. Jangan menulis angka
-ambang baru sampai Fadhil menetapkannya.
+**Ambang audiens utama:** omzet tahunan di bawah Rp5 miliar, **dan** sudah punya karyawan. Batas
+bawahnya bukan angka, melainkan kemampuan mengikuti video: pemilik usaha di bawah Rp300 juta harus
+tetap bisa memahami dan memakai isinya tanpa penjelasan tambahan. Batas atasnya Rp5 miliar karena di
+atas itu keputusan harga, kapasitas, dan orang biasanya sudah punya pemilik sendiri di dalam tim,
+sehingga masalahnya berubah bentuk.
+
+Syarat "punya karyawan" bukan tambahan opsional. Menurut Sensus Ekonomi 2016 BPS, 24,0 juta dari
+26,7 juta usaha nonpertanian (90,00%) berada di bawah Rp300 juta. Artinya omzet saja tidak menyaring
+apa pun: hampir semua usaha lolos. Yang menyaring adalah punya tim.
+
+Dua batas data itu harus disebut kalau angkanya dipakai di video. Pertama, datanya berusia sepuluh
+tahun; Sensus Ekonomi 2026 sudah didata pada Mei–Agustus 2026, tetapi tabulasi nasionalnya belum
+terbit. Pakai angka 2016 sebagai *terverifikasi untuk 2016*, bukan sebagai gambaran pasar hari ini.
+Kedua, tabel kelompok omzet dan tabel UMK/UMB adalah dua klasifikasi berbeda. Pangsa omzet UMK/UMB
+tidak boleh ditempelkan ke kelompok omzet, karena batas keduanya tidak sama.
+
+Ambang ini tidak membatasi topik. Ia hanya menentukan siapa yang harus bisa mengikuti videonya
+tanpa penjelasan tambahan. Operator yang lebih besar tetap harus mendapat kedalaman, sesuai baris
+**Kedalaman** di atas.
 
 **Channel utama:** YouTube — konten mendalam 8–15 menit.
 **Distribusi sekunder:** Instagram Reels/Carousel dari materi YouTube yang sama. Jangan membuat
@@ -246,6 +263,11 @@ sinyal permintaan, celah pasokan, dan jenis bukti awal yang nyata.
 **Aturan utama:**
 - Mulai dari celah: sudut yang dicari orang tetapi belum dibahas mendalam di YouTube Indonesia.
 - Permintaan diukur, bukan dirasakan. Median tayangan 10 hasil teratas, tiga putaran per kueri.
+- Ada dua bentuk pintu masuk: ketidaktahuan dan gejala. Bentuk dipilih berdasarkan cara penonton
+  mengalami masalahnya, bukan kuota pilar atau kuota bentuk.
+- Judul berada di level hasil atau gejala, bukan level mekanisme. Nama alat masuk isi video.
+- Permintaan kandidat bentuk gejala diukur di level hasil ("kenapa bisnis gak bisa besar"), bukan
+  dengan kueri mekanismenya. Rinciannya di `01-ideasi.md` Langkah 2b.
 - Bukti boleh dari riset: data sendiri, laporan tahunan, filing, BPS, jurnal, siaran pers resmi.
 - Setiap ide harus masuk ke salah satu dari tiga pilar konten.
 - Topik boleh aktual. Yang tidak boleh berubah adalah lensanya: keputusan, margin, kapasitas.
@@ -256,7 +278,9 @@ ambang. Skor tidak bisa menyelamatkan topik yang seharusnya gugur di sini.
 **Sumber ide:** pindai YouTube (`tools/pindai-youtube.py`), log keputusan sebagai bukti tipe A,
 content bank untuk cek duplikat, komentar dan pertanyaan audiens sebagai sinyal pendukung.
 
-**Gerbang keluaran:** ✅ Minimal enam kueri dipindai dalam tiga putaran. Kandidat utama dan maksimal
+**Gerbang keluaran:** ✅ Minimal enam kueri dipindai dalam tiga putaran. Kandidat bentuk gejala
+diukur di level hasil dan dilengkapi preseden kemasan yang dekat; keduanya tidak disajikan sebagai
+prediksi tayangan. Kandidat utama dan maksimal
 dua cadangan masing-masing punya masalah audiens, keputusan, sinyal permintaan, celah lokal, jenis
 bukti, **judul kerja, teks thumbnail**, dan alasan keputusan. Judul kerja adalah kalimat yang layak
 muncul di feed, bukan ringkasan topik; jangkarnya harus sudah ada, bukan dijanjikan. Hasil disimpan
@@ -290,7 +314,7 @@ naskah. Bahan awalnya sudah ada dari Tahap 1.
 
 **Aturan thumbnail:**
 - Maksimal tiga elemen: subjek + teks pendek + latar.
-- Teks: 3–5 kata, font sans-serif tebal, kontras tinggi.
+- Teks: frasa utuh 2–10 kata dalam maksimal dua baris, font sans-serif tebal, kontras tinggi.
 - Uji: apakah terbaca di layar ponsel ukuran 120 px?
 - Jangan taruh teks di pojok kanan bawah (zona durasi video).
 - Kalau video punya angka, pertimbangkan menampilkan angka itu. Harus sama dengan angka di video.
@@ -316,13 +340,14 @@ pertentangan, dan bisa dipenuhi isi video.
 - Setiap angka harus punya definisi, periode, dan sumber.
 - Jangan menyajikan ilustrasi sebagai data nyata. Selalu beri label.
 - Data internal Salam Cendekia: samarkan dan pastikan izin Fadhil sebelum dipakai.
-- Setiap video memuat satu bukti yang tidak bisa ditiru dari riset. Tiga jalur: catatan sendiri,
-  pengukuran untuk video ini, atau batas pengalaman yang disebut eksplisit.
+- Setiap video memuat satu artefak yang terlihat di layar. Sumbernya catatan sendiri, pengukuran
+  untuk video ini, atau dokumen publik primer.
+- Pembeda diuji di Tahap 2 sebagai satu kalimat, bukan di Tahap 3 sebagai syarat data. Bentuknya
+  boleh sudut pandang atau kedalaman riset, tidak wajib angka milik sendiri.
 - Riset berhenti di 90 menit. Kalau klaim inti belum terbukti, ganti klaimnya.
 
 **Gerbang keluaran:** ✅ Lembar fakta tersusun. Setiap butir ditandai: *terverifikasi*, *simpulan*,
-atau *tebakan*, plus label jenis sumber. Ada artefak yang bisa ditampilkan, dan satu bukti yang
-tidak bisa ditiru dari riset lewat salah satu dari tiga jalur.
+atau *tebakan*, plus label jenis sumber. Ada artefak yang bisa ditampilkan.
 
 **SOP lengkap:** `workflows/produksi/03-riset-dan-fakta.md`
 
@@ -544,7 +569,6 @@ A5–A6 : Musik (stereo)
 - [ ] Chapter untuk setiap bagian utama
 - [ ] Subtitle/caption diperiksa manual (auto-caption akurasi 70–85% untuk bahasa Indonesia)
 - [ ] Komentar terpin: rangkuman isi atau pertanyaan diskusi
-- [ ] Tiga klip 9:16 sudah dipotong sebelum Publish
 
 **Opsional, jangan menunda terbit:**
 - [ ] Tags: 5–8, kata kunci utama pertama
@@ -564,7 +588,8 @@ hari terakhir, ada POV Fadhil, ada satu artefak, dan rubrik editorial tetap lulu
 - Validasi: YouTube Autocomplete, Google Trends region Indonesia, VidIQ, TubeBuddy.
 - Perbarui metadata video lama secara berkala — SEO bukan tugas sekali jalan.
 
-**Gerbang keluaran:** ✅ Video live atau terjadwal, seluruh ceklis wajib lulus, tiga klip siap.
+**Gerbang keluaran:** ✅ Video live atau terjadwal, seluruh ceklis wajib lulus. Klip dipotong
+sesudahnya, paling lambat Jumat minggu yang sama.
 
 **SOP lengkap:** `workflows/produksi/08-penerbitan.md`
 
@@ -676,7 +701,7 @@ per dua minggu dan perpanjang pilot.
 | **Audiens** | Jelas siapa yang sedang mengalami masalah ini |
 | ⭐ **Masalah** | Ada satu pertanyaan yang spesifik dan penting |
 | ⭐ **POV** | Ada jawaban atau keputusan yang bisa diringkas satu kalimat |
-| ⭐ **Bukti** | Klaim inti punya sumber primer. Ada satu bukti yang tidak bisa ditiru dari riset, lewat tiga jalur di Tahap 3. Data internal aman dibuka |
+| ⭐ **Bukti** | Klaim inti punya sumber primer. Ada satu artefak yang terlihat di layar. Data internal aman dibuka |
 | **Trade-off** | Dampak negatif dan batas saran disebutkan |
 | **Kegunaan** | Ada langkah atau keputusan yang bisa diterapkan |
 | **Judul** | Ada jangkar konkret dan taruhan. Tanpa klaim berlebihan |
@@ -746,6 +771,7 @@ sendiri. Sebagian judulnya juga di luar positioning Fadhil dan tidak boleh ditir
 | Pola | Dari siapa | Cara mengadopsi |
 |---|---|---|
 | Hook 3–5 detik tanpa basa-basi | Semua lima kreator | Naskah dimulai dari pernyataan kontarian, angka, atau pertanyaan tajam, bukan sapaan |
+| Judul menyerang gejala atau hasil, bukan nama alat | Alex Hormozi, Leila Hormozi | Judul memakai kalimat yang dikeluhkan atau diinginkan penonton. Nama mekanisme (sistem, batas kewenangan, struktur biaya) masuk isi video, bukan judul. Batasnya: permintaan diukur di level hasil, karena kueri mekanisme di Indonesia hampir tidak ada yang mencari. Bukti: `content/analisis/2026-11-03-pola-hormozi/` |
 | Punch zoom dari rekaman 4K | Alex Hormozi, Raymond Chin | Rekam 4K, potong di 1080p dengan zoom 100→110% saat penekanan |
 | Kinetic captions kata per kata | Alex Hormozi | Pakai di klip pendek; opsional di video panjang |
 | Business Breakdown berbasis data | Raymond Chin | Format studi kasus dengan data divisualisasikan |
@@ -757,10 +783,11 @@ sendiri. Sebagian judulnya juga di luar positioning Fadhil dan tidak boleh ditir
 | 1 video → banyak klip pendek | Alex Hormozi | Mulai dari 3–5 klip per video |
 | Produksi murah, bahan mahal | Semua lima kreator | Yang mahal harus riset dan bukti. Efek visual, motion graphics, dan sound design ditambahkan setelah ada baseline — bukan sebelum |
 
-> **Bukti tidak bisa ditiru, bukan produksi yang mewah.** Pola yang sama muncul di semua kreator
-> yang bisa diverifikasi: Hormozi memakai angka perusahaannya sendiri, Raymond membaca laporan dan
+> **Bahan yang mahal, bukan produksi yang mewah.** Pola yang sama muncul di semua kreator yang
+> bisa diverifikasi: Hormozi memakai angka perusahaannya sendiri, Raymond membaca laporan dan
 > kejadian, Ferry pergi ke lokasi. Yang mahal adalah bahannya, bukan editnya. Kalau satu video
-> terasa butuh lebih banyak efek untuk layak terbit, masalahnya biasanya di bukti, bukan di efek.
+> terasa butuh lebih banyak efek untuk layak terbit, masalahnya biasanya di bahan, bukan di efek.
+> Bahan itu tidak selalu angka sendiri: bisa juga kedalaman riset atau sudut yang melawan arus.
 
 > **Yang sengaja tidak diadopsi.** Jump cut setiap 1–3 detik adalah estetika direct response
 > untuk konten cepat. Format Decision Notes adalah studi kasus. Potongan setiap dua detik membuat
@@ -861,11 +888,12 @@ Jadwal pilot dari Personal Brand Plan. Satu video per minggu menguji satu hipote
 lolos ambang permintaan. Urutan baru harus diambil dari `content/pindai/`, bukan dari dokumen ini.
 Desain empat hipotesis berbeda tetap dipakai; yang berubah hanya ide dan urutannya.
 
-**Jangan mengubah semua variabel sekaligus.** Empat video dengan empat pilar, empat format, dan
-empat jenis bukti tidak bisa dibandingkan: kalau video 2 menang, tidak ada cara tahu apakah karena
-formatnya, topiknya, atau kebetulan. Pegang dua hal tetap selama empat video — misalnya format dan
-pilar — lalu variasi satu hal. Dengan empat video, satu perbandingan bersih lebih berharga daripada
-empat eksperimen yang semuanya berbeda.
+**Farming pola yang bekerja lebih penting daripada pemerataan pilar.** Tiga pilar adalah batas
+positioning, bukan kuota empat video. Mulai dari keluarga topik dan bentuk kemasan yang punya sinyal
+pasar paling kuat, termasuk pola yang diadaptasi dari luar negeri lalu dikalibrasi ke Indonesia.
+Jika satu video memberi sinyal awal yang menjanjikan, video berikutnya boleh menguji variasi yang
+dekat. Tetap catat apa yang berubah; empat video belum cukup untuk menyatakan sebab-akibat, tetapi
+cukup untuk memilih pola mana yang layak difarm lebih lanjut.
 
 **Sesudah empat video:** Evaluasi. Keputusan: lanjut, ubah format, atau pindah fokus. Kalau belum
 ada tujuan channel yang eksplisit (lihat "Konteks Proyek"), tetapkan tujuan itu sebelum memutuskan.

@@ -60,11 +60,16 @@ gerbang Tahap 1 yang menentukan status.
 [Spreadsheet, dashboard, invoice, dokumen, atau tangkapan layar keputusan. Sebut file dan
 bagian yang akan disorot.]
 
-**Bukti yang tidak bisa ditiru dari riset** (pilih satu jalur, lihat `03-riset-dan-fakta.md` Langkah 5):
+**Satu kalimat pembeda** (lihat `02-pengemasan.md` Langkah 1). Kalau bahan dari `03-riset-dan-fakta.md`
+Langkah 5 tersedia, catat di sini:
 
-- [ ] Jalur 1: angka dari catatan sendiri, termasuk yang merugikan. Nominalnya: ___
-- [ ] Jalur 2: pengukuran untuk video ini. Yang diukur: ___ Hasilnya: ___
-- [ ] Jalur 3: batas pengalaman yang disebut eksplisit di video: ___
+[Kalimat yang tidak bisa diucapkan kreator bisnis lain tanpa berbohong.]
+
+Bahan yang tersedia (opsional, tidak wajib):
+
+- [ ] Angka dari catatan sendiri, termasuk yang merugikan. Nominalnya: ___
+- [ ] Pengukuran untuk video ini. Yang diukur: ___ Hasilnya: ___
+- [ ] Batas pengalaman yang disebut eksplisit di video: ___
 
 ---
 
@@ -185,11 +190,11 @@ bagian yang akan disorot.]
 | Kedalaman untuk operator matang | [ ] | |
 | ⭐ Masalah spesifik | [ ] | |
 | ⭐ POV satu kalimat | [ ] | |
-| ⭐ Bukti: sumber primer, artefak bisa ditampilkan, satu bukti tidak bisa ditiru dari riset | [ ] | |
+| ⭐ Bukti: sumber primer, artefak bisa ditampilkan | [ ] | |
 | Trade-off disebutkan | [ ] | |
 | Ada langkah yang bisa diterapkan | [ ] | |
 | Judul punya jangkar konkret dan taruhan | [ ] | |
-| Bukan pengulangan | [ ] | |
+| Keaslian: ada kalimat pembeda, bukan pengulangan | [ ] | |
 
 **Keputusan:** Lanjut ke produksi / Revisi / Tunda / Buang
 

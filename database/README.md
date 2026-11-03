@@ -24,6 +24,7 @@ python3 tools/ranking.py                  # papan: ide hidup, urut prioritas lal
 python3 tools/ranking.py --detail         # tambah rincian empat skor
 python3 tools/ranking.py --semua          # ikutkan yang gugur dan digabung
 python3 tools/ranking.py --pilar=keuangan # hanya satu pilar (1/2/3 juga bisa)
+python3 tools/ranking.py --celah --top=5  # lima kandidat dari celah terbesar
 
 python3 tools/lihat-ide.py                # daftar ide hidup
 python3 tools/lihat-ide.py IDEA-009       # satu ide, semua kolom berlabel

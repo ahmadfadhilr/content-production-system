@@ -83,6 +83,49 @@ Tiga hasil lokal yang diperiksa:
 
 **Hipotesis kemasan:** satu baris tabel dengan porsi jam tim jauh di atas porsi omzet. Saat ini belum boleh dipakai karena belum diukur.
 
+## Uji Ulang Judul Kerja — 3 November 2026 (putaran kedua)
+
+Putaran pertama hanya menguji **judul** dan menyimpulkan bahwa angka dan orang pertama berasosiasi
+dengan tayangan lebih tinggi. Itu tidak cukup. Keluhannya bukan soal angka, tetapi soal bunyi:
+judulnya tidak seperti kalimat yang diucapkan orang, dan tidak ada alasan untuk mengklik.
+
+Putaran ini membuka **14 thumbnail asli** dari video berperforma tertinggi, bukan hanya judulnya.
+Alasannya sederhana: di YouTube, judul dan thumbnail dibaca sebagai satu kalimat. Menilai judul
+tanpa thumbnail berarti menilai separuh kemasan.
+
+**Data.** Empat channel, 14 thumbnail, tayangan relatif terhadap median channel. Tanpa CTR, tanpa
+retensi. Rincian, tangkapan thumbnail, dan rubriknya di
+`content/analisis/2026-11-03-kemasan-klik/README.md`.
+
+**Enam pola yang muncul:**
+
+| # | Pola | Bukti terukur |
+|---|---|---|
+| 1 | Teks thumbnail adalah setengah kalimat yang hilang, bukan ringkasan judul | "Selamat, Purbaya Dipecat." + "PURBAYA WAJIB DIPECAT, KARNA…" |
+| 2 | Satu angka dengan satuan, dan angkanya taruhan | Rp200 Miliar · 90 hari · $10.000 · 100JT |
+| 3 | Bahasa lisan, bukan bahasa tulis | "GA SUSAH" · "Sebenernya" · "Kalo" · "OTW" |
+| 4 | Teks thumbnail 2–5 kata, kapital, satu frasa disorot | "JANGAN SAMPE JUARA?" · "SALAH BELI KLUB" |
+| 5 | Ada yang bisa hilang | pekerjaan, kepercayaan, uang, waktu, gengsi |
+| 6 | Perintah atau tuduhan, bukan keterangan | "PURBAYA WAJIB DIPECAT" · "DAPET 100JT GA SUSAH" |
+
+**Hasil uji terhadap judul kerja putaran pertama.** "Pelanggan Bilang Mahal, Tapi Kamu Belum Tahu
+Untungnya" mendapat **5 dari 12** pada rubrik enam kriteria. Ia kalah di tiga kriteria yang paling
+konsisten muncul di video teratas: taruhan, bahasa manusia, dan loop judul–thumbnail. Kata
+"untungnya" juga ambigu — bisa laba, bisa "untunglah". Judul itu **tidak dipakai**.
+
+**Judul kerja baru IDEA-009:** `Harga Jualmu Salah Hitung Kalau Lupa Ngitung Ini` (49 karakter,
+10/12). Dua opsi teratas sama-sama lulus ambang. Yang dipakai adalah pilihan Fadhil, bukan skor
+tertinggi: "Jangan Naikkan Harga Dulu. Hitung Jam Timnya." (11/12) tetap disimpan sebagai cadangan.
+
+**Yang tidak berubah.** Tidak ada judul yang memakai angka. Belum ada angka milik Fadhil yang boleh
+dibuka, dan angka ilustrasi di judul akan terbaca sebagai data nyata. Pola berangka tetap diuji
+lebih dulu begitu 04.1 menghasilkan satu angka nyata.
+
+**Yang berubah pada dua cadangan.** Keduanya diuji dengan rubrik yang sama. IDEA-003 lulus (9/12)
+dengan judul lama. IDEA-001 tidak lulus (7/12) dan judulnya diganti.
+
+---
+
 ## Keputusan Putaran Ini
 
 ### Kandidat utama — IDEA-009
@@ -93,11 +136,19 @@ Tiga hasil lokal yang diperiksa:
 - **Keputusan:** Harga dinaikkan, ruang lingkup dipersempit, atau layanan dihentikan?
 - **Ketegangan lanjut:** Harga, ruang lingkup, dan kapasitas tim perlu diputuskan bersama.
 - **Sinyal permintaan:** *terverifikasi — ada, tetapi relevansinya parsial.* Kueri harga jasa menghasilkan median 136.495 dengan rentang 1,3×. Setelah relevansi diperiksa, nilainya tidak layak diberi skor tertinggi.
-- **Celah lokal:** *simpulan — `sedang`.*
+- **Celah lokal:** *simpulan — `sedang`.* Pasokan lokal berisi "cara menaikkan harga". Judul ini melawan arus itu.
 - **Jenis bukti awal:** B, sumber primer sudah teridentifikasi.
-- **Hipotesis kemasan:** perbandingan harga, jam tim, dan kapasitas tersisa.
+- **Judul kerja:** Harga Jualmu Salah Hitung Kalau Lupa Ngitung Ini (49 karakter).
+  Jangkar: tuduhan spesifik dengan satu hal yang belum disebut. Taruhan: hitungan harga yang dipakai
+  sekarang bisa salah, dan salahnya tidak kelihatan di laporan. Pertentangan: merasa sudah
+  menghitung, padahal satu komponen tidak pernah masuk.
+- **Teks thumbnail:** "YANG LUPA: JAM TIM" (4 kata). Menjawab "satu ini" di judul tanpa mengulang
+  satu kata pun. Wajib disertai label "2 JAM" dan "6 JAM" di frame.
+- **Kontras visual:** dua layanan dengan omzet sama; batang jam tim 2 jam vs 6 jam di sebelah batang
+  omzet yang tingginya sama.
 - **Skor:** permintaan 3, celah 3, bukti 3, kapasitas 5. Total 20.
-- **Alasan:** Keluarga harga dan margin muncul kembali pada putaran sebelumnya dan putaran ini. Kandidat ini tidak membutuhkan klaim bahwa Fadhil sudah memiliki tabel margin per lini.
+- **Skor kemasan:** 10/12. Taruhan 2, bahasa manusia 2, loop thumbnail 2, jangkar 1.
+- **Alasan:** Keluarga harga dan margin muncul kembali pada putaran sebelumnya dan putaran ini. Kandidat ini tidak membutuhkan klaim bahwa Fadhil sudah memiliki tabel margin per lini. Setelah uji kemasan, status utama tidak berubah: keputusannya paling jelas, bukti primernya tersedia akses terbuka, dan tidak bergantung pada data internal.
 
 ### Cadangan pertama — IDEA-003
 
@@ -109,7 +160,12 @@ Tiga hasil lokal yang diperiksa:
 - **Sinyal permintaan:** *terverifikasi — cukup dan stabil.* Dua kueri retensi berada sekitar 22–29 ribu dengan rentang 2,1× dan 2,9×.
 - **Celah lokal:** *simpulan — `sedang`.*
 - **Jenis bukti awal:** B, dua artikel primer telah diidentifikasi.
-- **Hipotesis kemasan:** perbandingan dua kohort dengan total repeat order yang sama.
+- **Judul kerja:** Repeat Order Naik, Pelanggan Lama Diam-diam Pergi (49 karakter). Jangkar: angka
+  yang biasa dilihat pemilik bisnis. Taruhan: pertumbuhan terlihat sehat sementara basis pelanggan
+  lama menipis. Pertentangan: naik, tetapi pergi. **Skor kemasan 9/12** — lulus, tetapi tidak
+  sekuat IDEA-009 karena tidak ada perintah atau tuduhan yang membuat orang berhenti.
+- **Teks thumbnail:** "ANGKA TOTAL MENIPU" (3 kata). Menambah alasan, bukan mengulang judul.
+- **Kontras visual:** dua kohort dengan total repeat order sama, tetapi tingkat kembali berbeda.
 - **Skor:** permintaan 3, celah 3, bukti 3, kapasitas 5. Total 20.
 - **Alasan:** Bukti dan kemasannya belum khas tanpa data pelanggan yang aman dibuka. Naik menjadi utama hanya jika Tahap 2 menghasilkan kemasan kuat tanpa menyamarkan masalah menjadi ilustrasi umum.
 
@@ -123,7 +179,14 @@ Tiga hasil lokal yang diperiksa:
 - **Sinyal permintaan:** *terverifikasi — ada, tetapi parsial.* Kueri margin jasa berada di rentang 90.227–136.495.
 - **Celah lokal:** *simpulan — `sedang`.*
 - **Jenis bukti awal:** B tersedia; pengukuran jam tim (C) belum dikerjakan.
-- **Hipotesis kemasan:** tabel jam tim dibanding porsi omzet, tetapi artefaknya belum ada.
+- **Judul kerja:** Layanan Paling Ramai, Jam Timnya Habis di Situ (46 karakter). Jangkar: layanan
+  yang pasti dibahas. Taruhan: layanan tersibuk bisa menjadi beban terbesar. Pertentangan: paling
+  ramai, tetapi jamnya habis di situ. **Skor kemasan 9/12.** Judul lama, "Layanan Paling Ramai,
+  Kenapa Justru Bikin Bisnis Berat?", hanya 7/12: "bikin bisnis berat" adalah frasa tulis, bukan
+  kalimat yang diucapkan orang, dan "kenapa" di tengah kalimat melemahkan hook.
+- **Teks thumbnail:** "SIBUK, TAPI TIPIS" (3 kata). Mengganti "SIBUK, TAPI TIDAK UNTUNG" yang
+  terlalu panjang untuk 120 px.
+- **Kontras visual:** satu baris tabel: porsi jam tim jauh di atas porsi omzet.
 - **Skor:** permintaan 3, celah 3, bukti 3, kapasitas 3. Total 18.
 - **Alasan:** Tidak lagi menjadi utama. Kekuatan video ini bergantung pada pengukuran jam tim yang belum tersedia. Tanpa itu, ia akan kembali menjadi penjelasan jurnal dan ilustrasi.
 

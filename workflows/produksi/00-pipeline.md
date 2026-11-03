@@ -13,27 +13,29 @@ satu kalimat, satu bukti yang terlihat di layar.
 
 | # | Tahap | Dikerjakan | Keluaran yang harus ada sebelum lanjut | Berkas |
 |---|---|---|---|---|
-| 1 | Ideasi | AI + Fadhil | Satu kandidat utama + maksimal dua cadangan, semua punya masalah, keputusan, jenis bukti, judul kerja, dan teks thumbnail | [`01-ideasi.md`](./01-ideasi.md) |
-| 2 | Pengemasan | AI + Fadhil | 5 judul → 2 dipilih (mulai dari judul kerja Tahap 1), 1–2 sketsa thumbnail | [`02-pengemasan.md`](./02-pengemasan.md) |
-| 3 | Riset dan fakta | AI | Lembar fakta berlabel + artefak + bukti yang tidak bisa ditiru dari riset | [`03-riset-dan-fakta.md`](./03-riset-dan-fakta.md) |
-| 4 | Naskah | AI | Naskah siap direkam, penanda visual lengkap | [`04-penulisan-naskah.md`](./04-penulisan-naskah.md) |
+| 1 | Ideasi | AI + Fadhil | Default: satu kandidat utama + maksimal dua cadangan, semua punya masalah, keputusan, jenis bukti, judul kerja, dan teks thumbnail; plus tiga temuan kemasan pembanding. Jika Fadhil meminta batch discovery, buat daftar saring hingga 20 kandidat sebelum memilih tiga yang hidup. | [`01-ideasi.md`](./01-ideasi.md) |
+| 2 | Pengemasan | AI + Fadhil | 5 judul → 2 dipilih (mulai dari judul kerja Tahap 1), 1–2 sketsa thumbnail, satu kalimat pembeda | [`02-pengemasan.md`](./02-pengemasan.md) |
+| 3 | Riset dan fakta | AI | Lembar fakta berlabel + artefak yang bisa ditampilkan | [`03-riset-dan-fakta.md`](./03-riset-dan-fakta.md) |
+| 4 | Naskah | AI + Fadhil | Naskah siap direkam, penanda visual lengkap, lalu **04.1** (penyisipan pengalaman) sebelum rekaman | [`04-penulisan-naskah.md`](./04-penulisan-naskah.md) |
 | 5 | Rekaman | Fadhil | File mentah + room tone, sudah di-backup | [`05-rekaman.md`](./05-rekaman.md) |
 | 6 | Riset visual | AI + Fadhil | Artefak terekam, peta visual, lisensi dicek | [`06-riset-visual.md`](./06-riset-visual.md) |
 | 7 | Penyuntingan | Fadhil | Video final lulus ceklis teknis dan rubrik | [`07-penyuntingan.md`](./07-penyuntingan.md) |
-| 8 | Penerbitan | Fadhil | Video live + metadata + 3 klip 9:16 siap | [`08-penerbitan.md`](./08-penerbitan.md) |
+| 8 | Penerbitan | Fadhil | Video live + metadata + ceklis menit pertama | [`08-penerbitan.md`](./08-penerbitan.md) |
 | 9 | Distribusi ulang | Fadhil + AI | 3–6 klip terjadwal | [`09-distribusi-ulang.md`](./09-distribusi-ulang.md) |
 | 10 | Evaluasi | AI + Fadhil | Post-mortem 7 hari, pelajaran masuk ke berkas | [`10-evaluasi.md`](./10-evaluasi.md) |
 
-Tahap 1–4 dan 10 boleh dikerjakan AI. Tahap 5 dan 7 hanya Fadhil.
+Tahap 1–3 dan 10 boleh dikerjakan AI. Tahap 5 dan 7 hanya Fadhil. Tahap 4 di tengah: AI menyiapkan
+draf, struktur, dan penanda visual, tetapi POV dan **04.1** hanya Fadhil. Untuk 04.1, AI menyiapkan
+titik sisip dan memeriksa hasilnya, bukan mengarang isinya. Kalimat POV tidak boleh ditulis AI lalu
+disetujui apa adanya.
 
 ---
 
 ## Enam Aturan yang Berlaku di Semua Tahap
 
 1. **Bukti yang terlihat wajib.** Setiap video memuat minimal satu artefak yang terlihat di layar,
-   bukan hanya disebut. Artefak boleh dari tiga jalur: catatan sendiri, pengukuran untuk video ini,
-   atau dokumen publik primer ditambah batas pengalaman yang disebut eksplisit. Aturannya di
-   `03-riset-dan-fakta.md` Langkah 5.
+   bukan hanya disebut. Sumbernya bisa catatan sendiri, pengukuran untuk video ini, atau dokumen
+   publik primer. Aturannya di `03-riset-dan-fakta.md` Langkah 3.
 2. **Satu konten, satu masalah.** Kalau satu ide menyentuh dua pilar, pecah jadi dua video.
 3. **Gerbang tidak boleh dilewati.** Kalau keluaran tahap sebelumnya belum ada, jangan lanjut.
    Menunda sehari lebih murah daripada menerbitkan tanpa bukti.
@@ -65,12 +67,15 @@ Bagian ini ada supaya tidak ada yang membuka ulang perdebatan yang sama.
 |---|---|
 | **Sepuluh tahap dipertahankan**, bukan dipangkas jadi empat | Tiap gerbang mencegah satu jenis kegagalan. Yang paling menentukan adalah Tahap 3: tanpa gerbang bukti, video ini jadi opini tambahan di antara opini yang sudah banyak. |
 | **Permintaan tetap diukur** dengan pindai YouTube | Memang bukan cara kreator rujukan memilih topik, tetapi untuk channel tanpa audiens, pindai mencegah produksi topik mati. Log keputusan tetap sumber bukti termurah. |
-| **Bukti tipe A tidak diwajibkan** | Video boleh memakai tiga jalur: catatan sendiri, pengukuran untuk video ini, atau batas pengalaman yang disebut eksplisit. |
+| **Bukti tipe A tidak diwajibkan** | Video boleh memakai catatan sendiri, pengukuran untuk video ini, atau dokumen publik primer. |
+| **Pembeda diuji di Tahap 2, bukan di Tahap 3** | Sampai 3 November 2026, Tahap 3 menagih "bukti yang tidak bisa ditiru dari riset". Syarat itu mencampur kebenaran klaim dengan pembeda, dan tidak bisa dipenuhi selama `content/log-keputusan.md` kosong. Sekarang kebenaran klaim diuji di Tahap 3 lewat sumber primer, dan pembeda diuji di Tahap 2 lewat satu kalimat. |
+| **Tiga klip tidak lagi menjadi syarat terbit** | Menahan terbit karena tugas platform sekunder adalah pertukaran yang buruk. Klip dipotong pada minggu yang sama, sesudah video terbit. |
 | **Rekaman batch setelah pilot**, bukan sekarang | Merekam 2–4 naskah sebelum ada respons audiens berarti mempertaruhkan semuanya pada format yang belum terbukti. |
 | **Tidak ada A/B test thumbnail di pilot** | CTR tidak bisa dibaca tanpa volume impresi. |
 | **Produksi murah, bahan mahal** | Yang mahal harus riset dan bukti. Efek visual ditambahkan setelah ada baseline, bukan sebelum. |
 | **Tidak ada target view atau subscriber** | Belum ada baseline. Bandingkan empat video pilot satu sama lain. |
 | **Judul kerja dibuat di Tahap 1**, bukan diserahkan seluruhnya ke Tahap 2 | Ide yang tidak bisa diberi judul dan teks thumbnail bukan ide. Menemukannya setelah riset berjalan membuang satu blok kerja. Tahap 2 tetap memegang lima opsi, sketsa, dan uji ponsel. |
+| **Pengalaman pribadi disisipkan di 04.1**, setelah naskah utuh | Kalau disisipkan saat menulis draf, AI akan mengarang pengalaman untuk menutup lubang. Titik sisip ditandai lebih dulu, bahan disiapkan Fadhil, penyisipan terakhir. Langkahnya di [`04-penulisan-naskah.md`](./04-penulisan-naskah.md) Langkah 17. |
 
 ---
 
@@ -88,8 +93,9 @@ perpanjang pilot.
 | Sabtu malam | Naskah | 4 |
 | Minggu pagi | Rekaman | 5 |
 | Minggu sore | Riset visual | 6 |
-| Senin–Selasa | Editing + potong tiga klip | 7, 9 |
+| Senin–Selasa | Editing | 7 |
 | Rabu | Penerbitan | 8 |
+| Rabu–Jumat | Potong dan jadwalkan tiga klip | 9 |
 | Rabu + 7 hari | Evaluasi | 10 |
 
 Riset tidak muat satu pagi bersama ideasi dan pengemasan. Kalau dipaksa, verifikasi akan dilewati

@@ -58,7 +58,7 @@ Palet warna belum ditetapkan. Gunakan placeholder berikut sampai Fadhil memutusk
 
 **Aturan:**
 - Maksimal **dua font** di semua konten. Jangan campur lebih dari itu.
-- Thumbnail: 3–5 kata, huruf besar, kontras tinggi terhadap latar.
+- Thumbnail: frasa utuh 2–10 kata dalam maksimal dua baris, huruf besar seperlunya, kontras tinggi terhadap latar.
 - Teks di layar: minimal 5% tinggi frame agar terbaca di ponsel.
 - Kontras: teks putih + outline hitam tebal, atau latar semi-transparan.
 
@@ -73,7 +73,7 @@ Palet warna belum ditetapkan. Gunakan placeholder berikut sampai Fadhil memutusk
 - Arah pandang mata mengarah ke teks.
 
 **Teks:**
-- 3–5 kata. Tidak lebih.
+- 2–10 kata dalam maksimal dua baris. Kejelasan frasa utuh lebih penting daripada jumlah kata.
 - Font: bold sans-serif, warna kontras tinggi.
 - **Jangan** taruh teks di pojok kanan bawah (zona durasi video YouTube).
 - Teks thumbnail dan judul video saling melengkapi, **bukan mengulang**.

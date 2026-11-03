@@ -42,16 +42,15 @@ dulu**. Perbaiki sumber masalahnya, bukan menambah durasi atau efek edit.
 | **Kedalaman** | Ada ukuran, trade-off, atau batas yang membuat video tetap berguna bagi operator matang. |
 | ⭐ **Masalah** | Ada satu pertanyaan yang spesifik dan penting. |
 | ⭐ **POV** | Ada jawaban atau keputusan yang bisa diringkas dalam satu kalimat. |
-| ⭐ **Bukti** | Klaim inti punya sumber primer. Ada satu bukti yang tidak bisa ditiru dari riset, dipilih dari tiga jalur di `03-riset-dan-fakta.md` Langkah 5: catatan sendiri, pengukuran untuk video ini, atau batas pengalaman yang disebut eksplisit. Data internal aman dibuka. |
+| ⭐ **Bukti** | Klaim inti punya sumber primer. Ada minimal satu artefak yang terlihat di layar. Data internal aman dibuka. |
 | **Trade-off** | Dampak negatif dan batas saran disebutkan. |
 | **Kegunaan** | Ada langkah, kerangka, atau keputusan yang bisa diterapkan. |
 | **Judul** | Ada jangkar konkret dan taruhan. Menjelaskan masalah tanpa klaim berlebihan. |
-| **Keaslian** | Bukan pengulangan konten sendiri atau ringkasan konten kreator lain. |
+| **Keaslian** | Ada satu kalimat pembeda yang tidak bisa diucapkan kreator lain tanpa berbohong. Bukan pengulangan konten sendiri atau ringkasan konten kreator lain. |
 
-> **Bukti yang tidak bisa ditiru dari riset** berarti angka yang pernah diukur, keputusan yang sudah
-> diambil, pengukuran yang dijalankan untuk video ini, atau batas pengalaman yang disebut eksplisit
-> di dalam video. Bukan perasaan bahwa "bisnis seperti ini biasanya begini". Tiga jalurnya ada di
-> `03-riset-dan-fakta.md` Langkah 5.
+> **Pembeda** diuji di Tahap 2, bukan di Tahap 3. Bentuknya satu kalimat, dan boleh berdiri di atas
+> sumber publik, sudut pandang, kedalaman riset, atau pengalaman yang hanya dimiliki Fadhil. Bahan
+> yang lebih kuat, kalau tersedia, ada di `03-riset-dan-fakta.md` Langkah 5.
 
 ---
 
@@ -77,8 +76,7 @@ Setiap klaim, angka, dan contoh di naskah harus ditandai salah satu:
 - [ ] Setiap klaim inti punya sumber primer
 - [ ] Ada minimal satu artefak yang terlihat di layar: dokumen sendiri, hasil pengukuran, atau
       dokumen publik primer
-- [ ] Ada satu bukti yang tidak bisa ditiru dari riset, dipilih lewat salah satu dari tiga jalur di
-      `03-riset-dan-fakta.md` Langkah 5
+- [ ] Ada satu kalimat pembeda yang tidak bisa diucapkan kreator lain tanpa berbohong
 - [ ] Trade-off dan batasan disebutkan
 - [ ] Ada langkah yang bisa diterapkan penonton
 - [ ] Naskah terdengar alami saat dibaca keras

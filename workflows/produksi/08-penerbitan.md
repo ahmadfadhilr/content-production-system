@@ -30,18 +30,17 @@ terbit.
 - Video final dari Tahap 7.
 - Thumbnail dari Tahap 2: 1280×720 px, di bawah 2 MB.
 - Subtitle SRT yang sudah diperiksa manual.
-- Tiga klip 9:16 dari Tahap 9.
 
-### 2. Potong klip sebelum terbit
+### 2. Klip tidak menahan terbit
 
-Ini syarat, bukan saran.
+Sampai 3 November 2026, bagian ini menyatakan tiga klip adalah syarat sebelum menekan Publish.
+Aturan itu dicabut. Menahan video utama karena tugas platform sekunder membalik prioritas: video
+utama satu-satunya yang menghasilkan data, dan data itu yang dibutuhkan minggu depan.
 
-Kalau klip belum dipotong sebelum video naik, Tahap 9 tidak akan pernah jalan. Alasan yang paling
-sering muncul: "nanti saja setelah video terbit". Itu tidak pernah terjadi.
+Yang menggantikan: tiga klip dipotong pada minggu yang sama, paling lambat Jumat. Kalau lewat,
+masalahnya biasanya bukan disiplin, melainkan klip yang dipilih terlalu sulit dipotong.
 
-**Yang harus ada sebelum menekan Publish:**
-
-- [ ] Tiga klip 9:16 sudah dipotong
+- [ ] Tiga klip dipotong paling lambat Jumat minggu yang sama
 - [ ] Setiap klip punya hook sendiri di 3 detik pertama
 - [ ] Setiap klip bisa dipahami tanpa menonton video utama
 - [ ] Jadwal terbit klip sudah ditentukan
@@ -137,7 +136,6 @@ Pin dalam satu jam pertama.
 - [ ] Thumbnail benar
 - [ ] Caption sinkron
 - [ ] End screen terpasang
-- [ ] Tiga klip sudah siap
 
 ### 7. Terbitkan
 
@@ -233,7 +231,6 @@ performa di atas median channel.
 - [ ] Chapter
 - [ ] Caption diperiksa manual
 - [ ] Komentar terpin disiapkan
-- [ ] Tiga klip 9:16 siap
 
 **Opsional:**
 
@@ -247,7 +244,7 @@ performa di atas median channel.
 
 ## Gerbang Keluaran
 
-✅ Video live atau terjadwal, ceklis wajib lulus, tiga klip siap.
+✅ Video live atau terjadwal, ceklis wajib lulus. Klip dipotong sesudahnya, paling lambat Jumat.
 
 ---
 

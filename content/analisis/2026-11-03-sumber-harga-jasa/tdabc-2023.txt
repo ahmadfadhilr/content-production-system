@@ -1,0 +1,533 @@
+              International Journal of Strategic Management and Economic studies
+                                            (IJSMES)
+                                        ISSN: 2791-299X
+
+
+
+
+       Time-Driven Activity-Based Costing in service
+      companies: a comparative case study: FRENCH,
+            BELGIAN, TURKISH AND THAI
+                            TOUBTOU Abderrahman1, SLIMANI Hamid2
+  1
+      University Laboratory of Research in Instrumentation and Management of Organizations
+               (LURIGOR), Mohamed Premier University (UMP), Oujda, Morocco
+                2
+                  Sidi Mohamed Ben Abdellah University (USMBA), Fès, Morocco
+
+
+
+
+Abstract: The costing of services is a complex task due to the intangible nature of many services and
+the difficulty in identifying the resources and activities that contribute to their production. This leads
+to challenges such as the allocation of indirect costs, the identification of cost drivers, and the
+measurement of productivity. In order to address these challenges, management control tools such as
+Time Driven ABC (TD_ABC) have been developed.
+TD_ABC is an innovative cost management technique that allows cost models to be designed for
+complex operations. The model works by modeling the time spent for each activity as a function of
+one or more parameters called time indicators. This provides a more accurate and detailed
+representation of the resources consumed by a service, which in turn allows for more accurate cost
+allocation and identification of cost drivers.
+This paper is the result of a comparative study of four case studies that aimed to evaluate the strengths
+and weaknesses of TD_ABC as a management control tool in the context of service companies. The
+research highlights the potential benefits of the method, such as improved productivity measurement,
+planning, profitability analysis, internal benchmarking, and decision support. However, the study also
+reveals some limitations of the method, such as measurement error, specification error, aggregation
+error, and error in the allocation of fixed costs.
+Overall, the research provides valuable insights into the challenges of costing in service companies
+and the potential of TD_ABC as a management control tool. The findings suggest that further
+research is needed to address the limitations of the method and to explore its potential in different
+service contexts.
+Keywords: TD_ABC; Service company; Management control; Time equation; Cost systems.
+Digital Object Identifier (DOI): https://doi.org/10.5281/zenodo.7985617
+Published in: Volume 2 Issue 3
+                        This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+                        License.
+
+
+
+
+http://www.ijsmes.com                                                                                                         882
+  International Journal of Strategic Management and Economic studies (IJSMES) – ISSN: 2791-299X
+
+
+     1. Introduction
+The subject of innovation and its dissemination has been widely examined in scholarly literature.
+There is no universally accepted definition of innovation among researchers. According to Alcouffe et
+al (2003), managerial innovation can be defined as a new program, product, or technique that is
+perceived as novel by individuals or groups of individuals, and has an impact on the availability,
+quality, quantity, location, or nature of information used for decision-making within the organization
+where it is introduced.
+This paper aims to analyze the TD_ABC method as an innovation in management control, by
+exploring the complexities of cost calculation in the service context (1) and introducing the principles
+of the TD_ABC model (2) through a comparative analysis of four empirical studies (3). The main
+objective is to assess the advantages and limitations of this new innovation in the service context (4).
+The complexity of cost calculation in the service industry is a challenge, as it involves heterogeneous
+and intangible products that require a different approach to cost allocation compared to traditional
+manufacturing companies. By utilizing time indicators, the TD_ABC model presents a viable solution
+for tackling this issue as it models the duration of various activities.
+The principles of the TD_ABC model involve defining the unit of analysis, selecting the appropriate
+time indicators, and calculating the time equation for each subtask. The model captures the
+interdependencies between subtasks by including interaction terms in the time equation.
+Four empirical studies have been conducted to assess the TD_ABC model's efficacy in the service
+context. These studies highlight the model's usefulness in providing detailed and accurate cost
+information for productivity measurement, planning, profitability analysis, internal benchmarking, and
+decision support tools.
+However, there are some limitations to the model, such as measurement error, specification error,
+aggregation error, and error in the allocation of fixed costs resulting from under-utilization of
+productive capacities.
+In general, the objective of this article is to provide insight into the function of TD_ABC as a creative
+method of management control within the service industry. This will be achieved by examining its
+fundamental concepts, advantages, and drawbacks.
+
+      2. Costing issues in service companies
+Service activities are different from industrial activities in four essential ways: intangibility, low
+standardization, simultaneous production and consumption, and impossible storage. These
+characteristics create unique challenges for service firms, such as difficulties in measuring the value of
+the service and the perishable nature of the services.
+The most prominent distinction between goods and services lies in their intangibility, which presents a
+considerable obstacle to accurately measuring the value of a service, as the customer's perception
+plays a critical role in this assessment.Ward (1993) highlights that the lack of tangible elements makes
+it difficult to establish a standard for measuring the quality of service.
+Additionally, service firms face challenges due to the perishable nature of the services. Unlike goods
+that can be stored, services cannot be stored, and they have a limited lifespan. Drury (2012) highlights
+that this perishability makes it difficult for service firms to plan for the future, and they must
+constantly adapt to the changing demand for their services.
+Heterogeneity is another characteristic that distinguishes service activities from industrial activities.
+The diversity of situations encountered by service firms creates a wide variety of service delivery
+processes, making it challenging to standardize service delivery. Meyssonnier (2012) points out that
+this heterogeneity can affect pricing strategies since prices based on costs are determined after the
+service is delivered.
+
+
+
+http://www.ijsmes.com                                                                                 883
+  International Journal of Strategic Management and Economic studies (IJSMES) – ISSN: 2791-299X
+
+
+Simultaneous production and consumption also make service activities unique. Unlike goods that can
+be produced and then sold, services are produced and consumed simultaneously. This characteristic
+has the potential to influence costs since service delivery can be redefined as a result of the interaction
+between the service provider and the consumer.
+Given these differences, the question arises as to whether service firms require a separate costing
+system. A new time-driven costing method (TD-ABC) has been successfully implemented for service
+operation (Everaert et al., 2008; Kaplan and Anderson, 2007b). This method focuses on the time spent
+on delivering a service, and it is particularly useful for services that are highly heterogeneous and have
+high indirect costs.
+In conclusion, service activities differ from industrial activities in several fundamental characteristics,
+which create unique challenges for service firms. Although these differences may not necessarily
+require a separate costing system, a new method of costing has been developed to address the
+challenges associated with service activities. The TD-ABC method focuses on time spent on
+delivering a service, and it has been successfully implemented for service operations.
+The traditional approach to activity-based costing (ABC) has been widely used for many years to
+assign costs to various products or services based on the amount of resources used. However, this
+method has some limitations, including its complexity and the challenge of maintaining it over time.
+Consequently, a simplified alternative called Time-Driven ABC (TD_ABC) has emerged to address
+these concerns.
+
+   3. Time-driven abc method (td_abc)
+TD_ABC operates by grouping resources rather than activities. The key driver used to allocate
+resources is the normal execution time of the tasks performed by the resource group. This method
+enables a more streamlined and simplified approach, eliminating the need for complex activity
+analysis and providing a more efficient cost allocation process.
+According to Gervais (2010), TD_ABC can be broken down into four phases. The first phase involves
+identifying the resources that contribute to homogeneous resource groups. This is done to ensure that
+similar resources are grouped together, which simplifies the cost allocation process.
+In the second stage, the aim is to establish the standard work hours for each resource group, which
+helps in computing their unit costs. This involves dividing the total cost of each group by the hours of
+work that correspond to their normal capacity. This step ensures that the unit cost of each resource
+group is accurately determined.
+In the third phase, the time normally required (i.e., the standard time) for the various groups is
+determined based on "time equations" where time drivers and action characteristics determine the time
+consumed. This step involves analyzing the time drivers of each resource group and using them to
+calculate the standard time required for each group to perform its tasks.
+The fourth stage involves multiplying the unit costs of the resource groups by the duration needed to
+complete the cost object. This results in an accurate cost allocation for each cost object, taking into
+account the time consumed by each resource group.
+
+
+
+
+http://www.ijsmes.com                                                                                  884
+  International Journal of Strategic Management and Economic studies (IJSMES) – ISSN: 2791-299X
+
+
+
+   Phase 1: Identify homogeneous resource
+                     groups
+
+                        Phase 2: Determine normal capacity and
+                           unit cost of each resource group
+
+
+                                         Phase 3: Determine standard time for
+                                                  each resource group
+
+
+                                                         Phase 4: Allocate costs to cost objects
+
+
+
+                 Figure 1: Steps to implement TD ABC, inspired by Gervais (2010)
+
+In summary, TD_ABC is a simplified alternative to traditional activity-based costing that groups
+resources rather than activities. By using the normal execution time of tasks as a driver for resource
+allocation, TD_ABC provides a more efficient and streamlined cost allocation process. The four
+phases of TD_ABC involve identifying homogeneous resource groups, determining normal capacity,
+calculating the standard time required, and finally, multiplying unit costs by the time required to
+complete the cost object.
+
+     4. Presentation of the four case studies
+     4.1. The Belgian case: (Sanac Company: Belgian wholesaler), (Everaert et al., 2008)
+
+The aim of this article is to offer a perspective on the usage of time-driven activity-based costing
+(TDABC) by a Belgian wholesaler, in order to gain a better understanding of their experiences. This
+study aimed to answer three research questions related to the modeling of complex logistics
+operations, the accuracy of TDABC compared to activity-based costing (ABC), and the practical uses
+of TDABC cost information. A case study research methodology was employed, which involved
+conducting interviews and analyzing the cost and activity database of the company. According to the
+study's results, TDABC proved effective in accounting for the various complexities of logistics
+operations, thanks to its implementation of time equations. Moreover, the analysis indicated that
+TDABC produced cost information that was more precise than that of ABC, which simplified 64
+percent of activities and misallocated 55 percent of indirect costs. This study provides a real company
+example of the technique of TDABC and its potential usefulness for profitability reporting and profit
+management. This paper contributes to the current discussion on logistics costing and cost drivers,
+particularly for companies with complex operations such as the Belgian wholesaler of crop protection
+products that was the subject of this study.
+
+     4.2. The Turkish case: (Hotel), (Dalci et al., 2010)
+The objective of this research paper is to demonstrate the utilization of time-driven activity-based
+costing (TDABC) for implementing customer profitability analysis (CPA) in a hotel situated in the
+Çukurova region of Turkey. The study was carried out in a four-star hotel with a 100-room capacity
+and data was collected through direct observations, interviews, and documentation. The study findings
+revealed that TDABC helped to identify some previously unprofitable customer segments that were
+actually profitable, and it shed light on the costs associated with idle resources utilized for various
+
+
+
+http://www.ijsmes.com                                                                              885
+  International Journal of Strategic Management and Economic studies (IJSMES) – ISSN: 2791-299X
+
+
+activities such as front office, housekeeping, food preparation, and marketing. It is worth noting that
+further research is necessary to be conducted in other hotels both in Turkey and abroad to overcome
+research limitations. The outcomes of this investigation could aid hotel administrators in
+comprehending the profitability of diverse client groups and implementing suitable tactics while
+maximizing departmental capacities through TDABC. This study stands out in the scarce research on
+profitability analysis in the service sector, particularly in the hotel industry, as it examines the
+utilization of TDABC systems for CPA in an actual hotel scenario.
+
+      4.3. The Thai case: (RC Transport), (Somapa et al., 2012)
+Somapa et al. (2012) examine the application of time-driven activity-based costing (TDABC) in small
+logistics firms. Despite its effectiveness, small logistics businesses often avoid using TDABC due to
+its complexity. The article proposes a simplified TDABC model that enables small logistics businesses
+to accurately measure activity costs without excessive complexity. The authors present a case study
+demonstrating the benefits of TDABC, including identifying cost-creating activities, reducing wait
+times, improving efficiency, and increasing profit margins. Overall, the article suggests that small
+logistics businesses can leverage TDABC to improve their understanding of cost structures and
+streamline operations.
+
+     4.4. The French case: (Call centers of an insurance company), (Allain, 2009)
+The study was conducted in the call centers of an insurance company. The data came from self-
+observations in 7 call centers over a period of 2 days.
+The goal of this study is to determine the influence of service characteristics (provider/client co-
+production and necessary adaptability to demand) on the variability of transaction durations, as well as
+on the time equations. These analyses will allow the detection of new sources of specification errors.
+
+     5. Summary report: analysis and discussion
+     5.1. Reasons for implementing the TD_ABC method
+The authors of the TD_ABC method have put forward several reasons for choosing this approach over
+the classical ABC method. One primary reason is the method's ability to capture the complexity of
+service provision, specifically service heterogeneity. The authors believe that this method provides
+more accurate costs than traditional ABC methods. These same arguments were presented by the
+method's initiators, Kaplan and Anderson (2008), who claimed that TD_ABC is simpler, cheaper, and
+more powerful than classical ABC.
+The TD_ABC method's strength lies in its simplicity. Unlike the traditional ABC method, which relies
+on complex activity analysis, TD_ABC focuses on grouping resources based on their normal
+execution time for tasks. By identifying homogeneous resource groups and determining their normal
+capacity, the unit cost of each group can be calculated accurately. This method simplifies the cost
+allocation process by eliminating the need for complex activity analysis and provides a more efficient
+and streamlined approach to cost allocation.
+TD_ABC also has the advantage of capturing the complexity of service provision, which is a
+significant challenge in cost accounting. Service heterogeneity makes it difficult to allocate costs
+accurately, but TD_ABC's grouping of resources based on the time required to perform tasks makes it
+easier to account for the variability in service provision.
+Kaplan and Anderson (2008) also argue that TD_ABC is cheaper than traditional ABC methods. This
+is because the TD_ABC method eliminates the need for costly activity analysis and simplifies the
+allocation process. The method is also more powerful than traditional ABC because it provides more
+accurate costs for cost objects.
+
+
+
+http://www.ijsmes.com                                                                               886
+  International Journal of Strategic Management and Economic studies (IJSMES) – ISSN: 2791-299X
+
+
+In summary, the authors of the TD_ABC method have put forward several reasons for choosing this
+approach over traditional ABC methods. They believe that TD_ABC is a solution to the problems
+associated with classical ABC, specifically its ability to capture service heterogeneity and its accuracy
+in providing costs. The strength of the TD_ABC method lies in its simplicity, which makes it a
+cheaper and more powerful alternative to traditional ABC methods.
+
+     5.2. Exploitation of cost data from the TD_ABC method
+Precisely determining expenses is of utmost importance for any entity for various reasons. To begin
+with, the final cost of a product or service is heavily reliant on its total expenses since the cost-based
+pricing approach is still the most commonly used pricing method (Mills, 1988; Ruhl and Hartman,
+1998). Additionally, product expenses significantly impact the efficiency and profitability of each
+product (Brignall et al., 1991; Ruhl and Hartman, 1998). Thirdly, precise product expenses allow
+organizations to differentiate between profitable and unprofitable products (Drury and Tayles, 1994).
+Finally, accurate cost details are crucial for product introduction and allocation of capital (Worthy,
+1987).
+In his 1978 article, Dearden explained why traditional costing methods do not provide relevant
+information to managers of service organizations. He argued that cost information in service
+businesses is not necessary for inventory valuation or useful for cost control, and it is generally not
+needed in short-term decisions. This leaves only profitability analysis as a potential use for cost
+information in service organizations.
+However, a comparative study has identified different uses of cost data with the new time-based
+costing system (as presented in Analysis Table 1). This new method, which is based on time-driven
+ABC, offers several advantages over traditional costing methods. By grouping resources based on
+their normal execution time for tasks, this method provides a more accurate allocation of costs,
+particularly for service organizations with heterogeneous service provision.
+Moreover, the time-based costing system offers more than just profitability analysis. It provides
+valuable information for process improvement and decision-making related to product introduction
+and capital allocation. This information is crucial for organizations looking to optimize their
+operations and increase their profitability.
+In conclusion, accurate cost information is essential for organizations to determine the price of
+products, evaluate their performance and profitability, and make informed decisions related to product
+introduction and capital allocation. While traditional costing methods may not be relevant for service
+organizations, the time-based costing system offers a more accurate and valuable alternative, with
+applications beyond profitability analysis.
+
+                                       Table -1: Use of Cost Data
+                        Belgian                         Turkish                            Thai
+Use of cost   - Provide profitability        - Analyze profitability by       -       Understand       the
+data          reports for each client.       hotel guest group.               profitability     and   cost
+              -       measure          the   - Cost data is used for          reduction opportunities of
+              productivity      of     the   planning (labor, efficient use   each route.
+              resource centers.              of human resources, and          - enable cost reduction and
+              - measure effectiveness.       estimation of training needs).   improved            resource
+              - internal benchmarking        - measure the productivity of    utilization.
+                                             each department in the hotel     - decision support tool.
+                                             - decision support tool.
+
+
+
+
+http://www.ijsmes.com                                                                                   887
+  International Journal of Strategic Management and Economic studies (IJSMES) – ISSN: 2791-299X
+
+
+Analysis Table 1 shows five possible uses of cost data in service companies:
+
+i. To measure the productivity of each resource group, such as department or service, the Belgian
+wholesaler used capacity utilization data which compares hours consumed versus hours required. This
+allowed them to measure the efficiency of their warehouse and logistics resource centers by analyzing
+the ratio of "hours consumed" to "hours required" per department.
+
+ii. By analyzing capacity utilization reports, the Belgian wholesaler was able to identify areas for
+organizational improvement and achieve a better balance of supplied and requested capacity across
+their departments. For instance, they were able to allocate employees more effectively by reassigning
+them from underutilized to overloaded departments based on a better understanding of required versus
+available capacity in terms of full-time employees in the warehouses.
+
+iii. The TD_ABC system was used to gain insights into the profitability of service strategies by
+providing profitability reports for each costing object, including customer, product, service, and route.
+For example, in the case of the Thai company, the system calculated the process cost per unit for each
+service route and destination, which was then analyzed to identify profitability and cost reduction
+opportunities for each route.
+
+iv. Decision support tool: If one were to place the method, as advocated by Malmi and Brown (2008),
+between decision support tools and those that are more behavioral in nature, the TD_ABC method
+should be placed in the former category (decision support). Therefore, it is recommended that the
+managers of the Turkish hotel review their managerial strategies for these customers based on the
+profitability analysis results and adjust their strategies accordingly. Moreover, the hotel management
+will be able to identify the customer mix that will produce the highest returns in the future.
+
+v. Internal benchmarking tool: the method presents opportunities for internal benchmarking.
+"TD_ABC has also facilitated the improvement of logistics processes by comparing time equations in
+different warehouses (Everaert et al., 2008).
+
+     5.3. Advantages and limitations of the TD_ABC method
+     5.3.1. The advantages of the method
+The Time-Driven Activity-Based Costing (TD_ABC) model appears to be a promising solution for
+designing cost models in complex activity environments, particularly in service companies. The
+TD_ABC model allows for the inclusion of multiple subtasks within a single equation by
+incorporating different time indicators for each subtask. This feature enhances the accuracy and
+efficiency of the costing process by capturing the various interdependencies between subtasks.
+In addition, the TD_ABC model allows for the inclusion of interaction terms in the time equation,
+enabling the capturing of interdependencies between subtasks. The inclusion of interaction terms in
+the equation of time provides more precise cost estimates by accounting for the interrelatedness of
+tasks and resources.
+One of the key advantages of the TD_ABC model is its ability to capture the complexity of service
+provision by considering homogeneous resource groups rather than activities. By focusing on resource
+groups, the model provides a more accurate representation of the costs associated with service
+provision. This enhances the model's ability to distinguish profitable from unprofitable products or
+services.
+
+
+
+
+http://www.ijsmes.com                                                                                888
+  International Journal of Strategic Management and Economic studies (IJSMES) – ISSN: 2791-299X
+
+
+Furthermore, the TD_ABC model simplifies the costing process, making it easier and more cost-
+effective to implement. Compared to traditional Activity-Based Costing methods, the TD_ABC model
+is simpler, cheaper, and more powerful. This makes it a practical and accessible option for
+organizations of all sizes.
+Overall, the TD_ABC model presents a promising solution for designing cost models in complex
+activity environments. Its ability to capture the interdependencies between subtasks and resource
+groups makes it a powerful tool for accurately estimating costs in service companies. The simplicity
+and cost-effectiveness of the TD_ABC model also make it a practical and accessible option for
+organizations seeking to improve their costing process.
+
+      5.3.2. Limitations of the method
+The TD_ABC method offers significant benefits for organizations, but its implementation and use can
+also present certain challenges. Datar and Gupta (1994) have identified three types of errors that may
+arise:
+The first type of error is measurement error, which can result from mistakes in recording the units of
+resources consumed by cost objects. This may be due to inaccuracies in the accounts or errors in
+estimating the level of the driver.
+The second type of error is specification error, which occurs when an input is omitted, an incorrect
+input is used, or a false relationship is assumed between the cost of the activity and its input. Gervais
+and Lesage (2006) explain that this may lead to incorrect cost allocations and inaccurate pricing
+decisions.
+The third type of error is aggregation error, which arises when resources that are consumed by cost
+objects in different proportions are aggregated. De la Villarmois and Levant (2007) describe this as the
+cost homogeneity problem, where resources are grouped together that have different cost structures.
+Another issue that may arise is an error in the allocation of fixed costs, which can result from under-
+utilization of productive capacities. This was demonstrated in the case of the Belgian wholesaler,
+where unit costs were calculated based on normal time for the actual level of activity, without
+accounting for under-activity. This can lead to inaccurate cost information and decision-making.
+It is important to address these potential errors to ensure the accuracy and usefulness of TD_ABC cost
+information. Proper measurement and specification of resource consumption, appropriate grouping of
+resources, and careful allocation of fixed costs are all necessary to ensure the validity and reliability of
+cost data. By addressing these challenges, organizations can fully leverage the benefits of the
+TD_ABC method and make informed decisions based on accurate cost information.
+
+      6. Conclusion
+The paper examines the use of the TD_ABC cost management technique to model services in a way
+that offers comprehensive and precise cost information. The authors highlight the advantages of
+utilizing TD_ABC in developing cost models for intricate service operations. By employing this
+approach, a cost designer can create a model that factors in the time taken for each activity based on
+one or multiple parameters, referred to as time indicators, thus effectively capturing the complexity of
+services by incorporating the relevant time indicators for each subtask. The study reveals that
+TD_ABC can be used for productivity measurement, planning, profitability analysis, internal
+benchmarking, and decision support tools in service companies.
+However, the authors also acknowledge that the implementation of TD_ABC may encounter
+difficulties such as measurement error, specification error, aggregation error, and errors in the
+allocation of fixed costs. For instance, the allocation of fixed costs can result from under-utilization of
+productive capacities, as shown in the case of the Belgian wholesaler for the calculation of the unit
+
+
+
+http://www.ijsmes.com                                                                                   889
+  International Journal of Strategic Management and Economic studies (IJSMES) – ISSN: 2791-299X
+
+
+costs of the resource groups. In such cases, actual costs are related to the normal time for the actual
+level of activity, which does not allow the under-activity to be valued.
+Despite these limitations, the study proposes ways to improve the TD_ABC method in the service
+context by incorporating the specificities of the sector into the time equations. This line of thought
+opens up the possibilities of further enhancing the method to provide more accurate and relevant cost
+information for service organizations.
+In conclusion, the authors highlight the importance of accurate cost information for service
+organizations and emphasize the benefits of the TD_ABC cost management technique in providing
+such information. The study identifies multiple uses of the cost data derived from TD_ABC and raises
+potential avenues for improving the method to better capture the complexities of service operations.
+
+Reference
+    [1] Alcouffe, S., Berland, N., et Levant, Y., (2003), « Les facteurs de diffusion des innovations
+        managériales en comptabilité et contrôle de gestion : une étude comparative », Comptabilité Contrôle
+        Audit, n°7, pp.7-26.
+    [2] Allain, E. (2009, May). La modélisation des activités de services par le Time Driven Activity Based
+        Costing. In La place de la dimension européenne dans la Comptabilité Contrôle Audit (pp. CD-ROM).
+    [3] Brignall, T. J., Fitzgerald, R., Johnson, R. and Silvestro, R., (1991), “Product costing in service
+        organizations”, Management Accounting Research, 2(4): pp. 227-248.
+    [4] Bruggeman, W., Everaert, P., Anderson, S. R., and Levant, Y., (2005), “Modeling Logistics Costs using
+        Time-Driven ABC: A Case in a Distribution Company” (Working Paper No. 2005/332) (p. 47).
+        Belgium: Faculty of Economics and Business Administration, Ghent University, retrieved from
+        http://cosmic.rrz.uni hamburg.de/webcat/hwwa/edok05/be193g/wp05–332. pdf.
+    [5] Dalci, I., Tanis, V., Kosan, L., (2010), “Customer profitability analysis with time driven activity based
+        costing: a case study in a hotel”, International Journal of Contemporary Hospitality Management, 22,
+        609–637.
+    [6] Damanpour, F., (1991), Organizational innovation: a meta-analysis of effects of determinants and
+        moderators, Academy of Management Journal, pp.555-590.
+    [7] Datar, S., et Gupta M., (1994), « Aggregation, Specification and Measurement Errors in Product
+        Costing », The Accounting Review, vol. 69, n° 4, October, p. 567-591.
+    [8] De La Villarmois, O., Levant, Y., (2007), « Le Time-Driven ABC : la simplification de l'évaluation des
+        coûts par le recours aux équivalents - un essai de positionnement », Finance Contrôle Stratégie, Vol. 10,
+        n° 1, mars, p. 211-243.
+    [9] Dearden, J., (1978), “Cost accounting comes to the service industries”, Harvard Business Review,
+        56(5): pp. 132-140.
+    [10]          Drury, C. and Tayles, M., (1994), “Product costing in UK manufacturing organizations”, The
+        European Accounting Review, 3(3): pp. 443-469. (Worthy, 1987).
+    [11]          Drury, C., (2012), Management and Cost Accounting, 8th edition, Cengage Learning, London.
+    [12]          Everaert, P., and Bruggeman, W., (2007), “Time-driven activity-based costing: exploring the
+        underlying model”, Journal of cost management, 21(2), 16–20.
+    [13]          Everaert, P., Bruggeman, W., and De Creus, G., (2008), “Sanac Inc.: From ABC to time driven
+        ABC (TDABC) – An instructional case”, Journal of Accounting Education, 26(3), 118–154.
+    [14]          Firth, M., (1996), “The diffusion of managerial accounting procedures in the people’s republic
+        of China and the influence of foreign partnered joint ventures”, Accounting, Organizations and Society,
+        vol.21, pp.629-654.
+    [15]          Fitzsimmons, J., Fitzsimmons, M., (2008), Service Management, 6e édition, McGraw-Hill.
+    [16]          Gervais, M., Lesage, C., (2006), « Retour sur l’imputation des charges indirectes en
+        comptabilité de gestion : comment bien spécifier les activités et leurs inducteurs ? », Comptabilité
+        Contrôle Audit, tome 12, vol. 1, mai, p. 85-101.
+
+
+
+http://www.ijsmes.com                                                                                        890
+  International Journal of Strategic Management and Economic studies (IJSMES) – ISSN: 2791-299X
+
+
+    [17]         Gervais, M., (2009), « Contrôle de gestion des activités de service », in Encyclopédie de
+        Comptabilité, Contrôle de gestion et Audit, 2e édition : 547-562.
+    [18]         Gervais, M., (2010), « Le Time Driven Activity Based Costing ou l’ABC piloté par le temps :
+        une présentation », Economica.
+    [19]         Gervais, M., Levant, Y., Ducrocq, C., (2010), « Le Time-Driven Activity-Based
+        Costing(TDABC): un premier bilan à travers une étude de cas longitudinale », Finance Contrôle
+        Stratégie 13, 123–155.
+    [20]         Hoozee, S., Vermeire, L., and Bruggeman, W., (2009), “A risk analysis approach for time
+        equation-based costing”, (Working Paper No. 2009/556) (p. 47), Belgium: Faculty of Economics and
+        Business               Administration,               Ghent              Univesity,               retrieved
+        fromhttp://feb1.ugent.be/nl/Ondz/WP/Papers/wp_09_556.pdf.
+    [21]         Hudig, J.-W., (2007), “Robert S. Kaplan: Better information with less eff ort”, Fi Next Wrap
+        up, pp. 5–6.
+    [22]         Kaplan, R. S., et Anderson, S. R., (2003), « Time-Driven Activity-Based Costing », White
+        Paper presented at the First European Summit on Time-Driven Activity-Based, Bruxelles.
+    [23]         Kaplan, R.S., Anderson S.R., (2008), « TD ABC La méthode ABC pilotée par le temps »,
+        Edition d’organisation, groupe Eyrolles, Paris.
+    [24]         Kaplan, R. S., and Anderson, S. R., (2004), “Time-driven activity-based costing”, Harvard
+        Business Review, 82(11): pp. 131-138.
+    [25]         Kaplan, R., Anderson, S.R., (2007a), “The innovation of time-driven activity-based costing”,
+        Journal of Cost Management, vol.21, no.2, pp.5-15.
+    [26]         Kaplan, R.S., and Anderson, S.R., (2007b), “Time-driven activity-based costing: a simpler and
+        more powerful path to higher profits”, Harvard Business Press.
+    [27]         Kaplan, R.S., and Cooper, R., (1998), “Cost & effect: using integrated cost systems to drive
+        profitability and performance”, Harvard Business Press.
+    [28]         Lowder, B.T., (2006), “The legacy of activity-based costing: addressing the need for a hybrid
+        methodology for costs allocation [online]”, Available from: http://ssrn.com/abstract=920957 [Accessed
+        12 August 2010].
+    [29]         Malmi, T., Brown, D., (2008), “Management Control Systems as a Package - Opportunities,
+        Challenges and Research directions”, Management Accounting Research, 19 (4) : 287-300.
+    [30]         Meyssonnier, F., (2012), « Le contrôle de gestion des services : réflexion sur les fondements et
+        l’instrumentation », Comptabilité - Contrôle - Audit 18, 73.
+    [31]         Mills, R. W., (1988), “Pricing decisions in UK manufacturing and service companies”,
+        Management Accounting (UK), November: pp. 38-9. Ruhl et Hartman, 1998)
+    [32]         Sheridan, T., (1996), “Costing in the service sector”, Management Accounting (UK), May: pp.
+        44-45.
+    [33]         Somapa, S., Cools, M., Dullaert, W., (2012), “Unlocking the potential of time-driven activity-
+        based costing for small logistics companies”, International Journal of Logistics Research and
+        Applications 15, 303–322, Stratégie 13, 123–155.
+    [34]         Varila, M., Seppanen, M., and Suomala, P., (2007), “Detailed cost modeling: a case study
+        inwarehouse logistics”, International Journal of Physical Distribution & Logistics Management, 37 (3),
+        184–200.
+    [35]         Ward, K., (1993), “Financial Management for Service Companies”, Pitman Publishing,
+        London.
+
+
+
+
+http://www.ijsmes.com                                                                                         891
+
