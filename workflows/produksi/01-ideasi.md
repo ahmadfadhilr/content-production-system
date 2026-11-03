@@ -38,6 +38,8 @@ Setiap kandidat utama dan cadangan memuat keluaran berikut.
 | **Judul kerja** | Kalimat apa yang muncul di feed dan memuat jangkar, taruhan, serta pertentangan? | Tahap 2 |
 | **Teks thumbnail** | Tiga sampai lima kata apa yang melengkapi judul tanpa mengulanginya? | Tahap 2 |
 | Kontras visual | Apa yang terlihat di layar sehingga masalah ini terasa nyata? | Tahap 2 dan 6 |
+| Bukti negatif | Dua video lokal dengan topik atau format serupa yang tampil di bawah median, dan dugaan sebabnya | Aturan 8, gerbang di Langkah 6 |
+| Pembaruan peta permintaan | Channel mana yang dibuka minggu ini, dan topik apa yang berulang di lebih dari satu channel | Aturan 1 dan 7 |
 | Alasan keputusan | Mengapa kandidat ini dipilih, ditunda, digabung, atau gugur? | Audit berikutnya |
 
 **Pintu masuk** bukan penyederhanaan palsu. Ia menyebut keadaan yang bisa dikenali orang baru,
@@ -181,6 +183,22 @@ Sebelum memakai angkanya, periksa sepuluh hasil teratas.
 
 Buang hasil yang hanya kebetulan memuat kata yang sama. Video asing boleh menjadi tanda minat, tetapi tidak dihitung sebagai pasokan lokal.
 
+**Saringan relevansi lebih dulu, lalu bandingkan dengan channel, bukan dengan kueri.** Median kueri
+mentah mengukur permintaan atas *kata*, bukan permintaan audiens kita atas *masalahnya*. Dua langkah
+yang wajib, dan keduanya murah:
+
+1. Buang dari perhitungan: video terjemahan, video yang bukan masalah yang sama, dan channel yang
+   audiensnya berbeda. Contoh terukur: kueri "cara mengatur keuangan bisnis kecil" ber-median
+   787.353, tetapi empat dari lima teratasnya adalah keuangan pribadi, motivasi, dan hiburan —
+   bukan pemilik bisnis dengan tim.
+2. Untuk channel yang layak, ambil median channelnya sendiri dengan
+   `python3 tools/urut-video.py <handle> --top=12`. Bandingkan tayangan video outlier dengan angka
+   itu, bukan dengan median kueri. Channel yang muncul dengan 238.924 di pencarian punya median
+   channel 16.500.
+
+Kandidat yang lolos hanya setelah kedua saringan. Buktinya:
+`content/analisis/2026-11-03-jake-trinder/` Temuan D.
+
 **Batas awal:** median di bawah 10.000 atau rentang lebih dari lima kali tidak dapat menjadi dasar utama pemilihan. Kandidat masih boleh disimpan jika ada bukti audiens yang lebih kuat, misalnya pertanyaan berulang dari calon penonton. Tandai alasan pengecualian itu sebagai *simpulan*.
 
 ### 2b. Uji permintaan untuk kandidat bentuk B
@@ -322,6 +340,35 @@ Dasarnya ada di `content/analisis/2026-11-03-pasar-indonesia/`.
 > adalah latar emas-hitam, huruf kapital penuh, wajah pemateri, dan nama kanal di pojok. Gaya itu
 > menjual seminar. Fadhil menjual analisis. Yang ditiru adalah cara pasar ini **berbicara**, bukan
 > cara pasar ini **berjualan**. Contoh lengkapnya ada di berkas analisis di atas.
+
+#### 3c. Perbarui peta permintaan (maksimal tiga channel)
+
+Ini langkah yang biasanya dilewati, dan ia yang membedakan riset dari sekadar daftar kueri. Riset
+yang hanya membaca sepuluh teratas satu kueri memandang satu sudut. Peta permintaan memandang
+seluruh niche pelan-pelan, lintas minggu.
+
+Buka **maksimal tiga channel** dari hasil pindai — yang paling relevan, bukan yang paling besar.
+Untuk tiap channel, jalankan `python3 tools/urut-video.py <handle> --top=12`, lalu catat:
+
+1. **Topik berulang.** Topik yang muncul sebagai outlier di **lebih dari satu channel**. Satu
+   outlier hanyalah petunjuk; yang dicari adalah pengulangan. Kalau satu video saja yang besar,
+   topiknya belum terbukti.
+2. **Kapan format yang sama gagal.** Video dengan judul serupa yang tampil di bawah median channel.
+   Ini bahan bukti negatif untuk Langkah 6.
+3. **Pergeseran tema.** Channel yang outlier barunya keluar dari topik lamanya. Ini tanda peringatan
+   untuk aturan 7 (satu penonton inti), bukan contoh yang ditiru.
+
+**Batas waktu: 15 menit, dipotong dari blok ideasi 90 menit.** Kalau lewat, kurangi channel —
+jangan tambah waktu. Peta dibangun lintas minggu, bukan sekali jadi. Dua hal yang **tidak** boleh
+muncul dari langkah ini: topik baru yang belum diverifikasi kueri (aturan 9), dan channel yang
+dibuka hanya karena jumlah subscribernya besar.
+
+> **Kenapa ekspansi channel dibatasi.** Diuji 3 November 2026: ekspansi empat channel dari dua
+> kueri benih menghasilkan satu kandidat topik baru, dan kandidat itu **gagal** saat diverifikasi
+> (median 38.121, satu video di atas 100 ribu). Channel yang mendominasi kueri bisnis Indonesia
+> justru channel keuangan pribadi, motivasi, atau berita. Jadi ekspansi channel dipakai untuk
+> mencari **bukti berulang** dan **peringatan pergeseran**, bukan sebagai pembangkit topik.
+> Rinciannya: `content/analisis/2026-11-03-jake-trinder/` Temuan A.
 
 ### 4. Tetapkan jenis bukti awal
 
@@ -501,7 +548,11 @@ Gunakan `skor_prioritas_konsep` hanya untuk menunjukkan dampak masalah jika dibi
 **Gerbang kandidat utama:**
 
 - pintu masuk, masalah, keputusan, dan ketegangan lanjut jelas;
-- sinyal permintaan relevan atau ada alasan pengecualian yang tertulis;
+- sinyal permintaan relevan setelah saringan relevansi, dan dibandingkan dengan median channel
+  pengucapnya, atau ada alasan pengecualian yang tertulis;
+- **bukti negatif ada:** minimal dua video lokal dengan topik atau format serupa yang tampil di
+  bawah median, beserta dugaan sebabnya;
+- kandidat tidak menarik penonton di luar penonton inti channel (aturan 7);
 - celah lokal ada, atau pembeda terhadap video yang sudah dalam dapat dijelaskan;
 - jenis bukti awal yang nyata;
 - tidak mengulang ide, brief, atau video Fadhil yang sudah ada;
@@ -547,6 +598,7 @@ brief, karena masih berubah di Tahap 2 dan Tahap 6.
 - **Judul kerja:** [judul di bawah 70 karakter + jangkar yang dipakai]
 - **Teks thumbnail:** [frasa utuh 2–10 kata; dapat dipahami tanpa judul]
 - **Kontras visual:** [artefak atau perbandingan yang terlihat di layar]
+- **Bukti negatif:** [dua video lokal serupa yang di bawah median + dugaan sebabnya]
 - **Skor:** [rincian dan total]
 - **Keputusan:** Utama, karena [alasan].
 
@@ -627,12 +679,14 @@ macet karena masalahnya masih kabur.
 | Teks thumbnail mengulang judul | Dua tempat untuk satu informasi | Teks harus menambah, bukan mengulang |
 | Membuat outline lengkap di Tahap 1 | Naskah dibangun sebelum fakta terkumpul | Tahap 1 hanya menetapkan keputusan yang akan dijawab |
 | Memilih tiga topik untuk diproduksi sekaligus | Minggu berikutnya harus memilih ulang | Pilih satu utama dan dua cadangan |
+| Mempercayai satu outlier | Topik yang cuma sekali berhasil dianggap pasar | Buka maksimal tiga channel, cari topik yang berulang (Langkah 3c) |
+| Tidak mencatat video yang gagal | Riset hanya bisa membuktikan apa yang sudah dipilih | Wajib dua bukti negatif di Keluaran Wajib, dicek di gerbang |
 
 ## Hubungan dengan Tahap Lain
 
 | Ke | Yang dikirim |
 |---|---|
-| Tahap 2 — Pengemasan | Pintu masuk, masalah, sudut keputusan, ketegangan lanjut, pembeda, jenis bukti awal, judul kerja, teks thumbnail, kontras visual, dan tiga temuan kemasan pembanding |
+| Tahap 2 — Pengemasan | Pintu masuk, masalah, sudut keputusan, ketegangan lanjut, pembeda, jenis bukti awal, judul kerja, teks thumbnail, kontras visual, bukti negatif, dan tiga temuan kemasan pembanding |
 | Tahap 3 — Riset | Jenis bukti awal yang harus diverifikasi |
 | Content bank | Kandidat tunda, gabung, dan gugur beserta alasan |
 | Database ide | Kandidat hidup beserta skor dan status |
